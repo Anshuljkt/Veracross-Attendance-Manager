@@ -1,4 +1,5 @@
 import org.w3c.dom.*;
+
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import java.io.File;
@@ -25,19 +26,28 @@ public class Initializer {
             //Create a temporary list that creates a node for each student object in the xml file received.
             NodeList tempList = document.getElementsByTagName("student");
             //for loop that feeds the relevant data into the students ArrayList as new objects.
-            for (int i = 0; i<tempList.getLength(); i++) {
+            for (int i = 0; i < tempList.getLength(); i++) {
                 Node current = tempList.item(i);
                 if (current.getNodeName().equalsIgnoreCase("student")) {
                     Element eElement = (Element) current;
                     int id = Integer.parseInt(eElement.getElementsByTagName("person_pk").item(0).getTextContent());
+                    //First Name
                     String fName = eElement.getElementsByTagName("first_name").item(0).getTextContent();
+                    //Preferred Name (Some students don't have one
                     String pName = eElement.getElementsByTagName("preferred_name").item(0).getTextContent();
-                    if (pName.equals("")) {pName=fName;}
+                    //Handles missing pNames, and replaces the empty pName for that student with fName
+                    if (pName.equals("")) {
+                        pName = fName;
+                    }
+                    //Last Name
                     String lName = eElement.getElementsByTagName("last_name").item(0).getTextContent();
+                    //Email
                     String email = eElement.getElementsByTagName("email_1").item(0).getTextContent();
+                    //Homeroom Class ID
                     int homeroom = Integer.parseInt(eElement.getElementsByTagName("homeroom").item(0).getTextContent());
+                    //Year Level
                     String grade = eElement.getElementsByTagName("current_grade").item(0).getTextContent();
-
+                    //Finally creates the new object and feeds it in.
                     students.add(new Student(fName, lName, id, email, homeroom, grade));
                 }
                 System.out.println(students.get(i));

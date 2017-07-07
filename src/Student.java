@@ -4,9 +4,16 @@
 public class Student {
     
 
+    private String fName;
+    private String lName;
+    private int id;
+    private String email;
+    private int homeroom;
+    private String grade;
+    private int gradeNum;
+
     public Student() {
     }
-
 
     public Student(String fName, String lName, int id, String email, int homeroom, String grade) {
         this.fName = fName;
@@ -17,11 +24,6 @@ public class Student {
         this.grade = grade;
         this.gradeNum = Integer.parseInt(grade.substring(5));
     }
-    private String fName;
-    private String lName;
-    private int id;
-    private String email;
-    private int homeroom;
 
     public String getGrade() {
         return grade;
@@ -40,10 +42,6 @@ public class Student {
         this.gradeNum = gradeNum;
         this.grade = "Year " + gradeNum;
     }
-
-    private String grade;
-    private int gradeNum;
-
 
     public String getfName() {
         return fName;
@@ -88,7 +86,7 @@ public class Student {
     public String toString() {
         return  "First Name = " + fName +
                 " | Last Name = " + lName +
-                " | Grade = " + gradeNum +
+                " | Year Level = " + gradeNum +
                 " | ID = " + id +
                 " | Email = " + email +
                 " | Homeroom ID = " + homeroom;
