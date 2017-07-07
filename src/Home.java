@@ -27,6 +27,7 @@ public class Home {
 
 
     static ArrayList<Student> students = new ArrayList<Student>();
+    static ArrayList<Class> classes = new ArrayList<Class>();
 
     public static void main(String[] args) {
         String toDownload = "none";
@@ -52,7 +53,7 @@ public class Home {
 
         //Checks object count and sets studentPagesCount and classesPagesCount accordingly.
         try {
-            if (toDownload.equalsIgnoreCase("both")||toDownload.equalsIgnoreCase("students")) {
+            if (toDownload.equalsIgnoreCase("both") || toDownload.equalsIgnoreCase("students")) {
                 //First connects to the Veracross API and view page 1 of students, and collect the total number of objects from the XML response header.
                 URL web = new URL(studentsURL + 1);
                 URLConnection connection = web.openConnection();
@@ -61,19 +62,19 @@ public class Home {
                 downloadStudents(); //This will download the correct number of files, so that all the Y12-13 students are covered.
                 System.out.println("Student files have been downloaded.");
             }
-            if (toDownload.equalsIgnoreCase("both")||toDownload.equalsIgnoreCase("classes")) {
+            if (toDownload.equalsIgnoreCase("both") || toDownload.equalsIgnoreCase("classes")) {
                 if (onlyNonAcademic) {
                     classesURL = "https://api.veracross.com/nist/v2/classes.xml?course_type=10&school_level=4&page=";
                 } else {
                     classesURL = classesURL;
                 }
-            //Do the same thing again for classes:
-            URL web2 = new URL(classesURL + 1);
-            URLConnection connection2 = web2.openConnection();
-            int classesObjectCount = Integer.parseInt(connection2.getHeaderField("x-total-count"));
-            System.out.println(classesObjectCount);
-            classesPagesCount = (classesObjectCount / 100) + 1;
-            downloadClasses();
+                //Do the same thing again for classes:
+                URL web2 = new URL(classesURL + 1);
+                URLConnection connection2 = web2.openConnection();
+                int classesObjectCount = Integer.parseInt(connection2.getHeaderField("x-total-count"));
+                System.out.println(classesObjectCount);
+                classesPagesCount = (classesObjectCount / 100) + 1;
+                downloadClasses();
                 System.out.println("Classes files have been downloaded.");
             }
             if (toDownload.equalsIgnoreCase("none")) {
@@ -145,7 +146,7 @@ public class Home {
                 }
             }
         } catch (Exception e) {
-
+            e.getCause();
         }
     }
 
@@ -163,6 +164,58 @@ public class Home {
     }
 
     private static void processClasses() {
+        try {
 
+            //Creates a new DocumentBuilder to handle the xml file using Java DOM Parser
+            DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+            DocumentBuilder builder = factory.newDocumentBuilder();
+
+            for (int x = 1; x <= classesPagesCount; x++) {
+                Document document = builder.parse(new File("xmls/classes" + x + ".xml"));
+                Element root = document.getDocumentElement();
+                //System.out.println(root.getNodeName());
+
+
+                //Create a temporary list that creates a node for each student object in the xml file received.
+                NodeList tempList = document.getElementsByTagName("class");
+                //for loop that feeds the relevant data into the students ArrayList as new objects.
+                for (int i = 0; i < tempList.getLength(); i++) {
+                    Node current = tempList.item(i);
+                    Element eElement = (Element) current;
+                    //Year Level first to understand whether or not to process this class. Only Year 12 and 13 will be processed.
+                    String grade = eElement.getElementsByTagName("primary_grade_level").item(0).getTextContent();
+                    if ((current.getNodeName().equalsIgnoreCase("class")) && (grade.equalsIgnoreCase("Year 12")||grade.equalsIgnoreCase("Year 13")) ) {
+                            int id = Integer.parseInt(eElement.getElementsByTagName("person_pk").item(0).getTextContent());
+                            //First Name
+                            String fName = eElement.getElementsByTagName("first_name").item(0).getTextContent();
+                            //Preferred Name (Some students don't have one)
+                            String pName = eElement.getElementsByTagName("preferred_name").item(0).getTextContent();
+                            //Handles missing pNames, and replaces the empty pName for that student with fName
+                            if (pName.equals("")) {
+                                pName = fName;
+                            }
+                            //Last Name
+                            String lName = eElement.getElementsByTagName("last_name").item(0).getTextContent();
+                            //Email
+                            String email = eElement.getElementsByTagName("email_1").item(0).getTextContent();
+                            //Homeroom Class ID
+                            int homeroom = Integer.parseInt(eElement.getElementsByTagName("homeroom").item(0).getTextContent());
+                            //Year Level
+                            String grade = eElement.getElementsByTagName("current_grade").item(0).getTextContent();
+                            //Finally creates the new object and feeds it in. Uses pName, not fName.
+                            students.add(new Student(pName, lName, id, email, homeroom, grade));
+
+                            NodeList meetTimes = document.getElementsByTagName("meeting_times");
+                            for (int z = 0; z < meetTimes.getLength(); z++) {
+
+                            }
+
+                        //                System.out.println(students.get(i));
+                    }
+                }
+            }
+        } catch (Exception e) {
+            e.getCause();
+        }
     }
 }
