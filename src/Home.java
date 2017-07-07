@@ -32,6 +32,11 @@ public class Home {
     public static void main(String[] args) {
         String toDownload = "none";
 
+        //In case no appropriate files exist, override and download them all anyway.
+        File check = new File("xmls/students1.xml");
+        if (!check.exists()) {
+            toDownload = "both";
+        }
         initialize(toDownload); //This allows you to decide which sets of data to (re)Download.
 
 //        for (Student i : students) {
@@ -72,7 +77,6 @@ public class Home {
                 URL web2 = new URL(classesURL + 1);
                 URLConnection connection2 = web2.openConnection();
                 int classesObjectCount = Integer.parseInt(connection2.getHeaderField("x-total-count"));
-                System.out.println(classesObjectCount);
                 classesPagesCount = (classesObjectCount / 100) + 1;
                 downloadClasses();
                 System.out.println("Classes files have been downloaded.");
@@ -96,6 +100,8 @@ public class Home {
                 ReadableByteChannel rbc = Channels.newChannel(website.openStream());
                 FileOutputStream fos = new FileOutputStream("xmls/students" + i + ".xml");
                 fos.getChannel().transferFrom(rbc, 0, Long.MAX_VALUE);
+                System.out.println("Downloaded Students File " + i + "/" + studentPagesCount + ".");
+
             }
         } catch (Exception e) {
             System.out.println("URL Downloading Error");
@@ -157,6 +163,8 @@ public class Home {
                 ReadableByteChannel rbc = Channels.newChannel(website.openStream());
                 FileOutputStream fos = new FileOutputStream("xmls/classes" + i + ".xml");
                 fos.getChannel().transferFrom(rbc, 0, Long.MAX_VALUE);
+                System.out.println("Downloaded Classes File " + i + "/" + classesPagesCount + ".");
+
             }
         } catch (Exception e) {
             System.out.println("URL Downloading Error");
@@ -215,11 +223,11 @@ public class Home {
                         }
 
                         //Conditions for a valid class.
-                        boolean academic = type.equalsIgnoreCase("Academic");
+                        boolean validType = ((type.equalsIgnoreCase("Academic")) || type.equalsIgnoreCase("Homeroom"));
                         boolean y12_13 = (grade.equalsIgnoreCase("Year 12") || grade.equalsIgnoreCase("Year 13"));
                         boolean validTeacher = !(teacherName.equalsIgnoreCase(""));
                         //Finally add new Class object, if it meets above conditions.
-                        if (academic && y12_13 && validTeacher) {
+                        if (validType && y12_13 && validTeacher) {
                             Class temp = new Class(name, id, stringID, grade, teacherName, type, meetingTimes);
                             classes.add(temp);
                             System.out.println(temp);
@@ -232,103 +240,4 @@ public class Home {
             e.getCause();
         }
     }
-
-    //working studentProcessor
-//            try {
-//
-//        //Creates a new DocumentBuilder to handle the xml file using Java DOM Parser
-//        DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
-//        DocumentBuilder builder = factory.newDocumentBuilder();
-//
-//        for (int x = 1; x <= studentPagesCount; x++) {
-//            Document document = builder.parse(new File("xmls/students" + x + ".xml"));
-//            Element root = document.getDocumentElement();
-//            //System.out.println(root.getNodeName());
-//
-//
-//            //Create a temporary list that creates a node for each student object in the xml file received.
-//            NodeList tempList = document.getElementsByTagName("student");
-//            //for loop that feeds the relevant data into the students ArrayList as new objects.
-//            for (int i = 0; i < tempList.getLength(); i++) {
-//                Node current = tempList.item(i);
-//                if (current.getNodeName().equalsIgnoreCase("student")) {
-//                    Element eElement = (Element) current;
-//                    int id = Integer.parseInt(eElement.getElementsByTagName("person_pk").item(0).getTextContent());
-//                    //First Name
-//                    String fName = eElement.getElementsByTagName("first_name").item(0).getTextContent();
-//                    //Preferred Name (Some students don't have one)
-//                    String pName = eElement.getElementsByTagName("preferred_name").item(0).getTextContent();
-//                    //Handles missing pNames, and replaces the empty pName for that student with fName
-//                    if (pName.equals("")) {
-//                        pName = fName;
-//                    }
-//                    //Last Name
-//                    String lName = eElement.getElementsByTagName("last_name").item(0).getTextContent();
-//                    //Email
-//                    String email = eElement.getElementsByTagName("email_1").item(0).getTextContent();
-//                    //Homeroom Class ID
-//                    int homeroom = Integer.parseInt(eElement.getElementsByTagName("homeroom").item(0).getTextContent());
-//                    //Year Level
-//                    String grade = eElement.getElementsByTagName("current_grade").item(0).getTextContent();
-//                    //Finally creates the new object and feeds it in. Uses pName, not fName.
-//                    students.add(new Student(pName, lName, id, email, homeroom, grade));
-//                }
-//                //                System.out.println(students.get(i));
-//            }
-//        }
-//    } catch (Exception e) {
-//        e.getCause();
-//    }
-
-
-    // OLD CLASSPROCESSOR
-//    try {
-//
-//        //Creates a new DocumentBuilder to handle the xml file using Java DOM Parser
-//        DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
-//        DocumentBuilder builder = factory.newDocumentBuilder();
-//
-//        for (int x = 1; x <= classesPagesCount; x++) {
-//            Document document = builder.parse(new File("xmls/classes" + x + ".xml"));
-//            Element root = document.getDocumentElement();
-//
-//            //Create a temporary list that creates a node for each student object in the xml file received.
-//            NodeList tempList = document.getElementsByTagName("class");
-//            //for loop that feeds the relevant data into the students ArrayList as new objects.
-//            for (int i = 0; i < tempList.getLength(); i++) {
-//                Node current = tempList.item(i);
-//                if (current.getNodeName().equalsIgnoreCase("class")) {
-//                    Element eElement = (Element) current;
-//                    //Grade Level
-//                    String grade = eElement.getElementsByTagName("primary_grade_level").item(0).getTextContent();
-//                    System.out.println(grade);
-//                    //Numerical ID
-//                    int id = Integer.parseInt(eElement.getElementsByTagName("class_pk").item(0).getTextContent());
-//                    //Class Name
-//                    String name = eElement.getElementsByTagName("description").item(0).getTextContent();
-//                    //stringID
-//                    String stringID = eElement.getElementsByTagName("class_id").item(0).getTextContent();
-//                    //Teacher Name
-//                    String teacherName = eElement.getElementsByTagName("teacher_full_name").item(0).getTextContent();
-//
-//                    //Meeting times are in a nested xml node. Repeat the previous process but nested.
-//                    ArrayList<MeetingTime> meetingTimes = new ArrayList<MeetingTime>();
-//                    NodeList meetTimes = document.getElementsByTagName("meeting_time");
-//                    for (int z = 0; z < meetTimes.getLength(); z++) {
-//                        current = meetTimes.item(z);
-//                        eElement = (Element) current;
-//                        String day = eElement.getElementsByTagName("day").item(0).getTextContent();
-//                        String block = eElement.getElementsByTagName("block").item(0).getTextContent();
-//                        String block_abbreviation = eElement.getElementsByTagName("block_abbreviation").item(0).getTextContent();
-//                        meetingTimes.add(new MeetingTime(day, block, block_abbreviation));
-//                    }
-//                    //Finally creates the new object and feeds it in.
-//                    classes.add(new Class(name, id, stringID, grade, teacherName, meetingTimes));
-//                    System.out.println(classes.get(i).getName());
-//                }
-//            }
-//        }
-//    } catch (Exception e) {
-//        e.getCause();
-//    }
 }

@@ -37,7 +37,6 @@ public class MeetingTime {
     }
 
     public String toString() {
-        return "Day " + day +
-                ", Block " + block;
+        return "Day " + day + ", Block " + block;
     }
 }
