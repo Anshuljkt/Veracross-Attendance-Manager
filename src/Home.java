@@ -220,7 +220,7 @@ public class Home {
                         boolean validTeacher = !(teacherName.equalsIgnoreCase(""));
                         //Finally add new Class object, if it meets above conditions.
                         if (academic && y12_13 && validTeacher) {
-                            Class temp = new Class(name, id, stringID, grade, teacherName, meetingTimes);
+                            Class temp = new Class(name, id, stringID, grade, teacherName, type, meetingTimes);
                             classes.add(temp);
                             System.out.println(temp);
 

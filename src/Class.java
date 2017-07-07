@@ -11,14 +11,16 @@ public class Class {
     private int gradeNum;
     private String teacherName;
     private ArrayList<MeetingTime> meetingTimes = new ArrayList<MeetingTime>();
+    private String type;
 
-    public Class(String name, int id, String stringID, String grade, String teacherName, ArrayList<MeetingTime> meetingTimes) {
+    public Class(String name, int id, String stringID, String grade, String teacherName, String type, ArrayList<MeetingTime> meetingTimes) {
         this.name = name;
         this.id = id;
         this.stringID = stringID;
         this.grade = grade;
         this.gradeNum = Integer.parseInt(grade.substring(5));
         this.teacherName = teacherName;
+        this.type = type;
         this.meetingTimes = meetingTimes;
     }
 
@@ -81,8 +83,16 @@ public class Class {
         this.grade = "Year " + gradeNum;
     }
 
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
     public String toString() {
-        return name + " | " + grade + " | Teacher: " + teacherName;
+        return name + " | " + grade + " | Teacher: " + teacherName + " | ID: " + id;
     }
 
 }
