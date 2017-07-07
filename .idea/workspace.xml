@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="643848ea-2949-4a73-9d5c-9e3e38de0cff" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/commons_io_2.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/VeracrossAttendanceManager/Initializer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Initializer.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Initializer.java" afterPath="$PROJECT_DIR$/src/Initializer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VeracrossAttendanceManager.iml" afterPath="$PROJECT_DIR$/VeracrossAttendanceManager.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Student.java" afterPath="$PROJECT_DIR$/src/Student.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,46 +26,49 @@
       <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="91" column="12" lean-forward="true" selection-start-line="91" selection-start-column="12" selection-end-line="91" selection-end-column="12" />
+            <state relative-caret-position="173">
+              <caret line="80" column="24" lean-forward="true" selection-start-line="80" selection-start-column="24" selection-end-line="80" selection-end-column="24" />
               <folding>
-                <element signature="e#661#662#0" expanded="true" />
-                <element signature="e#689#690#0" expanded="true" />
-                <element signature="e#859#860#0" expanded="true" />
-                <element signature="e#890#891#0" expanded="true" />
-                <element signature="e#1048#1049#0" expanded="true" />
-                <element signature="e#1076#1077#0" expanded="true" />
-                <element signature="e#1118#1119#0" expanded="true" />
-                <element signature="e#1152#1153#0" expanded="true" />
-                <element signature="e#1184#1185#0" expanded="true" />
-                <element signature="e#1212#1213#0" expanded="true" />
-                <element signature="e#1254#1255#0" expanded="true" />
-                <element signature="e#1288#1289#0" expanded="true" />
-                <element signature="e#1314#1315#0" expanded="true" />
-                <element signature="e#1339#1340#0" expanded="true" />
-                <element signature="e#1372#1373#0" expanded="true" />
-                <element signature="e#1400#1401#0" expanded="true" />
-                <element signature="e#1432#1433#0" expanded="true" />
-                <element signature="e#1460#1461#0" expanded="true" />
-                <element signature="e#1502#1503#0" expanded="true" />
-                <element signature="e#1536#1537#0" expanded="true" />
-                <element signature="e#1568#1569#0" expanded="true" />
-                <element signature="e#1599#1600#0" expanded="true" />
-                <element signature="e#1644#1645#0" expanded="true" />
-                <element signature="e#1684#1685#0" expanded="true" />
+                <element signature="e#609#610#0" expanded="true" />
+                <element signature="e#637#638#0" expanded="true" />
+                <element signature="e#807#808#0" expanded="true" />
+                <element signature="e#838#839#0" expanded="true" />
+                <element signature="e#1050#1051#0" expanded="true" />
+                <element signature="e#1078#1079#0" expanded="true" />
+                <element signature="e#1120#1121#0" expanded="true" />
+                <element signature="e#1154#1155#0" expanded="true" />
+                <element signature="e#1186#1187#0" expanded="true" />
+                <element signature="e#1214#1215#0" expanded="true" />
+                <element signature="e#1256#1257#0" expanded="true" />
+                <element signature="e#1290#1291#0" expanded="true" />
+                <element signature="e#1316#1317#0" expanded="true" />
+                <element signature="e#1341#1342#0" expanded="true" />
+                <element signature="e#1374#1375#0" expanded="true" />
+                <element signature="e#1402#1403#0" expanded="true" />
+                <element signature="e#1434#1435#0" expanded="true" />
+                <element signature="e#1462#1463#0" expanded="true" />
+                <element signature="e#1504#1505#0" expanded="true" />
+                <element signature="e#1538#1539#0" expanded="true" />
+                <element signature="e#1570#1571#0" expanded="true" />
+                <element signature="e#1601#1602#0" expanded="true" />
+                <element signature="e#1646#1647#0" expanded="true" />
+                <element signature="e#1686#1687#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Initializer.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Initializer.java">
+      <file leaf-file-name="Home.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Home.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-439">
-              <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="200">
+              <caret line="29" column="8" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#302#311#0" expanded="true" />
+                <element signature="e#646#647#0" expanded="true" />
+                <element signature="e#674#675#0" expanded="true" />
+                <element signature="e#840#1073#0" expanded="true" />
+                <element signature="e#1072#1073#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -97,8 +103,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Initializer.java" />
         <option value="$PROJECT_DIR$/src/Student.java" />
+        <option value="$PROJECT_DIR$/src/Initializer.java" />
+        <option value="$PROJECT_DIR$/src/Home.java" />
       </list>
     </option>
   </component>
@@ -112,6 +119,92 @@
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="831" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Abstraction issuesJava</id>
+          </State>
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Correctness</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Security</id>
+          </State>
+          <State>
+            <id>Android Lint for Kotlin</id>
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Class metricsJava</id>
+          </State>
+          <State>
+            <id>Code quality toolsCSS</id>
+          </State>
+          <State>
+            <id>Code style issuesJava</id>
+          </State>
+          <State>
+            <id>Declaration redundancyJava</id>
+          </State>
+          <State>
+            <id>Error handlingJava</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>Google Web Toolkit issues</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>JSP Inspections</id>
+          </State>
+          <State>
+            <id>JUnit issuesJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>Method MetricsGroovy</id>
+          </State>
+          <State>
+            <id>Method metricsJava</id>
+          </State>
+          <State>
+            <id>Naming ConventionsGroovy</id>
+          </State>
+          <State>
+            <id>Naming conventionsJava</id>
+          </State>
+          <State>
+            <id>OSGi</id>
+          </State>
+          <State>
+            <id>Security issuesJava</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -164,9 +257,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
@@ -182,10 +275,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Initializer">
+  <component name="RunManager" selected="Application.Home">
     <configuration default="false" name="Initializer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Initializer" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="VeracrossAttendanceManager" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Home" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Home" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -578,12 +686,14 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Application.Initializer" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Home" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.Initializer" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Application.Home" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Initializer" />
       </list>
     </recent_temporary>
   </component>
@@ -597,12 +707,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1499411975756</updated>
-      <workItem from="1499411981570" duration="4767000" />
+      <workItem from="1499411981570" duration="9172000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4767000" />
+    <option name="totallyTimeSpent" value="9172000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="831" extended-state="6" />
@@ -654,46 +764,57 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Initializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="91" column="12" lean-forward="true" selection-start-line="91" selection-start-column="12" selection-end-line="91" selection-end-column="12" />
+        <state relative-caret-position="173">
+          <caret line="80" column="24" lean-forward="true" selection-start-line="80" selection-start-column="24" selection-end-line="80" selection-end-column="24" />
           <folding>
-            <element signature="e#661#662#0" expanded="true" />
-            <element signature="e#689#690#0" expanded="true" />
-            <element signature="e#859#860#0" expanded="true" />
-            <element signature="e#890#891#0" expanded="true" />
-            <element signature="e#1048#1049#0" expanded="true" />
-            <element signature="e#1076#1077#0" expanded="true" />
-            <element signature="e#1118#1119#0" expanded="true" />
-            <element signature="e#1152#1153#0" expanded="true" />
-            <element signature="e#1184#1185#0" expanded="true" />
-            <element signature="e#1212#1213#0" expanded="true" />
-            <element signature="e#1254#1255#0" expanded="true" />
-            <element signature="e#1288#1289#0" expanded="true" />
-            <element signature="e#1314#1315#0" expanded="true" />
-            <element signature="e#1339#1340#0" expanded="true" />
-            <element signature="e#1372#1373#0" expanded="true" />
-            <element signature="e#1400#1401#0" expanded="true" />
-            <element signature="e#1432#1433#0" expanded="true" />
-            <element signature="e#1460#1461#0" expanded="true" />
-            <element signature="e#1502#1503#0" expanded="true" />
-            <element signature="e#1536#1537#0" expanded="true" />
-            <element signature="e#1568#1569#0" expanded="true" />
-            <element signature="e#1599#1600#0" expanded="true" />
-            <element signature="e#1644#1645#0" expanded="true" />
-            <element signature="e#1684#1685#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#807#808#0" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#1050#1051#0" expanded="true" />
+            <element signature="e#1078#1079#0" expanded="true" />
+            <element signature="e#1120#1121#0" expanded="true" />
+            <element signature="e#1154#1155#0" expanded="true" />
+            <element signature="e#1186#1187#0" expanded="true" />
+            <element signature="e#1214#1215#0" expanded="true" />
+            <element signature="e#1256#1257#0" expanded="true" />
+            <element signature="e#1290#1291#0" expanded="true" />
+            <element signature="e#1316#1317#0" expanded="true" />
+            <element signature="e#1341#1342#0" expanded="true" />
+            <element signature="e#1374#1375#0" expanded="true" />
+            <element signature="e#1402#1403#0" expanded="true" />
+            <element signature="e#1434#1435#0" expanded="true" />
+            <element signature="e#1462#1463#0" expanded="true" />
+            <element signature="e#1504#1505#0" expanded="true" />
+            <element signature="e#1538#1539#0" expanded="true" />
+            <element signature="e#1570#1571#0" expanded="true" />
+            <element signature="e#1601#1602#0" expanded="true" />
+            <element signature="e#1646#1647#0" expanded="true" />
+            <element signature="e#1686#1687#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Initializer.java">
+    <entry file="file://$PROJECT_DIR$/src/Home.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-439">
-          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="200">
+          <caret line="29" column="8" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#302#311#0" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
+            <element signature="e#674#675#0" expanded="true" />
+            <element signature="e#840#1073#0" expanded="true" />
+            <element signature="e#1072#1073#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -755,7 +876,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

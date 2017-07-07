@@ -1,24 +1,54 @@
-import org.w3c.dom.*;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import java.io.File;
+import java.io.FileOutputStream;
+import java.net.Authenticator;
+import java.net.PasswordAuthentication;
+import java.net.URL;
+import java.nio.channels.Channels;
+import java.nio.channels.ReadableByteChannel;
 import java.util.ArrayList;
 
 /**
  * Created by 18anshula on 7/7/17 at 12:55 PM.
  */
-public class Initializer {
-
+public class Home {
 
     static ArrayList<Student> students = new ArrayList<Student>();
 
     public static void main(String[] args) {
+        initialize();
+    }
+
+
+    public static void initialize() {
+        
+        //This is where the username and password go for accessing Veracross API.
+        Authenticator.setDefault(new Authenticator() {
+            @Override
+            protected PasswordAuthentication getPasswordAuthentication() {
+                return new PasswordAuthentication("api.nist", "X4bZsxMVBr".toCharArray());
+            }
+        });
+
         try {
             //Creates a new DocumentBuilder to handle the xml file using Java DOM Parser
             DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
             DocumentBuilder builder = factory.newDocumentBuilder();
-            Document document = builder.parse(new File("xmls/studentsp1.xml"));
+
+            int page = 3;
+            URL website = new URL("https://api.veracross.com/nist/v2/students.xml?grade_level=12,13&page=" + page);
+            ReadableByteChannel rbc = Channels.newChannel(website.openStream());
+            FileOutputStream fos = new FileOutputStream("xmls/1.xml");
+            fos.getChannel().transferFrom(rbc, 0, Long.MAX_VALUE);
+
+
+            Document document = builder.parse(new File("xmls/1.xml"));
             Element root = document.getDocumentElement();
 //            System.out.println(root.getNodeName());
 
@@ -33,7 +63,7 @@ public class Initializer {
                     int id = Integer.parseInt(eElement.getElementsByTagName("person_pk").item(0).getTextContent());
                     //First Name
                     String fName = eElement.getElementsByTagName("first_name").item(0).getTextContent();
-                    //Preferred Name (Some students don't have one
+                    //Preferred Name (Some students don't have one)
                     String pName = eElement.getElementsByTagName("preferred_name").item(0).getTextContent();
                     //Handles missing pNames, and replaces the empty pName for that student with fName
                     if (pName.equals("")) {
@@ -51,10 +81,10 @@ public class Initializer {
                     students.add(new Student(fName, lName, id, email, homeroom, grade));
                 }
                 System.out.println(students.get(i));
-                System.out.println();
             }
         } catch (Exception e) {
             e.printStackTrace();
         }
+
     }
 }
