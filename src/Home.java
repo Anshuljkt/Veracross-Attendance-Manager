@@ -34,9 +34,9 @@ public class Home {
 
         initialize(toDownload); //This allows you to decide which sets of data to (re)Download.
 
-        for (Student i : students) {
-            System.out.println(i);
-        }
+//        for (Student i : students) {
+//            System.out.println(i);
+//        }
 
     }
 
@@ -173,44 +173,41 @@ public class Home {
             for (int x = 1; x <= classesPagesCount; x++) {
                 Document document = builder.parse(new File("xmls/classes" + x + ".xml"));
                 Element root = document.getDocumentElement();
-                //System.out.println(root.getNodeName());
 
-
-                //Create a temporary list that creates a node for each student object in the xml file received.
-                NodeList tempList = document.getElementsByTagName("class");
-                //for loop that feeds the relevant data into the students ArrayList as new objects.
-                for (int i = 0; i < tempList.getLength(); i++) {
-                    Node current = tempList.item(i);
+                //Create a temporary list that creates a node for each class object in the xml file received.
+                NodeList list = document.getElementsByTagName("class");
+                //for loop that feeds the relevant data into the classes ArrayList as new objects.
+                for (int i = 0; i < list.getLength(); i++) {
+                    Node current = list.item(i);
                     Element eElement = (Element) current;
                     //Year Level first to understand whether or not to process this class. Only Year 12 and 13 will be processed.
                     String grade = eElement.getElementsByTagName("primary_grade_level").item(0).getTextContent();
-                    if ((current.getNodeName().equalsIgnoreCase("class")) && (grade.equalsIgnoreCase("Year 12")||grade.equalsIgnoreCase("Year 13")) ) {
-                            int id = Integer.parseInt(eElement.getElementsByTagName("person_pk").item(0).getTextContent());
-                            //First Name
-                            String fName = eElement.getElementsByTagName("first_name").item(0).getTextContent();
-                            //Preferred Name (Some students don't have one)
-                            String pName = eElement.getElementsByTagName("preferred_name").item(0).getTextContent();
-                            //Handles missing pNames, and replaces the empty pName for that student with fName
-                            if (pName.equals("")) {
-                                pName = fName;
-                            }
-                            //Last Name
-                            String lName = eElement.getElementsByTagName("last_name").item(0).getTextContent();
-                            //Email
-                            String email = eElement.getElementsByTagName("email_1").item(0).getTextContent();
-                            //Homeroom Class ID
-                            int homeroom = Integer.parseInt(eElement.getElementsByTagName("homeroom").item(0).getTextContent());
-                            //Year Level
-                            String grade = eElement.getElementsByTagName("current_grade").item(0).getTextContent();
-                            //Finally creates the new object and feeds it in. Uses pName, not fName.
-                            students.add(new Student(pName, lName, id, email, homeroom, grade));
+                    if (grade.equalsIgnoreCase("Year 12") || grade.equalsIgnoreCase("Year 13")) {
+                        System.out.println(grade);
+                        //Numerical ID
+                        int id = Integer.parseInt(eElement.getElementsByTagName("class_pk").item(0).getTextContent());
+                        //Class Name
+                        String name = eElement.getElementsByTagName("description").item(0).getTextContent();
+                        System.out.println(name);
+                        //stringID
+                        String stringID = eElement.getElementsByTagName("class_id").item(0).getTextContent();
+                        //Teacher Name
+                        String teacherName = eElement.getElementsByTagName("teacher_full_name").item(0).getTextContent();
 
-                            NodeList meetTimes = document.getElementsByTagName("meeting_times");
-                            for (int z = 0; z < meetTimes.getLength(); z++) {
-
-                            }
-
-                        //                System.out.println(students.get(i));
+                        //Meeting times are in a nested xml node. Repeat the previous process but nested.
+                        ArrayList<MeetingTime> meetingTimes = new ArrayList<MeetingTime>();
+                        NodeList meetTimes = document.getElementsByTagName("meeting_time");
+                        for (int z = 0; z < meetTimes.getLength(); z++) {
+                            current = meetTimes.item(z);
+                            eElement = (Element) current;
+                            String day = eElement.getElementsByTagName("day").item(0).getTextContent();
+                            String block = eElement.getElementsByTagName("block").item(0).getTextContent();
+                            String block_abbreviation = eElement.getElementsByTagName("block_abbreviation").item(0).getTextContent();
+                            meetingTimes.add(new MeetingTime(day, block, block_abbreviation));
+                        }
+                        //Finally creates the new object and feeds it in.
+                        classes.add(new Class(name, id, stringID, grade, teacherName, meetingTimes));
+                        System.out.println(classes.get(i).getName());
                     }
                 }
             }

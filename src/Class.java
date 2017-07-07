@@ -6,24 +6,20 @@ import java.util.ArrayList;
 public class Class {
     private String name;
     private int id;
-    private String IDString;
+    private String stringID;
     private String grade;
     private int gradeNum;
     private String teacherName;
     private ArrayList<MeetingTime> meetingTimes = new ArrayList<MeetingTime>();
 
-    public Class(String name, int id, String IDString, String grade, int gradeNum, String teacherName, ArrayList<MeetingTime> meetingTimes) {
+    public Class(String name, int id, String stringID, String grade, String teacherName, ArrayList<MeetingTime> meetingTimes) {
         this.name = name;
         this.id = id;
-        this.IDString = IDString;
+        this.stringID = stringID;
         this.grade = grade;
-        this.gradeNum = gradeNum;
+        this.gradeNum = Integer.parseInt(grade.substring(5));
         this.teacherName = teacherName;
         this.meetingTimes = meetingTimes;
-    }
-
-    public Class() {
-        
     }
 
     public String getName() {
@@ -42,12 +38,12 @@ public class Class {
         this.id = id;
     }
 
-    public String getIDString() {
-        return IDString;
+    public String getstringID() {
+        return stringID;
     }
 
-    public void setIDString(String IDString) {
-        this.IDString = IDString;
+    public void setstringID(String stringID) {
+        this.stringID = stringID;
     }
 
     public String getTeacherName() {
@@ -65,6 +61,7 @@ public class Class {
     public void setMeetingTimes(ArrayList<MeetingTime> meetingTimes) {
         this.meetingTimes = meetingTimes;
     }
+
 
     public String getGrade() {
         return grade;
