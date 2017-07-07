@@ -35,4 +35,9 @@ public class MeetingTime {
     public void setBlock_abbreviation(String block_abbreviation) {
         this.block_abbreviation = block_abbreviation;
     }
+
+    public String toString() {
+        return "Day " + day +
+                ", Block " + block;
+    }
 }

@@ -81,4 +81,8 @@ public class Class {
         this.grade = "Year " + gradeNum;
     }
 
+    public String toString() {
+        return name + " | " + grade + " | Teacher: " + teacherName;
+    }
+
 }
