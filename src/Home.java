@@ -26,11 +26,11 @@ public class Home {
     private static boolean onlyNonAcademic = false; //Choose whether you want only NonAcademic courses or not.
 
 
-    static ArrayList<Student> students = new ArrayList<Student>();
-    static ArrayList<Class> classes = new ArrayList<Class>();
+    public static ArrayList<Student> students = new ArrayList<Student>();
+    public static ArrayList<Class> classes = new ArrayList<Class>();
 
     public static void main(String[] args) {
-        String toDownload = "none";
+        String toDownload = "both";
 
         //In case no appropriate files exist, override and download them all anyway.
         File check = new File("xmls/students1.xml");
@@ -42,7 +42,11 @@ public class Home {
 //        for (Student i : students) {
 //            System.out.println(i);
 //        }
-
+        int[] search1 = {12};
+        int[] search2 = {13};
+        int[] search3 = {12,13};
+        System.out.println("SEARCHING");
+        System.out.println(search(search1));
     }
 
 
@@ -210,6 +214,9 @@ public class Home {
                         //Course Type
                         String type = element.getElementsByTagName("course_type").item(0).getTextContent();
 
+                        //Subject - in order to include P1 Check In classes.
+                        String subject = element.getElementsByTagName("subject").item(0).getTextContent();
+
                         //Meeting Times
                         ArrayList<MeetingTime> meetingTimes = new ArrayList<MeetingTime>();
                         NodeList meetTimes = doc.getElementsByTagName("meeting_time");
@@ -223,11 +230,12 @@ public class Home {
                         }
 
                         //Conditions for a valid class.
-                        boolean validType = ((type.equalsIgnoreCase("Academic")) || type.equalsIgnoreCase("Homeroom"));
+                        boolean validType = ((type.equalsIgnoreCase("Academic")) || (type.equalsIgnoreCase("Homeroom")));
+                        boolean p1Class = (subject.equalsIgnoreCase("House Class"));
                         boolean y12_13 = (grade.equalsIgnoreCase("Year 12") || grade.equalsIgnoreCase("Year 13"));
                         boolean validTeacher = !(teacherName.equalsIgnoreCase(""));
                         //Finally add new Class object, if it meets above conditions.
-                        if (validType && y12_13 && validTeacher) {
+                        if ((p1Class || validType) && y12_13 && validTeacher) {
                             Class temp = new Class(name, id, stringID, grade, teacherName, type, meetingTimes);
                             classes.add(temp);
                             System.out.println(temp);
@@ -239,5 +247,20 @@ public class Home {
         } catch (Exception e) {
             e.getCause();
         }
+    }
+
+    private static ArrayList<Student> search(int[] yearLevels) {
+        //This method will take an int array of Year Levels to search for.
+        //As a result, we now need to traverse the student ArrayList and check for matches with any items in the provided int array.
+        ArrayList<Student> results = new ArrayList<Student>();
+        for (Student i:students) {
+            int gradeLevel = i.getGradeNum();
+            for (int searching:yearLevels) {
+                if (gradeLevel==searching) {
+                    results.add(i);
+                }
+            }
+        }
+        return results;
     }
 }
