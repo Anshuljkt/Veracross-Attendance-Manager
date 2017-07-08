@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="643848ea-2949-4a73-9d5c-9e3e38de0cff" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/VeracrossAttendanceManager/Home$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/VeracrossAttendanceManager/Home.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xmls/studentsp2.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Home.java" afterPath="$PROJECT_DIR$/src/Home.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -33,22 +36,20 @@
       <file leaf-file-name="Home.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Home.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="69" column="48" lean-forward="false" selection-start-line="69" selection-start-column="48" selection-end-line="69" selection-end-column="48" />
+            <state relative-caret-position="1104">
+              <caret line="381" column="23" lean-forward="true" selection-start-line="381" selection-start-column="23" selection-end-line="381" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1086#1095#0" expanded="true" />
-                <element signature="e#1157#1164#0" expanded="true" />
-                <element signature="e#2824#3057#0" expanded="true" />
-                <element signature="e#3056#3057#0" expanded="true" />
-                <element signature="method#downloadStudents#0;class#Home#0" expanded="false" />
-                <element signature="method#processStudentsList#0;class#Home#0" expanded="false" />
-                <element signature="method#processClasses#0;class#Home#0" expanded="false" />
-                <element signature="e#11748#11761#0" expanded="true" />
-                <element signature="e#13971#13980#0" expanded="true" />
-                <element signature="e#14453#14462#0" expanded="true" />
-                <marker date="1499533880000" expanded="false" signature="8814:9409" ph="{...}" />
-                <marker date="1499533880000" expanded="true" signature="10451:10536" ph="..." />
+                <element signature="e#652#661#0" expanded="true" />
+                <element signature="e#723#730#0" expanded="true" />
+                <element signature="e#2712#2721#0" expanded="true" />
+                <element signature="e#3340#3573#0" expanded="true" />
+                <element signature="e#3572#3573#0" expanded="true" />
+                <element signature="e#12642#12655#0" expanded="true" />
+                <element signature="e#14763#14772#0" expanded="true" />
+                <element signature="e#15262#15271#0" expanded="true" />
+                <element signature="e#17635#17644#0" expanded="true" />
+                <marker date="1499538003000" expanded="true" signature="11345:11430" ph="..." />
               </folding>
             </state>
           </provider>
@@ -337,7 +338,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="tasks.timeTracking" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="ToolWindowRun.ShowToolbar" value="false" />
@@ -811,13 +812,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1499411975756</updated>
-      <workItem from="1499411981570" duration="31195000" />
+      <workItem from="1499411981570" duration="35282000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
     <option name="enabled" value="true" />
-    <option name="totallyTimeSpent" value="31195000" />
+    <option name="totallyTimeSpent" value="35282000" />
     <option name="suspendDelayInSeconds" value="300" />
     <option name="showClosedTasks" value="false" />
   </component>
@@ -832,6 +833,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="833" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -852,7 +854,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2814136" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13611111" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939634" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Time Tracking" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -873,7 +875,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -981,22 +983,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Home.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="69" column="48" lean-forward="false" selection-start-line="69" selection-start-column="48" selection-end-line="69" selection-end-column="48" />
+        <state relative-caret-position="1104">
+          <caret line="381" column="23" lean-forward="true" selection-start-line="381" selection-start-column="23" selection-end-line="381" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1086#1095#0" expanded="true" />
-            <element signature="e#1157#1164#0" expanded="true" />
-            <element signature="e#2824#3057#0" expanded="true" />
-            <element signature="e#3056#3057#0" expanded="true" />
-            <element signature="method#downloadStudents#0;class#Home#0" expanded="false" />
-            <element signature="method#processStudentsList#0;class#Home#0" expanded="false" />
-            <element signature="method#processClasses#0;class#Home#0" expanded="false" />
-            <element signature="e#11748#11761#0" expanded="true" />
-            <element signature="e#13971#13980#0" expanded="true" />
-            <element signature="e#14453#14462#0" expanded="true" />
-            <marker date="1499533880000" expanded="false" signature="8814:9409" ph="{...}" />
-            <marker date="1499533880000" expanded="true" signature="10451:10536" ph="..." />
+            <element signature="e#652#661#0" expanded="true" />
+            <element signature="e#723#730#0" expanded="true" />
+            <element signature="e#2712#2721#0" expanded="true" />
+            <element signature="e#3340#3573#0" expanded="true" />
+            <element signature="e#3572#3573#0" expanded="true" />
+            <element signature="e#12642#12655#0" expanded="true" />
+            <element signature="e#14763#14772#0" expanded="true" />
+            <element signature="e#15262#15271#0" expanded="true" />
+            <element signature="e#17635#17644#0" expanded="true" />
+            <marker date="1499538003000" expanded="true" signature="11345:11430" ph="..." />
           </folding>
         </state>
       </provider>
