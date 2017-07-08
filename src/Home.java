@@ -14,6 +14,7 @@ import java.net.URLConnection;
 import java.nio.channels.Channels;
 import java.nio.channels.ReadableByteChannel;
 import java.util.ArrayList;
+import java.util.Scanner;
 
 /**
  * Created by 18anshula on 7/7/17 at 12:55 PM.
@@ -30,6 +31,18 @@ public class Home {
     public static ArrayList<Class> classes = new ArrayList<Class>();
 
     public static void main(String[] args) {
+    homePage();
+    }
+
+    public static void homePage() {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Start?");
+        String choice = scan.nextLine();
+        if (choice.equalsIgnoreCase("y") || choice.equalsIgnoreCase("yes")) {
+
+        } else {
+            System.exit(0);
+        }
         String toDownload = "both";
 
         //In case no appropriate files exist, override and download them all anyway.
@@ -38,6 +51,13 @@ public class Home {
             toDownload = "both";
         }
         initialize(toDownload); //This allows you to decide which sets of data to (re)Download.
+
+        //NEED TO CHECK FOR VERACROSS SERVERS BEING DOWN OR NOT. As a result, check again!
+        if (!check.exists()) {
+            System.out.println("ERROR! Could not download the required files for students/classes. Please check your Internet Connection. \n" +
+                    "Otherwise, Veracross Servers may be down.");
+            homePage();
+        }
 
 //        for (Student i : students) {
 //            System.out.println(i);

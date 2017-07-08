@@ -2,31 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="643848ea-2949-4a73-9d5c-9e3e38de0cff" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xmls/classes1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xmls/classes10.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xmls/classes11.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xmls/classes12.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xmls/classes13.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xmls/classes14.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xmls/classes15.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xmls/classes16.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xmls/classes2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xmls/classes3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xmls/classes4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xmls/classes5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xmls/classes6.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xmls/classes7.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xmls/classes8.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xmls/classes9.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xmls/students1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xmls/students2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xmls/students3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xmls/studentsp1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xmls/studentsp2.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/VeracrossAttendanceManager/Home.class" afterPath="$PROJECT_DIR$/out/production/VeracrossAttendanceManager/Home.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Home.java" afterPath="$PROJECT_DIR$/src/Home.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Student.java" afterPath="$PROJECT_DIR$/src/Student.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,21 +33,23 @@
       <file leaf-file-name="Home.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Home.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+            <state relative-caret-position="395">
+              <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1060#1069#0" expanded="true" />
-                <element signature="e#1131#1138#0" expanded="true" />
-                <element signature="e#1980#2213#0" expanded="true" />
-                <element signature="e#2212#2213#0" expanded="true" />
+                <element signature="e#1086#1095#0" expanded="true" />
+                <element signature="e#1157#1164#0" expanded="true" />
+                <element signature="e#1212#1213#0" expanded="true" />
+                <element signature="e#1234#1235#0" expanded="true" />
+                <element signature="e#2692#2925#0" expanded="true" />
+                <element signature="e#2924#2925#0" expanded="true" />
                 <element signature="method#downloadStudents#0;class#Home#0" expanded="false" />
                 <element signature="method#processStudentsList#0;class#Home#0" expanded="false" />
                 <element signature="method#processClasses#0;class#Home#0" expanded="false" />
-                <element signature="e#10904#10917#0" expanded="true" />
-                <element signature="e#12981#12990#0" expanded="true" />
-                <marker date="1499521842000" expanded="false" signature="7970:8565" ph="{...}" />
-                <marker date="1499521842000" expanded="true" signature="9607:9692" ph="..." />
+                <element signature="e#11616#11629#0" expanded="true" />
+                <element signature="e#13693#13702#0" expanded="true" />
+                <marker date="1499522890000" expanded="false" signature="8682:9277" ph="{...}" />
+                <marker date="1499522890000" expanded="true" signature="10319:10404" ph="..." />
               </folding>
             </state>
           </provider>
@@ -847,6 +825,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="643848ea-2949-4a73-9d5c-9e3e38de0cff" name="Default" comment="" />
@@ -854,13 +835,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1499411975756</updated>
-      <workItem from="1499411981570" duration="28128000" />
+      <workItem from="1499411981570" duration="29406000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
     <option name="enabled" value="true" />
-    <option name="totallyTimeSpent" value="28128000" />
+    <option name="totallyTimeSpent" value="29406000" />
     <option name="suspendDelayInSeconds" value="300" />
     <option name="showClosedTasks" value="false" />
   </component>
@@ -1025,21 +1006,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Home.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+        <state relative-caret-position="395">
+          <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1060#1069#0" expanded="true" />
-            <element signature="e#1131#1138#0" expanded="true" />
-            <element signature="e#1980#2213#0" expanded="true" />
-            <element signature="e#2212#2213#0" expanded="true" />
+            <element signature="e#1086#1095#0" expanded="true" />
+            <element signature="e#1157#1164#0" expanded="true" />
+            <element signature="e#1212#1213#0" expanded="true" />
+            <element signature="e#1234#1235#0" expanded="true" />
+            <element signature="e#2692#2925#0" expanded="true" />
+            <element signature="e#2924#2925#0" expanded="true" />
             <element signature="method#downloadStudents#0;class#Home#0" expanded="false" />
             <element signature="method#processStudentsList#0;class#Home#0" expanded="false" />
             <element signature="method#processClasses#0;class#Home#0" expanded="false" />
-            <element signature="e#10904#10917#0" expanded="true" />
-            <element signature="e#12981#12990#0" expanded="true" />
-            <marker date="1499521842000" expanded="false" signature="7970:8565" ph="{...}" />
-            <marker date="1499521842000" expanded="true" signature="9607:9692" ph="..." />
+            <element signature="e#11616#11629#0" expanded="true" />
+            <element signature="e#13693#13702#0" expanded="true" />
+            <marker date="1499522890000" expanded="false" signature="8682:9277" ph="{...}" />
+            <marker date="1499522890000" expanded="true" signature="10319:10404" ph="..." />
           </folding>
         </state>
       </provider>
