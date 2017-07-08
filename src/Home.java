@@ -31,7 +31,9 @@ public class Home {
     public static ArrayList<Class> classes = new ArrayList<Class>();
 
     public static void main(String[] args) {
+
     homePage();
+
     }
 
     public static void homePage() {
@@ -59,14 +61,18 @@ public class Home {
             homePage();
         }
 
-//        for (Student i : students) {
-//            System.out.println(i);
-//        }
-        int[] search1 = {12};
-        int[] search2 = {13};
-        int[] search3 = {12,13};
+        String[] search1 = {"Year 12"};
+        String[] search2 = {"Year 13"};
+        String[] search3 = {"Year 12", "Year 13"};
         System.out.println("SEARCHING");
-        System.out.println(search(search1));
+        ArrayList<Student> results = search(search2);
+
+        int[] searchID = {25162, 4316, 3914, 3929};
+        results = search(searchID);
+        for (Student i : results) {
+            System.out.println(i);
+        }
+
     }
 
 
@@ -269,14 +275,28 @@ public class Home {
         }
     }
 
-    private static ArrayList<Student> search(int[] yearLevels) {
+    //Method to pull students out based on their Year Levels - Uses String instead of Integer as parameters to leave that for ID-based search.
+    private static ArrayList<Student> search(String[] yearLevels) {
         //This method will take an int array of Year Levels to search for.
         //As a result, we now need to traverse the student ArrayList and check for matches with any items in the provided int array.
         ArrayList<Student> results = new ArrayList<Student>();
         for (Student i:students) {
-            int gradeLevel = i.getGradeNum();
-            for (int searching:yearLevels) {
-                if (gradeLevel==searching) {
+            String gradeLevel = i.getGrade();
+            for (String searching:yearLevels) {
+                if (gradeLevel.equalsIgnoreCase(searching)) {
+                    results.add(i);
+                }
+            }
+        }
+        return results;
+    }
+    //Method to pull students out based on their ID numbers.
+    private static ArrayList<Student> search (int[] IDs) {
+        ArrayList<Student> results = new ArrayList<Student>();
+        for (Student i : students) {
+            int currentID = i.getId();
+            for (int comparing : IDs) {
+                if (currentID==comparing) {
                     results.add(i);
                 }
             }
