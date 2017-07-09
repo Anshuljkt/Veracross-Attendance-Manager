@@ -14,6 +14,7 @@ import java.net.URLConnection;
 import java.nio.channels.Channels;
 import java.nio.channels.ReadableByteChannel;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Scanner;
 
 /**
@@ -54,13 +55,6 @@ public class Home {
         }
         initialize(toDownload); //This allows you to decide which sets of data to (re)Download.
 
-//        //OLD: NEED TO CHECK FOR VERACROSS SERVERS BEING DOWN OR NOT. As a result, check again!
-//        if (!check.exists()) {
-//            System.out.println("ERROR! Could not download the required files for students/classes. Please check your Internet Connection. \n" +
-//                    "Otherwise, Veracross Servers may be down.");
-//            homePage();
-//        }
-
         String[] search1 = {"Year 12"};
         String[] search2 = {"Year 13"};
         String[] search3 = {"Year 12", "Year 13"};
@@ -80,18 +74,19 @@ public class Home {
 
         searchID = new ArrayList<Integer>();
         searchID.add(103112);
-//        searchID.add(103132);
-//        searchID.add(103076);
-//        searchID.add(103077);
+        searchID.add(103132);
+        searchID.add(103076);
+        searchID.add(103077);
 
         results = processEnrollments(searchID);
+        Collections.sort(results);
         for (Student i : results) {
             System.out.println(i);
         }
 
-        for (Class i : classes) {
-            System.out.println(i);
-        }
+//        for (Class i : classes) {
+//            System.out.println(i);
+//        }
 
     }
 
@@ -145,6 +140,8 @@ public class Home {
 
         processStudentsList(); //Each file will now be opened and processed into the Students arrayList.
         processClasses();
+        //TODO: Decide whether to sort in methods or on demand.
+        Collections.sort(classes);
     }
 
     private static void downloadStudents() {
@@ -327,10 +324,16 @@ public class Home {
     }
     //Enrollment Downloader. Downloads 1 xml file for each received int. Can only do 1 class per call.
     private static void downloadEnrollments(int ID) {
+//        //First need to delete all the enrollment files that already exist.
+//        File folder = new File("xmls/");
+//        for (File f: folder.listFiles()) {
+//            if (f.getName().startsWith("enrollments")) {
+//                f.delete();
+//            }
+//        }
         try {
             //First set URL to be used this time. It needs to be based on enrollmentsURL, and replaced for every method call.
             String classURL = enrollmentsURL+ID+"&page=";
-            System.out.println(classURL);
             //First connects to the Veracross API and view page 1 of this enrollments.xml, and collects the total number of objects from the XML response header.
             URL web = new URL(classURL + 1);
             URLConnection connection = web.openConnection();
@@ -355,11 +358,17 @@ public class Home {
         int count = 0;
         //Need to repeat one time for each ID there is.
         for (Integer i: IDs) {
+            String className = ""; //We want to print the name of the Class
+            for (Class x : classes) {
+                if (x.getId()==i) {
+                    className = x.getName();
+                }
+            }
             //Download first.
             downloadEnrollments(i);
             count++;
             System.out.println("Downloaded Enrollments for class " + count + "/" + IDs.size() + ".");
-
+            System.out.println("Enrollments for " + className + ":");
             //Now to process
             try {
                 //Creates a new DocumentBuilder to handle the xml file using Java DOM Parser
@@ -384,7 +393,7 @@ public class Home {
                     }
                 }
             } catch (Exception e) {
-                e.printStackTrace();
+//                e.printStackTrace();
             }
 
         }

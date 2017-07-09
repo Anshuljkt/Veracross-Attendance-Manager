@@ -1,7 +1,7 @@
 /**
  * Created by Anshul Agrawal on 7/7/17 at 12:50 PM.
  */
-public class Student {
+public class Student implements Comparable<Student> {
 
 
     private String fName;
@@ -90,5 +90,9 @@ public class Student {
                 " | ID = " + id +
                 " | Email = " + email +
                 " | Homeroom ID = " + homeroom;
+    }
+    //compareTo method, allows sorting by last name in A-Z.
+    public int compareTo(Student compare) {
+        return (this.lName.compareTo(compare.lName));
     }
 }
