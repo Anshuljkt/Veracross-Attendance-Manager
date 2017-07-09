@@ -79,13 +79,17 @@ public class Home {
         }
 
         searchID = new ArrayList<Integer>();
-        searchID.add(103130);
-        searchID.add(103132);
+        searchID.add(103112);
+//        searchID.add(103132);
 //        searchID.add(103076);
 //        searchID.add(103077);
-        
+
         results = processEnrollments(searchID);
         for (Student i : results) {
+            System.out.println(i);
+        }
+
+        for (Class i : classes) {
             System.out.println(i);
         }
 

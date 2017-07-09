@@ -2,27 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="643848ea-2949-4a73-9d5c-9e3e38de0cff" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/VeracrossAttendanceManager/Home$1.class" afterPath="$PROJECT_DIR$/out/production/VeracrossAttendanceManager/Home$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/VeracrossAttendanceManager/Home.class" afterPath="$PROJECT_DIR$/out/production/VeracrossAttendanceManager/Home.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Home.java" afterPath="$PROJECT_DIR$/src/Home.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/classes1.xml" afterPath="$PROJECT_DIR$/xmls/classes1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/classes10.xml" afterPath="$PROJECT_DIR$/xmls/classes10.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/classes11.xml" afterPath="$PROJECT_DIR$/xmls/classes11.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/classes12.xml" afterPath="$PROJECT_DIR$/xmls/classes12.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/classes13.xml" afterPath="$PROJECT_DIR$/xmls/classes13.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/classes14.xml" afterPath="$PROJECT_DIR$/xmls/classes14.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/classes15.xml" afterPath="$PROJECT_DIR$/xmls/classes15.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/classes16.xml" afterPath="$PROJECT_DIR$/xmls/classes16.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/classes2.xml" afterPath="$PROJECT_DIR$/xmls/classes2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/classes3.xml" afterPath="$PROJECT_DIR$/xmls/classes3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/classes4.xml" afterPath="$PROJECT_DIR$/xmls/classes4.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/classes5.xml" afterPath="$PROJECT_DIR$/xmls/classes5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/classes6.xml" afterPath="$PROJECT_DIR$/xmls/classes6.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/classes7.xml" afterPath="$PROJECT_DIR$/xmls/classes7.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/classes8.xml" afterPath="$PROJECT_DIR$/xmls/classes8.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/classes9.xml" afterPath="$PROJECT_DIR$/xmls/classes9.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/enrollments1.xml" afterPath="$PROJECT_DIR$/xmls/enrollments1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/students1.xml" afterPath="$PROJECT_DIR$/xmls/students1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/students2.xml" afterPath="$PROJECT_DIR$/xmls/students2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/students3.xml" afterPath="$PROJECT_DIR$/xmls/students3.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,21 +36,21 @@
       <file leaf-file-name="Home.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Home.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="85" column="8" lean-forward="false" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="8" />
+            <state relative-caret-position="289">
+              <caret line="82" column="29" lean-forward="false" selection-start-line="82" selection-start-column="23" selection-end-line="82" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#652#661#0" expanded="true" />
                 <element signature="e#723#730#0" expanded="true" />
                 <element signature="e#2712#2721#0" expanded="true" />
-                <element signature="e#3444#3677#0" expanded="true" />
-                <element signature="e#3676#3677#0" expanded="true" />
-                <element signature="e#12746#12759#0" expanded="true" />
-                <element signature="e#14867#14876#0" expanded="true" />
-                <element signature="e#15366#15375#0" expanded="true" />
-                <element signature="e#17497#17506#0" expanded="true" />
-                <element signature="e#17560#17569#0" expanded="true" />
-                <marker date="1499578538000" expanded="true" signature="11449:11534" ph="..." />
+                <element signature="e#3518#3751#0" expanded="true" />
+                <element signature="e#3750#3751#0" expanded="true" />
+                <element signature="e#12820#12833#0" expanded="true" />
+                <element signature="e#14941#14950#0" expanded="true" />
+                <element signature="e#15440#15449#0" expanded="true" />
+                <element signature="e#17571#17580#0" expanded="true" />
+                <element signature="e#17634#17643#0" expanded="true" />
+                <marker date="1499578826000" expanded="true" signature="11523:11608" ph="..." />
               </folding>
             </state>
           </provider>
@@ -167,6 +150,8 @@
       <find>Homeroom</find>
       <find>processStudentsList</find>
       <find>processEnrollments</find>
+      <find>Economics</find>
+      <find>Economics 13</find>
     </findStrings>
     <replaceStrings>
       <replace>fName</replace>
@@ -831,13 +816,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1499411975756</updated>
-      <workItem from="1499411981570" duration="38520000" />
+      <workItem from="1499411981570" duration="38895000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
     <option name="enabled" value="true" />
-    <option name="totallyTimeSpent" value="38520000" />
+    <option name="totallyTimeSpent" value="38895000" />
     <option name="suspendDelayInSeconds" value="300" />
     <option name="showClosedTasks" value="false" />
   </component>
@@ -852,7 +837,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="833" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -871,7 +855,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2814136" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2814136" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13611111" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1002,21 +986,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Home.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="85" column="8" lean-forward="false" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="8" />
+        <state relative-caret-position="289">
+          <caret line="82" column="29" lean-forward="false" selection-start-line="82" selection-start-column="23" selection-end-line="82" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#652#661#0" expanded="true" />
             <element signature="e#723#730#0" expanded="true" />
             <element signature="e#2712#2721#0" expanded="true" />
-            <element signature="e#3444#3677#0" expanded="true" />
-            <element signature="e#3676#3677#0" expanded="true" />
-            <element signature="e#12746#12759#0" expanded="true" />
-            <element signature="e#14867#14876#0" expanded="true" />
-            <element signature="e#15366#15375#0" expanded="true" />
-            <element signature="e#17497#17506#0" expanded="true" />
-            <element signature="e#17560#17569#0" expanded="true" />
-            <marker date="1499578538000" expanded="true" signature="11449:11534" ph="..." />
+            <element signature="e#3518#3751#0" expanded="true" />
+            <element signature="e#3750#3751#0" expanded="true" />
+            <element signature="e#12820#12833#0" expanded="true" />
+            <element signature="e#14941#14950#0" expanded="true" />
+            <element signature="e#15440#15449#0" expanded="true" />
+            <element signature="e#17571#17580#0" expanded="true" />
+            <element signature="e#17634#17643#0" expanded="true" />
+            <marker date="1499578826000" expanded="true" signature="11523:11608" ph="..." />
           </folding>
         </state>
       </provider>
