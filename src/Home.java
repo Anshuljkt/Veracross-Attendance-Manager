@@ -79,11 +79,15 @@ public class Home {
         }
 
         searchID = new ArrayList<Integer>();
-        searchID.add(103074);
-        searchID.add(103075);
-        searchID.add(103076);
-        searchID.add(103077);
-        processEnrollments(searchID);
+        searchID.add(103130);
+        searchID.add(103132);
+//        searchID.add(103076);
+//        searchID.add(103077);
+        
+        results = processEnrollments(searchID);
+        for (Student i : results) {
+            System.out.println(i);
+        }
 
     }
 
@@ -317,68 +321,72 @@ public class Home {
         }
         return results;
     }
-
-    //Method to create the list of student IDs to expect for a certain class using the class IDs.
-    private static ArrayList<Integer> processEnrollments(ArrayList<Integer> IDs) {
-        //First we need to build the URL.
-        String append = "";
-        //TODO: Note that extra comma is always added to end of url. maybe need to counter this later.
-        for (Integer i: IDs) {
-            append = append + i + ",";
-        }
-        enrollmentsURL = enrollmentsURL + append;
-        enrollmentsURL = enrollmentsURL + "&page=";
-        System.out.println(enrollmentsURL);
-
-        //Enrollments Downloader
+    //Enrollment Downloader. Downloads 1 xml file for each received int. Can only do 1 class per call.
+    private static void downloadEnrollments(int ID) {
         try {
-            //First connects to the Veracross API and view page 1 of enrollments, and collect the total number of objects from the XML response header.
-            URL web = new URL(enrollmentsURL + 1);
+            //First set URL to be used this time. It needs to be based on enrollmentsURL, and replaced for every method call.
+            String classURL = enrollmentsURL+ID+"&page=";
+            System.out.println(classURL);
+            //First connects to the Veracross API and view page 1 of this enrollments.xml, and collects the total number of objects from the XML response header.
+            URL web = new URL(classURL + 1);
             URLConnection connection = web.openConnection();
             int enrollmentsObjectCount = Integer.parseInt(connection.getHeaderField("x-total-count")); //This returns a value like 218, which is then converted to an int.
             enrollmentsPagesCount = (enrollmentsObjectCount / 100) + 1; //Now this will set the number of pages needed to be traversed, based on the fact that there are max 100 objects per page.
             //Now, we should have the pages of enrollments for the classes selected.
             for (int i = 1; i <= enrollmentsPagesCount; i++) {
-                URL website = new URL(enrollmentsURL + i);
+                URL website = new URL(classURL + i);
                 ReadableByteChannel rbc = Channels.newChannel(website.openStream());
-                FileOutputStream fos = new FileOutputStream("xmls/enrollments" + i + ".xml");
+                FileOutputStream fos = new FileOutputStream("xmls/enrollments-" + ID + "-" + i + ".xml");
                 fos.getChannel().transferFrom(rbc, 0, Long.MAX_VALUE);
-                System.out.println("Downloaded Enrollments File " + i + "/" + enrollmentsPagesCount + ".");
 
             }
         } catch (Exception e) {
             System.out.println("URL Downloading Error");
         }
+    }
+    //Method to create the list of student IDs to expect for a certain class using the class IDs.
+    private static ArrayList<Student> processEnrollments(ArrayList<Integer> IDs) {
+        ArrayList<Integer> studentIDs = new ArrayList<Integer>();
+        ArrayList<Student> results = new ArrayList<Student>();
+        int count = 0;
+        //Need to repeat one time for each ID there is.
+        for (Integer i: IDs) {
+            //Download first.
+            downloadEnrollments(i);
+            count++;
+            System.out.println("Downloaded Enrollments for class " + count + "/" + IDs.size() + ".");
 
+            //Now to process
+            try {
+                //Creates a new DocumentBuilder to handle the xml file using Java DOM Parser
+                DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+                DocumentBuilder builder = factory.newDocumentBuilder();
 
-        //TODO: Download the class enrollments and stuff and save to a file called enrollments.xml.
-        ArrayList<Integer> results = new ArrayList<Integer>();
-        try {
-            //Creates a new DocumentBuilder to handle the xml file using Java DOM Parser
-            DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
-            DocumentBuilder builder = factory.newDocumentBuilder();
+                for (int x = 1; x <= enrollmentsPagesCount; x++) {
+                    Document document = builder.parse(new File("xmls/enrollments-" + i + "-" + x + ".xml"));
+                    Element root = document.getDocumentElement();
 
-            for (int x = 1; x <= enrollmentsPagesCount; x++) {
-                Document document = builder.parse(new File("xmls/enrollments" + x + ".xml"));
-                Element root = document.getDocumentElement();
-
-                //Create a temporary list that creates a node for each enrollment object in the xml file received.
-                NodeList tempList = document.getElementsByTagName("enrollment");
-                //for loop that feeds the relevant data into the students ArrayList as new objects.
-                for (int i = 0; i < tempList.getLength(); i++) {
-                    Node current = tempList.item(i);
-                    if (current.getNodeName().equalsIgnoreCase("enrollment")) {
-                        Element eElement = (Element) current;
-                        int id = Integer.parseInt(eElement.getElementsByTagName("student_fk").item(0).getTextContent());
-
-                        //ID received, now add to the arrayList of students.
-                        results.add(id);
+                    //Create a temporary list that creates a node for each enrollment object in the xml file received.
+                    NodeList tempList = document.getElementsByTagName("enrollment");
+                    //for loop that feeds the relevant data into the students ArrayList as new objects.
+                    for (int z = 0; z < tempList.getLength(); z++) {
+                        Node current = tempList.item(z);
+                        if (current.getNodeName().equalsIgnoreCase("enrollment")) {
+                            Element eElement = (Element) current;
+                            int id = Integer.parseInt(eElement.getElementsByTagName("student_fk").item(0).getTextContent());
+                            //ID received, now add to the arrayList of studentIDs.
+                            studentIDs.add(id);
+                        }
                     }
                 }
+            } catch (Exception e) {
+                e.printStackTrace();
             }
-        } catch (Exception e) {
-            e.printStackTrace();
+
         }
+        //Now we have an ArrayList of Integers that has the ID numbers of students that we want to use.
+        //We can use the search function that takes an integer array and returns the appropriate students arrayList.
+        results = search(studentIDs);
         return results;
     }
 }
