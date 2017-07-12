@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enrollments type="array">
+  <enrollment>
+<enrollment_pk type="integer">306993</enrollment_pk>
+<class_fk type="integer">97671</class_fk>
+<student_fk type="integer">25163</student_fk>
+<currently_enrolled type="boolean">true</currently_enrolled>
+<date_withdrawn/>
+<late_date_enrolled/>
+<level/>
+<fee_paid type="boolean">false</fee_paid>
+<update_date type="date">2017-07-02</update_date>
+  </enrollment>
+  <enrollment>
+<enrollment_pk type="integer">307513</enrollment_pk>
+<class_fk type="integer">97488</class_fk>
+<student_fk type="integer">25163</student_fk>
+<currently_enrolled type="boolean">true</currently_enrolled>
+<date_withdrawn/>
+<late_date_enrolled/>
+<level/>
+<fee_paid type="boolean">false</fee_paid>
+<update_date type="date">2017-07-05</update_date>
+  </enrollment>
+</enrollments>

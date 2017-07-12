@@ -1659,7 +1659,7 @@
   </class>
   <class>
 <class_pk type="integer">97520</class_pk>
-<class_id>08-ENG-LA.8C</class_id>
+<class_id>08-ENG-LA.8A</class_id>
 <group_fk type="integer">0</group_fk>
 <group_id>0-2005-0-0-0-0-0-0</group_id>
 <school_year type="integer">2017</school_year>
@@ -1667,7 +1667,7 @@
 <primary_grade_level>Year 8</primary_grade_level>
 <course>IB MYP: English 08 Language Acquisition</course>
 <course_id type="integer">1883</course_id>
-<description>English Language Acquisition 08 (8C)</description>
+<description>English Language Acquisition 08</description>
 <subject>English Language Acquisition</subject>
 <course_type>Academic</course_type>
 <grading_method>Numeric</grading_method>
@@ -1679,7 +1679,7 @@
 <teacher_fk type="integer">10125</teacher_fk>
 <teacher_full_name>Alan Kennedy</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-07-07T10:48:00-05:00</update_date>
+<update_date type="datetime">2017-07-10T22:26:00-05:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">10125</person_fk>
@@ -2668,10 +2668,34 @@
 <update_date type="datetime">2017-07-07T10:48:00-05:00</update_date>
 <teachers type="array">
   <teacher>
+    <person_fk type="integer">11209</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Jay Priebe</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+  <teacher>
     <person_fk type="integer">26217</person_fk>
     <role_id type="integer">1</role_id>
     <role>Primary Teacher</role>
     <teacher_name>Caitlin Bell</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">28901</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Chutawat Luangsa-ard</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">38211</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Mohammad Bhuiyan</teacher_name>
     <update_grade type="boolean">true</update_grade>
     <view_grades type="boolean">true</view_grades>
   </teacher>

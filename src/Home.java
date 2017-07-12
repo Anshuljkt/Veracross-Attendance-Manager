@@ -26,15 +26,35 @@ public class Home {
     private static int studentPagesCount = 100;
     private static int classesPagesCount = 100;
     private static int enrollmentsPagesCount = 100;
+    private static int studentEnrollmentsPagesCount = 100;
     private static String studentsURL = "https://api.veracross.com/nist/v2/students.xml?grade_level=12,13&page=";
     private static String classesURL = "https://api.veracross.com/nist/v2/classes.xml?school_level=4&page=";
     private static String enrollmentsURL = "https://api.veracross.com/nist/v2/enrollments.xml?class=";
+    private static String studentEnrollments = "https://api.veracross.com/nist/v2/enrollments.xml?student=";
     private static boolean onlyNonAcademic = false; //Choose whether you want only NonAcademic courses or not.
 
     public static void main(String[] args) {
 
         homePage();
 
+    }
+
+    public static void printClasses() {
+        for (Class i : classes) {
+            System.out.println(i);
+        }
+    }
+
+    public static void printStudents() {
+        for (Student i : students) {
+            System.out.println(i);
+        }
+    }
+
+    public static void printArrayList(ArrayList x) {
+        for (Object i : x) {
+            System.out.println(i);
+        }
     }
 
     public static void homePage() {
@@ -46,7 +66,7 @@ public class Home {
 //        } else {
 //            System.exit(0);
 //        }
-        String toDownload = "none";
+        String toDownload = "students";
 
         //In case no appropriate files exist, override and download them all anyway.
         File check = new File("xmls/students1.xml");
@@ -59,35 +79,31 @@ public class Home {
         String[] search2 = {"Year 13"};
         String[] search3 = {"Year 12", "Year 13"};
         System.out.println("SEARCHING");
-        ArrayList<Student> results = search(search2);
+        ArrayList<Student> results = searchStudents(search2);
+
+//        printArrayList(results);
 
         ArrayList<Integer> searchID = new ArrayList<Integer>();
-        searchID.add(25162);
-        searchID.add(4316);
-        searchID.add(3914);
-        searchID.add(3929);
 
-        results = search(searchID);
-        for (Student i : results) {
-            System.out.println(i);
-        }
 
         searchID = new ArrayList<Integer>();
-        searchID.add(103112);
-        searchID.add(103132);
-        searchID.add(103076);
-        searchID.add(103077);
+        searchID.add(25162);
+//        searchID.add(3914);
+//        searchID.add(103076);
+//        searchID.add(103077);
 
-        results = processEnrollments(searchID);
-        Collections.sort(results);
-        for (Student i : results) {
-            System.out.println(i);
-        }
+        results = processEnrollments(searchID, true);
+        printArrayList(results);
+//        Collections.sort(results);
+//        for (Student i : results) {
+//            System.out.println(i);
+//        }
 
 //        for (Class i : classes) {
 //            System.out.println(i);
 //        }
 
+//        printClasses();
     }
 
 
@@ -278,11 +294,11 @@ public class Home {
 
                         //Conditions for a valid class.
                         boolean validType = ((type.equalsIgnoreCase("Academic")) || (type.equalsIgnoreCase("Homeroom")));
-                        boolean p1Class = (subject.equalsIgnoreCase("House Class"));
+                        boolean homeroomAdvisory = (subject.equalsIgnoreCase("House Class") || subject.equalsIgnoreCase("Advisory"));
                         boolean y12_13 = (grade.equalsIgnoreCase("Year 12") || grade.equalsIgnoreCase("Year 13"));
                         boolean validTeacher = !(teacherName.equalsIgnoreCase(""));
                         //Finally add new Class object, if it meets above conditions.
-                        if ((p1Class || validType) && y12_13 && validTeacher) {
+                        if ((homeroomAdvisory || validType) && y12_13 && validTeacher) {
                             classes.add(new Class(name, id, stringID, grade, teacherName, type, meetingTimes));
                         }
                     }
@@ -294,7 +310,7 @@ public class Home {
     }
 
     //Method to pull students out based on their Year Levels - Uses String instead of Integer as parameters to leave that for ID-based search.
-    private static ArrayList<Student> search(String[] yearLevels) {
+    private static ArrayList<Student> searchStudents(String[] yearLevels) {
         //This method will take an int array of Year Levels to search for.
         //As a result, we now need to traverse the student ArrayList and check for matches with any items in the provided int array.
         ArrayList<Student> results = new ArrayList<Student>();
@@ -310,7 +326,7 @@ public class Home {
     }
 
     //Method to pull students out based on their ID numbers.
-    private static ArrayList<Student> search(ArrayList<Integer> IDs) {
+    private static ArrayList<Student> searchStudents(ArrayList<Integer> IDs) {
         ArrayList<Student> results = new ArrayList<Student>();
         for (Student i : students) {
             int currentID = i.getId();
@@ -322,8 +338,22 @@ public class Home {
         }
         return results;
     }
+
+    private static ArrayList<Class> searchClasses(ArrayList<Integer> IDs) {
+        ArrayList<Class> results = new ArrayList<Class>();
+        for (Class i : classes) {
+            int currentID = i.getId();
+            for (int comparing : IDs) {
+                if (currentID == comparing) {
+                    results.add(i);
+                }
+            }
+        }
+        return results;
+    }
+
     //Enrollment Downloader. Downloads 1 xml file for each received int. Can only do 1 class per call.
-    private static void downloadEnrollments(int ID) {
+    private static void downloadEnrollments(int ID, String path) {
 //        //First need to delete all the enrollment files that already exist.
 //        File folder = new File("xmls/");
 //        for (File f: folder.listFiles()) {
@@ -343,7 +373,7 @@ public class Home {
             for (int i = 1; i <= enrollmentsPagesCount; i++) {
                 URL website = new URL(classURL + i);
                 ReadableByteChannel rbc = Channels.newChannel(website.openStream());
-                FileOutputStream fos = new FileOutputStream("xmls/enrollments-" + ID + "-" + i + ".xml");
+                FileOutputStream fos = new FileOutputStream(path + ID + "-" + i + ".xml");
                 fos.getChannel().transferFrom(rbc, 0, Long.MAX_VALUE);
 
             }
@@ -351,24 +381,50 @@ public class Home {
             System.out.println("URL Downloading Error");
         }
     }
-    //Method to create the list of student IDs to expect for a certain class using the class IDs.
-    private static ArrayList<Student> processEnrollments(ArrayList<Integer> IDs) {
-        ArrayList<Integer> studentIDs = new ArrayList<Integer>();
-        ArrayList<Student> results = new ArrayList<Student>();
+
+    //Method to create the list of student IDs to expect for a certain class/student using the class/student IDs.
+    private static ArrayList processEnrollments(ArrayList<Integer> IDs, boolean studentEnrollments) {
+        ArrayList<Integer> receivedIDs = new ArrayList<Integer>();
+
+        ArrayList results;
+
+        if (studentEnrollments) {
+            results = new ArrayList<Class>();
+            enrollmentsURL = "https://api.veracross.com/nist/v2/enrollments.xml?student=";
+        } else {
+            results = new ArrayList<Student>();
+        }
+
+//        ArrayList<Student> results = new ArrayList<Student>();
+
         int count = 0;
         //Need to repeat one time for each ID there is.
         for (Integer i: IDs) {
-            String className = ""; //We want to print the name of the Class
-            for (Class x : classes) {
-                if (x.getId()==i) {
-                    className = x.getName();
+            String name = ""; //We want to print the name of the Class/Student.
+            if (studentEnrollments) {
+                for (Student x : students) {
+                    if (x.getId()==i) {
+                        name = x.getfName();
+                    }
+                }
+            } else {
+                for (Class x : classes) {
+                    if (x.getId() == i) {
+                        name = x.getName();
+                    }
                 }
             }
             //Download first.
-            downloadEnrollments(i);
+            String path = "xmls/enrollments-";
+
+            if (studentEnrollments) {
+                path = "xmls/studentEnrollments-";
+            }
+
+            downloadEnrollments(i, path);
             count++;
-            System.out.println("Downloaded Enrollments for class " + count + "/" + IDs.size() + ".");
-            System.out.println("Enrollments for " + className + ":");
+            System.out.println("Downloaded Enrollments " + count + "/" + IDs.size() + ".");
+            System.out.println("Enrollments for " + name + ":");
             //Now to process
             try {
                 //Creates a new DocumentBuilder to handle the xml file using Java DOM Parser
@@ -376,7 +432,7 @@ public class Home {
                 DocumentBuilder builder = factory.newDocumentBuilder();
 
                 for (int x = 1; x <= enrollmentsPagesCount; x++) {
-                    Document document = builder.parse(new File("xmls/enrollments-" + i + "-" + x + ".xml"));
+                    Document document = builder.parse(new File(path + i + "-" + x + ".xml"));
                     Element root = document.getDocumentElement();
 
                     //Create a temporary list that creates a node for each enrollment object in the xml file received.
@@ -386,9 +442,14 @@ public class Home {
                         Node current = tempList.item(z);
                         if (current.getNodeName().equalsIgnoreCase("enrollment")) {
                             Element eElement = (Element) current;
-                            int id = Integer.parseInt(eElement.getElementsByTagName("student_fk").item(0).getTextContent());
-                            //ID received, now add to the arrayList of studentIDs.
-                            studentIDs.add(id);
+                            int id = -1;
+                            if (studentEnrollments) {
+                                id = Integer.parseInt(eElement.getElementsByTagName("class_fk").item(0).getTextContent());
+                            } else {
+                                id = Integer.parseInt(eElement.getElementsByTagName("student_fk").item(0).getTextContent());
+                            }
+                            //ID received, now add to the arrayList of receivedIDs.
+                            receivedIDs.add(id);
                         }
                     }
                 }
@@ -397,9 +458,14 @@ public class Home {
             }
 
         }
-        //Now we have an ArrayList of Integers that has the ID numbers of students that we want to use.
-        //We can use the search function that takes an integer array and returns the appropriate students arrayList.
-        results = search(studentIDs);
+        //Now we have an ArrayList of Integers that has the ID numbers of students/classes that we want to use.
+        //We can use the search function that takes an integer array and returns the appropriate students/classes arrayList.
+        if (studentEnrollments) {
+            results = searchClasses(receivedIDs);
+        }
+        else {
+            results = searchStudents(receivedIDs);
+        }
         return results;
     }
 }
