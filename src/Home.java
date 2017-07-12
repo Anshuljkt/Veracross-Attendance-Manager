@@ -17,9 +17,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 
-/**
- * Created by 18anshula on 7/7/17 at 12:55 PM.
- */
+ //Created by Anshul Agrawal on 7/7/17 at 12:55 PM.
+
 public class Home {
     public static ArrayList<Student> students = new ArrayList<Student>();
     public static ArrayList<Class> classes = new ArrayList<Class>();
@@ -31,7 +30,6 @@ public class Home {
     private static String classesURL = "https://api.veracross.com/nist/v2/classes.xml?school_level=4&page=";
     private static String enrollmentsURL = "https://api.veracross.com/nist/v2/enrollments.xml?class=";
     private static String studentEnrollments = "https://api.veracross.com/nist/v2/enrollments.xml?student=";
-    private static boolean onlyNonAcademic = false; //Choose whether you want only NonAcademic courses or not.
 
     public static void main(String[] args) {
 
@@ -57,6 +55,11 @@ public class Home {
         }
     }
 
+    //This method will be used later to print out alerts for the user somehow.
+    public static void print(Object x) {
+        System.out.println(x);
+    }
+
     public static void homePage() {
         Scanner scan = new Scanner(System.in);
 //        System.out.println("Start?");
@@ -66,7 +69,7 @@ public class Home {
 //        } else {
 //            System.exit(0);
 //        }
-        String toDownload = "students";
+        String toDownload = "both";
 
         //In case no appropriate files exist, override and download them all anyway.
         File check = new File("xmls/students1.xml");
@@ -78,10 +81,10 @@ public class Home {
         String[] search1 = {"Year 12"};
         String[] search2 = {"Year 13"};
         String[] search3 = {"Year 12", "Year 13"};
-        System.out.println("SEARCHING");
+        print("SEARCHING");
         ArrayList<Student> results = searchStudents(search2);
 
-//        printArrayList(results);
+        printArrayList(results);
 
         ArrayList<Integer> searchID = new ArrayList<Integer>();
 
@@ -93,7 +96,7 @@ public class Home {
 //        searchID.add(103077);
 
         results = processEnrollments(searchID, true);
-        printArrayList(results);
+//        printArrayList(results);
 //        Collections.sort(results);
 //        for (Student i : results) {
 //            System.out.println(i);
@@ -120,19 +123,28 @@ public class Home {
         //Checks object count and sets studentPagesCount and classesPagesCount accordingly.
         try {
             if (toDownload.equalsIgnoreCase("both") || toDownload.equalsIgnoreCase("students")) {
+                //First need to delete all the student files that already exist.
+                File folder = new File("xmls/");
+                for (File f : folder.listFiles()) {
+                    if (f.getName().startsWith("students")) {
+                        f.delete();
+                    }
+                }
                 //First connects to the Veracross API and view page 1 of students, and collect the total number of objects from the XML response header.
                 URL web = new URL(studentsURL + 1);
                 URLConnection connection = web.openConnection();
                 int studentObjectCount = Integer.parseInt(connection.getHeaderField("x-total-count")); //This returns a value like 218, which is then converted to an int.
                 studentPagesCount = (studentObjectCount / 100) + 1; //Now this will set the number of pages needed to be traversed, based on the fact that there are max 100 objects per page.
                 downloadStudents(); //This will download the correct number of files, so that all the Y12-13 students are covered.
-                System.out.println("Student files have been downloaded.");
+                print("Student files have been downloaded.");
             }
             if (toDownload.equalsIgnoreCase("both") || toDownload.equalsIgnoreCase("classes")) {
-                if (onlyNonAcademic) {
-                    classesURL = "https://api.veracross.com/nist/v2/classes.xml?course_type=10&school_level=4&page=";
-                } else {
-                    classesURL = classesURL;
+                //First need to delete all the classes files that already exist.
+                File folder = new File("xmls/");
+                for (File f : folder.listFiles()) {
+                    if (f.getName().startsWith("classes")) {
+                        f.delete();
+                    }
                 }
                 //Do the same thing again for classes:
                 URL web2 = new URL(classesURL + 1);
@@ -140,13 +152,13 @@ public class Home {
                 int classesObjectCount = Integer.parseInt(connection2.getHeaderField("x-total-count"));
                 classesPagesCount = (classesObjectCount / 100) + 1;
                 downloadClasses();
-                System.out.println("Classes files have been downloaded.");
+                print("Classes files have been downloaded.");
             }
             if (toDownload.equalsIgnoreCase("none")) {
-                System.out.println("ALERT: Student and Class lists have not been downloaded. May result in inaccuracies.");
+                print("ALERT: Student and Class lists have not been downloaded. May result in inaccuracies.");
             }
         } catch (NumberFormatException e) { //This checks for Veracross Servers being down or not.
-            System.out.println("NOTE: The program was not able to connect to the Veracross servers. Please check your Internet Connection. \n" +
+            print("NOTE: The program was not able to connect to the Veracross servers. Please check your Internet Connection. \n" +
                     "Otherwise, Veracross Servers may be down. The program may not work as intended.");
 //            homePage();
         } catch (Exception e) {
@@ -167,11 +179,11 @@ public class Home {
                 ReadableByteChannel rbc = Channels.newChannel(website.openStream());
                 FileOutputStream fos = new FileOutputStream("xmls/students" + i + ".xml");
                 fos.getChannel().transferFrom(rbc, 0, Long.MAX_VALUE);
-                System.out.println("Downloaded Students File " + i + "/" + studentPagesCount + ".");
+                print("Downloaded Students File " + i + "/" + studentPagesCount + ".");
 
             }
         } catch (Exception e) {
-            System.out.println("URL Downloading Error");
+            print("URL Downloading Error");
         }
     }
 
@@ -230,11 +242,11 @@ public class Home {
                 ReadableByteChannel rbc = Channels.newChannel(website.openStream());
                 FileOutputStream fos = new FileOutputStream("xmls/classes" + i + ".xml");
                 fos.getChannel().transferFrom(rbc, 0, Long.MAX_VALUE);
-                System.out.println("Downloaded Classes File " + i + "/" + classesPagesCount + ".");
+                print("Downloaded Classes File " + i + "/" + classesPagesCount + ".");
 
             }
         } catch (Exception e) {
-            System.out.println("URL Downloading Error");
+            print("URL Downloading Error");
         }
     }
 
@@ -363,7 +375,7 @@ public class Home {
 //        }
         try {
             //First set URL to be used this time. It needs to be based on enrollmentsURL, and replaced for every method call.
-            String classURL = enrollmentsURL+ID+"&page=";
+            String classURL = enrollmentsURL + ID + "&page=";
             //First connects to the Veracross API and view page 1 of this enrollments.xml, and collects the total number of objects from the XML response header.
             URL web = new URL(classURL + 1);
             URLConnection connection = web.openConnection();
@@ -378,7 +390,7 @@ public class Home {
 
             }
         } catch (Exception e) {
-            System.out.println("URL Downloading Error");
+            print("URL Downloading Error");
         }
     }
 
@@ -399,11 +411,11 @@ public class Home {
 
         int count = 0;
         //Need to repeat one time for each ID there is.
-        for (Integer i: IDs) {
+        for (Integer i : IDs) {
             String name = ""; //We want to print the name of the Class/Student.
             if (studentEnrollments) {
                 for (Student x : students) {
-                    if (x.getId()==i) {
+                    if (x.getId() == i) {
                         name = x.getfName();
                     }
                 }
@@ -423,8 +435,8 @@ public class Home {
 
             downloadEnrollments(i, path);
             count++;
-            System.out.println("Downloaded Enrollments " + count + "/" + IDs.size() + ".");
-            System.out.println("Enrollments for " + name + ":");
+            print("Downloaded Enrollments " + count + "/" + IDs.size() + ".");
+            print("Enrollments for " + name + ":");
             //Now to process
             try {
                 //Creates a new DocumentBuilder to handle the xml file using Java DOM Parser
@@ -462,8 +474,7 @@ public class Home {
         //We can use the search function that takes an integer array and returns the appropriate students/classes arrayList.
         if (studentEnrollments) {
             results = searchClasses(receivedIDs);
-        }
-        else {
+        } else {
             results = searchStudents(receivedIDs);
         }
         return results;
