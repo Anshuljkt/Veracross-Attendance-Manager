@@ -17,7 +17,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 
- //Created by Anshul Agrawal on 7/7/17 at 12:55 PM.
+//Created by Anshul Agrawal on 7/7/17 at 12:55 PM.
 
 public class Home {
     public static ArrayList<Student> students = new ArrayList<Student>();
@@ -80,12 +80,15 @@ public class Home {
 
         ArrayList<Integer> searchID = new ArrayList<Integer>();
         searchID.add(25162);
-//        searchID.add(3914);
+        searchID.add(3914);
 //        searchID.add(103076);
 //        searchID.add(103077);
+        for (Integer i : searchID) {
+            ArrayList results = processEnrollments(i, searchID.size(), true);
+            printArrayList(results);
+        }
 
-        ArrayList results = processEnrollments(searchID, true);
-        printArrayList(results);
+//        printArrayList(results);
     }
 
 
@@ -374,11 +377,10 @@ public class Home {
     }
 
     //Method to create the list of student IDs to expect for a certain class/student using the class/student IDs.
-    private static ArrayList processEnrollments(ArrayList<Integer> IDs, boolean studentEnrollments) {
+    //OLD //private static ArrayList processEnrollments(ArrayList<Integer> IDs, boolean studentEnrollments) {
+    private static ArrayList processEnrollments(int i, int size, boolean studentEnrollments) {
         ArrayList<Integer> receivedIDs = new ArrayList<Integer>();
-
         ArrayList results;
-
         if (studentEnrollments) {
             results = new ArrayList<Class>();
             enrollmentsURL = "https://api.veracross.com/nist/v2/enrollments.xml?student=";
@@ -390,65 +392,66 @@ public class Home {
 
         int count = 0;
         //Need to repeat one time for each ID there is.
-        for (Integer i : IDs) {
-            String name = ""; //We want to print the name of the Class/Student.
-            if (studentEnrollments) {
-                for (Student x : students) {
-                    if (x.getId() == i) {
-                        name = x.getfName();
-                    }
-                }
-            } else {
-                for (Class x : classes) {
-                    if (x.getId() == i) {
-                        name = x.getName();
-                    }
+        //OLD //for (Integer i : IDs) {
+        String name = ""; //We want to print the name of the Class/Student.
+        if (studentEnrollments) {
+            for (Student x : students) {
+                if (x.getId() == i) {
+                    name = x.getfName();
                 }
             }
-            //Download first.
-            String path = "xmls/enrollments-";
-
-            if (studentEnrollments) {
-                path = "xmls/studentEnrollments-";
-            }
-
-            downloadEnrollments(i, path);
-            count++;
-            print("Downloaded Enrollments " + count + "/" + IDs.size() + ".");
-//            print("Enrollments for " + name + ":");
-            //Now to process
-            try {
-                //Creates a new DocumentBuilder to handle the xml file using Java DOM Parser
-                DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
-                DocumentBuilder builder = factory.newDocumentBuilder();
-
-                for (int x = 1; x <= enrollmentsPagesCount; x++) {
-                    Document document = builder.parse(new File(path + i + "-" + x + ".xml"));
-                    Element root = document.getDocumentElement();
-
-                    //Create a temporary list that creates a node for each enrollment object in the xml file received.
-                    NodeList tempList = document.getElementsByTagName("enrollment");
-                    //for loop that feeds the relevant data into the students ArrayList as new objects.
-                    for (int z = 0; z < tempList.getLength(); z++) {
-                        Node current = tempList.item(z);
-                        if (current.getNodeName().equalsIgnoreCase("enrollment")) {
-                            Element eElement = (Element) current;
-                            int id = -1;
-                            if (studentEnrollments) {
-                                id = Integer.parseInt(eElement.getElementsByTagName("class_fk").item(0).getTextContent());
-                            } else {
-                                id = Integer.parseInt(eElement.getElementsByTagName("student_fk").item(0).getTextContent());
-                            }
-                            //ID received, now add to the arrayList of receivedIDs.
-                            receivedIDs.add(id);
-                        }
-                    }
+        } else {
+            for (Class x : classes) {
+                if (x.getId() == i) {
+                    name = x.getName();
                 }
-            } catch (Exception e) {
-//                e.printStackTrace();
             }
-
         }
+        //Download first.
+        String path = "xmls/enrollments-";
+
+        if (studentEnrollments) {
+            path = "xmls/studentEnrollments-";
+        }
+
+        downloadEnrollments(i, path);
+//        count++;
+//        print("Downloaded Enrollments " + count + "/" + IDs.size() + ".");
+        print("Enrollments for " + name + ":");
+    //OLD //}
+        //Now to process
+        try {
+            //Creates a new DocumentBuilder to handle the xml file using Java DOM Parser
+            DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+            DocumentBuilder builder = factory.newDocumentBuilder();
+
+            for (int x = 1; x <= enrollmentsPagesCount; x++) {
+                Document document = builder.parse(new File(path + i + "-" + x + ".xml"));
+                Element root = document.getDocumentElement();
+
+                //Create a temporary list that creates a node for each enrollment object in the xml file received.
+                NodeList tempList = document.getElementsByTagName("enrollment");
+                //for loop that feeds the relevant data into the students ArrayList as new objects.
+                for (int z = 0; z < tempList.getLength(); z++) {
+                    Node current = tempList.item(z);
+                    if (current.getNodeName().equalsIgnoreCase("enrollment")) {
+                        Element eElement = (Element) current;
+                        int id = -1;
+                        if (studentEnrollments) {
+                            id = Integer.parseInt(eElement.getElementsByTagName("class_fk").item(0).getTextContent());
+                        } else {
+                            id = Integer.parseInt(eElement.getElementsByTagName("student_fk").item(0).getTextContent());
+                        }
+                        //ID received, now add to the arrayList of receivedIDs.
+                        receivedIDs.add(id);
+                    }
+                }
+            }
+        } catch (Exception e) {
+//                e.printStackTrace();
+        }
+
+
         //Now we have an ArrayList of Integers that has the ID numbers of students/classes that we want to use.
         //We can use the search function that takes an integer array and returns the appropriate students/classes arrayList.
         if (studentEnrollments) {
