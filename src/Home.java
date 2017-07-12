@@ -69,7 +69,7 @@ public class Home {
 //        } else {
 //            System.exit(0);
 //        }
-        String toDownload = "both";
+        String toDownload = "none";
 
         //In case no appropriate files exist, override and download them all anyway.
         File check = new File("xmls/students1.xml");
@@ -78,35 +78,14 @@ public class Home {
         }
         initialize(toDownload); //This allows you to decide which sets of data to (re)Download.
 
-        String[] search1 = {"Year 12"};
-        String[] search2 = {"Year 13"};
-        String[] search3 = {"Year 12", "Year 13"};
-        print("SEARCHING");
-        ArrayList<Student> results = searchStudents(search2);
-
-        printArrayList(results);
-
         ArrayList<Integer> searchID = new ArrayList<Integer>();
-
-
-        searchID = new ArrayList<Integer>();
         searchID.add(25162);
 //        searchID.add(3914);
 //        searchID.add(103076);
 //        searchID.add(103077);
 
-        results = processEnrollments(searchID, true);
-//        printArrayList(results);
-//        Collections.sort(results);
-//        for (Student i : results) {
-//            System.out.println(i);
-//        }
-
-//        for (Class i : classes) {
-//            System.out.println(i);
-//        }
-
-//        printClasses();
+        ArrayList results = processEnrollments(searchID, true);
+        printArrayList(results);
     }
 
 
@@ -436,7 +415,7 @@ public class Home {
             downloadEnrollments(i, path);
             count++;
             print("Downloaded Enrollments " + count + "/" + IDs.size() + ".");
-            print("Enrollments for " + name + ":");
+//            print("Enrollments for " + name + ":");
             //Now to process
             try {
                 //Creates a new DocumentBuilder to handle the xml file using Java DOM Parser
