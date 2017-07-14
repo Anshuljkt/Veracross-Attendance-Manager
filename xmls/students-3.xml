@@ -600,7 +600,7 @@
 <birthday>2001-04-24</birthday>
 <gender>Female</gender>
 <ethnicity/>
-<email_1/>
+<email_1>19TanylleA@nist.ac.th</email_1>
 <display_email_1>true</display_email_1>
 <email_2/>
 <display_email_2>false</display_email_2>
@@ -641,7 +641,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username/>
-<update_date>2017-07-12T01:32:00-05:00</update_date>
+<update_date>2017-07-13T21:34:00-05:00</update_date>
   </student>
   <student>
 <household_fk>18862</household_fk>
@@ -824,7 +824,7 @@
 <birthday>2000-08-18</birthday>
 <gender>Male</gender>
 <ethnicity/>
-<email_1/>
+<email_1>18MaxN@nist.ac.th</email_1>
 <display_email_1>false</display_email_1>
 <email_2/>
 <display_email_2>false</display_email_2>
@@ -865,7 +865,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username/>
-<update_date>2017-07-01T02:48:00-05:00</update_date>
+<update_date>2017-07-13T21:52:00-05:00</update_date>
   </student>
   <student>
 <household_fk>20023</household_fk>
@@ -880,7 +880,7 @@
 <birthday>2001-07-25</birthday>
 <gender>Female</gender>
 <ethnicity/>
-<email_1/>
+<email_1>19IsabellaL@nist.ac.th</email_1>
 <display_email_1>false</display_email_1>
 <email_2/>
 <display_email_2>false</display_email_2>
@@ -921,7 +921,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username/>
-<update_date>2017-07-12T01:43:00-05:00</update_date>
+<update_date>2017-07-13T22:08:00-05:00</update_date>
   </student>
   <student>
 <household_fk>20085</household_fk>
@@ -936,7 +936,7 @@
 <birthday>2001-01-20</birthday>
 <gender>Male</gender>
 <ethnicity/>
-<email_1/>
+<email_1>19AliZ@nist.ac.th</email_1>
 <display_email_1>false</display_email_1>
 <email_2/>
 <display_email_2>false</display_email_2>
@@ -977,7 +977,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username/>
-<update_date>2017-07-12T01:57:00-05:00</update_date>
+<update_date>2017-07-13T22:08:00-05:00</update_date>
   </student>
   <student>
 <household_fk>20095</household_fk>
@@ -992,9 +992,9 @@
 <birthday>2001-04-28</birthday>
 <gender>Male</gender>
 <ethnicity/>
-<email_1>pavanpreet2001@gmail.com</email_1>
+<email_1>19PavanG@nist.ac.th</email_1>
 <display_email_1>false</display_email_1>
-<email_2/>
+<email_2>pavanpreet2001@gmail.com</email_2>
 <display_email_2>false</display_email_2>
 <home_phone>+6565245914</home_phone>
 <display_home_phone>false</display_home_phone>
@@ -1033,7 +1033,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username/>
-<update_date>2017-07-12T01:37:00-05:00</update_date>
+<update_date>2017-07-13T22:16:00-05:00</update_date>
   </student>
   <student>
 <household_fk>20147</household_fk>
@@ -1048,13 +1048,69 @@
 <birthday>2001-03-04</birthday>
 <gender>Female</gender>
 <ethnicity/>
-<email_1/>
+<email_1>19TamiS@nist.ac.th</email_1>
 <display_email_1>false</display_email_1>
 <email_2/>
 <display_email_2>false</display_email_2>
 <home_phone>301-310-3485</home_phone>
 <display_home_phone>false</display_home_phone>
 <mobile_phone/>
+<display_mobile_phone>false</display_mobile_phone>
+<advisor_fk>32840</advisor_fk>
+<advisor_name>Jennifer Abreu</advisor_name>
+<homeroom_teacher_fk>30083</homeroom_teacher_fk>
+<homeroom_teacher_name>Jennifer Lacey</homeroom_teacher_name>
+<homeroom>98016</homeroom>
+<roles type="array">
+  <role>
+    <description>Future Student</description>
+  </role>
+</roles>
+<current_grade>Year 12</current_grade>
+<grade_applying_for>Year 12</grade_applying_for>
+<year_applying_for>2017</year_applying_for>
+<resident_status_applying_for>false</resident_status_applying_for>
+<student_group_applying_for>false</student_group_applying_for>
+<campus_applying_for>false</campus_applying_for>
+<school_level>Secondary</school_level>
+<enrollment_status>EN: Newly Enrolled</enrollment_status>
+<new_student>true</new_student>
+<graduation_year>2019</graduation_year>
+<resident_status/>
+<campus/>
+<dorm>IB MYP: Mathematics 10 Standard</dorm>
+<room_number/>
+<floor_number>0</floor_number>
+<bed_number>0</bed_number>
+<mailbox_number/>
+<student_group/>
+<parent_1_fk>46414</parent_1_fk>
+<parent_2_fk>46415</parent_2_fk>
+<parent_3_fk>0</parent_3_fk>
+<parent_4_fk>0</parent_4_fk>
+<username/>
+<update_date>2017-07-13T22:16:00-05:00</update_date>
+  </student>
+  <student>
+<household_fk>20542</household_fk>
+<person_pk>47620</person_pk>
+<name_prefix/>
+<first_name>Thomas</first_name>
+<first_nick_name>Tom (Thomas)</first_nick_name>
+<preferred_name>Tom (Thomas)</preferred_name>
+<middle_name>James</middle_name>
+<last_name>Keep</last_name>
+<name_suffix/>
+<birthday>2001-03-14</birthday>
+<gender>Male</gender>
+<ethnicity/>
+<email_1>tom.j2001@hotmail.com</email_1>
+<display_email_1>false</display_email_1>
+<email_2/>
+<display_email_2>false</display_email_2>
+<home_phone>+65 8305 5985</home_phone>
+<display_home_phone>false</display_home_phone>
+<mobile_phone>+66 9 4821 0889</mobile_phone>
 <display_mobile_phone>false</display_mobile_phone>
 <advisor_fk>0</advisor_fk>
 <advisor_name/>
@@ -1084,11 +1140,11 @@
 <bed_number>0</bed_number>
 <mailbox_number/>
 <student_group/>
-<parent_1_fk>46414</parent_1_fk>
-<parent_2_fk>46415</parent_2_fk>
+<parent_1_fk>47622</parent_1_fk>
+<parent_2_fk>47623</parent_2_fk>
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username/>
-<update_date>2017-07-10T20:35:00-05:00</update_date>
+<update_date>2017-07-13T23:03:00-05:00</update_date>
   </student>
 </students>

@@ -1,0 +1,1748 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classes type="array">
+  <class>
+<class_pk type="integer">105150</class_pk>
+<class_id>U15-G-BASK</class_id>
+<group_fk type="integer">537734</group_fk>
+<group_id>200-2017-4-105150-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Basketball - Girls</course>
+<course_id type="integer">920</course_id>
+<description>U15 Girls Basketball </description>
+<subject>Sport Program</subject>
+<course_type>Athletic Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">28735</teacher_fk>
+<teacher_full_name>Nattakit Ussawachokanan</teacher_full_name>
+<status>Future</status>
+<update_date type="datetime">2017-07-13T15:33:00-05:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">28735</person_fk>
+    <role_id type="integer">10</role_id>
+    <role>Coach</role>
+    <teacher_name>Nattakit Ussawachokanan</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Monday</day>
+    <room>Court 3</room>
+    <block>Sport Period 2</block>
+    <block_abbreviation>SP2</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Thursday</day>
+    <room>Court 1</room>
+    <block>Sport Period 2</block>
+    <block_abbreviation>SP2</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">105151</class_pk>
+<class_id>U19-G-VOLL</class_id>
+<group_fk type="integer">537752</group_fk>
+<group_id>200-2017-4-105151-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Volleyball - Girls</course>
+<course_id type="integer">922</course_id>
+<description>U19 Girls Volleyball </description>
+<subject>Sport Program</subject>
+<course_type>Athletic Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">20520</teacher_fk>
+<teacher_full_name>Orawee Rakkaew</teacher_full_name>
+<status>Future</status>
+<update_date type="datetime">2017-07-13T15:33:00-05:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">20520</person_fk>
+    <role_id type="integer">10</role_id>
+    <role>Coach</role>
+    <teacher_name>Orawee Rakkaew</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Tuesday</day>
+    <room>Court 1</room>
+    <block>Sport Period 8</block>
+    <block_abbreviation>SP8</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Wednesday</day>
+    <room>Court 2</room>
+    <block>Sport Period 5</block>
+    <block_abbreviation>SP5</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Thursday</day>
+    <room>Court 2</room>
+    <block>Sport Period 8</block>
+    <block_abbreviation>SP8</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">105152</class_pk>
+<class_id>U15-B-BASK</class_id>
+<group_fk type="integer">537732</group_fk>
+<group_id>200-2017-4-105152-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Basketball - Boys</course>
+<course_id type="integer">919</course_id>
+<description>U15 Boys Basketball</description>
+<subject>Sport Program</subject>
+<course_type>Athletic Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">28735</teacher_fk>
+<teacher_full_name>Nattakit Ussawachokanan</teacher_full_name>
+<status>Future</status>
+<update_date type="datetime">2017-07-13T15:33:00-05:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">28735</person_fk>
+    <role_id type="integer">10</role_id>
+    <role>Coach</role>
+    <teacher_name>Nattakit Ussawachokanan</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>Monday</day>
+    <room>Court 2</room>
+    <block>Sport Period 5</block>
+    <block_abbreviation>SP5</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>Friday</day>
+    <room>Court 3</room>
+    <block>Sport Period 5</block>
+    <block_abbreviation>SP5</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">105158</class_pk>
+<class_id>U19-BAD-B</class_id>
+<group_fk type="integer">537746</group_fk>
+<group_id>200-2017-4-105158-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Badminton - Boys</course>
+<course_id type="integer">1053</course_id>
+<description>U19 Badminton Boys</description>
+<subject>Sport Program</subject>
+<course_type>Athletic Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">11284</teacher_fk>
+<teacher_full_name>Lapasrada Keomora</teacher_full_name>
+<status>Future</status>
+<update_date type="datetime">2017-07-13T15:33:00-05:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">11284</person_fk>
+    <role_id type="integer">10</role_id>
+    <role>Coach</role>
+    <teacher_name>Lapasrada Keomora</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period/>
+    <day/>
+    <room/>
+    <block/>
+    <block_abbreviation/>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">105159</class_pk>
+<class_id>U19-BAD-G</class_id>
+<group_fk type="integer">537747</group_fk>
+<group_id>200-2017-4-105159-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Badminton - Girls</course>
+<course_id type="integer">1054</course_id>
+<description>U19 Badminton Girls</description>
+<subject>Sport Program</subject>
+<course_type>Athletic Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">11284</teacher_fk>
+<teacher_full_name>Lapasrada Keomora</teacher_full_name>
+<status>Future</status>
+<update_date type="datetime">2017-07-13T15:33:00-05:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">11284</person_fk>
+    <role_id type="integer">10</role_id>
+    <role>Coach</role>
+    <teacher_name>Lapasrada Keomora</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period/>
+    <day/>
+    <room/>
+    <block/>
+    <block_abbreviation/>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">105160</class_pk>
+<class_id>U17-BAD-B</class_id>
+<group_fk type="integer">537738</group_fk>
+<group_id>200-2017-4-105160-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Badminton - Boys</course>
+<course_id type="integer">1053</course_id>
+<description>U17 Badminton Boys</description>
+<subject>Sport Program</subject>
+<course_type>Athletic Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">11284</teacher_fk>
+<teacher_full_name>Lapasrada Keomora</teacher_full_name>
+<status>Future</status>
+<update_date type="datetime">2017-07-13T15:33:00-05:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">11284</person_fk>
+    <role_id type="integer">10</role_id>
+    <role>Coach</role>
+    <teacher_name>Lapasrada Keomora</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period/>
+    <day/>
+    <room/>
+    <block/>
+    <block_abbreviation/>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">105161</class_pk>
+<class_id>U17-BAD-G</class_id>
+<group_fk type="integer">537739</group_fk>
+<group_id>200-2017-4-105161-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Badminton - Girls</course>
+<course_id type="integer">1054</course_id>
+<description>U17 Badminton Girls</description>
+<subject>Sport Program</subject>
+<course_type>Athletic Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">11284</teacher_fk>
+<teacher_full_name>Lapasrada Keomora</teacher_full_name>
+<status>Future</status>
+<update_date type="datetime">2017-07-13T15:33:00-05:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">11284</person_fk>
+    <role_id type="integer">10</role_id>
+    <role>Coach</role>
+    <teacher_name>Lapasrada Keomora</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period/>
+    <day/>
+    <room/>
+    <block/>
+    <block_abbreviation/>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">105179</class_pk>
+<class_id>U19-B-VOLL</class_id>
+<group_fk type="integer">537750</group_fk>
+<group_id>200-2017-4-105179-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Volleyball - Boys</course>
+<course_id type="integer">921</course_id>
+<description>U19 Boys Volleyball</description>
+<subject>Sport Program</subject>
+<course_type>Athletic Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">11392</teacher_fk>
+<teacher_full_name>Thawatchai Sirithet</teacher_full_name>
+<status>Future</status>
+<update_date type="datetime">2017-07-13T15:33:00-05:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">11392</person_fk>
+    <role_id type="integer">10</role_id>
+    <role>Coach</role>
+    <teacher_name>Thawatchai Sirithet</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Monday</day>
+    <room>Court 1</room>
+    <block>Sport Period 8</block>
+    <block_abbreviation>SP8</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Tuesday</day>
+    <room>Court 3</room>
+    <block>Sport Period 8</block>
+    <block_abbreviation>SP8</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Wednesday</day>
+    <room>Court 1</room>
+    <block>Sport Period 5</block>
+    <block_abbreviation>SP5</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">105180</class_pk>
+<class_id>U13-B-BASK</class_id>
+<group_fk type="integer">537729</group_fk>
+<group_id>200-2017-4-105180-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Basketball - Boys</course>
+<course_id type="integer">919</course_id>
+<description>U13 Boys Basketball</description>
+<subject>Sport Program</subject>
+<course_type>Athletic Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">10988</teacher_fk>
+<teacher_full_name>Randall Wallis</teacher_full_name>
+<status>Future</status>
+<update_date type="datetime">2017-07-13T15:33:00-05:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">10988</person_fk>
+    <role_id type="integer">10</role_id>
+    <role>Coach</role>
+    <teacher_name>Randall Wallis</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Monday</day>
+    <room>Court 1</room>
+    <block>Sport Period 2</block>
+    <block_abbreviation>SP2</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Friday</day>
+    <room>Court 1</room>
+    <block>Sport Period 2</block>
+    <block_abbreviation>SP2</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">105181</class_pk>
+<class_id>U19-BASK-B</class_id>
+<group_fk type="integer">537748</group_fk>
+<group_id>200-2017-4-105181-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Basketball - Boys</course>
+<course_id type="integer">919</course_id>
+<description>U19 Basketball Boys</description>
+<subject>Sport Program</subject>
+<course_type>Athletic Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">10988</teacher_fk>
+<teacher_full_name>Randall Wallis</teacher_full_name>
+<status>Future</status>
+<update_date type="datetime">2017-07-13T15:33:00-05:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">10988</person_fk>
+    <role_id type="integer">10</role_id>
+    <role>Coach</role>
+    <teacher_name>Randall Wallis</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period/>
+    <day/>
+    <room>Court 2</room>
+    <block/>
+    <block_abbreviation/>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">105184</class_pk>
+<class_id>U17-VOLL-B</class_id>
+<group_fk type="integer">537745</group_fk>
+<group_id>200-2017-4-105184-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Volleyball - Boys</course>
+<course_id type="integer">921</course_id>
+<description>U17 Boys Volleyball</description>
+<subject>Sport Program</subject>
+<course_type>Athletic Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">11392</teacher_fk>
+<teacher_full_name>Thawatchai Sirithet</teacher_full_name>
+<status>Future</status>
+<update_date type="datetime">2017-07-13T15:33:00-05:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">11392</person_fk>
+    <role_id type="integer">10</role_id>
+    <role>Coach</role>
+    <teacher_name>Thawatchai Sirithet</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Wednesday</day>
+    <room>Court 2</room>
+    <block>Sport Period 8</block>
+    <block_abbreviation>SP8</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Friday</day>
+    <room>Court 2</room>
+    <block>Sport Period 8</block>
+    <block_abbreviation>SP8</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">105185</class_pk>
+<class_id>U13-G-BASK</class_id>
+<group_fk type="integer">537731</group_fk>
+<group_id>200-2017-4-105185-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Basketball - Girls</course>
+<course_id type="integer">920</course_id>
+<description>U13 Girls Basketball </description>
+<subject>Sport Program</subject>
+<course_type>Athletic Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">11124</teacher_fk>
+<teacher_full_name>Artit Pannan</teacher_full_name>
+<status>Future</status>
+<update_date type="datetime">2017-07-13T15:33:00-05:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">11124</person_fk>
+    <role_id type="integer">10</role_id>
+    <role>Coach</role>
+    <teacher_name>Artit Pannan</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Tuesday</day>
+    <room>Court 3</room>
+    <block>Sport Period 2</block>
+    <block_abbreviation>SP2</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Thursday</day>
+    <room>Court 3</room>
+    <block>Sport Period 2</block>
+    <block_abbreviation>SP2</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">105186</class_pk>
+<class_id>U17-G-VOLL</class_id>
+<group_fk type="integer">537742</group_fk>
+<group_id>200-2017-4-105186-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Volleyball - Girls</course>
+<course_id type="integer">922</course_id>
+<description>U17 Girls Volleyball</description>
+<subject>Sport Program</subject>
+<course_type>Athletic Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">11317</teacher_fk>
+<teacher_full_name>Phichate Srichayodidyanon</teacher_full_name>
+<status>Future</status>
+<update_date type="datetime">2017-07-13T15:33:00-05:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">11317</person_fk>
+    <role_id type="integer">10</role_id>
+    <role>Coach</role>
+    <teacher_name>Phichate Srichayodidyanon</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Tuesday</day>
+    <room>Court 1</room>
+    <block>Sport Period 2</block>
+    <block_abbreviation>SP2</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Thursday</day>
+    <room>Court 2</room>
+    <block>Sport Period 2</block>
+    <block_abbreviation>SP2</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">105188</class_pk>
+<class_id>U17-TOR-G</class_id>
+<group_fk type="integer">537744</group_fk>
+<group_id>200-2017-4-105188-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Touch Rugby - Girls</course>
+<course_id type="integer">1018</course_id>
+<description>U17 Touch Rugby Girls</description>
+<subject>Sport Program</subject>
+<course_type>Athletic Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">26229</teacher_fk>
+<teacher_full_name>Nicholas Keam</teacher_full_name>
+<status>Future</status>
+<update_date type="datetime">2017-07-13T15:33:00-05:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">26229</person_fk>
+    <role_id type="integer">10</role_id>
+    <role>Coach</role>
+    <teacher_name>Nicholas Keam</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period/>
+    <day/>
+    <room>Field 1</room>
+    <block/>
+    <block_abbreviation/>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">105189</class_pk>
+<class_id>U15-B-RUGB</class_id>
+<group_fk type="integer">537733</group_fk>
+<group_id>200-2017-4-105189-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Rugby-Boys</course>
+<course_id type="integer">1122</course_id>
+<description>U15 Boys Rugby</description>
+<subject>Sport Program</subject>
+<course_type>Athletic Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">23968</teacher_fk>
+<teacher_full_name>Jarrod Rayner</teacher_full_name>
+<status>Future</status>
+<update_date type="datetime">2017-07-13T15:33:00-05:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">23968</person_fk>
+    <role_id type="integer">10</role_id>
+    <role>Coach</role>
+    <teacher_name>Jarrod Rayner</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Monday</day>
+    <room>Field 2</room>
+    <block>Sport Period 1</block>
+    <block_abbreviation>SP1</block_abbreviation>
+    <start_time/>
+    <end_time>15:45</end_time>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Thursday</day>
+    <room>Field 2</room>
+    <block>Sport Period 1</block>
+    <block_abbreviation>SP1</block_abbreviation>
+    <start_time/>
+    <end_time>15:45</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">105190</class_pk>
+<class_id>U19-B-SOCC</class_id>
+<group_fk type="integer">537749</group_fk>
+<group_id>200-2017-4-105190-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Soccer - Boys</course>
+<course_id type="integer">925</course_id>
+<description>U19 Boys Soccer</description>
+<subject>Sport Program</subject>
+<course_type>Athletic Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">34572</teacher_fk>
+<teacher_full_name>Patrick Keirnan</teacher_full_name>
+<status>Future</status>
+<update_date type="datetime">2017-07-13T15:33:00-05:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">34572</person_fk>
+    <role_id type="integer">10</role_id>
+    <role>Coach</role>
+    <teacher_name>Patrick Keirnan</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Monday</day>
+    <room>Field 1</room>
+    <block>Sport Period 5</block>
+    <block_abbreviation>SP5</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Tuesday</day>
+    <room>Field 1</room>
+    <block>Sport Period 7</block>
+    <block_abbreviation>SP7</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Thursday</day>
+    <room>Field 1</room>
+    <block>Sport Period 7</block>
+    <block_abbreviation>SP7</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">105194</class_pk>
+<class_id>SEA-G-SOC</class_id>
+<group_fk type="integer">537728</group_fk>
+<group_id>200-2017-4-105194-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Soccer - Girls</course>
+<course_id type="integer">926</course_id>
+<description>SEASAC Girls Soccer</description>
+<subject>Sport Program</subject>
+<course_type>Athletic Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">32833</teacher_fk>
+<teacher_full_name>Chantel Marson</teacher_full_name>
+<status>Future</status>
+<update_date type="datetime">2017-07-13T15:33:00-05:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">18543</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Erik Bohm</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">32833</person_fk>
+    <role_id type="integer">10</role_id>
+    <role>Coach</role>
+    <teacher_name>Chantel Marson</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>Monday</day>
+    <room>Field 2</room>
+    <block>Sport Period 6</block>
+    <block_abbreviation>SP6</block_abbreviation>
+    <start_time/>
+    <end_time>17:15</end_time>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>Wednesday</day>
+    <room>Field 1</room>
+    <block>Sport Period 7</block>
+    <block_abbreviation>SP7</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>Thursday</day>
+    <room>Field 2</room>
+    <block>Sport Period 6</block>
+    <block_abbreviation>SP6</block_abbreviation>
+    <start_time/>
+    <end_time>17:15</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">105195</class_pk>
+<class_id>SEA-B-SOCC</class_id>
+<group_fk type="integer">537727</group_fk>
+<group_id>200-2017-4-105195-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Soccer - Boys</course>
+<course_id type="integer">925</course_id>
+<description>SEASAC Boys Soccer</description>
+<subject>Sport Program</subject>
+<course_type>Athletic Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">34572</teacher_fk>
+<teacher_full_name>Patrick Keirnan</teacher_full_name>
+<status>Future</status>
+<update_date type="datetime">2017-07-13T15:33:00-05:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">34572</person_fk>
+    <role_id type="integer">10</role_id>
+    <role>Coach</role>
+    <teacher_name>Patrick Keirnan</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Monday</day>
+    <room>Field 1</room>
+    <block>Sport Period 5</block>
+    <block_abbreviation>SP5</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Tuesday</day>
+    <room>Field 1</room>
+    <block>Sport Period 7</block>
+    <block_abbreviation>SP7</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Thursday</day>
+    <room>Field 1</room>
+    <block>Sport Period 7</block>
+    <block_abbreviation>SP7</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">105197</class_pk>
+<class_id>U19-G-SOCC</class_id>
+<group_fk type="integer">537751</group_fk>
+<group_id>200-2017-4-105197-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Soccer - Girls</course>
+<course_id type="integer">926</course_id>
+<description>U19 Girls Soccer</description>
+<subject>Sport Program</subject>
+<course_type>Athletic Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">32833</teacher_fk>
+<teacher_full_name>Chantel Marson</teacher_full_name>
+<status>Future</status>
+<update_date type="datetime">2017-07-13T15:33:00-05:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">32833</person_fk>
+    <role_id type="integer">10</role_id>
+    <role>Coach</role>
+    <teacher_name>Chantel Marson</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>Monday</day>
+    <room>Field 2</room>
+    <block>Sport Period 6</block>
+    <block_abbreviation>SP6</block_abbreviation>
+    <start_time/>
+    <end_time>17:15</end_time>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>Wednesday</day>
+    <room>Field 1</room>
+    <block>Sport Period 7</block>
+    <block_abbreviation>SP7</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>Thursday</day>
+    <room>Field 2</room>
+    <block>Sport Period 6</block>
+    <block_abbreviation>SP6</block_abbreviation>
+    <start_time/>
+    <end_time>17:15</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">105198</class_pk>
+<class_id>U19-SOFT-B</class_id>
+<group_fk type="integer">537753</group_fk>
+<group_id>200-2017-4-105198-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Softball - Boys</course>
+<course_id type="integer">1051</course_id>
+<description>U19 Softball Boys</description>
+<subject>Sport Program</subject>
+<course_type>Athletic Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">26776</teacher_fk>
+<teacher_full_name>Jesse Worley</teacher_full_name>
+<status>Future</status>
+<update_date type="datetime">2017-07-13T15:33:00-05:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">26776</person_fk>
+    <role_id type="integer">10</role_id>
+    <role>Coach</role>
+    <teacher_name>Jesse Worley</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period/>
+    <day/>
+    <room>Field 1</room>
+    <block/>
+    <block_abbreviation/>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">105201</class_pk>
+<class_id>U19-SOFT-G</class_id>
+<group_fk type="integer">537754</group_fk>
+<group_id>200-2017-4-105201-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Softball -Girls</course>
+<course_id type="integer">1052</course_id>
+<description>U19 Softball Girls</description>
+<subject>Sport Program</subject>
+<course_type>Athletic Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">11124</teacher_fk>
+<teacher_full_name>Artit Pannan</teacher_full_name>
+<status>Future</status>
+<update_date type="datetime">2017-07-13T15:33:00-05:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">11124</person_fk>
+    <role_id type="integer">10</role_id>
+    <role>Coach</role>
+    <teacher_name>Artit Pannan</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 3</grading_period>
+    <day>Tuesday</day>
+    <room>Field 2</room>
+    <block>Sport Period 5</block>
+    <block_abbreviation>SP5</block_abbreviation>
+    <start_time/>
+    <end_time>17:30</end_time>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ECA Session 3</grading_period>
+    <day>Friday</day>
+    <room>Field 2</room>
+    <block>Sport Period 5</block>
+    <block_abbreviation>SP5</block_abbreviation>
+    <start_time/>
+    <end_time>17:30</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">105203</class_pk>
+<class_id>U17-B-SOCC</class_id>
+<group_fk type="integer">537740</group_fk>
+<group_id>200-2017-4-105203-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Soccer - Boys</course>
+<course_id type="integer">925</course_id>
+<description>U17 Boys Soccer</description>
+<subject>Sport Program</subject>
+<course_type>Athletic Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">21727</teacher_fk>
+<teacher_full_name>Craig Stevenson</teacher_full_name>
+<status>Future</status>
+<update_date type="datetime">2017-07-13T15:33:00-05:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">21727</person_fk>
+    <role_id type="integer">10</role_id>
+    <role>Coach</role>
+    <teacher_name>Craig Stevenson</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Tuesday</day>
+    <room>Field 2</room>
+    <block>Sport Period 8</block>
+    <block_abbreviation>SP8</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Friday</day>
+    <room>Field 2</room>
+    <block>Sport Period 7</block>
+    <block_abbreviation>SP7</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">105204</class_pk>
+<class_id>U17-G-SOCC</class_id>
+<group_fk type="integer">537741</group_fk>
+<group_id>200-2017-4-105204-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Soccer - Girls</course>
+<course_id type="integer">926</course_id>
+<description>U17 Girls Soccer</description>
+<subject>Sport Program</subject>
+<course_type>Athletic Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">38887</teacher_fk>
+<teacher_full_name>Simon Herbert</teacher_full_name>
+<status>Future</status>
+<update_date type="datetime">2017-07-13T15:33:00-05:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">38887</person_fk>
+    <role_id type="integer">10</role_id>
+    <role>Coach</role>
+    <teacher_name>Simon Herbert</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>Tuesday</day>
+    <room>Field 2</room>
+    <block>Sport Period 2</block>
+    <block_abbreviation>SP2</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>Thursday</day>
+    <room>Field 2</room>
+    <block>Sport Period 8</block>
+    <block_abbreviation>SP8</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">105205</class_pk>
+<class_id>U15-TOR-G</class_id>
+<group_fk type="integer">537737</group_fk>
+<group_id>200-2017-4-105205-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Touch Rugby - Girls</course>
+<course_id type="integer">1018</course_id>
+<description>U15 Girls Touch Rugby</description>
+<subject>Sport Program</subject>
+<course_type>Athletic Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">38737</teacher_fk>
+<teacher_full_name>Benjamin Charpentier</teacher_full_name>
+<status>Future</status>
+<update_date type="datetime">2017-07-13T15:33:00-05:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">38737</person_fk>
+    <role_id type="integer">10</role_id>
+    <role>Coach</role>
+    <teacher_name>Benjamin Charpentier</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Wednesday</day>
+    <room>Field 2</room>
+    <block>Sport Period 2</block>
+    <block_abbreviation>SP2</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Friday</day>
+    <room>Field 2</room>
+    <block>Sport Period 7</block>
+    <block_abbreviation>SP7</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">105237</class_pk>
+<class_id>U15-TENN-B</class_id>
+<group_fk type="integer">537736</group_fk>
+<group_id>200-2017-4-105237-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Tennis - Boys</course>
+<course_id type="integer">1009</course_id>
+<description>U15 Tennis Boys</description>
+<subject>Sport Program</subject>
+<course_type>Athletic Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">18367</teacher_fk>
+<teacher_full_name>Thanrawee Prasitsurakul</teacher_full_name>
+<status>Future</status>
+<update_date type="datetime">2017-07-13T15:33:00-05:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">18367</person_fk>
+    <role_id type="integer">10</role_id>
+    <role>Coach</role>
+    <teacher_name>Thanrawee Prasitsurakul</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 3</grading_period>
+    <day>Tuesday</day>
+    <room>Tennis Court</room>
+    <block>Sport Period 8</block>
+    <block_abbreviation>SP8</block_abbreviation>
+    <start_time/>
+    <end_time>18:00</end_time>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ECA Session 3</grading_period>
+    <day>Thursday</day>
+    <room>Tennis Court</room>
+    <block>Sport Period 8</block>
+    <block_abbreviation>SP8</block_abbreviation>
+    <start_time/>
+    <end_time>18:00</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">105238</class_pk>
+<class_id>U15-TENN- G</class_id>
+<group_fk type="integer">537735</group_fk>
+<group_id>200-2017-4-105238-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Tennis - Girls</course>
+<course_id type="integer">1019</course_id>
+<description>U15 Tennis Girls (A)</description>
+<subject>Sport Program</subject>
+<course_type>Athletic Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">18367</teacher_fk>
+<teacher_full_name>Thanrawee Prasitsurakul</teacher_full_name>
+<status>Future</status>
+<update_date type="datetime">2017-07-13T15:33:00-05:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">18367</person_fk>
+    <role_id type="integer">10</role_id>
+    <role>Coach</role>
+    <teacher_name>Thanrawee Prasitsurakul</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 3</grading_period>
+    <day>Monday</day>
+    <room>Tennis Court</room>
+    <block>Sport Period 8</block>
+    <block_abbreviation>SP8</block_abbreviation>
+    <start_time/>
+    <end_time>18:00</end_time>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ECA Session 3</grading_period>
+    <day>Thursday</day>
+    <room>Tennis Court</room>
+    <block>Sport Period 8</block>
+    <block_abbreviation>SP8</block_abbreviation>
+    <start_time/>
+    <end_time>18:00</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">105241</class_pk>
+<class_id>U13-B-TENN</class_id>
+<group_fk type="integer">537730</group_fk>
+<group_id>200-2017-4-105241-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Tennis - Boys</course>
+<course_id type="integer">1009</course_id>
+<description>U13 Boys Tennis</description>
+<subject>Sport Program</subject>
+<course_type>Athletic Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">18367</teacher_fk>
+<teacher_full_name>Thanrawee Prasitsurakul</teacher_full_name>
+<status>Future</status>
+<update_date type="datetime">2017-07-13T15:33:00-05:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">18367</person_fk>
+    <role_id type="integer">10</role_id>
+    <role>Coach</role>
+    <teacher_name>Thanrawee Prasitsurakul</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Monday</day>
+    <room>Tennis Court</room>
+    <block>Sport Period 7</block>
+    <block_abbreviation>SP7</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Tuesday</day>
+    <room>Tennis Court</room>
+    <block>Sport Period 8</block>
+    <block_abbreviation>SP8</block_abbreviation>
+    <start_time/>
+    <end_time>18:00</end_time>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Wednesday</day>
+    <room>Tennis Court</room>
+    <block>Sport Period 7</block>
+    <block_abbreviation>SP7</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Thursday</day>
+    <room>Tennis Court</room>
+    <block>Sport Period 8</block>
+    <block_abbreviation>SP8</block_abbreviation>
+    <start_time/>
+    <end_time>18:00</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">105251</class_pk>
+<class_id>U19-TOR-G</class_id>
+<group_fk type="integer">537755</group_fk>
+<group_id>200-2017-4-105251-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Touch Rugby - Girls</course>
+<course_id type="integer">1018</course_id>
+<description>U19 Touch Rugby Girls</description>
+<subject>Sport Program</subject>
+<course_type>Athletic Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">38737</teacher_fk>
+<teacher_full_name>Benjamin Charpentier</teacher_full_name>
+<status>Future</status>
+<update_date type="datetime">2017-07-13T15:33:00-05:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">38737</person_fk>
+    <role_id type="integer">10</role_id>
+    <role>Coach</role>
+    <teacher_name>Benjamin Charpentier</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period/>
+    <day/>
+    <room>1306</room>
+    <block/>
+    <block_abbreviation/>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">105252</class_pk>
+<class_id>ECA-PFA-WED.13</class_id>
+<group_fk type="integer">537718</group_fk>
+<group_id>201-2017-4-105252-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Tuesday ECA Performing Arts</course>
+<course_id type="integer">1493</course_id>
+<description>Jazz by Satori Dance Y7-11 (Wed) ): ECA 1/17-18</description>
+<subject>ECA</subject>
+<course_type>Other Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">46267</teacher_fk>
+<teacher_full_name>Tanya Varangoon</teacher_full_name>
+<status>Future</status>
+<update_date type="datetime">2017-07-13T15:33:00-05:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">46267</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Tanya Varangoon</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Wednesday</day>
+    <room>Multipurpose room</room>
+    <block>ECA Period 2</block>
+    <block_abbreviation>ECA2</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">105253</class_pk>
+<class_id>ECA-PFA-THU.11</class_id>
+<group_fk type="integer">537719</group_fk>
+<group_id>201-2017-4-105253-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Thursday ECA Performing Arts</course>
+<course_id type="integer">1495</course_id>
+<description>Hip Hop - Beginner by Satori Dance Y7-11 (Thu): ECA 1/17-18</description>
+<subject>ECA</subject>
+<course_type>Other Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">46267</teacher_fk>
+<teacher_full_name>Tanya Varangoon</teacher_full_name>
+<status>Future</status>
+<update_date type="datetime">2017-07-13T15:33:00-05:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">46267</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Tanya Varangoon</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Thursday</day>
+    <room>Aerobics Room</room>
+    <block>ECA Period 2</block>
+    <block_abbreviation>ECA2</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">105256</class_pk>
+<class_id>ECA-PFA-FRI.12</class_id>
+<group_fk type="integer">537721</group_fk>
+<group_id>201-2017-4-105256-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Friday ECA Performing Arts</course>
+<course_id type="integer">1496</course_id>
+<description>K-Pop by Satori Dance Y7-11 (Fri): ECA 1/17-18</description>
+<subject>ECA</subject>
+<course_type>Other Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">46267</teacher_fk>
+<teacher_full_name>Tanya Varangoon</teacher_full_name>
+<status>Future</status>
+<update_date type="datetime">2017-07-13T15:33:00-05:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">46267</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Tanya Varangoon</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Friday</day>
+    <room>Multipurpose room</room>
+    <block>ECA Period 2</block>
+    <block_abbreviation>ECA2</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">105257</class_pk>
+<class_id>ECA-PFA-FRI.13</class_id>
+<group_fk type="integer">537722</group_fk>
+<group_id>201-2017-4-105257-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Friday ECA Performing Arts</course>
+<course_id type="integer">1496</course_id>
+<description>Hip Hop - Intermediate by Satori Dance Y7-11 (Fri): ECA 1/17-18</description>
+<subject>ECA</subject>
+<course_type>Other Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">46267</teacher_fk>
+<teacher_full_name>Tanya Varangoon</teacher_full_name>
+<status>Future</status>
+<update_date type="datetime">2017-07-13T15:33:00-05:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">46267</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Tanya Varangoon</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Friday</day>
+    <room>Aerobics Room</room>
+    <block>ECA Period 1</block>
+    <block_abbreviation>ECA1</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">105258</class_pk>
+<class_id>ECA-PFA-TUE.13</class_id>
+<group_fk type="integer">537723</group_fk>
+<group_id>201-2017-4-105258-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Tuesday ECA Performing Arts</course>
+<course_id type="integer">1493</course_id>
+<description>Thai Dance by Satori Dance Y7-11 (Tue): ECA 1/17-18</description>
+<subject>ECA</subject>
+<course_type>Other Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">46267</teacher_fk>
+<teacher_full_name>Tanya Varangoon</teacher_full_name>
+<status>Future</status>
+<update_date type="datetime">2017-07-13T15:33:00-05:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">46267</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Tanya Varangoon</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Tuesday</day>
+    <room>Aerobics Room</room>
+    <block>ECA Period 2</block>
+    <block_abbreviation>ECA2</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+</classes>

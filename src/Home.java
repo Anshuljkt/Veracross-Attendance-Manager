@@ -24,7 +24,6 @@ public class Home {
     public static ArrayList<Student> students = new ArrayList<Student>();
     public static ArrayList<Class> classes = new ArrayList<Class>();
     public static final int OBJECTS_PER_PAGE = 100;
-    private static int enrollmentsPagesCount = 100;
     private static int pagesCount = 100;
     private static String baseURL = "https://api.veracross.com/nist/v2/";
     private static String studentsURL = baseURL + "students.xml?grade_level=12,13&page=";
@@ -74,48 +73,45 @@ public class Home {
 //        } else {
 //            System.exit(0);
 //        }
+
+        //Options: "both", "students", or "classes".
         String toDownload = "none";
 
-        //In case no appropriate files exist, override and download them all anyway.
+        //In case not even 1 of the appropriate files exists, override and download them all anyway.
         File check = new File(studentsPath + "1.xml");
         if (!check.exists()) {
-            toDownload = "students";
+            toDownload = "both";
         }
-        initialize(toDownload); //This allows you to decide which sets of data to (re)Download.
+        check = new File(classesPath + "1.xml");
+        if (!check.exists()) {
+            toDownload = "both";
+        }
+
+        initialize(toDownload); //This allows you to decide which sets of data to (re)Download when starting the program./
 
         ArrayList<Integer> searchID = new ArrayList<Integer>();
 
         searchID.add(25162);
         searchID.add(3914);
 
-        for (Integer i : searchID) {
-            ArrayList results = processEnrollments(i, searchID.size(), true);
-            printArrayList(results);
-        }
+
+        printArrayList(processEnrollments(searchID, true));
 
 
         searchID = new ArrayList<Integer>();
 
-        searchID.add(103076);
-        searchID.add(103077);
+        searchID.add(103334);
+        searchID.add(103090);
 
-        for (Integer i : searchID) {
-            ArrayList results = processEnrollments(i, searchID.size(), false);
+
+            ArrayList results = processEnrollments(searchID, false);
             printArrayList(results);
-        }
-//        printArrayList(results);
+
+
     }
 
 
     public static void initialize(String toDownload) {
-
-        //This is where the username and password go for accessing Veracross API.
-        Authenticator.setDefault(new Authenticator() {
-            @Override
-            protected PasswordAuthentication getPasswordAuthentication() {
-                return new PasswordAuthentication("api.nist", "X4bZsxMVBr".toCharArray());
-            }
-        });
         try {
             if (toDownload.equalsIgnoreCase("both") || toDownload.equalsIgnoreCase("students")) {
                 //First need to delete all the student files that already exist.
@@ -126,7 +122,6 @@ public class Home {
                     }
                 }
                 download(studentsURL, studentsPath, "students"); //This will download the correct number of files, so that all the relevant objects are covered.
-                processClasses(1000);
             }
             if (toDownload.equalsIgnoreCase("both") || toDownload.equalsIgnoreCase("classes")) {
                 //Do the same thing again for classes
@@ -138,8 +133,13 @@ public class Home {
                     }
                 }
                 download(classesURL, classesPath, "classes");
+            }
+            if (toDownload.equalsIgnoreCase("students")) {
+                processClasses(1000);
+            } else if (toDownload.equalsIgnoreCase("classes")) {
                 processStudents(1000);
             }
+
             if (toDownload.equalsIgnoreCase("none")) {
                 print("ALERT: Student and Class lists have not been downloaded. May result in inaccuracies.");
                 processStudents(1000);
@@ -154,7 +154,15 @@ public class Home {
     }
 
     private static int download(String URL, String path, String downloadType) {
-        downloadType = downloadType.substring(0,1).toUpperCase() + downloadType.substring(1);
+        //This is where the username and password go for accessing Veracross API.
+        Authenticator.setDefault(new Authenticator() {
+            @Override
+            protected PasswordAuthentication getPasswordAuthentication() {
+                return new PasswordAuthentication("api.nist", "X4bZsxMVBr".toCharArray());
+            }
+        });
+
+        downloadType = downloadType.substring(0, 1).toUpperCase() + downloadType.substring(1);
 
         //Checks object count and sets pagesCount accordingly.
         try {
@@ -171,7 +179,7 @@ public class Home {
                 fos.getChannel().transferFrom(rbc, 0, Long.MAX_VALUE);
                 print("Downloaded " + downloadType + " File " + i + "/" + pagesCount + ".");
             }
-            print(downloadType + " file(s) have been downloaded.");
+//            print(downloadType + " file(s) have been downloaded.");
             if (downloadType.equalsIgnoreCase("Students")) {
                 processStudents(pagesCount);
             } else if (downloadType.equalsIgnoreCase("Classes")) {
@@ -226,6 +234,7 @@ public class Home {
                     }
                 }
             }
+            Collections.sort(students);
         } catch (Exception e) {
             e.getCause();
         }
@@ -356,30 +365,29 @@ public class Home {
         return results;
     }
 
-//    private static ArrayList<Class> searchClasses(ArrayList<Integer> IDs) {
-//        return results;
-//    }
+    //Method that just calls the method below, except repeats it for each ID in the arrayList given.
+    private static ArrayList processEnrollments(ArrayList<Integer> IDList, boolean studentEnrollments) {
+        ArrayList results = new ArrayList();
+        for (Integer i : IDList) {
+            results.addAll(processEnrollments(i, studentEnrollments));
+        }
+        Collections.sort(results);
+        return results;
+    }
 
-    //Enrollment Downloader. Downloads 1 xml file for each received int. Can only do 1 class per call.
-//    private static void downloadEnrollments(int ID, String path) {
-//
-//    }
-
-    //Method to create the list of student IDs to expect for a certain class/student using the class/student IDs.
-    //OLD //private static ArrayList processEnrollments(ArrayList<Integer> IDs, boolean studentEnrollments) {
-    private static ArrayList processEnrollments(int ID, int size, boolean studentEnrollments) {
+    //Method to create the list of student IDs to expect for a certain class/student using the class/student ID(s).
+    private static ArrayList processEnrollments(int ID, boolean studentEnrollments) {
         ArrayList<Integer> receivedIDs = new ArrayList<Integer>();
         ArrayList results;
-        int count = 0;
 
         String name = ""; //We want to print the name of the Class/Student first.
-        if (studentEnrollments) {
+        if (studentEnrollments) { //Search the student list to find out who the student is.
             for (Student x : students) {
                 if (x.getId() == ID) {
                     name = x.getfName();
                 }
             }
-        } else {
+        } else { //Search the classes list to find out which class this is.
             for (Class x : classes) {
                 if (x.getId() == ID) {
                     name = x.getName();
@@ -387,9 +395,7 @@ public class Home {
             }
         }
         //Download enrollments next.
-        String pathToUse;
-        String urlToUse;
-        String downloadType;
+        String pathToUse, urlToUse, downloadType;
 
         //Decides which URL/Path to use based on studentEnrollments.
         if (studentEnrollments) {
@@ -402,9 +408,9 @@ public class Home {
             downloadType = "Class Enrollments";
         }
 
-        //First need to delete all the enrollment files that already exist.
+        //First need to delete all the enrollment files that already exist, in order to avoid cluttering the directory.
         File folder = new File("xmls/");
-        for (File f: folder.listFiles()) {
+        for (File f : folder.listFiles()) {
             if (f.getName().startsWith("enrollments") || f.getName().startsWith("studentEnrollments")) {
                 f.delete();
             }
@@ -419,7 +425,7 @@ public class Home {
             DocumentBuilder builder = factory.newDocumentBuilder();
 
             for (int x = 1; x <= enrollmentsPagesCount; x++) {
-                Document document = builder.parse(new File( pathToUse + x + ".xml"));
+                Document document = builder.parse(new File(pathToUse + x + ".xml"));
                 Element root = document.getDocumentElement();
 
                 //Create a temporary list that creates a node for each enrollment object in the xml file received.
@@ -441,19 +447,18 @@ public class Home {
                 }
             }
         } catch (FileNotFoundException e) {
-            System.out.println("File not found!");
+
         } catch (Exception e) {
-//                e.printStackTrace();
+                e.printStackTrace();
         }
-
-
         //Now we have an ArrayList of Integers that has the ID numbers of students/classes that we want to use.
         //We can use the search function that takes an integer array and returns the appropriate students/classes arrayList.
-        if (studentEnrollments) {
+        if (studentEnrollments) { //If student enrollments, then the received IDs are those of classes. Match them to their IDs.
             results = search(receivedIDs, "classes");
-        } else {
+        } else { //If not student enrollments, then the received IDs are student IDs, and we need to math those to student IDs.
             results = search(receivedIDs, "students");
         }
+        Collections.sort(results);
         return results;
     }
 }
