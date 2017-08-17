@@ -1,65 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <students type="array">
   <student>
-<household_fk>2106</household_fk>
-<person_pk>5142</person_pk>
-<name_prefix/>
-<first_name>Calvin</first_name>
-<first_nick_name>Calvin</first_nick_name>
-<preferred_name/>
-<middle_name>Michael</middle_name>
-<last_name>Ihrig</last_name>
-<name_suffix/>
-<birthday>2000-07-07</birthday>
-<gender>Male</gender>
-<ethnicity/>
-<email_1>19CalvinI@nist.ac.th</email_1>
-<display_email_1>true</display_email_1>
-<email_2/>
-<display_email_2>false</display_email_2>
-<home_phone>026708516</home_phone>
-<display_home_phone>true</display_home_phone>
-<mobile_phone>0948937814</mobile_phone>
-<display_mobile_phone>false</display_mobile_phone>
-<advisor_fk>32840</advisor_fk>
-<advisor_name>Jennifer Abreu</advisor_name>
-<homeroom_teacher_fk>24086</homeroom_teacher_fk>
-<homeroom_teacher_name>Nicola Cahill</homeroom_teacher_name>
-<homeroom>98015</homeroom>
-<roles type="array">
-  <role>
-    <description>Student</description>
-  </role>
-  <role>
-    <description>Former Program Student</description>
-  </role>
-</roles>
-<current_grade>Year 12</current_grade>
-<grade_applying_for>Year 12</grade_applying_for>
-<year_applying_for>2017</year_applying_for>
-<resident_status_applying_for>false</resident_status_applying_for>
-<student_group_applying_for>false</student_group_applying_for>
-<campus_applying_for>false</campus_applying_for>
-<school_level>Secondary</school_level>
-<enrollment_status>RE: Re-Enrolled</enrollment_status>
-<new_student>false</new_student>
-<graduation_year>2019</graduation_year>
-<resident_status/>
-<campus/>
-<dorm>IB MYP: Mathematics 10 Standard</dorm>
-<room_number/>
-<floor_number>0</floor_number>
-<bed_number>0</bed_number>
-<mailbox_number/>
-<student_group>Blue</student_group>
-<parent_1_fk>9749</parent_1_fk>
-<parent_2_fk>8650</parent_2_fk>
-<parent_3_fk>0</parent_3_fk>
-<parent_4_fk>0</parent_4_fk>
-<username>19calvini</username>
-<update_date>2017-07-12T01:38:00-05:00</update_date>
-  </student>
-  <student>
 <household_fk>1746</household_fk>
 <person_pk>5144</person_pk>
 <name_prefix/>
@@ -80,8 +21,8 @@
 <display_home_phone>false</display_home_phone>
 <mobile_phone/>
 <display_mobile_phone>false</display_mobile_phone>
-<advisor_fk>47311</advisor_fk>
-<advisor_name>James Russell</advisor_name>
+<advisor_fk>32840</advisor_fk>
+<advisor_name>Jennifer Abreu</advisor_name>
 <homeroom_teacher_fk>9057</homeroom_teacher_fk>
 <homeroom_teacher_name>Ruchi Sehgal</homeroom_teacher_name>
 <homeroom>103133</homeroom>
@@ -113,7 +54,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18alexandrem</username>
-<update_date>2017-07-06T15:07:00-05:00</update_date>
+<update_date>2017-07-31T20:23:00+00:00</update_date>
   </student>
   <student>
 <household_fk>1554</household_fk>
@@ -172,7 +113,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>19lukass</username>
-<update_date>2017-07-12T01:53:00-05:00</update_date>
+<update_date>2017-07-12T06:53:00+00:00</update_date>
   </student>
   <student>
 <household_fk>2112</household_fk>
@@ -231,7 +172,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18joyl</username>
-<update_date>2017-07-06T15:07:00-05:00</update_date>
+<update_date>2017-07-06T20:07:00+00:00</update_date>
   </student>
   <student>
 <household_fk>2125</household_fk>
@@ -264,7 +205,7 @@
     <description>Student</description>
   </role>
   <role>
-    <description>Former Program Student</description>
+    <description>Program Student</description>
   </role>
 </roles>
 <current_grade>Year 13</current_grade>
@@ -290,7 +231,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18aayushk</username>
-<update_date>2017-07-06T15:07:00-05:00</update_date>
+<update_date>2017-08-17T00:27:00+00:00</update_date>
   </student>
   <student>
 <household_fk>2129</household_fk>
@@ -313,8 +254,8 @@
 <display_home_phone>true</display_home_phone>
 <mobile_phone/>
 <display_mobile_phone>false</display_mobile_phone>
-<advisor_fk>47311</advisor_fk>
-<advisor_name>James Russell</advisor_name>
+<advisor_fk>45482</advisor_fk>
+<advisor_name>Marcea Eckhardt</advisor_name>
 <homeroom_teacher_fk>9057</homeroom_teacher_fk>
 <homeroom_teacher_name>Ruchi Sehgal</homeroom_teacher_name>
 <homeroom>103133</homeroom>
@@ -349,7 +290,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18carolinem</username>
-<update_date>2017-07-06T15:07:00-05:00</update_date>
+<update_date>2017-07-31T20:23:00+00:00</update_date>
   </student>
   <student>
 <household_fk>2153</household_fk>
@@ -408,7 +349,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18sandees</username>
-<update_date>2017-07-06T15:07:00-05:00</update_date>
+<update_date>2017-07-06T20:07:00+00:00</update_date>
   </student>
   <student>
 <household_fk>2197</household_fk>
@@ -433,9 +374,9 @@
 <display_mobile_phone>false</display_mobile_phone>
 <advisor_fk>45482</advisor_fk>
 <advisor_name>Marcea Eckhardt</advisor_name>
-<homeroom_teacher_fk>21747</homeroom_teacher_fk>
-<homeroom_teacher_name>John Hoare</homeroom_teacher_name>
-<homeroom>98018</homeroom>
+<homeroom_teacher_fk>45549</homeroom_teacher_fk>
+<homeroom_teacher_name>Anne Holzman</homeroom_teacher_name>
+<homeroom>98017</homeroom>
 <roles type="array">
   <role>
     <description>Student</description>
@@ -464,7 +405,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>19victors</username>
-<update_date>2017-07-12T01:51:00-05:00</update_date>
+<update_date>2017-08-07T00:50:00+00:00</update_date>
   </student>
   <student>
 <household_fk>2227</household_fk>
@@ -523,7 +464,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>19andreaq</username>
-<update_date>2017-07-12T01:49:00-05:00</update_date>
+<update_date>2017-07-12T06:49:00+00:00</update_date>
   </student>
   <student>
 <household_fk>674</household_fk>
@@ -582,7 +523,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>19solveigf</username>
-<update_date>2017-07-12T01:37:00-05:00</update_date>
+<update_date>2017-07-12T06:37:00+00:00</update_date>
   </student>
   <student>
 <household_fk>4012</household_fk>
@@ -641,7 +582,7 @@
 <parent_3_fk>39275</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>19kaif</username>
-<update_date>2017-07-12T01:37:00-05:00</update_date>
+<update_date>2017-07-12T06:37:00+00:00</update_date>
   </student>
   <student>
 <household_fk>5670</household_fk>
@@ -664,8 +605,8 @@
 <display_home_phone>true</display_home_phone>
 <mobile_phone/>
 <display_mobile_phone>false</display_mobile_phone>
-<advisor_fk>32840</advisor_fk>
-<advisor_name>Jennifer Abreu</advisor_name>
+<advisor_fk>45482</advisor_fk>
+<advisor_name>Marcea Eckhardt</advisor_name>
 <homeroom_teacher_fk>24886</homeroom_teacher_fk>
 <homeroom_teacher_name>Eric Towell</homeroom_teacher_name>
 <homeroom>103126</homeroom>
@@ -697,7 +638,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18tessar</username>
-<update_date>2017-07-06T15:07:00-05:00</update_date>
+<update_date>2017-07-31T20:23:00+00:00</update_date>
   </student>
   <student>
 <household_fk>2429</household_fk>
@@ -720,11 +661,11 @@
 <display_home_phone>true</display_home_phone>
 <mobile_phone>08-1371-0807</mobile_phone>
 <display_mobile_phone>false</display_mobile_phone>
-<advisor_fk>32840</advisor_fk>
-<advisor_name>Jennifer Abreu</advisor_name>
-<homeroom_teacher_fk>26239</homeroom_teacher_fk>
-<homeroom_teacher_name>Isabelle Holovecz</homeroom_teacher_name>
-<homeroom>103127</homeroom>
+<advisor_fk>47311</advisor_fk>
+<advisor_name>James Russell</advisor_name>
+<homeroom_teacher_fk>11318</homeroom_teacher_fk>
+<homeroom_teacher_name>Philip Branston</homeroom_teacher_name>
+<homeroom>103131</homeroom>
 <roles type="array">
   <role>
     <description>Student</description>
@@ -756,7 +697,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18yeachanh</username>
-<update_date>2017-07-13T15:20:00-05:00</update_date>
+<update_date>2017-08-09T02:20:00+00:00</update_date>
   </student>
   <student>
 <household_fk>2415</household_fk>
@@ -779,8 +720,8 @@
 <display_home_phone>true</display_home_phone>
 <mobile_phone>0952473776</mobile_phone>
 <display_mobile_phone>false</display_mobile_phone>
-<advisor_fk>32840</advisor_fk>
-<advisor_name>Jennifer Abreu</advisor_name>
+<advisor_fk>45482</advisor_fk>
+<advisor_name>Marcea Eckhardt</advisor_name>
 <homeroom_teacher_fk>24886</homeroom_teacher_fk>
 <homeroom_teacher_name>Eric Towell</homeroom_teacher_name>
 <homeroom>103126</homeroom>
@@ -815,7 +756,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18rohitp</username>
-<update_date>2017-07-06T15:07:00-05:00</update_date>
+<update_date>2017-07-31T20:23:00+00:00</update_date>
   </student>
   <student>
 <household_fk>2418</household_fk>
@@ -874,7 +815,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>19nethran</username>
-<update_date>2017-07-12T01:44:00-05:00</update_date>
+<update_date>2017-07-12T06:44:00+00:00</update_date>
   </student>
   <student>
 <household_fk>2001</household_fk>
@@ -933,7 +874,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18chinnakritt</username>
-<update_date>2017-07-06T15:07:00-05:00</update_date>
+<update_date>2017-07-06T20:07:00+00:00</update_date>
   </student>
   <student>
 <household_fk>1364</household_fk>
@@ -992,7 +933,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18praet</username>
-<update_date>2017-07-06T15:07:00-05:00</update_date>
+<update_date>2017-07-06T20:07:00+00:00</update_date>
   </student>
   <student>
 <household_fk>7372</household_fk>
@@ -1051,7 +992,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18chasel</username>
-<update_date>2017-07-06T15:07:00-05:00</update_date>
+<update_date>2017-07-06T20:07:00+00:00</update_date>
   </student>
   <student>
 <household_fk>7542</household_fk>
@@ -1110,7 +1051,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>19linao</username>
-<update_date>2017-07-12T01:45:00-05:00</update_date>
+<update_date>2017-08-17T00:28:00+00:00</update_date>
   </student>
   <student>
 <household_fk>7682</household_fk>
@@ -1135,9 +1076,9 @@
 <display_mobile_phone>false</display_mobile_phone>
 <advisor_fk>32840</advisor_fk>
 <advisor_name>Jennifer Abreu</advisor_name>
-<homeroom_teacher_fk>38721</homeroom_teacher_fk>
-<homeroom_teacher_name>Kimberly Tresohlavy</homeroom_teacher_name>
-<homeroom>103129</homeroom>
+<homeroom_teacher_fk>24886</homeroom_teacher_fk>
+<homeroom_teacher_name>Eric Towell</homeroom_teacher_name>
+<homeroom>103126</homeroom>
 <roles type="array">
   <role>
     <description>Student</description>
@@ -1166,7 +1107,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18hugoj</username>
-<update_date>2017-07-13T15:20:00-05:00</update_date>
+<update_date>2017-08-08T20:30:00+00:00</update_date>
   </student>
   <student>
 <household_fk>7708</household_fk>
@@ -1222,7 +1163,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18dewt</username>
-<update_date>2017-07-06T15:07:00-05:00</update_date>
+<update_date>2017-07-06T20:07:00+00:00</update_date>
   </student>
   <student>
 <household_fk>7714</household_fk>
@@ -1281,7 +1222,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>19anub</username>
-<update_date>2017-07-12T01:33:00-05:00</update_date>
+<update_date>2017-07-12T06:33:00+00:00</update_date>
   </student>
   <student>
 <household_fk>1739</household_fk>
@@ -1304,11 +1245,11 @@
 <display_home_phone>true</display_home_phone>
 <mobile_phone>08-1938-1101</mobile_phone>
 <display_mobile_phone>false</display_mobile_phone>
-<advisor_fk>45482</advisor_fk>
-<advisor_name>Marcea Eckhardt</advisor_name>
-<homeroom_teacher_fk>26239</homeroom_teacher_fk>
-<homeroom_teacher_name>Isabelle Holovecz</homeroom_teacher_name>
-<homeroom>103127</homeroom>
+<advisor_fk>47311</advisor_fk>
+<advisor_name>James Russell</advisor_name>
+<homeroom_teacher_fk>19546</homeroom_teacher_fk>
+<homeroom_teacher_name>Joseph McMillan</homeroom_teacher_name>
+<homeroom>103128</homeroom>
 <roles type="array">
   <role>
     <description>Student</description>
@@ -1340,7 +1281,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18sujaans</username>
-<update_date>2017-07-13T15:20:00-05:00</update_date>
+<update_date>2017-08-09T02:29:00+00:00</update_date>
   </student>
   <student>
 <household_fk>7861</household_fk>
@@ -1365,9 +1306,9 @@
 <display_mobile_phone>false</display_mobile_phone>
 <advisor_fk>47311</advisor_fk>
 <advisor_name>James Russell</advisor_name>
-<homeroom_teacher_fk>26239</homeroom_teacher_fk>
-<homeroom_teacher_name>Isabelle Holovecz</homeroom_teacher_name>
-<homeroom>103127</homeroom>
+<homeroom_teacher_fk>30082</homeroom_teacher_fk>
+<homeroom_teacher_name>Harold Moss</homeroom_teacher_name>
+<homeroom>103132</homeroom>
 <roles type="array">
   <role>
     <description>Student</description>
@@ -1399,7 +1340,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18duf</username>
-<update_date>2017-07-13T15:20:00-05:00</update_date>
+<update_date>2017-08-09T02:19:00+00:00</update_date>
   </student>
   <student>
 <household_fk>7891</household_fk>
@@ -1458,7 +1399,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>19aryana</username>
-<update_date>2017-07-12T01:32:00-05:00</update_date>
+<update_date>2017-07-12T06:32:00+00:00</update_date>
   </student>
   <student>
 <household_fk>7891</household_fk>
@@ -1517,7 +1458,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>19arasha</username>
-<update_date>2017-07-12T01:32:00-05:00</update_date>
+<update_date>2017-07-12T06:32:00+00:00</update_date>
   </student>
   <student>
 <household_fk>7894</household_fk>
@@ -1542,9 +1483,9 @@
 <display_mobile_phone>false</display_mobile_phone>
 <advisor_fk>32840</advisor_fk>
 <advisor_name>Jennifer Abreu</advisor_name>
-<homeroom_teacher_fk>26239</homeroom_teacher_fk>
-<homeroom_teacher_name>Isabelle Holovecz</homeroom_teacher_name>
-<homeroom>103127</homeroom>
+<homeroom_teacher_fk>24886</homeroom_teacher_fk>
+<homeroom_teacher_name>Eric Towell</homeroom_teacher_name>
+<homeroom>103126</homeroom>
 <roles type="array">
   <role>
     <description>Student</description>
@@ -1573,7 +1514,7 @@
 <parent_3_fk>22672</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18melissab</username>
-<update_date>2017-07-13T15:20:00-05:00</update_date>
+<update_date>2017-08-08T20:30:00+00:00</update_date>
   </student>
   <student>
 <household_fk>14372</household_fk>
@@ -1629,7 +1570,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18jerryl</username>
-<update_date>2017-07-06T15:07:00-05:00</update_date>
+<update_date>2017-07-06T20:07:00+00:00</update_date>
   </student>
   <student>
 <household_fk>8111</household_fk>
@@ -1688,7 +1629,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18jiwhank</username>
-<update_date>2017-07-06T15:07:00-05:00</update_date>
+<update_date>2017-07-06T20:07:00+00:00</update_date>
   </student>
   <student>
 <household_fk>8137</household_fk>
@@ -1711,8 +1652,8 @@
 <display_home_phone>false</display_home_phone>
 <mobile_phone/>
 <display_mobile_phone>false</display_mobile_phone>
-<advisor_fk>47311</advisor_fk>
-<advisor_name>James Russell</advisor_name>
+<advisor_fk>45482</advisor_fk>
+<advisor_name>Marcea Eckhardt</advisor_name>
 <homeroom_teacher_fk>9057</homeroom_teacher_fk>
 <homeroom_teacher_name>Ruchi Sehgal</homeroom_teacher_name>
 <homeroom>103133</homeroom>
@@ -1747,7 +1688,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18akiran</username>
-<update_date>2017-07-06T15:07:00-05:00</update_date>
+<update_date>2017-07-31T20:23:00+00:00</update_date>
   </student>
   <student>
 <household_fk>8200</household_fk>
@@ -1806,7 +1747,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18mahirk</username>
-<update_date>2017-07-06T15:07:00-05:00</update_date>
+<update_date>2017-07-06T20:07:00+00:00</update_date>
   </student>
   <student>
 <household_fk>8200</household_fk>
@@ -1865,7 +1806,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>19gehnak</username>
-<update_date>2017-07-12T01:41:00-05:00</update_date>
+<update_date>2017-07-12T06:41:00+00:00</update_date>
   </student>
   <student>
 <household_fk>2064</household_fk>
@@ -1924,7 +1865,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>19mayaf</username>
-<update_date>2017-07-12T01:36:00-05:00</update_date>
+<update_date>2017-07-12T06:36:00+00:00</update_date>
   </student>
   <student>
 <household_fk>8472</household_fk>
@@ -1980,7 +1921,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18gaias</username>
-<update_date>2017-07-06T15:07:00-05:00</update_date>
+<update_date>2017-07-06T20:07:00+00:00</update_date>
   </student>
   <student>
 <household_fk>8480</household_fk>
@@ -2039,7 +1980,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18fias</username>
-<update_date>2017-07-06T15:07:00-05:00</update_date>
+<update_date>2017-07-06T20:07:00+00:00</update_date>
   </student>
   <student>
 <household_fk>8547</household_fk>
@@ -2062,8 +2003,8 @@
 <display_home_phone>true</display_home_phone>
 <mobile_phone/>
 <display_mobile_phone>false</display_mobile_phone>
-<advisor_fk>47311</advisor_fk>
-<advisor_name>James Russell</advisor_name>
+<advisor_fk>45482</advisor_fk>
+<advisor_name>Marcea Eckhardt</advisor_name>
 <homeroom_teacher_fk>9057</homeroom_teacher_fk>
 <homeroom_teacher_name>Ruchi Sehgal</homeroom_teacher_name>
 <homeroom>103133</homeroom>
@@ -2098,7 +2039,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18frankm</username>
-<update_date>2017-07-06T15:07:00-05:00</update_date>
+<update_date>2017-07-31T20:23:00+00:00</update_date>
   </student>
   <student>
 <household_fk>7533</household_fk>
@@ -2121,8 +2062,8 @@
 <display_home_phone>true</display_home_phone>
 <mobile_phone>092-696-9999</mobile_phone>
 <display_mobile_phone>false</display_mobile_phone>
-<advisor_fk>47311</advisor_fk>
-<advisor_name>James Russell</advisor_name>
+<advisor_fk>45482</advisor_fk>
+<advisor_name>Marcea Eckhardt</advisor_name>
 <homeroom_teacher_fk>9057</homeroom_teacher_fk>
 <homeroom_teacher_name>Ruchi Sehgal</homeroom_teacher_name>
 <homeroom>103133</homeroom>
@@ -2157,7 +2098,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18phonep</username>
-<update_date>2017-07-06T15:07:00-05:00</update_date>
+<update_date>2017-07-31T20:23:00+00:00</update_date>
   </student>
   <student>
 <household_fk>8694</household_fk>
@@ -2180,11 +2121,11 @@
 <display_home_phone>true</display_home_phone>
 <mobile_phone/>
 <display_mobile_phone>false</display_mobile_phone>
-<advisor_fk>32840</advisor_fk>
-<advisor_name>Jennifer Abreu</advisor_name>
-<homeroom_teacher_fk>26239</homeroom_teacher_fk>
-<homeroom_teacher_name>Isabelle Holovecz</homeroom_teacher_name>
-<homeroom>103127</homeroom>
+<advisor_fk>47311</advisor_fk>
+<advisor_name>James Russell</advisor_name>
+<homeroom_teacher_fk>24886</homeroom_teacher_fk>
+<homeroom_teacher_name>Eric Towell</homeroom_teacher_name>
+<homeroom>103126</homeroom>
 <roles type="array">
   <role>
     <description>Student</description>
@@ -2216,7 +2157,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18allanb</username>
-<update_date>2017-07-13T15:20:00-05:00</update_date>
+<update_date>2017-08-08T20:30:00+00:00</update_date>
   </student>
   <student>
 <household_fk>8694</household_fk>
@@ -2275,7 +2216,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>19andrewb</username>
-<update_date>2017-07-12T01:33:00-05:00</update_date>
+<update_date>2017-07-12T06:33:00+00:00</update_date>
   </student>
   <student>
 <household_fk>8765</household_fk>
@@ -2334,7 +2275,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18jasminek</username>
-<update_date>2017-07-06T15:07:00-05:00</update_date>
+<update_date>2017-07-06T20:07:00+00:00</update_date>
   </student>
   <student>
 <household_fk>8829</household_fk>
@@ -2393,7 +2334,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>19shiono</username>
-<update_date>2017-07-12T01:45:00-05:00</update_date>
+<update_date>2017-07-12T06:45:00+00:00</update_date>
   </student>
   <student>
 <household_fk>8844</household_fk>
@@ -2452,7 +2393,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18titles</username>
-<update_date>2017-07-06T15:07:00-05:00</update_date>
+<update_date>2017-07-06T20:07:00+00:00</update_date>
   </student>
   <student>
 <household_fk>9052</household_fk>
@@ -2511,7 +2452,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>19thedab</username>
-<update_date>2017-07-12T01:34:00-05:00</update_date>
+<update_date>2017-07-12T06:34:00+00:00</update_date>
   </student>
   <student>
 <household_fk>9195</household_fk>
@@ -2534,8 +2475,8 @@
 <display_home_phone>true</display_home_phone>
 <mobile_phone>06-1414-0593</mobile_phone>
 <display_mobile_phone>false</display_mobile_phone>
-<advisor_fk>32840</advisor_fk>
-<advisor_name>Jennifer Abreu</advisor_name>
+<advisor_fk>47311</advisor_fk>
+<advisor_name>James Russell</advisor_name>
 <homeroom_teacher_fk>24886</homeroom_teacher_fk>
 <homeroom_teacher_name>Eric Towell</homeroom_teacher_name>
 <homeroom>103126</homeroom>
@@ -2570,7 +2511,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18kennym</username>
-<update_date>2017-07-06T15:07:00-05:00</update_date>
+<update_date>2017-07-31T20:23:00+00:00</update_date>
   </student>
   <student>
 <household_fk>9239</household_fk>
@@ -2593,8 +2534,8 @@
 <display_home_phone>true</display_home_phone>
 <mobile_phone>08-4386-2184</mobile_phone>
 <display_mobile_phone>false</display_mobile_phone>
-<advisor_fk>47311</advisor_fk>
-<advisor_name>James Russell</advisor_name>
+<advisor_fk>32840</advisor_fk>
+<advisor_name>Jennifer Abreu</advisor_name>
 <homeroom_teacher_fk>30082</homeroom_teacher_fk>
 <homeroom_teacher_name>Harold Moss</homeroom_teacher_name>
 <homeroom>103132</homeroom>
@@ -2629,7 +2570,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18shehjadi</username>
-<update_date>2017-07-13T15:20:00-05:00</update_date>
+<update_date>2017-08-09T02:21:00+00:00</update_date>
   </student>
   <student>
 <household_fk>9433</household_fk>
@@ -2688,7 +2629,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>19christianj</username>
-<update_date>2017-07-12T01:38:00-05:00</update_date>
+<update_date>2017-07-12T06:38:00+00:00</update_date>
   </student>
   <student>
 <household_fk>9740</household_fk>
@@ -2711,8 +2652,8 @@
 <display_home_phone>true</display_home_phone>
 <mobile_phone/>
 <display_mobile_phone>false</display_mobile_phone>
-<advisor_fk>32840</advisor_fk>
-<advisor_name>Jennifer Abreu</advisor_name>
+<advisor_fk>47311</advisor_fk>
+<advisor_name>James Russell</advisor_name>
 <homeroom_teacher_fk>24886</homeroom_teacher_fk>
 <homeroom_teacher_name>Eric Towell</homeroom_teacher_name>
 <homeroom>103126</homeroom>
@@ -2747,7 +2688,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18joshuar</username>
-<update_date>2017-07-06T15:07:00-05:00</update_date>
+<update_date>2017-07-31T20:23:00+00:00</update_date>
   </student>
   <student>
 <household_fk>10163</household_fk>
@@ -2770,11 +2711,11 @@
 <display_home_phone>true</display_home_phone>
 <mobile_phone/>
 <display_mobile_phone>false</display_mobile_phone>
-<advisor_fk>45482</advisor_fk>
-<advisor_name>Marcea Eckhardt</advisor_name>
-<homeroom_teacher_fk>38721</homeroom_teacher_fk>
-<homeroom_teacher_name>Kimberly Tresohlavy</homeroom_teacher_name>
-<homeroom>103129</homeroom>
+<advisor_fk>32840</advisor_fk>
+<advisor_name>Jennifer Abreu</advisor_name>
+<homeroom_teacher_fk>19546</homeroom_teacher_fk>
+<homeroom_teacher_name>Joseph McMillan</homeroom_teacher_name>
+<homeroom>103128</homeroom>
 <roles type="array">
   <role>
     <description>Student</description>
@@ -2806,7 +2747,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18sheriennek</username>
-<update_date>2017-07-13T15:20:00-05:00</update_date>
+<update_date>2017-08-17T00:28:00+00:00</update_date>
   </student>
   <student>
 <household_fk>10231</household_fk>
@@ -2862,7 +2803,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18selimc</username>
-<update_date>2017-07-06T15:07:00-05:00</update_date>
+<update_date>2017-07-06T20:07:00+00:00</update_date>
   </student>
   <student>
 <household_fk>10257</household_fk>
@@ -2885,8 +2826,8 @@
 <display_home_phone>false</display_home_phone>
 <mobile_phone>08-1900-0507</mobile_phone>
 <display_mobile_phone>false</display_mobile_phone>
-<advisor_fk>32840</advisor_fk>
-<advisor_name>Jennifer Abreu</advisor_name>
+<advisor_fk>45482</advisor_fk>
+<advisor_name>Marcea Eckhardt</advisor_name>
 <homeroom_teacher_fk>24886</homeroom_teacher_fk>
 <homeroom_teacher_name>Eric Towell</homeroom_teacher_name>
 <homeroom>103126</homeroom>
@@ -2918,7 +2859,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18fukom</username>
-<update_date>2017-07-06T15:07:00-05:00</update_date>
+<update_date>2017-07-31T20:23:00+00:00</update_date>
   </student>
   <student>
 <household_fk>10318</household_fk>
@@ -2977,7 +2918,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18kahnb</username>
-<update_date>2017-07-06T15:07:00-05:00</update_date>
+<update_date>2017-07-06T20:07:00+00:00</update_date>
   </student>
   <student>
 <household_fk>10386</household_fk>
@@ -3036,7 +2977,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18anshula</username>
-<update_date>2017-07-06T15:07:00-05:00</update_date>
+<update_date>2017-07-06T20:07:00+00:00</update_date>
   </student>
   <student>
 <household_fk>10859</household_fk>
@@ -3095,7 +3036,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18zacharyb</username>
-<update_date>2017-07-06T15:07:00-05:00</update_date>
+<update_date>2017-07-06T20:07:00+00:00</update_date>
   </student>
   <student>
 <household_fk>10973</household_fk>
@@ -3154,7 +3095,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>19zack</username>
-<update_date>2017-07-12T01:40:00-05:00</update_date>
+<update_date>2017-07-12T06:40:00+00:00</update_date>
   </student>
   <student>
 <household_fk>11172</household_fk>
@@ -3210,7 +3151,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18izzyw</username>
-<update_date>2017-07-06T15:07:00-05:00</update_date>
+<update_date>2017-07-06T20:07:00+00:00</update_date>
   </student>
   <student>
 <household_fk>11300</household_fk>
@@ -3269,7 +3210,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18josiahc</username>
-<update_date>2017-07-06T15:07:00-05:00</update_date>
+<update_date>2017-07-06T20:07:00+00:00</update_date>
   </student>
   <student>
 <household_fk>11302</household_fk>
@@ -3294,9 +3235,9 @@
 <display_mobile_phone>false</display_mobile_phone>
 <advisor_fk>32840</advisor_fk>
 <advisor_name>Jennifer Abreu</advisor_name>
-<homeroom_teacher_fk>38721</homeroom_teacher_fk>
-<homeroom_teacher_name>Kimberly Tresohlavy</homeroom_teacher_name>
-<homeroom>103129</homeroom>
+<homeroom_teacher_fk>24886</homeroom_teacher_fk>
+<homeroom_teacher_name>Eric Towell</homeroom_teacher_name>
+<homeroom>103126</homeroom>
 <roles type="array">
   <role>
     <description>Student</description>
@@ -3328,7 +3269,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18aidank</username>
-<update_date>2017-07-13T15:20:00-05:00</update_date>
+<update_date>2017-08-08T20:30:00+00:00</update_date>
   </student>
   <student>
 <household_fk>11302</household_fk>
@@ -3384,7 +3325,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>19kaylak</username>
-<update_date>2017-07-12T01:40:00-05:00</update_date>
+<update_date>2017-07-12T06:40:00+00:00</update_date>
   </student>
   <student>
 <household_fk>11742</household_fk>
@@ -3407,8 +3348,8 @@
 <display_home_phone>true</display_home_phone>
 <mobile_phone>09-2490-0784</mobile_phone>
 <display_mobile_phone>false</display_mobile_phone>
-<advisor_fk>32840</advisor_fk>
-<advisor_name>Jennifer Abreu</advisor_name>
+<advisor_fk>45482</advisor_fk>
+<advisor_name>Marcea Eckhardt</advisor_name>
 <homeroom_teacher_fk>24886</homeroom_teacher_fk>
 <homeroom_teacher_name>Eric Towell</homeroom_teacher_name>
 <homeroom>103126</homeroom>
@@ -3443,7 +3384,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18svean</username>
-<update_date>2017-07-06T15:07:00-05:00</update_date>
+<update_date>2017-07-31T20:23:00+00:00</update_date>
   </student>
   <student>
 <household_fk>12227</household_fk>
@@ -3475,6 +3416,9 @@
   <role>
     <description>Student</description>
   </role>
+  <role>
+    <description>Program Student</description>
+  </role>
 </roles>
 <current_grade>Year 12</current_grade>
 <grade_applying_for>Year 12</grade_applying_for>
@@ -3483,7 +3427,7 @@
 <student_group_applying_for>false</student_group_applying_for>
 <campus_applying_for>false</campus_applying_for>
 <school_level>Secondary</school_level>
-<enrollment_status>RE: Leave of Absence</enrollment_status>
+<enrollment_status>RE: Re-Enrolled</enrollment_status>
 <new_student>false</new_student>
 <graduation_year>2019</graduation_year>
 <resident_status/>
@@ -3493,13 +3437,13 @@
 <floor_number>0</floor_number>
 <bed_number>0</bed_number>
 <mailbox_number/>
-<student_group>10 Purple</student_group>
+<student_group>Purple</student_group>
 <parent_1_fk>28889</parent_1_fk>
 <parent_2_fk>28890</parent_2_fk>
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>19ainsleyv</username>
-<update_date>2017-07-12T01:55:00-05:00</update_date>
+<update_date>2017-08-17T00:28:00+00:00</update_date>
   </student>
   <student>
 <household_fk>12389</household_fk>
@@ -3558,7 +3502,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18christophert</username>
-<update_date>2017-07-06T15:07:00-05:00</update_date>
+<update_date>2017-07-06T20:07:00+00:00</update_date>
   </student>
   <student>
 <household_fk>12684</household_fk>
@@ -3617,7 +3561,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18tomokat</username>
-<update_date>2017-07-06T15:07:00-05:00</update_date>
+<update_date>2017-07-06T20:07:00+00:00</update_date>
   </student>
   <student>
 <household_fk>12753</household_fk>
@@ -3640,8 +3584,8 @@
 <display_home_phone>true</display_home_phone>
 <mobile_phone/>
 <display_mobile_phone>false</display_mobile_phone>
-<advisor_fk>32840</advisor_fk>
-<advisor_name>Jennifer Abreu</advisor_name>
+<advisor_fk>45482</advisor_fk>
+<advisor_name>Marcea Eckhardt</advisor_name>
 <homeroom_teacher_fk>24886</homeroom_teacher_fk>
 <homeroom_teacher_name>Eric Towell</homeroom_teacher_name>
 <homeroom>103126</homeroom>
@@ -3676,7 +3620,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18rayt</username>
-<update_date>2017-07-06T15:07:00-05:00</update_date>
+<update_date>2017-07-31T20:23:00+00:00</update_date>
   </student>
   <student>
 <household_fk>12976</household_fk>
@@ -3735,7 +3679,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18jessel</username>
-<update_date>2017-07-06T15:07:00-05:00</update_date>
+<update_date>2017-07-06T20:07:00+00:00</update_date>
   </student>
   <student>
 <household_fk>13044</household_fk>
@@ -3758,11 +3702,11 @@
 <display_home_phone>true</display_home_phone>
 <mobile_phone>0982730792</mobile_phone>
 <display_mobile_phone>false</display_mobile_phone>
-<advisor_fk>45482</advisor_fk>
-<advisor_name>Marcea Eckhardt</advisor_name>
-<homeroom_teacher_fk>26239</homeroom_teacher_fk>
-<homeroom_teacher_name>Isabelle Holovecz</homeroom_teacher_name>
-<homeroom>103127</homeroom>
+<advisor_fk>47311</advisor_fk>
+<advisor_name>James Russell</advisor_name>
+<homeroom_teacher_fk>11270</homeroom_teacher_fk>
+<homeroom_teacher_name>Matthew Manfredi</homeroom_teacher_name>
+<homeroom>103130</homeroom>
 <roles type="array">
   <role>
     <description>Student</description>
@@ -3794,7 +3738,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18tomerb</username>
-<update_date>2017-07-13T15:20:00-05:00</update_date>
+<update_date>2017-08-09T02:17:00+00:00</update_date>
   </student>
   <student>
 <household_fk>13061</household_fk>
@@ -3817,11 +3761,11 @@
 <display_home_phone>true</display_home_phone>
 <mobile_phone/>
 <display_mobile_phone>false</display_mobile_phone>
-<advisor_fk>45482</advisor_fk>
-<advisor_name>Marcea Eckhardt</advisor_name>
-<homeroom_teacher_fk>38721</homeroom_teacher_fk>
-<homeroom_teacher_name>Kimberly Tresohlavy</homeroom_teacher_name>
-<homeroom>103129</homeroom>
+<advisor_fk>32840</advisor_fk>
+<advisor_name>Jennifer Abreu</advisor_name>
+<homeroom_teacher_fk>19546</homeroom_teacher_fk>
+<homeroom_teacher_name>Joseph McMillan</homeroom_teacher_name>
+<homeroom>103128</homeroom>
 <roles type="array">
   <role>
     <description>Student</description>
@@ -3853,7 +3797,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18aishar</username>
-<update_date>2017-07-13T15:20:00-05:00</update_date>
+<update_date>2017-08-08T20:30:00+00:00</update_date>
   </student>
   <student>
 <household_fk>13252</household_fk>
@@ -3909,7 +3853,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>19tetaumarit</username>
-<update_date>2017-07-12T01:54:00-05:00</update_date>
+<update_date>2017-07-24T00:05:00+00:00</update_date>
   </student>
   <student>
 <household_fk>13259</household_fk>
@@ -3968,7 +3912,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18sarinat</username>
-<update_date>2017-07-06T15:07:00-05:00</update_date>
+<update_date>2017-07-06T20:07:00+00:00</update_date>
   </student>
   <student>
 <household_fk>13259</household_fk>
@@ -4027,7 +3971,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>19takut</username>
-<update_date>2017-07-12T01:54:00-05:00</update_date>
+<update_date>2017-07-12T06:54:00+00:00</update_date>
   </student>
   <student>
 <household_fk>13331</household_fk>
@@ -4086,7 +4030,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18suvibhasirih</username>
-<update_date>2017-07-06T15:07:00-05:00</update_date>
+<update_date>2017-07-06T20:07:00+00:00</update_date>
   </student>
   <student>
 <household_fk>13340</household_fk>
@@ -4109,8 +4053,8 @@
 <display_home_phone>true</display_home_phone>
 <mobile_phone>0989257064</mobile_phone>
 <display_mobile_phone>false</display_mobile_phone>
-<advisor_fk>45482</advisor_fk>
-<advisor_name>Marcea Eckhardt</advisor_name>
+<advisor_fk>32840</advisor_fk>
+<advisor_name>Jennifer Abreu</advisor_name>
 <homeroom_teacher_fk>11270</homeroom_teacher_fk>
 <homeroom_teacher_name>Matthew Manfredi</homeroom_teacher_name>
 <homeroom>103130</homeroom>
@@ -4145,7 +4089,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18giulial</username>
-<update_date>2017-07-13T15:20:00-05:00</update_date>
+<update_date>2017-08-17T00:27:00+00:00</update_date>
   </student>
   <student>
 <household_fk>13368</household_fk>
@@ -4204,7 +4148,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18gautamp</username>
-<update_date>2017-07-06T15:07:00-05:00</update_date>
+<update_date>2017-07-06T20:07:00+00:00</update_date>
   </student>
   <student>
 <household_fk>14130</household_fk>
@@ -4260,7 +4204,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18neelimar</username>
-<update_date>2017-07-06T15:07:00-05:00</update_date>
+<update_date>2017-07-06T20:07:00+00:00</update_date>
   </student>
   <student>
 <household_fk>14184</household_fk>
@@ -4319,7 +4263,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18jarredh</username>
-<update_date>2017-07-06T15:07:00-05:00</update_date>
+<update_date>2017-07-06T20:07:00+00:00</update_date>
   </student>
   <student>
 <household_fk>14362</household_fk>
@@ -4352,7 +4296,7 @@
     <description>Student</description>
   </role>
   <role>
-    <description>Former Program Student</description>
+    <description>Program Student</description>
   </role>
 </roles>
 <current_grade>Year 12</current_grade>
@@ -4378,7 +4322,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>19sama</username>
-<update_date>2017-07-12T01:33:00-05:00</update_date>
+<update_date>2017-08-17T00:28:00+00:00</update_date>
   </student>
   <student>
 <household_fk>14417</household_fk>
@@ -4403,9 +4347,9 @@
 <display_mobile_phone>false</display_mobile_phone>
 <advisor_fk>32840</advisor_fk>
 <advisor_name>Jennifer Abreu</advisor_name>
-<homeroom_teacher_fk>38721</homeroom_teacher_fk>
-<homeroom_teacher_name>Kimberly Tresohlavy</homeroom_teacher_name>
-<homeroom>103129</homeroom>
+<homeroom_teacher_fk>24886</homeroom_teacher_fk>
+<homeroom_teacher_name>Eric Towell</homeroom_teacher_name>
+<homeroom>103126</homeroom>
 <roles type="array">
   <role>
     <description>Student</description>
@@ -4437,7 +4381,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18clairel</username>
-<update_date>2017-07-13T15:20:00-05:00</update_date>
+<update_date>2017-08-08T20:30:00+00:00</update_date>
   </student>
   <student>
 <household_fk>14481</household_fk>
@@ -4496,7 +4440,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>19nickyb</username>
-<update_date>2017-07-12T01:33:00-05:00</update_date>
+<update_date>2017-07-12T06:33:00+00:00</update_date>
   </student>
   <student>
 <household_fk>14509</household_fk>
@@ -4555,7 +4499,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18hannahm</username>
-<update_date>2017-07-06T15:07:00-05:00</update_date>
+<update_date>2017-07-06T20:07:00+00:00</update_date>
   </student>
   <student>
 <household_fk>14516</household_fk>
@@ -4614,7 +4558,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>19kusumag</username>
-<update_date>2017-07-12T01:37:00-05:00</update_date>
+<update_date>2017-07-12T06:37:00+00:00</update_date>
   </student>
   <student>
 <household_fk>14567</household_fk>
@@ -4637,8 +4581,8 @@
 <display_home_phone>false</display_home_phone>
 <mobile_phone/>
 <display_mobile_phone>false</display_mobile_phone>
-<advisor_fk>47311</advisor_fk>
-<advisor_name>James Russell</advisor_name>
+<advisor_fk>32840</advisor_fk>
+<advisor_name>Jennifer Abreu</advisor_name>
 <homeroom_teacher_fk>9057</homeroom_teacher_fk>
 <homeroom_teacher_name>Ruchi Sehgal</homeroom_teacher_name>
 <homeroom>103133</homeroom>
@@ -4673,7 +4617,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18danielt</username>
-<update_date>2017-07-06T15:07:00-05:00</update_date>
+<update_date>2017-07-31T20:23:00+00:00</update_date>
   </student>
   <student>
 <household_fk>14663</household_fk>
@@ -4732,7 +4676,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>19jackdi</username>
-<update_date>2017-07-12T01:36:00-05:00</update_date>
+<update_date>2017-07-12T06:36:00+00:00</update_date>
   </student>
   <student>
 <household_fk>14774</household_fk>
@@ -4757,9 +4701,9 @@
 <display_mobile_phone>false</display_mobile_phone>
 <advisor_fk>47311</advisor_fk>
 <advisor_name>James Russell</advisor_name>
-<homeroom_teacher_fk>26239</homeroom_teacher_fk>
-<homeroom_teacher_name>Isabelle Holovecz</homeroom_teacher_name>
-<homeroom>103127</homeroom>
+<homeroom_teacher_fk>9057</homeroom_teacher_fk>
+<homeroom_teacher_name>Ruchi Sehgal</homeroom_teacher_name>
+<homeroom>103133</homeroom>
 <roles type="array">
   <role>
     <description>Student</description>
@@ -4791,7 +4735,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18keis</username>
-<update_date>2017-07-13T15:20:00-05:00</update_date>
+<update_date>2017-08-17T00:28:00+00:00</update_date>
   </student>
   <student>
 <household_fk>14807</household_fk>
@@ -4850,7 +4794,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18alessandrop</username>
-<update_date>2017-07-06T15:07:00-05:00</update_date>
+<update_date>2017-07-06T20:07:00+00:00</update_date>
   </student>
   <student>
 <household_fk>14836</household_fk>
@@ -4909,7 +4853,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>19linjeel</username>
-<update_date>2017-07-12T01:42:00-05:00</update_date>
+<update_date>2017-07-12T06:42:00+00:00</update_date>
   </student>
   <student>
 <household_fk>14957</household_fk>
@@ -4968,7 +4912,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>19anitk</username>
-<update_date>2017-07-12T01:40:00-05:00</update_date>
+<update_date>2017-07-12T06:40:00+00:00</update_date>
   </student>
   <student>
 <household_fk>16143</household_fk>
@@ -5027,7 +4971,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>19julians</username>
-<update_date>2017-07-12T01:53:00-05:00</update_date>
+<update_date>2017-07-12T06:53:00+00:00</update_date>
   </student>
   <student>
 <household_fk>16317</household_fk>
@@ -5086,7 +5030,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>19shuntot</username>
-<update_date>2017-07-12T01:54:00-05:00</update_date>
+<update_date>2017-07-12T06:54:00+00:00</update_date>
   </student>
   <student>
 <household_fk>10777</household_fk>
@@ -5145,7 +5089,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>19linhloub</username>
-<update_date>2017-07-12T01:34:00-05:00</update_date>
+<update_date>2017-07-12T06:34:00+00:00</update_date>
   </student>
   <student>
 <household_fk>16774</household_fk>
@@ -5204,7 +5148,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18chiek</username>
-<update_date>2017-07-06T15:07:00-05:00</update_date>
+<update_date>2017-07-06T20:07:00+00:00</update_date>
   </student>
   <student>
 <household_fk>16786</household_fk>
@@ -5263,7 +5207,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18Marieb</username>
-<update_date>2017-07-06T15:07:00-05:00</update_date>
+<update_date>2017-07-06T20:07:00+00:00</update_date>
   </student>
   <student>
 <household_fk>16832</household_fk>
@@ -5319,7 +5263,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username/>
-<update_date>2017-06-18T10:23:00-05:00</update_date>
+<update_date>2017-06-18T15:23:00+00:00</update_date>
   </student>
   <student>
 <household_fk>16843</household_fk>
@@ -5378,7 +5322,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>19liamh</username>
-<update_date>2017-07-12T01:37:00-05:00</update_date>
+<update_date>2017-07-12T06:37:00+00:00</update_date>
   </student>
   <student>
 <household_fk>16888</household_fk>
@@ -5437,7 +5381,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>19eliskac</username>
-<update_date>2017-07-12T01:35:00-05:00</update_date>
+<update_date>2017-07-12T06:35:00+00:00</update_date>
   </student>
   <student>
 <household_fk>16924</household_fk>
@@ -5496,7 +5440,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>19aldins</username>
-<update_date>2017-07-12T01:53:00-05:00</update_date>
+<update_date>2017-07-12T06:53:00+00:00</update_date>
   </student>
   <student>
 <household_fk>16972</household_fk>
@@ -5552,7 +5496,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username/>
-<update_date>2017-06-18T10:23:00-05:00</update_date>
+<update_date>2017-06-18T15:23:00+00:00</update_date>
   </student>
   <student>
 <household_fk>16973</household_fk>
@@ -5608,7 +5552,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username/>
-<update_date>2016-06-19T10:24:00-05:00</update_date>
+<update_date>2016-06-19T15:24:00+00:00</update_date>
   </student>
   <student>
 <household_fk>16988</household_fk>
@@ -5641,7 +5585,7 @@
     <description>Student</description>
   </role>
   <role>
-    <description>Former Program Student</description>
+    <description>Program Student</description>
   </role>
 </roles>
 <current_grade>Year 12</current_grade>
@@ -5667,7 +5611,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>19jessym</username>
-<update_date>2017-07-12T01:43:00-05:00</update_date>
+<update_date>2017-08-17T00:28:00+00:00</update_date>
   </student>
   <student>
 <household_fk>16991</household_fk>
@@ -5726,7 +5670,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>19hazels</username>
-<update_date>2017-07-12T01:53:00-05:00</update_date>
+<update_date>2017-07-12T06:53:00+00:00</update_date>
   </student>
   <student>
 <household_fk>16996</household_fk>
@@ -5785,7 +5729,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>19joonp</username>
-<update_date>2017-07-12T01:45:00-05:00</update_date>
+<update_date>2017-07-12T06:45:00+00:00</update_date>
   </student>
   <student>
 <household_fk>17069</household_fk>
@@ -5841,6 +5785,65 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18ryob</username>
-<update_date>2017-07-06T15:07:00-05:00</update_date>
+<update_date>2017-07-06T20:07:00+00:00</update_date>
+  </student>
+  <student>
+<household_fk>17087</household_fk>
+<person_pk>39561</person_pk>
+<name_prefix/>
+<first_name>Siqiao</first_name>
+<first_nick_name>Charles (Siqiao)</first_nick_name>
+<preferred_name>Charles (Siqiao)</preferred_name>
+<middle_name/>
+<last_name>Huang</last_name>
+<name_suffix/>
+<birthday>1999-11-11</birthday>
+<gender>Male</gender>
+<ethnicity/>
+<email_1>18SiqiaoH@nist.ac.th</email_1>
+<display_email_1>true</display_email_1>
+<email_2>charlesmoxi00@gmail.com</email_2>
+<display_email_2>false</display_email_2>
+<home_phone>+66 988525203</home_phone>
+<display_home_phone>true</display_home_phone>
+<mobile_phone>+66 926478718</mobile_phone>
+<display_mobile_phone>false</display_mobile_phone>
+<advisor_fk>32840</advisor_fk>
+<advisor_name>Jennifer Abreu</advisor_name>
+<homeroom_teacher_fk>24886</homeroom_teacher_fk>
+<homeroom_teacher_name>Eric Towell</homeroom_teacher_name>
+<homeroom>103126</homeroom>
+<roles type="array">
+  <role>
+    <description>Student</description>
+  </role>
+  <role>
+    <description>Program Student</description>
+  </role>
+</roles>
+<current_grade>Year 13</current_grade>
+<grade_applying_for>Year 13</grade_applying_for>
+<year_applying_for>2017</year_applying_for>
+<resident_status_applying_for>false</resident_status_applying_for>
+<student_group_applying_for>false</student_group_applying_for>
+<campus_applying_for>false</campus_applying_for>
+<school_level>Secondary</school_level>
+<enrollment_status>RE: Re-Enrolled</enrollment_status>
+<new_student>false</new_student>
+<graduation_year>2018</graduation_year>
+<resident_status/>
+<campus/>
+<dorm>IB MYP: Mathematics 10 Standard</dorm>
+<room_number/>
+<floor_number>0</floor_number>
+<bed_number>0</bed_number>
+<mailbox_number/>
+<student_group>Green</student_group>
+<parent_1_fk>39562</parent_1_fk>
+<parent_2_fk>39563</parent_2_fk>
+<parent_3_fk>0</parent_3_fk>
+<parent_4_fk>0</parent_4_fk>
+<username>18siqiaoh</username>
+<update_date>2017-07-06T20:07:00+00:00</update_date>
   </student>
 </students>

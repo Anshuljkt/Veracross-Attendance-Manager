@@ -14,13 +14,13 @@ import java.net.URL;
 import java.net.URLConnection;
 import java.nio.channels.Channels;
 import java.nio.channels.ReadableByteChannel;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Scanner;
+import java.util.*;
 
 //Created by Anshul Agrawal on 7/7/17 at 12:55 PM.
 
 public class Home {
+
+
     public static ArrayList<Student> students = new ArrayList<Student>();
     public static ArrayList<Class> classes = new ArrayList<Class>();
     public static final int OBJECTS_PER_PAGE = 100;
@@ -34,39 +34,23 @@ public class Home {
     private static String classesPath = "xmls/classes-";
     private static String enrollmentsPath = "xmls/enrollments-";
     private static String studentEnrollmentsPath = "xmls/studentEnrollments-";
+    private static String secOfficeEmail = "18anshula@nist.ac.th";
+
 
     public static void main(String[] args) {
-
         homePage();
+        ArrayList<Student> x = processEnrollments(103166, false);
+        x.remove(0);
+        x.remove(1);
+        x.remove(3);
 
-    }
+        EmailUtility.sendEmail(secOfficeEmail, "Test", x);
 
-    public static void printClasses() {
-        for (Class i : classes) {
-            System.out.println(i);
-        }
-    }
-
-    public static void printStudents() {
-        for (Student i : students) {
-            System.out.println(i);
-        }
-    }
-
-    public static void printArrayList(ArrayList x) {
-        for (Object i : x) {
-            System.out.println(i);
-        }
-    }
-
-    //This method will be used later to print out alerts for the user somehow.
-    public static void print(Object x) {
-        System.out.println(x);
     }
 
     public static void homePage() {
         Scanner scan = new Scanner(System.in);
-//        System.out.println("Start?");
+        System.out.println("Start?");
 //        String choice = scan.nextLine();
 //        if (choice.equalsIgnoreCase("y") || choice.equalsIgnoreCase("yes")) {
 //
@@ -74,6 +58,7 @@ public class Home {
 //            System.exit(0);
 //        }
 
+        //This allows you to decide which sets of data to (re)Download when starting the program.
         //Options: "both", "students", or "classes".
         String toDownload = "none";
 
@@ -87,27 +72,7 @@ public class Home {
             toDownload = "both";
         }
 
-        initialize(toDownload); //This allows you to decide which sets of data to (re)Download when starting the program./
-
-        ArrayList<Integer> searchID = new ArrayList<Integer>();
-
-        searchID.add(25162);
-        searchID.add(3914);
-
-
-        printArrayList(processEnrollments(searchID, true));
-
-
-        searchID = new ArrayList<Integer>();
-
-        searchID.add(103334);
-        searchID.add(103090);
-
-
-            ArrayList results = processEnrollments(searchID, false);
-            printArrayList(results);
-
-
+        initialize(toDownload);
     }
 
 
@@ -141,7 +106,7 @@ public class Home {
             }
 
             if (toDownload.equalsIgnoreCase("none")) {
-                print("ALERT: Student and Class lists have not been downloaded. May result in inaccuracies.");
+                print("ALERT: Student and Class lists have not been updated. This could result in inaccuracies.");
                 processStudents(1000);
                 processClasses(1000);
             }
@@ -177,7 +142,9 @@ public class Home {
                 ReadableByteChannel rbc = Channels.newChannel(website.openStream());
                 FileOutputStream fos = new FileOutputStream(path + i + ".xml");
                 fos.getChannel().transferFrom(rbc, 0, Long.MAX_VALUE);
-                print("Downloaded " + downloadType + " File " + i + "/" + pagesCount + ".");
+                if (!downloadType.equalsIgnoreCase("Student Enrollments")) {
+                    print("Downloaded " + downloadType + " File " + i + "/" + pagesCount + ".");
+                }
             }
 //            print(downloadType + " file(s) have been downloaded.");
             if (downloadType.equalsIgnoreCase("Students")) {
@@ -325,19 +292,6 @@ public class Home {
         return results;
     }
 
-    //Method to pull students out based on their ID numbers.
-//    private static ArrayList<Student> searchStudents(ArrayList<Integer> IDs) {
-//        ArrayList results = new ArrayList<Student>();
-//        for (Student i : students) {
-//            int currentID = i.getId();
-//            for (int comparing : IDs) {
-//                if (currentID == comparing) {
-//                    results.add(i);
-//                }
-//            }
-//        }
-//        return results;
-//    }
 
     private static ArrayList search(ArrayList<Integer> IDs, String searchType) {
         ArrayList results = new ArrayList();
@@ -370,6 +324,12 @@ public class Home {
         ArrayList results = new ArrayList();
         for (Integer i : IDList) {
             results.addAll(processEnrollments(i, studentEnrollments));
+        }
+        //Only remove duplicates if you have a list of Students, not if you have a list of classes.
+        if (!studentEnrollments) {
+            Set noDuplicates = new LinkedHashSet(results);
+            results.clear();
+            results.addAll(noDuplicates);
         }
         Collections.sort(results);
         return results;
@@ -416,7 +376,7 @@ public class Home {
             }
         }
         int enrollmentsPagesCount = download(urlToUse, pathToUse, downloadType);
-        print("Enrollments for " + name + ":");
+//        print("Enrollments for " + name + ":");
 
         //Now to process the downloaded files.
         try {
@@ -460,5 +420,31 @@ public class Home {
         }
         Collections.sort(results);
         return results;
+    }
+    public static void printClasses() {
+        for (Class i : classes) {
+            System.out.println(i);
+        }
+    }
+
+    public static void printStudents(int[] yearLevel) {
+        for (Student i : students) {
+            System.out.println(i);
+        }
+    }
+    public static void printStudents() {
+        for (Student i : students) {
+            System.out.println(i);
+        }
+    }
+
+    public static void printArrayList(ArrayList x) {
+        for (Object i : x) {
+            System.out.println(i);
+        }
+    }
+    //This method will be used later to print out alerts for the user somehow.
+    public static void print(Object x) {
+        System.out.println(x);
     }
 }

@@ -84,13 +84,19 @@ public class Student implements Comparable<Student> {
     }
 
     public String toString() {
-        return "First Name = " + fName +
-                " | Last Name = " + lName +
-                " | Year Level = " + gradeNum +
-                " | ID = " + id +
-                " | Email = " + email +
-                " | Homeroom ID = " + homeroom;
+        return fName + " " + lName +
+                " | " + grade +
+                " | Student ID = " + id;
     }
+
+//    public String toString() { //Old toString Method
+//        return "First Name = " + fName +
+//                " | Last Name = " + lName +
+//                " | Year Level = " + gradeNum +
+//                " | ID = " + id +
+//                " | Email = " + email +
+//                " | Homeroom ID = " + homeroom;
+//    }
     //compareTo method, allows sorting by last name in A-Z.
     public int compareTo(Student compare) {
         return (this.lName.compareTo(compare.lName));
