@@ -14,7 +14,7 @@ public class Email {
         }
         sendEmail(recipient, subjectLine, body);
     }
-    
+
     private static void sendEmail(String recipient, String subject, String body) {  //This  will send an email using SSL Authentication, via Gmail's SMTP server.
 
         //Username/password to use
@@ -41,14 +41,13 @@ public class Email {
 
         //Now to actually send the email, after the session is created and everything is established.
 
-        try
-        {
+        try {
             MimeMessage msg = new MimeMessage(session);
             //This sets the message headers to be used.
             msg.addHeader("Content-type", "text/HTML; charset=UTF-8");
             msg.addHeader("format", "flowed");
             msg.addHeader("Content-Transfer-Encoding", "8bit");
-            msg.setFrom(new InternetAddress("attendance@nist.ac.th", "Veracross Attendance Manager"));
+            msg.setFrom(new InternetAddress("attendance@nist.ac.th", "NIST Attendance"));
             msg.setReplyTo(InternetAddress.parse("attendance@nist.ac.th", false));
             msg.setSubject(subject, "UTF-8");
             msg.setText(body, "UTF-8");
@@ -56,8 +55,7 @@ public class Email {
             msg.setRecipients(Message.RecipientType.TO, InternetAddress.parse(recipient, false));
             Transport.send(msg);
             System.out.println("The email has been sent to " + "\"" + recipient + "\"" + ".");
-        }
-        catch (Exception e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }
