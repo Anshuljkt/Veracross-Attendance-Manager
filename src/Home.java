@@ -44,8 +44,7 @@ public class Home {
         x.remove(1);
         x.remove(3);
 
-        EmailUtility.sendEmail(secOfficeEmail, "Test", x);
-
+        Email.sendEmail(secOfficeEmail, "Test", x);
     }
 
     public static void homePage() {

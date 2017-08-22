@@ -2,35 +2,283 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="643848ea-2949-4a73-9d5c-9e3e38de0cff" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/javax_mail.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EmailUtility.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xmls/classes-16.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xmls/classes-17.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xmls/enrollments-103090-1.xml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/NOTICE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/RELEASE-NOTES.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/commons-io-2.5-javadoc.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/commons-io-2.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/allclasses-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/allclasses-noframe.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/constant-values.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/deprecated-list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/help-doc.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/index-all.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/ByteOrderMark.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/Charsets.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/CopyUtils.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/DirectoryWalker.CancelException.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/DirectoryWalker.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/EndianUtils.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/FileCleaner.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/FileCleaningTracker.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/FileDeleteStrategy.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/FileExistsException.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/FileSystemUtils.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/FileUtils.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/FilenameUtils.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/HexDump.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/IOCase.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/IOExceptionWithCause.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/IOUtils.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/LineIterator.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/TaggedIOException.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/class-use/ByteOrderMark.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/class-use/Charsets.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/class-use/CopyUtils.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/class-use/DirectoryWalker.CancelException.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/class-use/DirectoryWalker.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/class-use/EndianUtils.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/class-use/FileCleaner.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/class-use/FileCleaningTracker.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/class-use/FileDeleteStrategy.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/class-use/FileExistsException.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/class-use/FileSystemUtils.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/class-use/FileUtils.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/class-use/FilenameUtils.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/class-use/HexDump.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/class-use/IOCase.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/class-use/IOExceptionWithCause.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/class-use/IOUtils.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/class-use/LineIterator.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/class-use/TaggedIOException.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/comparator/CompositeFileComparator.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/comparator/DefaultFileComparator.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/comparator/DirectoryFileComparator.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/comparator/ExtensionFileComparator.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/comparator/LastModifiedFileComparator.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/comparator/NameFileComparator.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/comparator/PathFileComparator.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/comparator/SizeFileComparator.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/comparator/class-use/CompositeFileComparator.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/comparator/class-use/DefaultFileComparator.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/comparator/class-use/DirectoryFileComparator.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/comparator/class-use/ExtensionFileComparator.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/comparator/class-use/LastModifiedFileComparator.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/comparator/class-use/NameFileComparator.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/comparator/class-use/PathFileComparator.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/comparator/class-use/SizeFileComparator.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/comparator/package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/comparator/package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/comparator/package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/comparator/package-use.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/filefilter/AbstractFileFilter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/filefilter/AgeFileFilter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/filefilter/AndFileFilter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/filefilter/CanReadFileFilter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/filefilter/CanWriteFileFilter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/filefilter/ConditionalFileFilter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/filefilter/DelegateFileFilter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/filefilter/DirectoryFileFilter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/filefilter/EmptyFileFilter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/filefilter/FalseFileFilter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/filefilter/FileFileFilter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/filefilter/FileFilterUtils.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/filefilter/HiddenFileFilter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/filefilter/IOFileFilter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/filefilter/MagicNumberFileFilter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/filefilter/NameFileFilter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/filefilter/NotFileFilter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/filefilter/OrFileFilter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/filefilter/PrefixFileFilter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/filefilter/RegexFileFilter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/filefilter/SizeFileFilter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/filefilter/SuffixFileFilter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/filefilter/TrueFileFilter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/filefilter/WildcardFileFilter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/filefilter/WildcardFilter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/filefilter/class-use/AbstractFileFilter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/filefilter/class-use/AgeFileFilter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/filefilter/class-use/AndFileFilter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/filefilter/class-use/CanReadFileFilter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/filefilter/class-use/CanWriteFileFilter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/filefilter/class-use/ConditionalFileFilter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/filefilter/class-use/DelegateFileFilter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/filefilter/class-use/DirectoryFileFilter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/filefilter/class-use/EmptyFileFilter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/filefilter/class-use/FalseFileFilter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/filefilter/class-use/FileFileFilter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/filefilter/class-use/FileFilterUtils.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/filefilter/class-use/HiddenFileFilter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/filefilter/class-use/IOFileFilter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/filefilter/class-use/MagicNumberFileFilter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/filefilter/class-use/NameFileFilter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/filefilter/class-use/NotFileFilter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/filefilter/class-use/OrFileFilter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/filefilter/class-use/PrefixFileFilter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/filefilter/class-use/RegexFileFilter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/filefilter/class-use/SizeFileFilter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/filefilter/class-use/SuffixFileFilter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/filefilter/class-use/TrueFileFilter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/filefilter/class-use/WildcardFileFilter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/filefilter/class-use/WildcardFilter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/filefilter/package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/filefilter/package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/filefilter/package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/filefilter/package-use.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/input/AutoCloseInputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/input/BOMInputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/input/BoundedInputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/input/BoundedReader.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/input/BrokenInputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/input/CharSequenceInputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/input/CharSequenceReader.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/input/ClassLoaderObjectInputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/input/CloseShieldInputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/input/ClosedInputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/input/CountingInputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/input/DemuxInputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/input/NullInputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/input/NullReader.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/input/ProxyInputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/input/ProxyReader.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/input/ReaderInputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/input/ReversedLinesFileReader.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/input/SwappedDataInputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/input/TaggedInputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/input/Tailer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/input/TailerListener.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/input/TailerListenerAdapter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/input/TeeInputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/input/UnixLineEndingInputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/input/WindowsLineEndingInputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/input/XmlStreamReader.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/input/XmlStreamReaderException.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/input/class-use/AutoCloseInputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/input/class-use/BOMInputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/input/class-use/BoundedInputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/input/class-use/BoundedReader.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/input/class-use/BrokenInputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/input/class-use/CharSequenceInputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/input/class-use/CharSequenceReader.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/input/class-use/ClassLoaderObjectInputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/input/class-use/CloseShieldInputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/input/class-use/ClosedInputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/input/class-use/CountingInputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/input/class-use/DemuxInputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/input/class-use/NullInputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/input/class-use/NullReader.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/input/class-use/ProxyInputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/input/class-use/ProxyReader.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/input/class-use/ReaderInputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/input/class-use/ReversedLinesFileReader.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/input/class-use/SwappedDataInputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/input/class-use/TaggedInputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/input/class-use/Tailer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/input/class-use/TailerListener.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/input/class-use/TailerListenerAdapter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/input/class-use/TeeInputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/input/class-use/UnixLineEndingInputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/input/class-use/WindowsLineEndingInputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/input/class-use/XmlStreamReader.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/input/class-use/XmlStreamReaderException.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/input/package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/input/package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/input/package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/input/package-use.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/monitor/FileAlterationListener.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/monitor/FileAlterationListenerAdaptor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/monitor/FileAlterationMonitor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/monitor/FileAlterationObserver.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/monitor/FileEntry.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/monitor/class-use/FileAlterationListener.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/monitor/class-use/FileAlterationListenerAdaptor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/monitor/class-use/FileAlterationMonitor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/monitor/class-use/FileAlterationObserver.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/monitor/class-use/FileEntry.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/monitor/package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/monitor/package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/monitor/package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/monitor/package-use.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/output/AppendableOutputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/output/BrokenOutputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/output/ByteArrayOutputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/output/ChunkedOutputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/output/ChunkedWriter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/output/CloseShieldOutputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/output/ClosedOutputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/output/CountingOutputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/output/DeferredFileOutputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/output/DemuxOutputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/output/FileWriterWithEncoding.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/output/LockableFileWriter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/output/NullOutputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/output/NullWriter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/output/ProxyOutputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/output/ProxyWriter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/output/StringBuilderWriter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/output/TaggedOutputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/output/TeeOutputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/output/ThresholdingOutputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/output/WriterOutputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/output/XmlStreamWriter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/output/class-use/AppendableOutputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/output/class-use/BrokenOutputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/output/class-use/ByteArrayOutputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/output/class-use/ChunkedOutputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/output/class-use/ChunkedWriter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/output/class-use/CloseShieldOutputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/output/class-use/ClosedOutputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/output/class-use/CountingOutputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/output/class-use/DeferredFileOutputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/output/class-use/DemuxOutputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/output/class-use/FileWriterWithEncoding.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/output/class-use/LockableFileWriter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/output/class-use/NullOutputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/output/class-use/NullWriter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/output/class-use/ProxyOutputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/output/class-use/ProxyWriter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/output/class-use/StringBuilderWriter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/output/class-use/TaggedOutputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/output/class-use/TeeOutputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/output/class-use/ThresholdingOutputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/output/class-use/WriterOutputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/output/class-use/XmlStreamWriter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/output/package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/output/package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/output/package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/output/package-use.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/package-use.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/serialization/ClassNameMatcher.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/serialization/ValidatingObjectInputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/serialization/class-use/ClassNameMatcher.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/serialization/class-use/ValidatingObjectInputStream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/serialization/package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/serialization/package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/serialization/package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/org/apache/commons/io/serialization/package-use.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/overview-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/overview-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/overview-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/package-list" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/resources/background.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/resources/tab.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/resources/titlebar.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/resources/titlebar_end.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/serialized-form.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5/docs/stylesheet.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/VeracrossAttendanceManager/EmailUtility$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/VeracrossAttendanceManager/EmailUtility.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/EmailUtility.java" afterPath="$PROJECT_DIR$/src/Email.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/VeracrossAttendanceManager/Home$1.class" afterPath="$PROJECT_DIR$/out/production/VeracrossAttendanceManager/Home$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/VeracrossAttendanceManager/Home.class" afterPath="$PROJECT_DIR$/out/production/VeracrossAttendanceManager/Home.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VeracrossAttendanceManager.iml" afterPath="$PROJECT_DIR$/VeracrossAttendanceManager.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Home.java" afterPath="$PROJECT_DIR$/src/Home.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Student.java" afterPath="$PROJECT_DIR$/src/Student.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/classes-1.xml" afterPath="$PROJECT_DIR$/xmls/classes-1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/classes-10.xml" afterPath="$PROJECT_DIR$/xmls/classes-10.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/classes-11.xml" afterPath="$PROJECT_DIR$/xmls/classes-11.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/classes-12.xml" afterPath="$PROJECT_DIR$/xmls/classes-12.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/classes-13.xml" afterPath="$PROJECT_DIR$/xmls/classes-13.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/classes-14.xml" afterPath="$PROJECT_DIR$/xmls/classes-14.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/classes-15.xml" afterPath="$PROJECT_DIR$/xmls/classes-15.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/classes-2.xml" afterPath="$PROJECT_DIR$/xmls/classes-2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/classes-3.xml" afterPath="$PROJECT_DIR$/xmls/classes-3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/classes-4.xml" afterPath="$PROJECT_DIR$/xmls/classes-4.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/classes-5.xml" afterPath="$PROJECT_DIR$/xmls/classes-5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/classes-6.xml" afterPath="$PROJECT_DIR$/xmls/classes-6.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/classes-7.xml" afterPath="$PROJECT_DIR$/xmls/classes-7.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/classes-8.xml" afterPath="$PROJECT_DIR$/xmls/classes-8.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/classes-9.xml" afterPath="$PROJECT_DIR$/xmls/classes-9.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/students-1.xml" afterPath="$PROJECT_DIR$/xmls/students-1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/students-2.xml" afterPath="$PROJECT_DIR$/xmls/students-2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/students-3.xml" afterPath="$PROJECT_DIR$/xmls/students-3.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,58 +305,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Home.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="VeracrossAttendanceManager.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/VeracrossAttendanceManager.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Home.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Home.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="33" column="56" lean-forward="true" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
+            <state relative-caret-position="240">
+              <caret line="53" column="48" lean-forward="false" selection-start-line="53" selection-start-column="48" selection-end-line="53" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Email.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Email.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="88" lean-forward="true" selection-start-line="17" selection-start-column="88" selection-end-line="17" selection-end-column="88" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EmailUtility.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/EmailUtility.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="45" lean-forward="false" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1384#1597#0" expanded="true" />
-                <element signature="e#1596#1597#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Class.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Class.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Student.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="86" column="30" lean-forward="false" selection-start-line="86" selection-start-column="30" selection-end-line="86" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MeetingTime.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MeetingTime.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="52" lean-forward="true" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -119,6 +343,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JavaFXApplication" />
       </list>
     </option>
   </component>
@@ -182,8 +407,10 @@
         <option value="$PROJECT_DIR$/src/MeetingTime.java" />
         <option value="$PROJECT_DIR$/src/Class.java" />
         <option value="$PROJECT_DIR$/src/Student.java" />
-        <option value="$PROJECT_DIR$/src/Home.java" />
         <option value="$PROJECT_DIR$/src/EmailUtility.java" />
+        <option value="$PROJECT_DIR$/src/Home.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/GUI.java" />
       </list>
     </option>
   </component>
@@ -194,9 +421,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="22" />
-    <option name="width" value="720" />
-    <option name="height" value="833" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="831" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -300,8 +527,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -312,24 +537,32 @@
             <path>
               <item name="VeracrossAttendanceManager" type="b2602c69:ProjectViewProjectNode" />
               <item name="VeracrossAttendanceManager" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VeracrossAttendanceManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VeracrossAttendanceManager" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="ToolWindowRun.ShowToolbar" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -347,6 +580,25 @@
     <configuration name="EmailUtility" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="EmailUtility" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="VeracrossAttendanceManager" />
+      <envs />
+    </configuration>
+    <configuration name="GUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="sample.GUI" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -751,7 +1003,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="VeracrossAttendanceManager" />
       <envs />
-      <method />
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -784,18 +1035,20 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.Initializer" />
       <item index="1" class="java.lang.String" itemvalue="Application.Home" />
       <item index="2" class="java.lang.String" itemvalue="Application.Home (1)" />
       <item index="3" class="java.lang.String" itemvalue="Application.EmailUtility" />
+      <item index="4" class="java.lang.String" itemvalue="Application.GUI" />
     </list>
     <recent_temporary>
-      <list size="4">
+      <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Application.Home" />
-        <item index="1" class="java.lang.String" itemvalue="Application.EmailUtility" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Home (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Initializer" />
+        <item index="1" class="java.lang.String" itemvalue="Application.GUI" />
+        <item index="2" class="java.lang.String" itemvalue="Application.EmailUtility" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Home (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Initializer" />
       </list>
     </recent_temporary>
   </component>
@@ -831,13 +1084,19 @@
       <workItem from="1502951497331" duration="4113000" />
       <workItem from="1502960559360" duration="1219000" />
       <workItem from="1502961813232" duration="1754000" />
-      <workItem from="1502963754228" duration="2450000" />
+      <workItem from="1502963754228" duration="3180000" />
+      <workItem from="1503035589385" duration="658000" />
+      <workItem from="1503276556938" duration="1101000" />
+      <workItem from="1503277869816" duration="310000" />
+      <workItem from="1503372370427" duration="329000" />
+      <workItem from="1503373387655" duration="102000" />
+      <workItem from="1503373498943" duration="126000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
     <option name="enabled" value="true" />
-    <option name="totallyTimeSpent" value="91992000" />
+    <option name="totallyTimeSpent" value="95348000" />
     <option name="suspendDelayInSeconds" value="300" />
     <option name="showClosedTasks" value="false" />
   </component>
@@ -851,31 +1110,31 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="833" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="832" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34691197" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34605262" sideWeight="0.49722221" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918397" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34605262" sideWeight="0.50277776" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26447368" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26675427" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12708333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12847222" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Time Tracking" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -883,7 +1142,7 @@
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939634" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32806325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -929,346 +1188,40 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="48" lean-forward="false" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MeetingTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Home.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MeetingTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Home.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="48" lean-forward="false" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MeetingTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Home.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="48" lean-forward="false" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MeetingTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Home.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="48" lean-forward="false" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MeetingTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Home.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="48" lean-forward="false" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MeetingTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Home.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="48" lean-forward="false" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MeetingTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Home.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="48" lean-forward="false" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Home.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="48" lean-forward="false" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="93" column="59" lean-forward="false" selection-start-line="93" selection-start-column="59" selection-end-line="93" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MeetingTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Home.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="48" lean-forward="false" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="93" column="59" lean-forward="false" selection-start-line="93" selection-start-column="59" selection-end-line="93" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Home.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="48" lean-forward="false" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="93" column="59" lean-forward="false" selection-start-line="93" selection-start-column="59" selection-end-line="93" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MeetingTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Home.java" />
+    <entry file="file://$PROJECT_DIR$/src/Class.java" />
+    <entry file="file://$PROJECT_DIR$/src/Student.java" />
+    <entry file="file://$PROJECT_DIR$/src/MeetingTime.java" />
+    <entry file="file://$PROJECT_DIR$/src/Home.java" />
+    <entry file="file://$PROJECT_DIR$/src/Class.java" />
+    <entry file="file://$PROJECT_DIR$/src/MeetingTime.java" />
+    <entry file="file://$PROJECT_DIR$/src/Student.java" />
+    <entry file="file://$PROJECT_DIR$/src/Home.java" />
+    <entry file="file://$PROJECT_DIR$/src/Class.java" />
+    <entry file="file://$PROJECT_DIR$/src/Student.java" />
+    <entry file="file://$PROJECT_DIR$/src/MeetingTime.java" />
+    <entry file="file://$PROJECT_DIR$/src/Home.java" />
+    <entry file="file://$PROJECT_DIR$/src/Class.java" />
+    <entry file="file://$PROJECT_DIR$/src/Student.java" />
+    <entry file="file://$PROJECT_DIR$/src/MeetingTime.java" />
+    <entry file="file://$PROJECT_DIR$/src/Home.java" />
+    <entry file="file://$PROJECT_DIR$/src/Class.java" />
+    <entry file="file://$PROJECT_DIR$/src/Student.java" />
+    <entry file="file://$PROJECT_DIR$/src/MeetingTime.java" />
+    <entry file="file://$PROJECT_DIR$/src/Home.java" />
+    <entry file="file://$PROJECT_DIR$/src/Class.java" />
+    <entry file="file://$PROJECT_DIR$/src/Student.java" />
+    <entry file="file://$PROJECT_DIR$/src/Home.java" />
+    <entry file="file://$PROJECT_DIR$/src/Class.java" />
+    <entry file="file://$PROJECT_DIR$/src/Student.java" />
+    <entry file="file://$PROJECT_DIR$/src/MeetingTime.java" />
+    <entry file="file://$PROJECT_DIR$/src/Home.java" />
+    <entry file="file://$PROJECT_DIR$/src/Class.java" />
+    <entry file="file://$PROJECT_DIR$/src/Student.java" />
+    <entry file="file://$PROJECT_DIR$/src/Home.java" />
+    <entry file="file://$PROJECT_DIR$/src/Class.java" />
+    <entry file="file://$PROJECT_DIR$/src/Student.java" />
+    <entry file="file://$PROJECT_DIR$/src/MeetingTime.java" />
     <entry file="file://$PROJECT_DIR$/src/Initializer.java" />
     <entry file="file://$PROJECT_DIR$/src/MeetingTimes.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
@@ -1299,49 +1252,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MeetingTime.java">
+    <entry file="file://$PROJECT_DIR$/src/MeetingTime.java" />
+    <entry file="file://$PROJECT_DIR$/src/Student.java" />
+    <entry file="file://$PROJECT_DIR$/src/GUI.java" />
+    <entry file="file://$PROJECT_DIR$/src/Controller.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/GUI.java" />
+    <entry file="file://$PROJECT_DIR$/src/Class.java" />
+    <entry file="file://$PROJECT_DIR$/Veracross Attendance Manager.iml" />
+    <entry file="file://$PROJECT_DIR$/VeracrossAttendanceManager.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="52" lean-forward="true" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Class.java">
+    <entry file="file://$PROJECT_DIR$/src/Email.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="86" column="30" lean-forward="false" selection-start-line="86" selection-start-column="30" selection-end-line="86" selection-end-column="30" />
-          <folding />
+        <state relative-caret-position="255">
+          <caret line="17" column="88" lean-forward="true" selection-start-line="17" selection-start-column="88" selection-end-line="17" selection-end-column="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Home.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="33" column="56" lean-forward="true" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EmailUtility.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="45" lean-forward="false" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1384#1597#0" expanded="true" />
-            <element signature="e#1596#1597#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="240">
+          <caret line="53" column="48" lean-forward="false" selection-start-line="53" selection-start-column="48" selection-end-line="53" selection-end-column="48" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1409,6 +1350,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>javax.mail</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
