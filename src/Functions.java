@@ -217,7 +217,7 @@ public class Functions {
                         int homeroom = Integer.parseInt(eElement.getElementsByTagName("homeroom").item(0).getTextContent());
                         //Year Level
                         String grade = eElement.getElementsByTagName("current_grade").item(0).getTextContent();
-                        //Finally creates the new object and feeds it in. Prioritizes preferred name if available over first name
+                        //Finally creates the new object and feeds it in. Prioritizes preferred name if available over first name.
                         if (!email.equalsIgnoreCase("")) { //If the person has no E-Mail ID, then don't add them.
                             students.add(new Student(pName, lName, id, email, homeroom, grade));
                         }

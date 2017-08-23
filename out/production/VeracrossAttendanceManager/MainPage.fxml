@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.paint.*?>
 <?import javafx.geometry.*?>
 <?import javafx.scene.text.*?>
 <?import javafx.scene.image.*?>
@@ -7,35 +8,13 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<!--<VBox prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">-->
-<!--<children>-->
-<!---->
-<!--<Label text = "I love bacon" />-->
-<!--<Button text = "Submit" fx:id="button" onAction="#handleClick"/>-->
-<!--</children>-->
-<!--</VBox>-->
-
-<GridPane alignment="CENTER" vgap="5.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+<GridPane alignment="CENTER" hgap="5.0" vgap="5.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
    <children>
-      <AnchorPane GridPane.columnSpan="2">
-         <children>
-            <Label alignment="TOP_RIGHT" contentDisplay="CENTER" layoutX="179.0" layoutY="90.0" maxHeight="Infinity" maxWidth="Infinity" text="Attendance Helper" textAlignment="CENTER" textFill="#132e52">
-               <font>
-                  <Font name="Helvetica Neue Light" size="18.0" />
-               </font>
-            </Label>
-            <ImageView fitHeight="89.0" fitWidth="136.0" layoutX="182.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@NIST-International-School-Logo.png" />
-               </image>
-            </ImageView>
-         </children>
-      </AnchorPane>
+      <AnchorPane GridPane.columnSpan="2" GridPane.rowIndex="1" />
       <ListView fx:id="searchList" prefHeight="345.0" prefWidth="497.0" GridPane.columnSpan="2" GridPane.rowIndex="5">
          <GridPane.margin>
             <Insets />
          </GridPane.margin></ListView>
-      <Button defaultButton="true" mnemonicParsing="false" onAction="#processEnrollments" prefHeight="27.0" prefWidth="267.0" text="Find Enrollments" textAlignment="CENTER" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="7" />
       <AnchorPane GridPane.columnSpan="2" GridPane.rowIndex="4">
          <children>
             <Button fx:id="searchButton" layoutX="436.0" layoutY="3.0" mnemonicParsing="false" onAction="#searchClasses" text="Search" />
@@ -54,7 +33,7 @@
             <Font name="Helvetica Neue Light" size="13.0" />
          </font>
       </CheckBox>
-      <Label text="Enter class start time (24-hour format):" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="2">
+      <Label text="Please select classes expected, or search below:" GridPane.columnSpan="2" GridPane.rowIndex="1">
          <font>
             <Font name="Helvetica Neue Light" size="15.0" />
          </font>
@@ -62,7 +41,7 @@
             <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
          </opaqueInsets>
       </Label>
-      <Label text="Hold down ⌘ (Control key on Windows) while selecting multiple classes." GridPane.columnSpan="2" GridPane.rowIndex="6">
+      <Label text="Hold down ⌘ (Control key on Windows) to select multiple classes." GridPane.columnSpan="2" GridPane.rowIndex="6">
          <font>
             <Font name="Helvetica Neue Light" size="15.0" />
          </font>
@@ -77,6 +56,35 @@
             <TextField fx:id="mm" alignment="CENTER" promptText="MM" />
          </children>
       </HBox>
+      <BorderPane prefHeight="58.0" prefWidth="497.0" GridPane.columnSpan="2">
+         <center>
+            <Label alignment="CENTER" contentDisplay="CENTER" text="Attendance Helper" textFill="#132e52" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Helvetica Neue Light" size="18.0" />
+               </font>
+            </Label>
+         </center>
+         <top>
+            <ImageView fitHeight="89.0" fitWidth="136.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+               <image>
+                  <Image url="@NIST-International-School-Logo.png" />
+               </image>
+            </ImageView>
+         </top>
+      </BorderPane>
+      <Label text="Enter class start time (24-hour format)" textFill="#7aa2aa" GridPane.columnIndex="1" GridPane.rowIndex="2">
+         <font>
+            <Font name="Helvetica Neue Light" size="15.0" />
+         </font>
+         <opaqueInsets>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </opaqueInsets>
+      </Label>
+      <BorderPane prefHeight="200.0" prefWidth="200.0" GridPane.columnSpan="2" GridPane.rowIndex="7">
+         <right>
+            <Button fx:id="findEnrollmentsButton" defaultButton="true" mnemonicParsing="false" onAction="#processEnrollments" prefHeight="27.0" prefWidth="132.0" style="-fx-background-color: #132e52;" text="Find Enrollments" textAlignment="CENTER" textFill="WHITE" wrapText="true" BorderPane.alignment="CENTER" />
+         </right>
+      </BorderPane>
    </children>
    <columnConstraints>
       <ColumnConstraints />
@@ -85,16 +93,19 @@
    </columnConstraints>
    <rowConstraints>
       <RowConstraints />
+      <RowConstraints />
       <RowConstraints maxHeight="22.0" minHeight="15.0" prefHeight="15.0" />
       <RowConstraints maxHeight="60.0" minHeight="25.0" prefHeight="31.0" />
       <RowConstraints maxHeight="60.0" minHeight="25.0" prefHeight="31.0" />
-      <RowConstraints maxHeight="60.0" minHeight="25.0" prefHeight="31.0" />
-      <RowConstraints maxHeight="412.0" minHeight="364.0" prefHeight="377.0" />
-      <RowConstraints maxHeight="42.0" minHeight="0.0" prefHeight="29.0" />
-      <RowConstraints />
+      <RowConstraints maxHeight="392.7260437011719" minHeight="25.0" prefHeight="391.6298522949219" />
+      <RowConstraints maxHeight="412.0" minHeight="2.211669921875" prefHeight="20.56866455078125" />
+      <RowConstraints maxHeight="403.788330078125" minHeight="0.0" prefHeight="26.50909423828125" />
       <RowConstraints />
    </rowConstraints>
    <opaqueInsets>
       <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
    </opaqueInsets>
+   <padding>
+      <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+   </padding>
 </GridPane>

@@ -1,3 +1,6 @@
+import javafx.animation.Animation;
+import javafx.animation.KeyFrame;
+import javafx.animation.Timeline;
 import javafx.application.Application;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
@@ -6,21 +9,22 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.stage.Stage;
+import javafx.util.Duration;
 
+import java.io.IOException;
 import java.util.*;
 
 public class Controller extends Application {
     //Variables for different
 
-    @FXML
-    private TextField searchBar, hh, mm;
-    @FXML
-    private CheckBox checkBox12;
-    @FXML
-    private CheckBox checkBox13;
-    @FXML
-    private ListView searchList;
+    @FXML private TextField searchBar, hh, mm;
+    @FXML private CheckBox checkBox12, checkBox13;
+    @FXML private ListView searchList;
+    @FXML private Button findEnrollmentsButton;
+    @FXML private Label time = new Label();
 
+    Stage mainMenu, signInPage;
+    Parent mainMenuParent, signInPageParent;
 
     public static void main(String[] args) {
         launch(args);
@@ -28,10 +32,11 @@ public class Controller extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("MainPage.fxml"));
-        primaryStage.setTitle("NIST Attendance");
-        primaryStage.setScene(new Scene(root, 500, 800));
-        primaryStage.show();
+        mainMenuParent = FXMLLoader.load(getClass().getResource("MainPage.fxml"));
+        mainMenu = primaryStage;
+        mainMenu.setTitle("NIST Attendance");
+        mainMenu.setScene(new Scene(mainMenuParent));
+        mainMenu.show();
 
 
         //Check if the user wants to update the database.
@@ -51,7 +56,8 @@ public class Controller extends Application {
         }
     }
 
-    public void processEnrollments() { //This will take in user input and give us the
+    public void processEnrollments() throws IOException { //This will take in user input and give us the students in those classes.
+
         ObservableList<Class> selectedClasses = searchList.getSelectionModel().getSelectedItems(); //This is the user input.
         ArrayList<Integer> classIDs = new ArrayList<Integer>(); //This is what to use for processing enrollments.
         ArrayList<Student> selectedStudents = new ArrayList<Student>(); //This is where the resulting students will be stored.
@@ -74,8 +80,37 @@ public class Controller extends Application {
         selectedStudents.clear();
         selectedStudents.addAll(noDuplicates);
         Collections.sort(selectedStudents);
-        Functions.printArrayList(selectedStudents);
+        try {
+            int hours = Integer.parseInt(hh.getText());
+            int mins = Integer.parseInt(mm.getText());
+        } catch (NumberFormatException e) {
+            System.out.println("Error: Please enter a valid 24-hour time.");
+        }
+        System.out.println(hh.getText()+":"+mm.getText());
+
+        //Now go to SignInPage, using the FXML file.
+        signInPage = (Stage) findEnrollmentsButton.getScene().getWindow();
+        signInPageParent = FXMLLoader.load(getClass().getResource("SignInPage.fxml"));
+        Scene scene = new Scene(signInPageParent);
+        signInPage.setScene(scene);
+        signInPage.setTitle("Sign-In Page");
+        signInPage.show();
+
     }
+        @FXML
+        public void initialize() { //https://stackoverflow.com/questions/42383857/javafx-live-time-and-date
+            Timeline clock = new Timeline(new KeyFrame(Duration.ZERO, e -> {
+                Calendar cal = Calendar.getInstance();
+                int second = cal.get(Calendar.SECOND);
+                int minute = cal.get(Calendar.MINUTE);
+                int hour = cal.get(Calendar.HOUR);
+                time.setText(hour + ":" + minute + ":" + second);
+            }),
+                    new KeyFrame(Duration.seconds(1))
+            );
+            clock.setCycleCount(Animation.INDEFINITE);
+            clock.play();
+        }
 
     public void searchClasses() {
         searchList.getItems().clear();
