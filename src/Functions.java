@@ -5,20 +5,20 @@ import org.w3c.dom.NodeList;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
+import java.io.*;
 import java.net.Authenticator;
 import java.net.PasswordAuthentication;
 import java.net.URL;
 import java.net.URLConnection;
 import java.nio.channels.Channels;
 import java.nio.channels.ReadableByteChannel;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.*;
 
 //Created by Anshul Agrawal on 7/7/17 at 12:55 PM.
 
-public class Home {
+public class Functions {
 
 
     public static ArrayList<Student> students = new ArrayList<Student>();
@@ -44,38 +44,55 @@ public class Home {
         x.remove(1);
         x.remove(3);
 
-        Email.sendEmail(secOfficeEmail, "Test", x);
+//        Email.sendEmail(secOfficeEmail, "Test", x);
     }
 
     public static void homePage() {
-        Scanner scan = new Scanner(System.in);
-        System.out.println("Start?");
-//        String choice = scan.nextLine();
-//        if (choice.equalsIgnoreCase("y") || choice.equalsIgnoreCase("yes")) {
-//
-//        } else {
-//            System.exit(0);
-//        }
-
-        //This allows you to decide which sets of data to (re)Download when starting the program.
-        //Options: "both", "students", or "classes".
         String toDownload = "none";
+        initialize(toDownload);
+    }
+
+    public static void saveTime() { //This is to remember how long it has been since the database was fully updated.
+        try {
+            DateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
+            Date date = new Date();
+            String currentTime = dateFormat.format(date); //Now this should be the current Date/Time
+
+            PrintWriter writer = new PrintWriter("time.txt", "UTF-8");
+            writer.println(currentTime);
+            writer.close();
+
+        } catch (Exception e) {
+
+        }
+    }
+
+    public static String readTime() { //This will just give us the time the database was last updated.
+        Scanner scan = null;
+        try {
+            scan = new Scanner(new FileInputStream("time.txt"));
+            String time = scan.nextLine();
+            return time;
+        } catch (FileNotFoundException e) {
+            return "Never";
+        }
+    }
+
+
+    public static void initialize(String toDownload) {
 
         //In case not even 1 of the appropriate files exists, override and download them all anyway.
         File check = new File(studentsPath + "1.xml");
         if (!check.exists()) {
             toDownload = "both";
+            saveTime();
         }
         check = new File(classesPath + "1.xml");
         if (!check.exists()) {
             toDownload = "both";
+            saveTime();
         }
 
-        initialize(toDownload);
-    }
-
-
-    public static void initialize(String toDownload) {
         try {
             if (toDownload.equalsIgnoreCase("both") || toDownload.equalsIgnoreCase("students")) {
                 //First need to delete all the student files that already exist.
@@ -104,11 +121,16 @@ public class Home {
                 processStudents(1000);
             }
 
+            if (toDownload.equalsIgnoreCase("both")) {
+                saveTime();
+            }
+
             if (toDownload.equalsIgnoreCase("none")) {
-                print("ALERT: Student and Class lists have not been updated. This could result in inaccuracies.");
+                print("ALERT: The local database has not been updated since: " + readTime() + ". This could result in inaccuracies.");
                 processStudents(1000);
                 processClasses(1000);
             }
+
         } catch (Exception e) {
             e.printStackTrace();
         }
