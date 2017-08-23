@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.paint.*?>
 <?import javafx.geometry.*?>
 <?import javafx.scene.text.*?>
 <?import javafx.scene.image.*?>
@@ -7,57 +8,15 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<GridPane alignment="CENTER" gridLinesVisible="true" vgap="5.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+<GridPane alignment="CENTER" hgap="5.0" vgap="5.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SignInPageController">
    <children>
-      <AnchorPane GridPane.columnSpan="2" GridPane.rowIndex="2" />
-      <ListView fx:id="searchList" prefHeight="345.0" prefWidth="497.0" GridPane.columnSpan="2" GridPane.rowIndex="5">
+      <ListView fx:id="studentList" prefHeight="302.0" prefWidth="497.0" GridPane.columnSpan="2" GridPane.rowIndex="4">
          <GridPane.margin>
             <Insets />
          </GridPane.margin></ListView>
-      <Button contentDisplay="RIGHT" defaultButton="true" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" onAction="#processEnrollments" prefHeight="27.0" prefWidth="267.0" text="Find Enrollments" textAlignment="CENTER" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="9" />
-      <AnchorPane GridPane.columnSpan="2" GridPane.rowIndex="4">
-         <children>
-            <Button fx:id="searchButton" layoutX="436.0" layoutY="3.0" mnemonicParsing="false" onAction="#searchClasses" text="Search" />
-            <TextField fx:id="searchBar" layoutY="3.0" onAction="#searchClasses" prefHeight="27.0" prefWidth="428.0" promptText="Search by Class or Teacher name...">
-               <font>
-                  <Font name="AGaramondPro-Bold" size="13.0" />
-               </font></TextField>
-         </children>
-      </AnchorPane>
-      <Label text="Please select your name from the list below, and press the Sign In button." GridPane.columnSpan="2" GridPane.rowIndex="4">
-         <font>
-            <Font name="Helvetica Neue Light" size="15.0" />
-         </font>
-         <opaqueInsets>
-            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
-         </opaqueInsets>
-      </Label>
-      <Label text="Hold down ⌘ (Control key on Windows) while selecting multiple classes." GridPane.columnSpan="2" GridPane.rowIndex="6">
-         <font>
-            <Font name="Helvetica Neue Light" size="15.0" />
-         </font>
-         <opaqueInsets>
-            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
-         </opaqueInsets>
-      </Label>
-      <BorderPane prefHeight="0.0" prefWidth="497.0" GridPane.columnSpan="2" GridPane.rowIndex="2">
+      <BorderPane GridPane.columnSpan="2">
          <center>
-            <Label fx:id="time" text="HH:MM:SS" textAlignment="CENTER" BorderPane.alignment="CENTER">
-               <font>
-                  <Font name="Helvetica Neue Light" size="15.0" />
-               </font>
-               <opaqueInsets>
-                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
-               </opaqueInsets>
-               <graphic>
-                  <Label text="Current Time:" />
-               </graphic>
-            </Label>
-         </center>
-      </BorderPane>
-      <BorderPane prefHeight="10.0" prefWidth="497.0" GridPane.columnSpan="2" GridPane.rowIndex="1">
-         <center>
-            <Label alignment="CENTER" contentDisplay="CENTER" maxHeight="Infinity" maxWidth="Infinity" prefHeight="9.0" prefWidth="497.0" text="Attendance Helper" textAlignment="CENTER" textFill="#132e52" BorderPane.alignment="CENTER">
+            <Label alignment="CENTER" contentDisplay="CENTER" text="Attendance Helper" textFill="#132e52" BorderPane.alignment="CENTER">
                <font>
                   <Font name="Helvetica Neue Light" size="18.0" />
                </font>
@@ -71,21 +30,61 @@
             </ImageView>
          </top>
       </BorderPane>
-      <BorderPane layoutX="10.0" layoutY="132.0" prefHeight="0.0" prefWidth="497.0" GridPane.columnSpan="2" GridPane.rowIndex="3">
+      <BorderPane prefHeight="200.0" prefWidth="200.0" GridPane.columnSpan="2" GridPane.rowIndex="5">
+         <right>
+            <Button fx:id="signInButton" defaultButton="true" mnemonicParsing="false" onAction="#signIn" prefHeight="27.0" prefWidth="132.0" style="-fx-background-color: #132e52;" text="Sign In" textAlignment="CENTER" textFill="WHITE" wrapText="true" BorderPane.alignment="CENTER" />
+         </right>
+      </BorderPane>
+      <BorderPane prefHeight="24.0" prefWidth="497.0" GridPane.columnSpan="2" GridPane.rowIndex="1">
          <center>
-            <Label fx:id="time1" text="HH:MM:SS" textAlignment="CENTER" BorderPane.alignment="CENTER">
+            <Label fx:id="time" text="HH:MM:SS" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Helvetica Neue Light" size="15.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </opaqueInsets>
+               <graphic>
+                  <Label text="Current Time: ">
+                     <font>
+                        <Font name="Helvetica Neue Light" size="15.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </opaqueInsets>
+                  </Label>
+               </graphic>
+            </Label>
+         </center>
+         <bottom>
+            <Label fx:id="classTime" text="HH:MM:SS" BorderPane.alignment="CENTER">
                <font>
                   <Font name="Helvetica Neue Light" size="15.0" />
                </font>
                <graphic>
-                  <Label text="Class Time:" />
+                  <Label text="Class Time:">
+                     <font>
+                        <Font name="Helvetica Neue Light" size="15.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </opaqueInsets>
+                  </Label>
                </graphic>
                <opaqueInsets>
                   <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                </opaqueInsets>
             </Label>
-         </center>
+         </bottom>
       </BorderPane>
+      <Label text="Please select your name from the list below and press &quot;Sign In&quot;." GridPane.columnIndex="1" GridPane.rowIndex="3">
+         <font>
+            <Font name="Helvetica Neue Light" size="15.0" />
+         </font>
+         <opaqueInsets>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </opaqueInsets>
+      </Label>
    </children>
    <columnConstraints>
       <ColumnConstraints />
@@ -96,17 +95,15 @@
       <RowConstraints />
       <RowConstraints />
       <RowConstraints />
-      <RowConstraints />
-      <RowConstraints maxHeight="60.0" minHeight="25.0" prefHeight="31.0" />
-      <RowConstraints maxHeight="60.0" minHeight="25.0" prefHeight="31.0" />
-      <RowConstraints maxHeight="60.0" minHeight="25.0" prefHeight="31.0" />
-      <RowConstraints maxHeight="22.0" minHeight="15.0" prefHeight="15.0" />
-      <RowConstraints maxHeight="412.0" minHeight="364.0" prefHeight="377.0" />
-      <RowConstraints maxHeight="42.0" minHeight="0.0" prefHeight="29.0" />
-      <RowConstraints />
+      <RowConstraints maxHeight="28.156097412109375" minHeight="15.0" prefHeight="20.481704711914062" />
+      <RowConstraints maxHeight="402.6743927001953" minHeight="25.0" prefHeight="390.1329345703125" />
+      <RowConstraints maxHeight="412.0" minHeight="0.0" prefHeight="32.230194091796875" />
       <RowConstraints />
    </rowConstraints>
    <opaqueInsets>
       <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
    </opaqueInsets>
+   <padding>
+      <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+   </padding>
 </GridPane>

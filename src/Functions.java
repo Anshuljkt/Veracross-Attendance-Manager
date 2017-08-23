@@ -37,21 +37,6 @@ public class Functions {
     private static String secOfficeEmail = "18anshula@nist.ac.th";
 
 
-    public static void main(String[] args) {
-        homePage();
-        ArrayList<Student> x = processEnrollments(103166, false);
-        x.remove(0);
-        x.remove(1);
-        x.remove(3);
-
-//        Email.sendEmail(secOfficeEmail, "Test", x);
-    }
-
-    public static void homePage() {
-        String toDownload = "none";
-        initialize(toDownload);
-    }
-
     public static void saveTime() { //This is to remember how long it has been since the database was fully updated.
         try {
             DateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
@@ -127,8 +112,8 @@ public class Functions {
 
             if (toDownload.equalsIgnoreCase("none")) {
                 print("ALERT: The local database has not been updated since: " + readTime() + ". This could result in inaccuracies.");
-                processStudents(1000);
-                processClasses(1000);
+                processStudents(200);
+                processClasses(200);
             }
 
         } catch (Exception e) {
