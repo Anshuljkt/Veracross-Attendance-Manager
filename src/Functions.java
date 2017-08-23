@@ -217,8 +217,10 @@ public class Functions {
                         int homeroom = Integer.parseInt(eElement.getElementsByTagName("homeroom").item(0).getTextContent());
                         //Year Level
                         String grade = eElement.getElementsByTagName("current_grade").item(0).getTextContent();
-                        //Finally creates the new object and feeds it in. Prioritizes preferred name if available over first name (you're welcome, Thai kids)
-                        students.add(new Student(pName, lName, id, email, homeroom, grade));
+                        //Finally creates the new object and feeds it in. Prioritizes preferred name if available over first name
+                        if (!email.equalsIgnoreCase("")) { //If the person has no E-Mail ID, then don't add them.
+                            students.add(new Student(pName, lName, id, email, homeroom, grade));
+                        }
                     }
                 }
             }
@@ -297,19 +299,16 @@ public class Functions {
         }
     }
 
-    //Method to pull students out based on their Year Levels - Uses String instead of Integer as parameters to leave that for ID-based search.
-    private static ArrayList<Student> searchStudents(String[] yearLevels) {
-        //This method will take an int array of Year Levels to search for.
-        //As a result, we now need to traverse the student ArrayList and check for matches with any items in the provided int array.
+    //Method to pull students out based on their Year Levels - Uses String instead of Integer as parameter to leave that for ID-based search.
+    public static ArrayList<Student> searchStudents(String yearLevel) {
+        //This method will take a String Year level to search for.
         ArrayList<Student> results = new ArrayList<Student>();
         for (Student i : students) {
-            String gradeLevel = i.getGrade();
-            for (String searching : yearLevels) {
-                if (gradeLevel.equalsIgnoreCase(searching)) {
-                    results.add(i);
-                }
-            }
+         if (i.getGrade().equalsIgnoreCase(yearLevel)) {
+             results.add(i);
+         }
         }
+        Collections.sort(results);
         return results;
     }
 
@@ -340,8 +339,18 @@ public class Functions {
         return results;
     }
 
+    public static ArrayList<Class> searchClasses(String searchTerm) {
+        ArrayList<Class> results = new ArrayList<Class>();
+        for (Class x: classes) {
+            if ((x.getName().toLowerCase().contains(searchTerm.toLowerCase())) || (x.getTeacherName().toLowerCase().contains(searchTerm.toLowerCase()))) {
+                results.add(x);
+            }
+        }
+        return results;
+    }
+
     //Method that just calls the method below, except repeats it for each ID in the arrayList given.
-    private static ArrayList processEnrollments(ArrayList<Integer> IDList, boolean studentEnrollments) {
+    public static ArrayList processEnrollments(ArrayList<Integer> IDList, boolean studentEnrollments) {
         ArrayList results = new ArrayList();
         for (Integer i : IDList) {
             results.addAll(processEnrollments(i, studentEnrollments));
@@ -357,7 +366,7 @@ public class Functions {
     }
 
     //Method to create the list of student IDs to expect for a certain class/student using the class/student ID(s).
-    private static ArrayList processEnrollments(int ID, boolean studentEnrollments) {
+    public static ArrayList processEnrollments(int ID, boolean studentEnrollments) {
         ArrayList<Integer> receivedIDs = new ArrayList<Integer>();
         ArrayList results;
 

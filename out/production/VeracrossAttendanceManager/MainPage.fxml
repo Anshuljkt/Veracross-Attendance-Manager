@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<!--<VBox prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">-->
+<!--<children>-->
+<!---->
+<!--<Label text = "I love bacon" />-->
+<!--<Button text = "Submit" fx:id="button" onAction="#handleClick"/>-->
+<!--</children>-->
+<!--</VBox>-->
+
+<GridPane alignment="CENTER" vgap="5.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <AnchorPane GridPane.columnSpan="2">
+         <children>
+            <Label alignment="TOP_RIGHT" contentDisplay="CENTER" layoutX="179.0" layoutY="90.0" maxHeight="Infinity" maxWidth="Infinity" text="Attendance Helper" textAlignment="CENTER" textFill="#132e52">
+               <font>
+                  <Font name="Helvetica Neue Light" size="18.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="89.0" fitWidth="136.0" layoutX="182.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@NIST-International-School-Logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <ListView fx:id="searchList" prefHeight="345.0" prefWidth="497.0" GridPane.columnSpan="2" GridPane.rowIndex="5">
+         <GridPane.margin>
+            <Insets />
+         </GridPane.margin></ListView>
+      <Button defaultButton="true" mnemonicParsing="false" onAction="#processEnrollments" prefHeight="27.0" prefWidth="267.0" text="Find Enrollments" textAlignment="CENTER" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+      <AnchorPane GridPane.columnSpan="2" GridPane.rowIndex="4">
+         <children>
+            <Button fx:id="searchButton" layoutX="436.0" layoutY="3.0" mnemonicParsing="false" onAction="#searchClasses" text="Search" />
+            <TextField fx:id="searchBar" layoutY="3.0" onAction="#searchClasses" prefHeight="27.0" prefWidth="428.0" promptText="Search by Class or Teacher name...">
+               <font>
+                  <Font name="AGaramondPro-Bold" size="13.0" />
+               </font></TextField>
+         </children>
+      </AnchorPane>
+      <CheckBox fx:id="checkBox12" mnemonicParsing="false" prefHeight="18.0" prefWidth="230.0" text="All Year 12 Students" GridPane.rowIndex="2">
+         <font>
+            <Font name="Helvetica Neue Light" size="13.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="checkBox13" layoutX="10.0" layoutY="164.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="230.0" text="All Year 13 Students" GridPane.rowIndex="3">
+         <font>
+            <Font name="Helvetica Neue Light" size="13.0" />
+         </font>
+      </CheckBox>
+      <Label text="Enter class start time (24-hour format):" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="2">
+         <font>
+            <Font name="Helvetica Neue Light" size="15.0" />
+         </font>
+         <opaqueInsets>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </opaqueInsets>
+      </Label>
+      <Label text="Hold down ⌘ (Control key on Windows) while selecting multiple classes." GridPane.columnSpan="2" GridPane.rowIndex="6">
+         <font>
+            <Font name="Helvetica Neue Light" size="15.0" />
+         </font>
+         <opaqueInsets>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </opaqueInsets>
+      </Label>
+       <!--This is to set the time at which students will be marked late.-->
+      <HBox prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+         <children>
+            <TextField fx:id="hh" alignment="CENTER" promptText="HH" />
+            <TextField fx:id="mm" alignment="CENTER" promptText="MM" />
+         </children>
+      </HBox>
+   </children>
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints maxHeight="22.0" minHeight="15.0" prefHeight="15.0" />
+      <RowConstraints maxHeight="60.0" minHeight="25.0" prefHeight="31.0" />
+      <RowConstraints maxHeight="60.0" minHeight="25.0" prefHeight="31.0" />
+      <RowConstraints maxHeight="60.0" minHeight="25.0" prefHeight="31.0" />
+      <RowConstraints maxHeight="412.0" minHeight="364.0" prefHeight="377.0" />
+      <RowConstraints maxHeight="42.0" minHeight="0.0" prefHeight="29.0" />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+   <opaqueInsets>
+      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+   </opaqueInsets>
+</GridPane>

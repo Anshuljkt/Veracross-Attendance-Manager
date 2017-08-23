@@ -76,7 +76,7 @@
   </class>
   <class>
 <class_pk type="integer">103190</class_pk>
-<class_id>13-HOM.RMO.B3E</class_id>
+<class_id>13-HOM.RMO.C3EVEN</class_id>
 <group_fk type="integer">0</group_fk>
 <group_id>0-2005-0-0-0-0-0-0</group_id>
 <school_year type="integer">2017</school_year>
@@ -93,19 +93,27 @@
 <student_portal_visibility>Show</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">0</teacher_fk>
-<teacher_full_name/>
+<teacher_fk type="integer">30082</teacher_fk>
+<teacher_full_name>Harold Moss</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-08-22T20:50:00+00:00</update_date>
+<update_date type="datetime">2017-08-23T03:39:00+00:00</update_date>
 <teachers type="array">
+  <teacher>
+    <person_fk type="integer">30082</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Harold Moss</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
 </teachers>
 <meeting_times type="array">
   <meeting_time>
-    <grading_period/>
-    <day/>
+    <grading_period>ALL</grading_period>
+    <day>C</day>
     <room/>
-    <block/>
-    <block_abbreviation/>
+    <block>Period 3 (S) DP</block>
+    <block_abbreviation>P3-SDP</block_abbreviation>
     <start_time/>
     <end_time/>
   </meeting_time>
@@ -113,7 +121,7 @@
   </class>
   <class>
 <class_pk type="integer">103191</class_pk>
-<class_id>13-HOM.RMO.B3O</class_id>
+<class_id>13-HOM.RMO.E3EVEN</class_id>
 <group_fk type="integer">0</group_fk>
 <group_id>0-2005-0-0-0-0-0-0</group_id>
 <school_year type="integer">2017</school_year>
@@ -130,19 +138,27 @@
 <student_portal_visibility>Show</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">0</teacher_fk>
-<teacher_full_name/>
+<teacher_fk type="integer">30082</teacher_fk>
+<teacher_full_name>Harold Moss</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-08-22T20:50:00+00:00</update_date>
+<update_date type="datetime">2017-08-23T03:41:00+00:00</update_date>
 <teachers type="array">
+  <teacher>
+    <person_fk type="integer">30082</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Harold Moss</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
 </teachers>
 <meeting_times type="array">
   <meeting_time>
-    <grading_period/>
-    <day/>
+    <grading_period>ALL</grading_period>
+    <day>E</day>
     <room/>
-    <block/>
-    <block_abbreviation/>
+    <block>Period 3 (S) DP</block>
+    <block_abbreviation>P3-SDP</block_abbreviation>
     <start_time/>
     <end_time/>
   </meeting_time>
@@ -150,7 +166,7 @@
   </class>
   <class>
 <class_pk type="integer">103192</class_pk>
-<class_id>13-HOM.RMO.D3O</class_id>
+<class_id>13-HOM.RMO.E4EVEN</class_id>
 <group_fk type="integer">0</group_fk>
 <group_id>0-2005-0-0-0-0-0-0</group_id>
 <school_year type="integer">2017</school_year>
@@ -167,19 +183,27 @@
 <student_portal_visibility>Show</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">0</teacher_fk>
-<teacher_full_name/>
+<teacher_fk type="integer">30082</teacher_fk>
+<teacher_full_name>Harold Moss</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-08-22T20:50:00+00:00</update_date>
+<update_date type="datetime">2017-08-23T03:45:00+00:00</update_date>
 <teachers type="array">
+  <teacher>
+    <person_fk type="integer">30082</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Harold Moss</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
 </teachers>
 <meeting_times type="array">
   <meeting_time>
-    <grading_period/>
-    <day/>
+    <grading_period>ALL</grading_period>
+    <day>E</day>
     <room/>
-    <block/>
-    <block_abbreviation/>
+    <block>Lunch (Y10-13)</block>
+    <block_abbreviation>L10-13</block_abbreviation>
     <start_time/>
     <end_time/>
   </meeting_time>
@@ -187,7 +211,7 @@
   </class>
   <class>
 <class_pk type="integer">103193</class_pk>
-<class_id>13-HOM.RNA.B3E</class_id>
+<class_id>13-HOM.RMO.D3EVEN</class_id>
 <group_fk type="integer">0</group_fk>
 <group_id>0-2005-0-0-0-0-0-0</group_id>
 <school_year type="integer">2017</school_year>
@@ -204,19 +228,27 @@
 <student_portal_visibility>Show</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">0</teacher_fk>
-<teacher_full_name/>
+<teacher_fk type="integer">30082</teacher_fk>
+<teacher_full_name>Harold Moss</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-08-22T20:50:00+00:00</update_date>
+<update_date type="datetime">2017-08-23T03:49:00+00:00</update_date>
 <teachers type="array">
+  <teacher>
+    <person_fk type="integer">30082</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Harold Moss</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
 </teachers>
 <meeting_times type="array">
   <meeting_time>
-    <grading_period/>
-    <day/>
+    <grading_period>ALL</grading_period>
+    <day>D</day>
     <room/>
-    <block/>
-    <block_abbreviation/>
+    <block>Period 3 (S) DP</block>
+    <block_abbreviation>P3-SDP</block_abbreviation>
     <start_time/>
     <end_time/>
   </meeting_time>
@@ -224,7 +256,7 @@
   </class>
   <class>
 <class_pk type="integer">103194</class_pk>
-<class_id>13-HOM.RNA.B3O</class_id>
+<class_id>13-HOM.RMO.C3ODD</class_id>
 <group_fk type="integer">0</group_fk>
 <group_id>0-2005-0-0-0-0-0-0</group_id>
 <school_year type="integer">2017</school_year>
@@ -241,19 +273,27 @@
 <student_portal_visibility>Show</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">0</teacher_fk>
-<teacher_full_name/>
+<teacher_fk type="integer">30082</teacher_fk>
+<teacher_full_name>Harold Moss</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-08-22T20:50:00+00:00</update_date>
+<update_date type="datetime">2017-08-23T03:50:00+00:00</update_date>
 <teachers type="array">
+  <teacher>
+    <person_fk type="integer">30082</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Harold Moss</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
 </teachers>
 <meeting_times type="array">
   <meeting_time>
-    <grading_period/>
-    <day/>
+    <grading_period>ALL</grading_period>
+    <day>C</day>
     <room/>
-    <block/>
-    <block_abbreviation/>
+    <block>Period 3 (S) DP</block>
+    <block_abbreviation>P3-SDP</block_abbreviation>
     <start_time/>
     <end_time/>
   </meeting_time>
@@ -261,7 +301,7 @@
   </class>
   <class>
 <class_pk type="integer">103195</class_pk>
-<class_id>13-HOM.RNA.D3E</class_id>
+<class_id>13-HOM.RMO.E3ODD</class_id>
 <group_fk type="integer">0</group_fk>
 <group_id>0-2005-0-0-0-0-0-0</group_id>
 <school_year type="integer">2017</school_year>
@@ -278,19 +318,27 @@
 <student_portal_visibility>Show</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">0</teacher_fk>
-<teacher_full_name/>
+<teacher_fk type="integer">30082</teacher_fk>
+<teacher_full_name>Harold Moss</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-08-22T20:50:00+00:00</update_date>
+<update_date type="datetime">2017-08-23T04:03:00+00:00</update_date>
 <teachers type="array">
+  <teacher>
+    <person_fk type="integer">30082</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Harold Moss</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
 </teachers>
 <meeting_times type="array">
   <meeting_time>
-    <grading_period/>
-    <day/>
+    <grading_period>ALL</grading_period>
+    <day>E</day>
     <room/>
-    <block/>
-    <block_abbreviation/>
+    <block>Period 3 (S) DP</block>
+    <block_abbreviation>P3-SDP</block_abbreviation>
     <start_time/>
     <end_time/>
   </meeting_time>
@@ -298,7 +346,7 @@
   </class>
   <class>
 <class_pk type="integer">103196</class_pk>
-<class_id>13-HOM.RNA.D3O</class_id>
+<class_id>13-HOM.RMO.E4ODD</class_id>
 <group_fk type="integer">0</group_fk>
 <group_id>0-2005-0-0-0-0-0-0</group_id>
 <school_year type="integer">2017</school_year>
@@ -315,19 +363,27 @@
 <student_portal_visibility>Show</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">0</teacher_fk>
-<teacher_full_name/>
+<teacher_fk type="integer">30082</teacher_fk>
+<teacher_full_name>Harold Moss</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-08-22T20:50:00+00:00</update_date>
+<update_date type="datetime">2017-08-23T04:04:00+00:00</update_date>
 <teachers type="array">
+  <teacher>
+    <person_fk type="integer">30082</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Harold Moss</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
 </teachers>
 <meeting_times type="array">
   <meeting_time>
-    <grading_period/>
-    <day/>
+    <grading_period>ALL</grading_period>
+    <day>E</day>
     <room/>
-    <block/>
-    <block_abbreviation/>
+    <block>Period 4 (DP)</block>
+    <block_abbreviation>P4-DP</block_abbreviation>
     <start_time/>
     <end_time/>
   </meeting_time>

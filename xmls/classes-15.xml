@@ -1923,4 +1923,49 @@
   </meeting_time>
 </meeting_times>
   </class>
+  <class>
+<class_pk type="integer">105594</class_pk>
+<class_id>IM1-GTRT.M20</class_id>
+<group_fk type="integer">543607</group_fk>
+<group_id>201-2017-0-105594-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Electric Guitar</course>
+<course_id type="integer">960</course_id>
+<description>Electric Guitar - Teacher: Santikunnukan, Than</description>
+<subject>Instrumental Music Lessons</subject>
+<course_type>Other Program</course_type>
+<grading_method>Qualitative</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">18215</teacher_fk>
+<teacher_full_name>Than Santikunnukan</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2017-08-23T09:38:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">18215</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Than Santikunnukan</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>Monday</day>
+    <room/>
+    <block>Period 20 (IML)</block>
+    <block_abbreviation>I20</block_abbreviation>
+    <start_time>17:00</start_time>
+    <end_time>18:00</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
 </classes>

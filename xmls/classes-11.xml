@@ -220,7 +220,7 @@
 <teacher_fk type="integer">40564</teacher_fk>
 <teacher_full_name>Daniel Kvarnemo</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-08-22T20:50:00+00:00</update_date>
+<update_date type="datetime">2017-08-23T08:23:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">40564</person_fk>
@@ -236,28 +236,28 @@
     <grading_period>ALL</grading_period>
     <day>A</day>
     <room/>
-    <block>Period 8 (DP)</block>
-    <block_abbreviation>P8-DP</block_abbreviation>
-    <start_time/>
-    <end_time/>
+    <block>Period 5 (DP)</block>
+    <block_abbreviation>P5-DP</block_abbreviation>
+    <start_time>14:45</start_time>
+    <end_time>15:50</end_time>
   </meeting_time>
   <meeting_time>
     <grading_period>ALL</grading_period>
     <day>C</day>
     <room/>
-    <block>Period 8 (DP)</block>
-    <block_abbreviation>P8-DP</block_abbreviation>
-    <start_time/>
-    <end_time/>
+    <block>Period 5 (DP)</block>
+    <block_abbreviation>P5-DP</block_abbreviation>
+    <start_time>14:45</start_time>
+    <end_time>15:50</end_time>
   </meeting_time>
   <meeting_time>
     <grading_period>ALL</grading_period>
     <day>E</day>
     <room/>
-    <block>Period 8 (DP)</block>
-    <block_abbreviation>P8-DP</block_abbreviation>
-    <start_time/>
-    <end_time/>
+    <block>Period 5 (DP)</block>
+    <block_abbreviation>P5-DP</block_abbreviation>
+    <start_time>14:45</start_time>
+    <end_time>15:50</end_time>
   </meeting_time>
 </meeting_times>
   </class>
@@ -1705,7 +1705,7 @@
 <teacher_fk type="integer">38732</teacher_fk>
 <teacher_full_name>Stratford Blyth</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-08-22T20:50:00+00:00</update_date>
+<update_date type="datetime">2017-08-23T08:47:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">38732</person_fk>
@@ -1741,15 +1741,6 @@
     <room>Design Studio 1</room>
     <block>Period 1 (DP)</block>
     <block_abbreviation>P1-DP</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
-  <meeting_time>
-    <grading_period>ALL</grading_period>
-    <day>F</day>
-    <room>Design Studio 1</room>
-    <block>Period 3 (L) DP</block>
-    <block_abbreviation>P3-LDP</block_abbreviation>
     <start_time/>
     <end_time/>
   </meeting_time>
