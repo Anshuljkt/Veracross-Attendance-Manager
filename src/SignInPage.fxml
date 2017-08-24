@@ -10,7 +10,7 @@
 
 <GridPane alignment="CENTER" hgap="5.0" vgap="5.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SignInPageController">
    <children>
-      <ListView fx:id="studentList" prefHeight="302.0" prefWidth="497.0" GridPane.columnSpan="2" GridPane.rowIndex="4">
+      <ListView fx:id="studentList" prefHeight="391.0" prefWidth="585.0" GridPane.columnSpan="2" GridPane.rowIndex="4">
          <GridPane.margin>
             <Insets />
          </GridPane.margin></ListView>
@@ -39,7 +39,7 @@
          <center>
             <Label fx:id="time" text="HH:MM:SS" BorderPane.alignment="CENTER">
                <font>
-                  <Font name="Helvetica Neue Light" size="15.0" />
+                  <Font name="Helvetica Neue Light" size="24.0" />
                </font>
                <opaqueInsets>
                   <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
@@ -47,7 +47,7 @@
                <graphic>
                   <Label text="Current Time: ">
                      <font>
-                        <Font name="Helvetica Neue Light" size="15.0" />
+                        <Font name="Helvetica Neue Light" size="24.0" />
                      </font>
                      <opaqueInsets>
                         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
@@ -59,12 +59,12 @@
          <bottom>
             <Label fx:id="classTime" text="HH:MM:SS" BorderPane.alignment="CENTER">
                <font>
-                  <Font name="Helvetica Neue Light" size="15.0" />
+                  <Font name="Helvetica Neue Light" size="24.0" />
                </font>
                <graphic>
                   <Label text="Class Time:">
                      <font>
-                        <Font name="Helvetica Neue Light" size="15.0" />
+                        <Font name="Helvetica Neue Light" size="24.0" />
                      </font>
                      <opaqueInsets>
                         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />

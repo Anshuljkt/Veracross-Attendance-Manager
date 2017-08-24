@@ -19,6 +19,7 @@ public class MainPageController extends Application {
 
     public static ArrayList selectedStudents;
     public static String classTime;
+    public Parent parent;
     public Stage mainStage;
 
     public static void main(String[] args) {
@@ -27,10 +28,10 @@ public class MainPageController extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        Parent mainMenuParent = FXMLLoader.load(getClass().getResource("MainPage.fxml"));
+        parent = FXMLLoader.load(getClass().getResource("MainPage.fxml"));
         mainStage = primaryStage;
         mainStage.setTitle("NIST Attendance");
-        mainStage.setScene(new Scene(mainMenuParent));
+        mainStage.setScene(new Scene(parent));
         mainStage.show();
 
         //Check if the user wants to update the database.
@@ -81,15 +82,15 @@ public class MainPageController extends Application {
             selectedStudents.clear();
             selectedStudents.addAll(noDuplicates);
             Collections.sort(selectedStudents);
-            Functions.printArrayList(selectedStudents);
 
-            //Now go to SignInPage, using the FXML file.
-            Parent signInParent = FXMLLoader.load(getClass().getResource("SignInPage.fxml"));
-            Scene signInScene = new Scene(signInParent);
-            Stage signInStage = (Stage) searchList.getScene().getWindow();
-            signInStage.setScene(signInScene);
-            signInStage.setTitle("Sign In Page");
-            signInStage.show();
+            //Now go to SignInPage in a new window, using the other FXML file.
+            FXMLLoader fxmlLoader = new FXMLLoader((getClass().getResource("SignInPage.fxml")));
+            parent = (Parent) fxmlLoader.load();
+            fxmlLoader.setController("SignInPageController");
+            mainStage = new Stage();
+            mainStage.setScene(new Scene(parent));
+            mainStage.setMaximized(true);
+            mainStage.show();
 
         }
     }
