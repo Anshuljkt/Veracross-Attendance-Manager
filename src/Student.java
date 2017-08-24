@@ -11,7 +11,7 @@ public class Student implements Comparable<Student> {
     private int homeroom;
     private String grade;
     private int gradeNum;
-    private String className;
+
 
     public Student() {
     }
@@ -87,6 +87,12 @@ public class Student implements Comparable<Student> {
     public String toString() {
         return fName + " " + lName +
                 " | " + grade;
+    }
+
+    public String toStringWithID() {
+        return fName + " " + lName +
+                " | " + grade +
+                " | ID: " + id;
     }
     //compareTo method, allows sorting by last name in A-Z.
     public int compareTo(Student compare) {

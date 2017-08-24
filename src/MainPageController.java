@@ -18,7 +18,8 @@ public class MainPageController extends Application {
     @FXML private ListView searchList;
 
     public static ArrayList selectedStudents;
-    public static String classTime;
+    public static String givenHH, givenMM, givenSS; //To be concatenated and used by Sign In page.
+    public static String classNames = "";
     public Parent parent;
     public Stage mainStage;
 
@@ -33,6 +34,7 @@ public class MainPageController extends Application {
         mainStage.setTitle("NIST Attendance");
         mainStage.setScene(new Scene(parent));
         mainStage.show();
+        mainStage.setOnCloseRequest(event -> System.exit(0)); //Make sure user can always exit when they want to.
 
         //Check if the user wants to update the database.
         Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
@@ -43,6 +45,7 @@ public class MainPageController extends Application {
         ButtonType buttonNo = new ButtonType("No");
         alert.getButtonTypes().setAll(buttonYes, buttonNo);
         Optional<ButtonType> result = alert.showAndWait();
+        alert.setOnCloseRequest(event -> System.exit(0));
 
         if (result.get() == buttonYes) {
             Functions.initialize("both");
@@ -53,11 +56,10 @@ public class MainPageController extends Application {
 
     public void processEnrollments() throws IOException { //This will take in user input and give us the students in those classes.
         if (validateFields()) {
-            //Just set the class time to be shown.
-            String second2 = "00";
-            String minute2 = String.format("%02d", (Integer.parseInt(mm.getText())));
-            String hour2 = String.format("%02d", (Integer.parseInt(hh.getText())));
-            classTime = hour2 + ":" + minute2 + ":" + second2;
+            //Just set the class time to be shown. These will be used in the Sign In Page.
+            givenSS = "00";
+            givenMM = String.format("%02d", (Integer.parseInt(mm.getText())));
+            givenHH = String.format("%02d", (Integer.parseInt(hh.getText())));
 
 
             ObservableList<Class> selectedClasses = searchList.getSelectionModel().getSelectedItems(); //This is the user input.
@@ -67,15 +69,19 @@ public class MainPageController extends Application {
             //First download all enrollments from selected classes, and add the students into the selectedStudents ArrayList.
             for (Class i : selectedClasses) {
                 classIDs.add(i.getId());
+                classNames = classNames + i.getName() +" | "; //Also concatenate all class names for the email.
             }
+
             selectedStudents.addAll(Functions.processEnrollments(classIDs, false));
 
             //If entire year levels have been selected, then add them to the selectedStudents ArrayList too.
             if (checkBox12.isSelected()) {
                 selectedStudents.addAll(Functions.searchStudents("Year 12"));
+                classNames = classNames + "All Y12 | ";
             }
             if (checkBox13.isSelected()) {
                 selectedStudents.addAll(Functions.searchStudents("Year 13"));
+                classNames = classNames + "All Y13 | ";
             }
             //Remove any duplicates
             Set noDuplicates = new LinkedHashSet(selectedStudents);
@@ -91,7 +97,7 @@ public class MainPageController extends Application {
             mainStage.setScene(new Scene(parent));
             mainStage.setMaximized(true);
             mainStage.show();
-
+//            mainStage.setOnCloseRequest(event -> System.exit(0));
         }
     }
 

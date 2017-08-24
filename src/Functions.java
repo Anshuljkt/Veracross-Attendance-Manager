@@ -34,7 +34,7 @@ public class Functions {
     private static String classesPath = "xmls/classes-";
     private static String enrollmentsPath = "xmls/enrollments-";
     private static String studentEnrollmentsPath = "xmls/studentEnrollments-";
-    private static String secOfficeEmail = "18anshula@nist.ac.th";
+    public static String secOfficeEmail = "18anshula@nist.ac.th";
 
 
     public static void saveTime() { //This is to remember how long it has been since the database was fully updated.
@@ -115,7 +115,7 @@ public class Functions {
                 processStudents(200);
                 processClasses(200);
             }
-
+            return;
         } catch (Exception e) {
             e.printStackTrace();
         }

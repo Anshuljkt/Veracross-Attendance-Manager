@@ -2,15 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="643848ea-2949-4a73-9d5c-9e3e38de0cff" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/VeracrossAttendanceManager/MainPageController.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/VeracrossAttendanceManager/SignInPageController.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/VeracrossAttendanceManager/MainPageController.class" afterPath="$PROJECT_DIR$/out/production/VeracrossAttendanceManager/MainPageController.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xmls/enrollments-103078-1.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/VeracrossAttendanceManager/Email.class" afterPath="$PROJECT_DIR$/out/production/VeracrossAttendanceManager/Email.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/VeracrossAttendanceManager/Functions.class" afterPath="$PROJECT_DIR$/out/production/VeracrossAttendanceManager/Functions.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/VeracrossAttendanceManager/Student.class" afterPath="$PROJECT_DIR$/out/production/VeracrossAttendanceManager/Student.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/VeracrossAttendanceManager/MainPage.fxml" afterPath="$PROJECT_DIR$/out/production/VeracrossAttendanceManager/MainPage.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MainPage.fxml" afterPath="$PROJECT_DIR$/src/MainPage.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VeracrossAttendanceManager.iml" afterPath="$PROJECT_DIR$/VeracrossAttendanceManager.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Email.java" afterPath="$PROJECT_DIR$/src/Email.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Functions.java" afterPath="$PROJECT_DIR$/src/Functions.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MainPageController.java" afterPath="$PROJECT_DIR$/src/MainPageController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SignInPage.fxml" afterPath="$PROJECT_DIR$/src/SignInPage.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SignInPageController.java" afterPath="$PROJECT_DIR$/src/SignInPageController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Student.java" afterPath="$PROJECT_DIR$/src/Student.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/time.txt" afterPath="$PROJECT_DIR$/time.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/classes-1.xml" afterPath="$PROJECT_DIR$/xmls/classes-1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/classes-10.xml" afterPath="$PROJECT_DIR$/xmls/classes-10.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/classes-11.xml" afterPath="$PROJECT_DIR$/xmls/classes-11.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/classes-12.xml" afterPath="$PROJECT_DIR$/xmls/classes-12.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/classes-13.xml" afterPath="$PROJECT_DIR$/xmls/classes-13.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/classes-14.xml" afterPath="$PROJECT_DIR$/xmls/classes-14.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/classes-15.xml" afterPath="$PROJECT_DIR$/xmls/classes-15.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/classes-2.xml" afterPath="$PROJECT_DIR$/xmls/classes-2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/classes-3.xml" afterPath="$PROJECT_DIR$/xmls/classes-3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/classes-4.xml" afterPath="$PROJECT_DIR$/xmls/classes-4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/classes-5.xml" afterPath="$PROJECT_DIR$/xmls/classes-5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/classes-6.xml" afterPath="$PROJECT_DIR$/xmls/classes-6.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/classes-7.xml" afterPath="$PROJECT_DIR$/xmls/classes-7.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/classes-8.xml" afterPath="$PROJECT_DIR$/xmls/classes-8.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/classes-9.xml" afterPath="$PROJECT_DIR$/xmls/classes-9.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/students-1.xml" afterPath="$PROJECT_DIR$/xmls/students-1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/students-2.xml" afterPath="$PROJECT_DIR$/xmls/students-2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/students-3.xml" afterPath="$PROJECT_DIR$/xmls/students-3.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,20 +64,8 @@
       <file leaf-file-name="Functions.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Functions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SignInPageController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SignInPageController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="55" lean-forward="false" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="55" />
+            <state relative-caret-position="-485">
+              <caret line="117" column="19" lean-forward="false" selection-start-line="117" selection-start-column="19" selection-end-line="117" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,9 +76,21 @@
       <file leaf-file-name="Email.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Email.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="12" column="51" lean-forward="true" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+            <state relative-caret-position="650">
+              <caret line="61" column="19" lean-forward="false" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SignInPageController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SignInPageController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -74,11 +98,11 @@
       <file leaf-file-name="MainPageController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MainPageController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="62" column="80" lean-forward="true" selection-start-line="62" selection-start-column="80" selection-end-line="62" selection-end-column="80" />
+            <state relative-caret-position="279">
+              <caret line="44" column="51" lean-forward="true" selection-start-line="44" selection-start-column="51" selection-end-line="44" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2528#2537#0" expanded="true" />
+                <element signature="e#2763#2772#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -86,27 +110,27 @@
       </file>
       <file leaf-file-name="MainPage.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MainPage.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
               <folding />
             </state>
           </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="SignInPage.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SignInPage.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
               <caret line="12" column="15" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="15" />
               <folding />
             </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
           </provider>
         </entry>
       </file>
@@ -123,8 +147,8 @@
       <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+            <state relative-caret-position="203">
+              <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -203,17 +227,17 @@
         <option value="$PROJECT_DIR$/src/MainMenu.java" />
         <option value="$PROJECT_DIR$/src/MainMenu.form" />
         <option value="$PROJECT_DIR$/src/Home.java" />
-        <option value="$PROJECT_DIR$/src/Email.java" />
         <option value="$PROJECT_DIR$/src/MeetingTime.java" />
         <option value="$PROJECT_DIR$/src/Class.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/Design.fxml" />
-        <option value="$PROJECT_DIR$/src/Functions.java" />
         <option value="$PROJECT_DIR$/src/Controller.java" />
         <option value="$PROJECT_DIR$/src/SignInPage.fxml" />
         <option value="$PROJECT_DIR$/src/MainPage.fxml" />
-        <option value="$PROJECT_DIR$/src/SignInPageController.java" />
         <option value="$PROJECT_DIR$/src/Student.java" />
+        <option value="$PROJECT_DIR$/src/Email.java" />
+        <option value="$PROJECT_DIR$/src/Functions.java" />
+        <option value="$PROJECT_DIR$/src/SignInPageController.java" />
         <option value="$PROJECT_DIR$/src/MainPageController.java" />
       </list>
     </option>
@@ -225,8 +249,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="22" />
-    <option name="width" value="720" />
+    <option name="y" value="146" />
+    <option name="width" value="1280" />
     <option name="height" value="832" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -331,9 +355,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -349,20 +374,25 @@
             <path>
               <item name="VeracrossAttendanceManager" type="b2602c69:ProjectViewProjectNode" />
               <item name="VeracrossAttendanceManager" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="libraries" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VeracrossAttendanceManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VeracrossAttendanceManager" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="ToolWindowRun.ShowToolbar" value="false" />
@@ -901,13 +931,14 @@
       <workItem from="1503452422185" duration="336000" />
       <workItem from="1503457675980" duration="26006000" />
       <workItem from="1503532215416" duration="2960000" />
-      <workItem from="1503577349078" duration="1773000" />
+      <workItem from="1503577349078" duration="3066000" />
+      <workItem from="1503581581736" duration="6326000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
     <option name="enabled" value="true" />
-    <option name="totallyTimeSpent" value="136237000" />
+    <option name="totallyTimeSpent" value="143856000" />
     <option name="suspendDelayInSeconds" value="300" />
     <option name="showClosedTasks" value="false" />
   </component>
@@ -921,23 +952,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="833" extended-state="6" />
+    <frame x="0" y="22" width="1440" height="832" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.239159" sideWeight="0.49722221" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22236842" sideWeight="0.49722221" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34605262" sideWeight="0.50277776" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24047306" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23947369" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15763889" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -999,7 +1030,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Functions.java" />
     <entry file="file://$PROJECT_DIR$/src/Class.java" />
     <entry file="file://$PROJECT_DIR$/src/Student.java" />
     <entry file="file://$PROJECT_DIR$/src/MeetingTime.java" />
@@ -1085,16 +1115,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Functions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MeetingTime.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1104,14 +1124,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MainPage.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/javafx-src.zip!/javafx/event/EventHandler.java">
@@ -1122,50 +1142,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SignInPage.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
+    <entry file="file://$PROJECT_DIR$/.idea/libraries/Quartz.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SignInPage.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="15" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="15" />
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Email.java">
+    <entry file="file://$PROJECT_DIR$/src/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="12" column="51" lean-forward="true" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+        <state relative-caret-position="203">
+          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SignInPageController.java">
+    <entry file="file://$PROJECT_DIR$/src/Email.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="55" lean-forward="false" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="55" />
+        <state relative-caret-position="650">
+          <caret line="61" column="19" lean-forward="false" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Functions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-485">
+          <caret line="117" column="19" lean-forward="false" selection-start-line="117" selection-start-column="19" selection-end-line="117" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Student.java">
+    <entry file="file://$PROJECT_DIR$/src/SignInPageController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding />
+        <state relative-caret-position="156">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MainPageController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="62" column="80" lean-forward="true" selection-start-line="62" selection-start-column="80" selection-end-line="62" selection-end-column="80" />
+        <state relative-caret-position="279">
+          <caret line="44" column="51" lean-forward="true" selection-start-line="44" selection-start-column="51" selection-end-line="44" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2528#2537#0" expanded="true" />
+            <element signature="e#2763#2772#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1234,7 +1272,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>javax.mail</last-edited>
+          <last-edited>lib</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

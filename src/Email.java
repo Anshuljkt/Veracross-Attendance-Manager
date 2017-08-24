@@ -1,4 +1,3 @@
-
 import javax.mail.*;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
@@ -8,10 +7,11 @@ import java.util.Properties;
 
 public class Email {
 
-    public static void sendEmail(String recipient, String subjectLine, ArrayList listOfStudents) { //Same method that just works with an ArrayList.
+
+    public static void sendEmail(String recipient, String subjectLine, ArrayList<Student> listOfStudents) { //Same method that just works with an ArrayList.
         String body = "";
-        for (Object thisStudent : listOfStudents) {
-            body = body + thisStudent.toString() + "\n";
+        for (Student thisStudent : listOfStudents) {
+            body = body + thisStudent.toStringWithID() + "\n";
         }
         sendEmail(recipient, subjectLine, body);
     }
@@ -38,7 +38,10 @@ public class Email {
 
         Session session = Session.getDefaultInstance(properties, auth);
 
-        body = "Hello. These students have not yet arrived:\n\n" + body;
+        body =  "\nClass Names: " + MainPageController.classNames +
+                "\n" +
+                "\nThese students have not yet arrived :" +
+                "\n\n" + body;
 
         //Now to actually send the email, after the session is created and everything is established.
 
@@ -56,6 +59,7 @@ public class Email {
             msg.setRecipients(Message.RecipientType.TO, InternetAddress.parse(recipient, false));
             Transport.send(msg);
             System.out.println("The email has been sent to " + "\"" + recipient + "\"" + ".");
+            return;
         } catch (Exception e) {
             e.printStackTrace();
         }
