@@ -7,6 +7,7 @@ import javafx.scene.control.ListView;
 import javafx.scene.paint.Color;
 import javafx.util.Duration;
 
+import java.text.SimpleDateFormat;
 import java.util.*;
 
 public class SignInPageController {
@@ -33,18 +34,19 @@ public class SignInPageController {
         clock.setCycleCount(Animation.INDEFINITE);
         clock.play();
 
-        //Now set classTime display, and schedule an email to be sent then.
+        //Now schedule an email to be sent at class time, and update the Label in the Stage.
         String hours = MainPageController.givenHH;
         String minutes = MainPageController.givenMM;
         String seconds = MainPageController.givenSS;
-        String combinedTime = hours + ":" + minutes + ":" + seconds;
-        classTime.setText(combinedTime);
+        SimpleDateFormat timeFormat = new SimpleDateFormat("hh:mm:ss a");
 
         //Convert that classTime to a Date.
         Date emailTime = new Date();
         emailTime.setHours(Integer.parseInt(hours));
         emailTime.setMinutes(Integer.parseInt(minutes));
         emailTime.setSeconds(Integer.parseInt(seconds));
+        String formattedTime = timeFormat.format(emailTime);
+        classTime.setText(formattedTime);
 
         //Now schedule a Timer task to send an email out.
         Timer email = new Timer();
@@ -53,7 +55,9 @@ public class SignInPageController {
                 time.setTextFill(Color.RED);
                 ArrayList selectedStudents = new ArrayList();
                 selectedStudents.addAll(studentList.getItems());
-                Email.sendEmail(Functions.secOfficeEmail, "Absent Students | " + combinedTime, selectedStudents);
+                if(!selectedStudents.isEmpty()) {
+                    Email.sendEmail(Functions.secOfficeEmail, "Absent Students | " + formattedTime, selectedStudents);
+                }
 
             }
         }, emailTime);

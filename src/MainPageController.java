@@ -37,15 +37,15 @@ public class MainPageController extends Application {
         mainStage.setOnCloseRequest(event -> System.exit(0)); //Make sure user can always exit when they want to.
 
         //Check if the user wants to update the database.
-        Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
-        alert.setTitle("Database Update");
-        alert.setContentText("The database was last updated on: " + Functions.readTime() + "\nIt is recommended to update at least once every day.");
-        alert.setHeaderText("Would you like to update the student and class database? \nThis may take up to 1 minute.");
+        Alert databaseUpdate = new Alert(Alert.AlertType.CONFIRMATION);
+        databaseUpdate.setTitle("Database Update");
+        databaseUpdate.setContentText("The database was last updated on: " + Functions.readTime() + "\nIt is recommended to update at least once every day.");
+        databaseUpdate.setHeaderText("Would you like to update the student and class database? \nThis may take up to 1 minute.");
         ButtonType buttonYes = new ButtonType("Yes");
         ButtonType buttonNo = new ButtonType("No");
-        alert.getButtonTypes().setAll(buttonYes, buttonNo);
-        Optional<ButtonType> result = alert.showAndWait();
-        alert.setOnCloseRequest(event -> System.exit(0));
+        databaseUpdate.getButtonTypes().setAll(buttonYes, buttonNo);
+        Optional<ButtonType> result = databaseUpdate.showAndWait();
+        databaseUpdate.setOnCloseRequest(event -> System.exit(0));
 
         if (result.get() == buttonYes) {
             Functions.initialize("both");
@@ -59,7 +59,12 @@ public class MainPageController extends Application {
             //Just set the class time to be shown. These will be used in the Sign In Page.
             givenSS = "00";
             givenMM = String.format("%02d", (Integer.parseInt(mm.getText())));
-            givenHH = String.format("%02d", (Integer.parseInt(hh.getText())));
+            if (Integer.parseInt((hh.getText())) >= 12) {
+                givenHH = String.format("%02d", (Integer.parseInt(hh.getText())));
+            } else {
+                givenHH = String.format("%02d", (Integer.parseInt(hh.getText())));
+            }
+
 
 
             ObservableList<Class> selectedClasses = searchList.getSelectionModel().getSelectedItems(); //This is the user input.
