@@ -16,10 +16,13 @@ public class MainPageController extends Application {
     @FXML private TextField searchBar, hh, mm;
     @FXML private CheckBox checkBox12, checkBox13;
     @FXML private ListView searchList;
+    @FXML private Button findEnrollmentsButton;
+    @FXML private CheckBox emailOption;
 
     public static ArrayList selectedStudents;
     public static String givenHH, givenMM, givenSS; //To be concatenated and used by Sign In page.
     public static String classNames = "";
+    public static boolean sendEmail;
     public Parent parent;
     public Stage mainStage;
 
@@ -56,6 +59,10 @@ public class MainPageController extends Application {
 
     public void processEnrollments() throws IOException { //This will take in user input and give us the students in those classes.
         if (validateFields()) {
+            //Close the stage first to prevent multiple sign-in pages:
+            Stage toClose = (Stage) findEnrollmentsButton.getScene().getWindow();
+            toClose.close();
+
             //Just set the class time to be shown. These will be used in the Sign In Page.
             givenSS = "00";
             givenMM = String.format("%02d", (Integer.parseInt(mm.getText())));
@@ -64,8 +71,6 @@ public class MainPageController extends Application {
             } else {
                 givenHH = String.format("%02d", (Integer.parseInt(hh.getText())));
             }
-
-
 
             ObservableList<Class> selectedClasses = searchList.getSelectionModel().getSelectedItems(); //This is the user input.
             ArrayList<Integer> classIDs = new ArrayList<Integer>(); //This is what to use for processing enrollments.
@@ -94,6 +99,9 @@ public class MainPageController extends Application {
             selectedStudents.addAll(noDuplicates);
             Collections.sort(selectedStudents);
 
+            //Take in the emailOption
+            sendEmail = emailOption.isSelected();
+
             //Now go to SignInPage in a new window, using the other FXML file.
             FXMLLoader fxmlLoader = new FXMLLoader((getClass().getResource("SignInPage.fxml")));
             parent = (Parent) fxmlLoader.load();
@@ -102,7 +110,7 @@ public class MainPageController extends Application {
             mainStage.setScene(new Scene(parent));
             mainStage.setMaximized(true);
             mainStage.show();
-//            mainStage.setOnCloseRequest(event -> System.exit(0));
+            mainStage.setOnCloseRequest(event -> System.exit(0));
         }
     }
 

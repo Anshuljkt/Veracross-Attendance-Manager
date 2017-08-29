@@ -11,7 +11,7 @@ public class Student implements Comparable<Student> {
     private int homeroom;
     private String grade;
     private int gradeNum;
-
+    private String lateTime;
 
     public Student() {
     }
@@ -24,6 +24,14 @@ public class Student implements Comparable<Student> {
         this.homeroom = homeroom;
         this.grade = grade;
         this.gradeNum = Integer.parseInt(grade.substring(5));
+    }
+
+    public String getLateTime() {
+        return lateTime;
+    }
+
+    public void setLateTime(String lateTime) {
+        this.lateTime = lateTime;
     }
 
     public String getGrade() {
@@ -90,10 +98,17 @@ public class Student implements Comparable<Student> {
     }
 
     public String toStringWithID() {
-        return fName + " " + lName +
-                " | " + grade +
-                " | ID: " + id;
+        if (lateTime==null) {
+            return fName + " " + lName +
+                    " | " + grade +
+                    " | ID: " + id;
+        } else {
+            return fName + " " + lName +
+                    " | " + grade +
+                    " | ID: " + id + " | Arrival Time: " + lateTime;
+        }
     }
+
     //compareTo method, allows sorting by last name in A-Z.
     public int compareTo(Student compare) {
         return (this.lName.compareTo(compare.lName));

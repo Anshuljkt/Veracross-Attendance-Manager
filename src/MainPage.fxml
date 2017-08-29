@@ -8,7 +8,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<GridPane alignment="CENTER" hgap="5.0" vgap="5.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainPageController" fx:id="parent">
+<GridPane fx:id="parent" alignment="CENTER" hgap="5.0" vgap="5.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainPageController">
    <children>
       <AnchorPane GridPane.columnSpan="2" GridPane.rowIndex="1" />
       <ListView fx:id="searchList" prefHeight="345.0" prefWidth="497.0" GridPane.columnSpan="2" GridPane.rowIndex="5">
@@ -84,6 +84,13 @@
          <right>
             <Button fx:id="findEnrollmentsButton" defaultButton="true" mnemonicParsing="false" onAction="#processEnrollments" prefHeight="27.0" prefWidth="132.0" style="-fx-background-color: #132e52;" text="Find Enrollments" textAlignment="CENTER" textFill="WHITE" wrapText="true" BorderPane.alignment="CENTER" />
          </right>
+         <left>
+            <CheckBox fx:id="emailOption" mnemonicParsing="false" selected="true" text="Send e-mail(s) when students are late" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Helvetica Neue Light" size="13.0" />
+               </font>
+            </CheckBox>
+         </left>
       </BorderPane>
    </children>
    <columnConstraints>

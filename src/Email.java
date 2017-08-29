@@ -7,6 +7,28 @@ import java.util.Properties;
 
 public class Email {
 
+    public static void saveToFile(String fileName, ArrayList<Student> listOfStudents) {
+        String body = "";
+        for (Student thisStudent : listOfStudents) {
+            body = body + thisStudent.toStringWithID() + "\n";
+        }
+
+        if (fileName.startsWith("Absent")) {
+            body = "\nClass Names: " + MainPageController.classNames +
+                    "\n" +
+                    "\nThese students have not yet arrived:" +
+                    "\n\n" + body;
+        } else if (fileName.startsWith("Late")) {
+            body =  "\nClass Names: " + MainPageController.classNames +
+                    "\n" +
+                    "\nThese students have arrived late:" +
+                    "\n\n" + body;
+        }
+
+
+
+    }
+
 
     public static void sendEmail(String recipient, String subjectLine, ArrayList<Student> listOfStudents) { //Same method that just works with an ArrayList.
         String body = "";
@@ -38,11 +60,17 @@ public class Email {
 
         Session session = Session.getDefaultInstance(properties, auth);
 
-        body =  "\nClass Names: " + MainPageController.classNames +
-                "\n" +
-                "\nThese students have not yet arrived :" +
-                "\n\n" + body;
-
+        if (subject.startsWith("Absent")) {
+            body = "\nClass Names: " + MainPageController.classNames +
+                    "\n" +
+                    "\nThese students have not yet arrived:" +
+                    "\n\n" + body;
+        } else if (subject.startsWith("Late")) {
+            body =  "\nClass Names: " + MainPageController.classNames +
+                    "\n" +
+                    "\nThese students have arrived late:" +
+                    "\n\n" + body;
+        }
         //Now to actually send the email, after the session is created and everything is established.
 
         try {
