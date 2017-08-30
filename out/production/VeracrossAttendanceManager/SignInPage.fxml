@@ -9,7 +9,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<GridPane alignment="CENTER" hgap="5.0" prefHeight="702.0" prefWidth="600.0" vgap="5.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SignInPageController">
+<GridPane alignment="CENTER" hgap="5.0" vgap="5.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SignInPageController">
    <children>
       <ListView fx:id="studentList" focusTraversable="false" GridPane.columnSpan="2" GridPane.rowIndex="5">
          <GridPane.margin>
@@ -73,7 +73,7 @@
             </Label>
          </bottom>
       </BorderPane>
-      <Label prefHeight="27.0" prefWidth="401.0" text="Please type in your student ID or scan your exit pass barcode." GridPane.columnIndex="1" GridPane.rowIndex="2">
+      <Label prefHeight="22.0" prefWidth="581.0" text="Please type in your student ID or scan your exit pass barcode." GridPane.columnIndex="1" GridPane.rowIndex="2">
          <font>
             <Font name="Helvetica Neue Light" size="15.0" />
          </font>

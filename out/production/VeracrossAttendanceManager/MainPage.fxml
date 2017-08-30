@@ -8,7 +8,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<GridPane fx:id="parent" alignment="CENTER" hgap="5.0" vgap="5.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainPageController">
+<GridPane id="MainGridPane" fx:id="parent" alignment="CENTER" hgap="5.0" vgap="5.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainPageController">
    <children>
       <ListView fx:id="searchList" prefHeight="345.0" prefWidth="497.0" GridPane.columnSpan="2" GridPane.rowIndex="5">
          <GridPane.margin>
@@ -19,7 +19,7 @@
             <Button fx:id="searchButton" layoutX="436.0" layoutY="3.0" mnemonicParsing="false" onAction="#searchClasses" text="Search" />
             <TextField fx:id="searchBar" layoutY="3.0" onAction="#searchClasses" prefHeight="27.0" prefWidth="428.0" promptText="Search by Class or Teacher name...">
                <font>
-                  <Font name="AGaramondPro-Bold" size="13.0" />
+                  <Font name="Helvetica Neue Light" size="13.0" />
                </font></TextField>
          </children>
       </AnchorPane>
