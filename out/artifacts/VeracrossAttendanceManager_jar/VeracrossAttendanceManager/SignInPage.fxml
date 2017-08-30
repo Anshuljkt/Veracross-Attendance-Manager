@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="CENTER" hgap="5.0" prefHeight="702.0" prefWidth="600.0" vgap="5.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SignInPageController">
+   <children>
+      <ListView fx:id="studentList" focusTraversable="false" GridPane.columnSpan="2" GridPane.rowIndex="5">
+         <GridPane.margin>
+            <Insets />
+         </GridPane.margin></ListView>
+      <BorderPane prefHeight="92.0" prefWidth="585.0" GridPane.columnSpan="2">
+         <center>
+            <Label alignment="CENTER" contentDisplay="CENTER" text="Attendance Helper" textFill="#132e52" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Helvetica Neue Light" size="18.0" />
+               </font>
+            </Label>
+         </center>
+         <top>
+            <ImageView fitHeight="89.0" fitWidth="136.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+               <image>
+                  <Image url="@NIST-International-School-Logo.png" />
+               </image>
+            </ImageView>
+         </top>
+      </BorderPane>
+      <BorderPane prefHeight="46.0" prefWidth="585.0" GridPane.columnSpan="2" GridPane.rowIndex="1">
+         <center>
+            <Label fx:id="time" text="HH:MM:SS" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Helvetica Neue Light" size="24.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </opaqueInsets>
+               <graphic>
+                  <Label text="Current Time: ">
+                     <font>
+                        <Font name="Helvetica Neue Light" size="24.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </opaqueInsets>
+                  </Label>
+               </graphic>
+            </Label>
+         </center>
+         <bottom>
+            <Label fx:id="classTime" text="HH:MM:SS" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Helvetica Neue Light" size="24.0" />
+               </font>
+               <graphic>
+                  <Label text="Class Time:">
+                     <font>
+                        <Font name="Helvetica Neue Light" size="24.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </opaqueInsets>
+                  </Label>
+               </graphic>
+               <opaqueInsets>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </opaqueInsets>
+            </Label>
+         </bottom>
+      </BorderPane>
+      <Label prefHeight="27.0" prefWidth="401.0" text="Please type in your student ID or scan your exit pass barcode." GridPane.columnIndex="1" GridPane.rowIndex="2">
+         <font>
+            <Font name="Helvetica Neue Light" size="15.0" />
+         </font>
+         <opaqueInsets>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </opaqueInsets>
+      </Label>
+      <HBox prefHeight="29.0" prefWidth="580.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+         <children>
+            <TextField fx:id="signInText" onAction="#signIn" prefHeight="27.0" prefWidth="517.0" promptText="Enter Student ID">
+               <font>
+                  <Font name="AGaramondPro-Bold" size="13.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+            </TextField>
+            <Button fx:id="signInButton" mnemonicParsing="false" onAction="#signIn" text="Sign In" />
+         </children>
+      </HBox>
+      <Label layoutX="20.0" layoutY="194.0" text="Expected Students:" GridPane.columnIndex="1" GridPane.rowIndex="4">
+         <font>
+            <Font name="Helvetica Neue Light" size="15.0" />
+         </font>
+         <opaqueInsets>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </opaqueInsets>
+      </Label>
+      <BorderPane prefHeight="29.0" prefWidth="580.0" GridPane.columnIndex="1" GridPane.rowIndex="6">
+         <center>
+            <Label fx:id="message" alignment="CENTER" contentDisplay="CENTER" prefHeight="32.0" prefWidth="581.0" text="Message Text" textAlignment="CENTER" textFill="GREEN" visible="false" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Helvetica Neue Light" size="24.0" />
+               </font>
+            </Label>
+         </center>
+      </BorderPane>
+   </children>
+   <opaqueInsets>
+      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+   </opaqueInsets>
+   <padding>
+      <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+   </padding>
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+   <!--<columnConstraints>-->
+      <!--<ColumnConstraints />-->
+      <!--<ColumnConstraints />-->
+   <!--</columnConstraints>-->
+   <!--<rowConstraints>-->
+      <!--<RowConstraints />-->
+      <!--<RowConstraints />-->
+      <!--<RowConstraints />-->
+      <!--<RowConstraints />-->
+      <!--<RowConstraints />-->
+      <!--<RowConstraints maxHeight="395.9014892578125" minHeight="354.9163818359375" prefHeight="380.39404296875" />-->
+      <!--<RowConstraints maxHeight="56.0836181640625" minHeight="2.5074462890625" prefHeight="31.60595703125" />-->
+   <!--</rowConstraints>-->
+</GridPane>

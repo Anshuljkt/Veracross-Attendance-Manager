@@ -1,3 +1,5 @@
+import com.sun.mail.util.MailConnectException;
+
 import javax.mail.*;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
@@ -85,8 +87,12 @@ public class Email {
             msg.setText(body, "UTF-8");
             msg.setSentDate(new Date());
             msg.setRecipients(Message.RecipientType.TO, InternetAddress.parse(recipient, false));
-            Transport.send(msg);
-            System.out.println("The email has been sent to " + "\"" + recipient + "\"" + ".");
+            try {
+                Transport.send(msg);
+                System.out.println("The email has been sent to " + "\"" + recipient + "\"" + ".");
+            } catch (MailConnectException e) {
+                System.err.println("Unable to connect to email server.");
+            }
             return;
         } catch (Exception e) {
             e.printStackTrace();

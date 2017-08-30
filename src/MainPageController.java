@@ -7,18 +7,22 @@ import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.stage.Stage;
 
+import java.io.File;
 import java.io.IOException;
+import java.nio.file.FileSystems;
+import java.nio.file.Path;
 import java.util.*;
 
 public class MainPageController extends Application {
-    //Variables for different
 
+    //Variables for different FXML elements to be controlled.
     @FXML private TextField searchBar, hh, mm;
     @FXML private CheckBox checkBox12, checkBox13;
     @FXML private ListView searchList;
     @FXML private Button findEnrollmentsButton;
     @FXML private CheckBox emailOption;
 
+    //Variables that will be shared across classes.
     public static ArrayList selectedStudents;
     public static String givenHH, givenMM, givenSS; //To be concatenated and used by Sign In page.
     public static String classNames = "";
@@ -27,7 +31,19 @@ public class MainPageController extends Application {
     public Stage mainStage;
 
     public static void main(String[] args) {
+        //Just set the working directory for every file.
+        String currentPath = System.getProperty("user.dir"); //Get current directory
+        Path joinedPath = FileSystems.getDefault().getPath(currentPath, "NISTAttendanceData"); //Join it to NISTAttendanceData
+        Functions.programDataDir = joinedPath.toString(); //Set it into Functions class's programDataDir.
+
+        //Make the directory if it doesn't exist.
+        File directory = new File(Functions.programDataDir);
+        directory.mkdir();
+
+        //Then launch the program.
         launch(args);
+
+
     }
 
     @Override
@@ -36,7 +52,6 @@ public class MainPageController extends Application {
         mainStage = primaryStage;
         mainStage.setTitle("NIST Attendance");
         mainStage.setScene(new Scene(parent));
-        mainStage.show();
         mainStage.setOnCloseRequest(event -> System.exit(0)); //Make sure user can always exit when they want to.
 
         //Check if the user wants to update the database.
@@ -50,10 +65,26 @@ public class MainPageController extends Application {
         Optional<ButtonType> result = databaseUpdate.showAndWait();
         databaseUpdate.setOnCloseRequest(event -> System.exit(0));
 
+        String initializeResponse;
         if (result.get() == buttonYes) {
-            Functions.initialize("both");
+            //This saves the return from the initialize method to decide whether or not to continue.
+            initializeResponse = Functions.initialize(true);
         } else {
-            Functions.initialize("none");
+            initializeResponse = Functions.initialize(false);
+        }
+
+        //Now check initializeResponse, and alert if there were any errors.
+        if (initializeResponse.equalsIgnoreCase("downloadError")) {
+            //Show this alert, and exit after.
+            Alert alert = new Alert(Alert.AlertType.WARNING);
+            alert.setTitle("Error");
+            alert.setHeaderText("The program was unable to connect to the Veracross servers.");
+            alert.setContentText("Please check your Internet Connection, and restart the program.");
+            alert.showAndWait();
+            System.exit(0);
+        } else {
+            //All okay, show the mainStage.
+            mainStage.show();
         }
     }
 
@@ -79,7 +110,7 @@ public class MainPageController extends Application {
             //First download all enrollments from selected classes, and add the students into the selectedStudents ArrayList.
             for (Class i : selectedClasses) {
                 classIDs.add(i.getId());
-                classNames = classNames + i.getName() +" | "; //Also concatenate all class names for the email.
+                classNames = classNames + i.getName() + " - " + i.getTeacherName() +" | "; //Also concatenate all class names for the email.
             }
 
             selectedStudents.addAll(Functions.processEnrollments(classIDs, false));

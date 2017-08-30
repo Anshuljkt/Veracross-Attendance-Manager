@@ -6,10 +6,7 @@ import org.w3c.dom.NodeList;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import java.io.*;
-import java.net.Authenticator;
-import java.net.PasswordAuthentication;
-import java.net.URL;
-import java.net.URLConnection;
+import java.net.*;
 import java.nio.channels.Channels;
 import java.nio.channels.ReadableByteChannel;
 import java.text.DateFormat;
@@ -21,21 +18,21 @@ import java.util.*;
 public class Functions {
 
 
+    public static final int OBJECTS_PER_PAGE = 100;
     public static ArrayList<Student> students = new ArrayList<Student>();
     public static ArrayList<Class> classes = new ArrayList<Class>();
-    public static final int OBJECTS_PER_PAGE = 100;
-    private static int pagesCount = 100;
+    public static String programDataDir = "";
+    public static String secOfficeEmail = "18anshula@nist.ac.th";
+    private static int pagesCount = 200;
     private static String baseURL = "https://api.veracross.com/nist/v2/";
     private static String studentsURL = baseURL + "students.xml?grade_level=12,13&page=";
     private static String classesURL = baseURL + "classes.xml?school_level=4&page=";
     private static String enrollmentsURL = baseURL + "enrollments.xml?class=";
     private static String studentEnrollmentsURL = baseURL + "enrollments.xml?student=";
-    private static String studentsPath = "xmls/students-";
-    private static String classesPath = "xmls/classes-";
-    private static String enrollmentsPath = "xmls/enrollments-";
-    private static String studentEnrollmentsPath = "xmls/studentEnrollments-";
-    public static String secOfficeEmail = "18anshula@nist.ac.th";
-
+    private static String studentsPath = "/students-";
+    private static String classesPath = "/classes-";
+    private static String enrollmentsPath = "/enrollments-";
+    private static String studentEnrollmentsPath = "/studentEnrollments-";
 
     public static void saveTime() { //This is to remember how long it has been since the database was fully updated.
         try {
@@ -43,7 +40,7 @@ public class Functions {
             Date date = new Date();
             String currentTime = dateFormat.format(date); //Now this should be the current Date/Time
 
-            PrintWriter writer = new PrintWriter("time.txt", "UTF-8");
+            PrintWriter writer = new PrintWriter(programDataDir + "/time.txt", "UTF-8");
             writer.println(currentTime);
             writer.close();
 
@@ -55,7 +52,7 @@ public class Functions {
     public static String readTime() { //This will just give us the time the database was last updated.
         Scanner scan = null;
         try {
-            scan = new Scanner(new FileInputStream("time.txt"));
+            scan = new Scanner(new FileInputStream(programDataDir + "/time.txt"));
             String time = scan.nextLine();
             return time;
         } catch (FileNotFoundException e) {
@@ -63,68 +60,56 @@ public class Functions {
         }
     }
 
+    //This method just downloads and processes students and classes before the program is usable.
+    //It returns a String so that errors can be checked for.
+    public static String initialize(boolean updateDatabase) {
 
-    public static void initialize(String toDownload) {
-
-        //In case not even 1 of the appropriate files exists, override and download them all anyway.
-        File check = new File(studentsPath + "1.xml");
-        if (!check.exists()) {
-            toDownload = "both";
-            saveTime();
-        }
-        check = new File(classesPath + "1.xml");
-        if (!check.exists()) {
-            toDownload = "both";
-            saveTime();
+        //In case the database does not exist (or was not fully updated last time), override and download everything anyway.
+        if (readTime().equalsIgnoreCase("Never")) {
+            updateDatabase = true;
+            System.out.println("No database found. Overriding.");
         }
 
         try {
-            if (toDownload.equalsIgnoreCase("both") || toDownload.equalsIgnoreCase("students")) {
-                //First need to delete all the student files that already exist.
-                File folder = new File("xmls/");
+            if (updateDatabase) {
+                //First need to delete all the database files that already exist.
+                //If you are trying to update the database, also delete the old timestamp file, so that it is only created on successful database downloads.
+                //This way, if something gets corrupted on download, the program will re-download on the next run.
+                File folder = new File(programDataDir);
                 for (File f : folder.listFiles()) {
-                    if (f.getName().startsWith("students")) {
+                    if (f.getName().startsWith("students")
+                            || f.getName().startsWith("classes")
+                            || f.getName().startsWith("enrollments")
+                            || f.getName().startsWith("time")
+                            ) {
                         f.delete();
                     }
                 }
-                download(studentsURL, studentsPath, "students"); //This will download the correct number of files, so that all the relevant objects are covered.
-            }
-            if (toDownload.equalsIgnoreCase("both") || toDownload.equalsIgnoreCase("classes")) {
-                //Do the same thing again for classes
-                //First need to delete all the classes files that already exist.
-                File folder = new File("xmls/");
-                for (File f : folder.listFiles()) {
-                    if (f.getName().startsWith("classes")) {
-                        f.delete();
-                    }
+                int studentDownloadResponse = download(studentsURL, programDataDir + studentsPath, "students"); //This will download the correct number of files, so that all the relevant objects are covered.
+                if (studentDownloadResponse < 0) {
+                    return "downloadError";
                 }
-                download(classesURL, classesPath, "classes");
-            }
-            if (toDownload.equalsIgnoreCase("students")) {
-                processClasses(1000);
-            } else if (toDownload.equalsIgnoreCase("classes")) {
-                processStudents(1000);
+                int classesDownloadResponse = download(classesURL, programDataDir + classesPath, "classes"); //Download classes too.
+                if (classesDownloadResponse < 0) {
+                    return "downloadError";
+                }
+
+            } else {
+                System.out.println("ALERT: The local database has not been updated since: " + readTime() + ". This could result in inaccuracies.");
+                processClasses(pagesCount);
+                processStudents(pagesCount);
             }
 
-            if (toDownload.equalsIgnoreCase("both")) {
-                saveTime();
-            }
-
-            if (toDownload.equalsIgnoreCase("none")) {
-                print("ALERT: The local database has not been updated since: " + readTime() + ". This could result in inaccuracies.");
-                processStudents(200);
-                processClasses(200);
-            }
-            return;
         } catch (Exception e) {
             e.printStackTrace();
+            return "downloadError";
         }
-
-        //TODO: Decide whether to sort in methods or on demand.
-        Collections.sort(classes);
+        saveTime();
+        return "success";
     }
 
-    private static int download(String URL, String path, String downloadType) {
+    private static int download(String URL, String path, String downloadType) throws Exception {
+        Exception downloadError = new Exception();
         //This is where the username and password go for accessing Veracross API.
         Authenticator.setDefault(new Authenticator() {
             @Override
@@ -138,32 +123,38 @@ public class Functions {
         //Checks object count and sets pagesCount accordingly.
         try {
             //First connects to the Veracross API and view page 1 of the URL, and collect the total number of objects from the XML response header.
-            URL web = new URL(URL + 1);
-            URLConnection connection = web.openConnection();
+            URL initialURL = new URL(URL + 1);
+            URLConnection connection = initialURL.openConnection();
+            connection.setConnectTimeout(10000);
+            connection.setReadTimeout(10000);
+
             int objectCount = Integer.parseInt(connection.getHeaderField("x-total-count")); //This returns a value like 218, which is then converted to an int.
             pagesCount = (objectCount / OBJECTS_PER_PAGE) + 1; //Now this will set the number of pages needed to be traversed, based on the fact that there are max 100 objects per page.
             // Now download using the above information.
             for (int i = 1; i <= pagesCount; i++) {
-                URL website = new URL(URL + i);
-                ReadableByteChannel rbc = Channels.newChannel(website.openStream());
+                URL specificURL = new URL(URL + i);
+                //This is done to make sure that the program recognizes when the internet connection is cut while downloading.
+                URLConnection specificConnection = specificURL.openConnection();
+                specificConnection.setReadTimeout(10000);
+                specificConnection.setConnectTimeout(10000);
+
+                ReadableByteChannel rbc = Channels.newChannel(specificConnection.getInputStream());
                 FileOutputStream fos = new FileOutputStream(path + i + ".xml");
                 fos.getChannel().transferFrom(rbc, 0, Long.MAX_VALUE);
+
                 if (!downloadType.equalsIgnoreCase("Student Enrollments")) {
-                    print("Downloaded " + downloadType + " File " + i + "/" + pagesCount + ".");
+                    System.out.println("Downloaded " + downloadType + " File " + i + "/" + pagesCount + ".");
                 }
             }
-//            print(downloadType + " file(s) have been downloaded.");
+
             if (downloadType.equalsIgnoreCase("Students")) {
                 processStudents(pagesCount);
             } else if (downloadType.equalsIgnoreCase("Classes")) {
                 processClasses(pagesCount);
             }
-        } catch (NumberFormatException e) { //This checks for Veracross Servers being down or not.
-            print("NOTE: The program was not able to connect to the Veracross servers. Please check your Internet Connection. \n" +
-                    "Otherwise, Veracross Servers may be down. The program may not work as intended.");
-//            homePage();
         } catch (Exception e) {
-            print("Downloading/Connection Error");
+            e.printStackTrace();
+            throw downloadError;
         }
         return pagesCount;
     }
@@ -176,8 +167,8 @@ public class Functions {
             DocumentBuilder builder = factory.newDocumentBuilder();
 
             for (int x = 1; x <= pagesCount; x++) {
-                Document document = builder.parse(new File(studentsPath + x + ".xml"));
-//                Element root = document.getDocumentElement();
+                Document document = builder.parse(new File(programDataDir + studentsPath + x + ".xml"));
+
                 //Create a temporary list that creates a node for each student object in the xml file received.
                 NodeList tempList = document.getElementsByTagName("student");
                 //for loop that feeds the relevant data into the students ArrayList as new objects.
@@ -210,8 +201,10 @@ public class Functions {
                 }
             }
             Collections.sort(students);
+        } catch (FileNotFoundException e) {
+            System.out.println("Successfully processed database in offline mode.");
         } catch (Exception e) {
-            e.getCause();
+
         }
     }
 
@@ -222,7 +215,7 @@ public class Functions {
             DocumentBuilderFactory factory2 = DocumentBuilderFactory.newInstance();
             DocumentBuilder builder2 = factory2.newDocumentBuilder();
             for (int x = 1; x <= pagesCount; x++) {
-                Document doc = builder2.parse(new File(classesPath + x + ".xml"));
+                Document doc = builder2.parse(new File(programDataDir + classesPath + x + ".xml"));
 
                 //Create a NodeList for the class objects in the xml file
                 NodeList classList = doc.getElementsByTagName("class");
@@ -279,6 +272,7 @@ public class Functions {
                     }
                 }
             }
+            Collections.sort(classes);
         } catch (Exception e) {
             e.getCause();
         }
@@ -289,14 +283,13 @@ public class Functions {
         //This method will take a String Year level to search for.
         ArrayList<Student> results = new ArrayList<Student>();
         for (Student i : students) {
-         if (i.getGrade().equalsIgnoreCase(yearLevel)) {
-             results.add(i);
-         }
+            if (i.getGrade().equalsIgnoreCase(yearLevel)) {
+                results.add(i);
+            }
         }
         Collections.sort(results);
         return results;
     }
-
 
     private static ArrayList search(ArrayList<Integer> IDs, String searchType) {
         ArrayList results = new ArrayList();
@@ -326,7 +319,7 @@ public class Functions {
 
     public static ArrayList<Class> searchClasses(String searchTerm) {
         ArrayList<Class> results = new ArrayList<Class>();
-        for (Class x: classes) {
+        for (Class x : classes) {
             if ((x.getName().toLowerCase().contains(searchTerm.toLowerCase())) || (x.getTeacherName().toLowerCase().contains(searchTerm.toLowerCase()))) {
                 results.add(x);
             }
@@ -374,27 +367,28 @@ public class Functions {
 
         //Decides which URL/Path to use based on studentEnrollments.
         if (studentEnrollments) {
-            pathToUse = studentEnrollmentsPath + ID + "-";
+            pathToUse = programDataDir + studentEnrollmentsPath + ID + "-";
             urlToUse = studentEnrollmentsURL + ID + "&page=";
             downloadType = "Student Enrollments";
         } else {
-            pathToUse = enrollmentsPath + ID + "-";
+            pathToUse = programDataDir + enrollmentsPath + ID + "-";
             urlToUse = enrollmentsURL + ID + "&page=";
             downloadType = "Class Enrollments";
         }
 
         //First need to delete all the enrollment files that already exist, in order to avoid cluttering the directory.
-        File folder = new File("xmls/");
+        File folder = new File(programDataDir);
         for (File f : folder.listFiles()) {
             if (f.getName().startsWith("enrollments") || f.getName().startsWith("studentEnrollments")) {
                 f.delete();
             }
         }
+        try {
         int enrollmentsPagesCount = download(urlToUse, pathToUse, downloadType);
-//        print("Enrollments for " + name + ":");
+//        System.out.println("Enrollments for " + name + ":");
 
         //Now to process the downloaded files.
-        try {
+
             //Creates a new DocumentBuilder to handle the xml file using Java DOM Parser
             DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
             DocumentBuilder builder = factory.newDocumentBuilder();
@@ -424,7 +418,7 @@ public class Functions {
         } catch (FileNotFoundException e) {
 
         } catch (Exception e) {
-                e.printStackTrace();
+            e.printStackTrace();
         }
         //Now we have an ArrayList of Integers that has the ID numbers of students/classes that we want to use.
         //We can use the search function that takes an integer array and returns the appropriate students/classes arrayList.
@@ -436,6 +430,7 @@ public class Functions {
         Collections.sort(results);
         return results;
     }
+
     public static void printClasses() {
         for (Class i : classes) {
             System.out.println(i);
@@ -444,9 +439,10 @@ public class Functions {
 
     public static void printStudents(int[] yearLevel) {
         for (Student i : students) {
-            System.out.println(i);
+            System.out.println(i.toStringWithID());
         }
     }
+
     public static void printStudents() {
         for (Student i : students) {
             System.out.println(i);
@@ -457,9 +453,5 @@ public class Functions {
         for (Object i : x) {
             System.out.println(i);
         }
-    }
-    //This method will be used later to print out alerts for the user somehow.
-    public static void print(Object x) {
-        System.out.println(x);
     }
 }
