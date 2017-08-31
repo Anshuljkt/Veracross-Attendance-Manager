@@ -1,5 +1,6 @@
 # Veracross Attendance Manager
 An IB Computer Science IA Project by Anshul Agrawal
+
 Requires Java 8.
 
 # Instructions to compile/modify from source
