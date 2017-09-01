@@ -1,31 +1,50 @@
 @font-face {
-    font-family: 'Roboto Regular';
-    src: url('fonts/Roboto-Regular.ttf');
+    font-family: 'Roboto Light';
+    src: url('fonts/Roboto-Light.ttf');
 }
 
 .label {
-    -fx-font-family: "Roboto Regular";
+    -fx-font-family: "Roboto Light";
+    -fx-font-size: 1em;
 }
 
 .button {
-    -fx-font-family: "Roboto Regular";
+    -fx-font-family: "Roboto Light";
     -fx-background-color: #132e52;
     -fx-text-fill: white;
+    -fx-font-size: 1em;
+
 }
 
 .text-field {
-    -fx-font-family: "Roboto Regular";
+    -fx-font-family: "Roboto Light";
+    -fx-font-size: 1em;
+
 }
 
 .check-box {
-    -fx-font-family: "Roboto Regular";
+    -fx-font-family: "Roboto Light";
+    -fx-font-size: 1em;
+
 }
 
 .titleLabel {
-    -fx-font-size: 24px;
+    -fx-font-size: 2em;
 }
 
 .list-view {
-    -fx-font-family: "Roboto Regular";
-    -fx-font-size: 13px;
+    -fx-font-family: "Roboto Light";
+    -fx-min-height: 10em;
+    -fx-pref-height: 30em;
+    -fx-max-height: 40em;
+    -fx-font-size: 1em;
+}
+
+.timeLabel {
+    -fx-font-size: 2em;
+}
+
+.MainGrid {
+    -fx-min-height: 40em;
+    -fx-max-height: 80em;
 }

@@ -8,7 +8,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<GridPane id="MainGridPane" fx:id="parent" alignment="CENTER" hgap="5.0" prefHeight="723.0" prefWidth="770.0" stylesheets="@Stylesheet.css" vgap="5.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainPage">
+<GridPane id="MainGridPane" fx:id="parent" alignment="CENTER" hgap="5.0" styleClass="MainGrid" stylesheets="@Stylesheet.css" vgap="5.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainPage">
    <children>
       <CheckBox fx:id="checkBox12" mnemonicParsing="false" prefHeight="18.0" prefWidth="230.0" text="All Year 12 Students" GridPane.rowIndex="2">
          <font>
@@ -87,12 +87,12 @@
             <Font name="Helvetica Neue Light" size="13.0" />
          </font>
       </CheckBox>
-      <BorderPane prefHeight="200.0" prefWidth="200.0" GridPane.columnSpan="2147483647" GridPane.rowIndex="6">
+      <BorderPane maxHeight="1.7976931348623157E308" GridPane.columnSpan="2147483647" GridPane.rowIndex="6">
          <left>
-            <ListView fx:id="searchList" maxHeight="400.0" maxWidth="350.0" minHeight="400.0" minWidth="350.0" prefHeight="400.0" prefWidth="350.0" BorderPane.alignment="CENTER" />
+            <ListView fx:id="searchList" maxHeight="400.0" maxWidth="350.0" minHeight="200.0" minWidth="350.0" prefHeight="300.0" prefWidth="350.0" BorderPane.alignment="CENTER" />
          </left>
          <right>
-            <ListView fx:id="selectedList" maxHeight="400.0" maxWidth="350.0" minHeight="400.0" minWidth="350.0" prefHeight="400.0" prefWidth="350.0" BorderPane.alignment="CENTER" />
+            <ListView fx:id="selectedList" maxHeight="400.0" maxWidth="350.0" minHeight="200.0" minWidth="350.0" prefHeight="300.0" prefWidth="350.0" BorderPane.alignment="CENTER" />
          </right>
          <center>
             <GridPane BorderPane.alignment="CENTER">
@@ -146,6 +146,6 @@
       <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
    </opaqueInsets>
    <padding>
-      <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
    </padding>
 </GridPane>

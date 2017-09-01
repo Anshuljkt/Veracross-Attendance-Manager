@@ -17,7 +17,7 @@
          </GridPane.margin></ListView>
       <BorderPane prefHeight="46.0" prefWidth="585.0" GridPane.columnSpan="2" GridPane.rowIndex="1">
          <center>
-            <Label fx:id="time" text="HH:MM:SS" BorderPane.alignment="CENTER">
+            <Label fx:id="time" styleClass="timeLabel" text="HH:MM:SS" BorderPane.alignment="CENTER">
                <font>
                   <Font name="Helvetica Neue Light" size="24.0" />
                </font>
@@ -25,7 +25,7 @@
                   <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                </opaqueInsets>
                <graphic>
-                  <Label text="Current Time: ">
+                  <Label styleClass="timeLabel" text="Current Time: ">
                      <font>
                         <Font name="Helvetica Neue Light" size="24.0" />
                      </font>
@@ -37,12 +37,12 @@
             </Label>
          </center>
          <bottom>
-            <Label fx:id="classTime" text="HH:MM:SS" BorderPane.alignment="CENTER">
+            <Label fx:id="classTime" styleClass="timeLabel" text="HH:MM:SS" BorderPane.alignment="CENTER">
                <font>
                   <Font name="Helvetica Neue Light" size="24.0" />
                </font>
                <graphic>
-                  <Label text="Class Time:">
+                  <Label styleClass="timeLabel" text="Class Time:">
                      <font>
                         <Font name="Helvetica Neue Light" size="24.0" />
                      </font>
@@ -75,7 +75,7 @@
       </Label>
       <BorderPane prefHeight="29.0" prefWidth="580.0" GridPane.columnIndex="1" GridPane.rowIndex="6">
          <center>
-            <Label fx:id="message" alignment="CENTER" contentDisplay="CENTER" prefHeight="32.0" prefWidth="581.0" text="Message Text" textAlignment="CENTER" textFill="GREEN" visible="false" BorderPane.alignment="CENTER">
+            <Label fx:id="message" alignment="CENTER" contentDisplay="CENTER" prefHeight="32.0" prefWidth="581.0" styleClass="timeLabel" text="Message Text" textAlignment="CENTER" textFill="GREEN" visible="false" BorderPane.alignment="CENTER">
                <font>
                   <Font name="Helvetica Neue Light" size="24.0" />
                </font>
