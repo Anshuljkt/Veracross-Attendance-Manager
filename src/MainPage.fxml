@@ -8,12 +8,8 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<GridPane id="MainGridPane" fx:id="parent" alignment="CENTER" hgap="5.0" stylesheets="@Stylesheet.css" vgap="5.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainPage">
+<GridPane id="MainGridPane" fx:id="parent" alignment="CENTER" hgap="5.0" prefHeight="723.0" prefWidth="770.0" stylesheets="@Stylesheet.css" vgap="5.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainPage">
    <children>
-      <ListView fx:id="searchList" prefHeight="345.0" prefWidth="497.0" GridPane.columnSpan="2" GridPane.rowIndex="5">
-         <GridPane.margin>
-            <Insets />
-         </GridPane.margin></ListView>
       <CheckBox fx:id="checkBox12" mnemonicParsing="false" prefHeight="18.0" prefWidth="230.0" text="All Year 12 Students" GridPane.rowIndex="2">
          <font>
             <Font name="Helvetica Neue Light" size="13.0" />
@@ -31,7 +27,7 @@
             <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
          </opaqueInsets>
       </Label>
-      <Label text="Hold down ⌘ (Control key on Windows) to select multiple classes." GridPane.columnSpan="2" GridPane.rowIndex="6">
+      <Label text="Select classes by choosing from the search results and pressing the &quot;&gt;&gt;&quot; button" textFill="#7aa2aa" GridPane.columnSpan="2147483647" GridPane.rowIndex="7">
          <font>
             <Font name="Helvetica Neue Light" size="15.0" />
          </font>
@@ -39,14 +35,14 @@
             <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
          </opaqueInsets>
       </Label>
-       <!--This is to set the time at which students will be marked late.-->
-      <HBox prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+      <!--This is to set the time at which students will be marked late.-->
+      <HBox prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="3">
          <children>
             <TextField fx:id="hh" alignment="CENTER" promptText="HH" />
             <TextField fx:id="mm" alignment="CENTER" promptText="MM" />
          </children>
       </HBox>
-      <BorderPane GridPane.columnSpan="2">
+      <BorderPane GridPane.columnSpan="2147483647">
          <center>
             <Label alignment="CENTER" contentDisplay="CENTER" styleClass="titleLabel" text="Attendance" textAlignment="CENTER" textFill="#132e52" BorderPane.alignment="CENTER">
                <font>
@@ -62,7 +58,7 @@
             </ImageView>
          </top>
       </BorderPane>
-      <Label text="Enter class start time (24-hour format)" textFill="#7aa2aa" GridPane.columnIndex="1" GridPane.rowIndex="2">
+      <Label text="Enter class start time (24-hour format)" textFill="#7aa2aa" GridPane.columnIndex="2" GridPane.rowIndex="2">
          <font>
             <Font name="Helvetica Neue Light" size="15.0" />
          </font>
@@ -70,21 +66,14 @@
             <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
          </opaqueInsets>
       </Label>
-      <BorderPane prefHeight="200.0" prefWidth="200.0" GridPane.columnSpan="2" GridPane.rowIndex="7">
+      <BorderPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="8">
          <right>
             <Button fx:id="findEnrollmentsButton" defaultButton="true" mnemonicParsing="false" onAction="#processEnrollments" prefHeight="27.0" prefWidth="132.0" style="-fx-background-color: #132e52;" text="Find Enrollments" textAlignment="CENTER" textFill="WHITE" wrapText="true" BorderPane.alignment="CENTER" />
          </right>
-         <left>
-            <CheckBox fx:id="emailOption" mnemonicParsing="false" selected="true" text="Send e-mail(s) when students are late" BorderPane.alignment="CENTER">
-               <font>
-                  <Font name="Helvetica Neue Light" size="13.0" />
-               </font>
-            </CheckBox>
-         </left>
       </BorderPane>
-      <BorderPane GridPane.columnSpan="2" GridPane.rowIndex="4">
+      <BorderPane GridPane.columnSpan="2147483647" GridPane.rowIndex="4">
          <left>
-            <TextField fx:id="searchBar" onAction="#searchClasses" prefHeight="27.0" prefWidth="431.0" promptText="Search by Class or Teacher name..." BorderPane.alignment="CENTER">
+            <TextField fx:id="searchBar" onAction="#searchClasses" prefHeight="27.0" prefWidth="697.0" promptText="Search by Class or Teacher name..." BorderPane.alignment="CENTER">
                <font>
                   <Font name="Helvetica Neue Light" size="13.0" />
                </font></TextField>
@@ -93,21 +82,65 @@
             <Button fx:id="searchButton" mnemonicParsing="false" onAction="#searchClasses" text="Search" BorderPane.alignment="CENTER" />
          </right>
       </BorderPane>
+      <CheckBox fx:id="emailOption" mnemonicParsing="false" selected="true" text="Send e-mail(s) when students are late" GridPane.rowIndex="8">
+         <font>
+            <Font name="Helvetica Neue Light" size="13.0" />
+         </font>
+      </CheckBox>
+      <BorderPane prefHeight="200.0" prefWidth="200.0" GridPane.columnSpan="2147483647" GridPane.rowIndex="6">
+         <left>
+            <ListView fx:id="searchList" maxHeight="400.0" maxWidth="350.0" minHeight="400.0" minWidth="350.0" prefHeight="400.0" prefWidth="350.0" BorderPane.alignment="CENTER" />
+         </left>
+         <right>
+            <ListView fx:id="selectedList" maxHeight="400.0" maxWidth="350.0" minHeight="400.0" minWidth="350.0" prefHeight="400.0" prefWidth="350.0" BorderPane.alignment="CENTER" />
+         </right>
+         <center>
+            <GridPane BorderPane.alignment="CENTER">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <BorderPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1">
+                     <top>
+                        <Button fx:id="selectButton" mnemonicParsing="false" onAction="#selectClasses" text="&gt;&gt;" BorderPane.alignment="CENTER" />
+                     </top>
+                     <bottom>
+                        <Button fx:id="deSelectButton" mnemonicParsing="false" onAction="#deSelectClasses" text="&lt;&lt;" BorderPane.alignment="CENTER" />
+                     </bottom>
+                  </BorderPane>
+               </children>
+            </GridPane>
+         </center>
+      </BorderPane>
+      <BorderPane prefHeight="200.0" prefWidth="200.0" GridPane.columnSpan="2147483647" GridPane.rowIndex="5">
+         <left>
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="16.0" prefWidth="320.0" text="Searched Classes" textAlignment="CENTER" BorderPane.alignment="CENTER" />
+         </left>
+         <right>
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="16.0" prefWidth="320.0" text="Selected Classes" textAlignment="CENTER" BorderPane.alignment="CENTER" />
+         </right>
+      </BorderPane>
    </children>
    <columnConstraints>
-      <ColumnConstraints />
-      <ColumnConstraints maxWidth="258.0" minWidth="250.0" prefWidth="251.0" />
+      <ColumnConstraints maxWidth="300.0" minWidth="250.0" prefWidth="250.0" />
+      <ColumnConstraints maxWidth="300.0" minWidth="250.0" prefWidth="250.0" />
+      <ColumnConstraints maxWidth="300.0" minWidth="250.0" prefWidth="250.0" />
    </columnConstraints>
    <rowConstraints>
       <RowConstraints />
       <RowConstraints />
-      <RowConstraints maxHeight="22.0" minHeight="15.0" prefHeight="15.0" />
+      <RowConstraints maxHeight="24.957321166992188" minHeight="15.0" prefHeight="22.467987060546875" />
+      <RowConstraints maxHeight="60.0" minHeight="21.042678833007812" prefHeight="23.532012939453125" />
       <RowConstraints maxHeight="60.0" minHeight="25.0" prefHeight="31.0" />
-      <RowConstraints maxHeight="60.0" minHeight="25.0" prefHeight="31.0" />
+      <RowConstraints maxHeight="25.0" minHeight="25.0" prefHeight="25.0" />
       <RowConstraints maxHeight="392.7260437011719" minHeight="25.0" prefHeight="391.6298522949219" />
-      <RowConstraints maxHeight="412.0" minHeight="2.211669921875" prefHeight="20.56866455078125" />
-      <RowConstraints maxHeight="403.788330078125" minHeight="0.0" prefHeight="26.50909423828125" />
-      <RowConstraints />
+      <RowConstraints maxHeight="25.0" minHeight="25.0" prefHeight="25.0" />
+      <RowConstraints minHeight="25.0" prefHeight="25.0" />
    </rowConstraints>
    <opaqueInsets>
       <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />

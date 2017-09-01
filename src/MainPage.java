@@ -5,6 +5,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
+import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
 import java.io.File;
@@ -18,8 +19,8 @@ public class MainPage extends Application {
     //Variables for different FXML elements to be controlled.
     @FXML private TextField searchBar, hh, mm;
     @FXML private CheckBox checkBox12, checkBox13;
-    @FXML private ListView searchList;
-    @FXML private Button findEnrollmentsButton;
+    @FXML private ListView searchList, selectedList;
+    @FXML private Button findEnrollmentsButton, selectButton, deSelectButton;
     @FXML private CheckBox emailOption;
 
     //Variables that will be shared across classes.
@@ -29,6 +30,7 @@ public class MainPage extends Application {
     public static boolean sendEmail;
     public Parent parent;
     public Stage mainStage;
+    public static int numOfClasses;
 
     public static void main(String[] args) {
         //Just set the working directory for every file.
@@ -50,6 +52,7 @@ public class MainPage extends Application {
     public void start(Stage primaryStage) throws Exception {
         parent = FXMLLoader.load(getClass().getResource("MainPage.fxml"));
         mainStage = primaryStage;
+        mainStage.getIcons().add(new Image("Icon.png"));
         mainStage.setTitle("NIST Attendance");
         mainStage.setScene(new Scene(parent));
         mainStage.setOnCloseRequest(event -> System.exit(0)); //Make sure user can always exit when they want to.
@@ -103,7 +106,8 @@ public class MainPage extends Application {
                 givenHH = String.format("%02d", (Integer.parseInt(hh.getText())));
             }
 
-            ObservableList<Class> selectedClasses = searchList.getSelectionModel().getSelectedItems(); //This is the user input.
+            ObservableList<Class> selectedClasses = selectedList.getItems(); //This is the user input.
+
             ArrayList<Integer> classIDs = new ArrayList<Integer>(); //This is what to use for processing enrollments.
             selectedStudents = new ArrayList<Student>(); //This is where the resulting students will be stored.
 
@@ -113,7 +117,7 @@ public class MainPage extends Application {
                 classNames = classNames + i.getName() + " - " + i.getTeacherName() +" | "; //Also concatenate all class names for the email.
             }
 
-            selectedStudents.addAll(Functions.processEnrollments(classIDs, false));
+            selectedStudents.addAll(Functions.processEnrollments(classIDs, false, selectedList.getItems().size()));
 
             //If entire year levels have been selected, then add them to the selectedStudents ArrayList too.
             if (checkBox12.isSelected()) {
@@ -147,10 +151,25 @@ public class MainPage extends Application {
 
 
     public void searchClasses() {
+        //Clear the search pane first, then fill it up with all the results of the search.
         searchList.getItems().clear();
         searchList.getItems().addAll(Functions.searchClasses(searchBar.getText()));
         searchList.getSelectionModel().setSelectionMode(SelectionMode.MULTIPLE);
+        searchList.getSelectionModel().setSelectionMode(SelectionMode.MULTIPLE);
     }
+
+    public void selectClasses() {
+        //Just put all the classes selected in the searchList into the selectedList.
+        selectedList.getItems().addAll(searchList.getSelectionModel().getSelectedItems());
+        searchList.getItems().removeAll(searchList.getSelectionModel().getSelectedItems());
+    }
+
+    public void deSelectClasses() {
+        //Just put all the classes selected in the selectedList into the searchList.
+        searchList.getItems().addAll(selectedList.getSelectionModel().getSelectedItems());
+        selectedList.getItems().removeAll(selectedList.getSelectionModel().getSelectedItems());
+    }
+
 
     public boolean validateFields() { //Make sure you're not searching anything empty, and that the numbers make sense.
         Alert alert = new Alert(Alert.AlertType.WARNING);
@@ -171,7 +190,7 @@ public class MainPage extends Application {
             alert.showAndWait();
             result = false;
         }
-        ObservableList<Class> selectedClasses = searchList.getSelectionModel().getSelectedItems();
+        ObservableList<Class> selectedClasses = selectedList.getItems();
         if (!checkBox12.isSelected() && !checkBox13.isSelected() && selectedClasses.isEmpty()) {
             alert.setContentText("Please select at least one class.");
             alert.showAndWait();

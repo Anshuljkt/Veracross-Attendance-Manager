@@ -77,7 +77,7 @@ public class Functions {
                 //This way, if something gets corrupted on download, the program will re-download on the next run.
                 File folder = new File(programDataDir);
                 for (File f : folder.listFiles()) {
-                    if (f.getName().startsWith("students")
+                    if (f.getName().startsWith("student")
                             || f.getName().startsWith("classes")
                             || f.getName().startsWith("enrollments")
                             || f.getName().startsWith("time")
@@ -142,7 +142,7 @@ public class Functions {
                 FileOutputStream fos = new FileOutputStream(path + i + ".xml");
                 fos.getChannel().transferFrom(rbc, 0, Long.MAX_VALUE);
 
-                if (!downloadType.equalsIgnoreCase("Student Enrollments")) {
+                if (!downloadType.equalsIgnoreCase("Student Enrollments") && !downloadType.equalsIgnoreCase("Class Enrollments")) {
                     System.out.println("Downloaded " + downloadType + " File " + i + "/" + pagesCount + ".");
                 }
             }
@@ -328,11 +328,17 @@ public class Functions {
     }
 
     //Method that just calls the method below, except repeats it for each ID in the arrayList given.
-    public static ArrayList processEnrollments(ArrayList<Integer> IDList, boolean studentEnrollments) {
+    public static ArrayList processEnrollments(ArrayList<Integer> IDList, boolean studentEnrollments, int numberOfClasses) {
         ArrayList results = new ArrayList();
-        for (Integer i : IDList) {
-            results.addAll(processEnrollments(i, studentEnrollments));
+        for (int i = 1; i <= numberOfClasses; i++) {
+            results.addAll(processEnrollments(IDList.get(i-1), false));
+            System.out.println("Downloaded Enrollments File " + i + "/" + numberOfClasses + ".");
         }
+
+//        for (Integer i : IDList) {
+//            results.addAll(processEnrollments(i, studentEnrollments));
+//        }
+
         //Only remove duplicates if you have a list of Students, not if you have a list of classes.
         if (!studentEnrollments) {
             Set noDuplicates = new LinkedHashSet(results);

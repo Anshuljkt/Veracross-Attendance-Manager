@@ -101,9 +101,6 @@ public class SignInPage {
     }
 
     public void signIn() { //Using the ID number entered, delete a student from the list.
-//        Alert alert = new Alert(Alert.AlertType.WARNING);
-//        alert.setTitle("Error");
-//        alert.setHeaderText(null);
 
         boolean ready = true;
         int studentID = 0;
@@ -157,14 +154,14 @@ public class SignInPage {
                     message.setTextFill(Color.BLUE);
                     message.setText("You have already signed in.");
                     message.setVisible(true);
-                } else { //When they are not expected/number is wrong.
+                } else { //When they are not expected/input is wrong.
                     message.setTextFill(Color.RED);
                     message.setText("Student not found in list. Please try again.");
                     message.setVisible(true);
                 }
             }
         }
-        //Just make sure to bring it back to the textField.
+        //Just make sure to bring focus back to the textField.
         signInText.requestFocus();
         signInText.clear();
     }
