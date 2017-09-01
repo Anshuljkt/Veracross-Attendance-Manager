@@ -1,24 +1,24 @@
 @font-face {
-    font-family: 'San Francisco Display Light';
-    src: url('fonts/SanFranciscoDisplay-Light.otf');
+    font-family: 'Roboto Light';
+    src: url('fonts/Roboto-Light.ttf');
 }
 
 .label {
-    -fx-font-family: "San Francisco Display Light";
+    -fx-font-family: "Roboto Light";
 }
 
 .button {
-    -fx-font-family: "San Francisco Display Light";
+    -fx-font-family: "Roboto Light";
     -fx-background-color: #132e52;
     -fx-text-fill: white;
 }
 
 .text-field {
-    -fx-font-family: "San Francisco Display Light";
+    -fx-font-family: "Roboto Light";
 }
 
 .check-box {
-    -fx-font-family: "San Francisco Display Light";
+    -fx-font-family: "Roboto Light";
 }
 
 .titleLabel {
@@ -26,6 +26,6 @@
 }
 
 .list-view {
-    -fx-font-family: "San Francisco Display Light";
+    -fx-font-family: "Roboto Light";
     -fx-font-size: 13px;
 }
