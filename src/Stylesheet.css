@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Helvetica Neue Light';
+    src: url('fonts/HelveticaNeue-Light.ttf');
+}
+
+.label {
+    -fx-font-family: "Helvetica Neue Light";
+}
+
+.button {
+    -fx-font-family: "Helvetica Neue Light";
+    -fx-background-color: #132e52;
+    -fx-text-fill: white;
+}
+
+.text-field {
+    -fx-font-family: "Helvetica Neue Light";
+}
+
+.check-box {
+    -fx-font-family: "Helvetica Neue Light";
+}
+
+.titleLabel {
+    -fx-font-size: 24px;
+}
+
+.list-view {
+    -fx-font-family: "Helvetica Neue Light";
+    -fx-font-size: 15px;
+}

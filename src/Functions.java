@@ -22,7 +22,7 @@ public class Functions {
     public static ArrayList<Student> students = new ArrayList<Student>();
     public static ArrayList<Class> classes = new ArrayList<Class>();
     public static String programDataDir = "";
-    public static String secOfficeEmail = "18anshula@nist.ac.th";
+    public static String secOfficeEmail = "secoffice@nist.ac.th";
     private static int pagesCount = 200;
     private static String baseURL = "https://api.veracross.com/nist/v2/";
     private static String studentsURL = baseURL + "students.xml?grade_level=12,13&page=";

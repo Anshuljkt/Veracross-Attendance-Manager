@@ -16,12 +16,12 @@ public class Email {
         }
 
         if (fileName.startsWith("Absent")) {
-            body = "\nClass Names: " + MainPageController.classNames +
+            body = "\nClass Names: " + MainPage.classNames +
                     "\n" +
                     "\nThese students have not yet arrived:" +
                     "\n\n" + body;
         } else if (fileName.startsWith("Late")) {
-            body =  "\nClass Names: " + MainPageController.classNames +
+            body =  "\nClass Names: " + MainPage.classNames +
                     "\n" +
                     "\nThese students have arrived late:" +
                     "\n\n" + body;
@@ -63,12 +63,12 @@ public class Email {
         Session session = Session.getDefaultInstance(properties, auth);
 
         if (subject.startsWith("Absent")) {
-            body = "\nClass Names: " + MainPageController.classNames +
+            body = "\nClass Names: " + MainPage.classNames +
                     "\n" +
                     "\nThese students have not yet arrived:" +
                     "\n\n" + body;
         } else if (subject.startsWith("Late")) {
-            body =  "\nClass Names: " + MainPageController.classNames +
+            body =  "\nClass Names: " + MainPage.classNames +
                     "\n" +
                     "\nThese students have arrived late:" +
                     "\n\n" + body;

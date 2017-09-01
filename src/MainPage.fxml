@@ -8,21 +8,12 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<GridPane id="MainGridPane" fx:id="parent" alignment="CENTER" hgap="5.0" vgap="5.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainPageController">
+<GridPane id="MainGridPane" fx:id="parent" alignment="CENTER" hgap="5.0" stylesheets="@Stylesheet.css" vgap="5.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainPage">
    <children>
       <ListView fx:id="searchList" prefHeight="345.0" prefWidth="497.0" GridPane.columnSpan="2" GridPane.rowIndex="5">
          <GridPane.margin>
             <Insets />
          </GridPane.margin></ListView>
-      <AnchorPane GridPane.columnSpan="2" GridPane.rowIndex="4">
-         <children>
-            <Button fx:id="searchButton" layoutX="436.0" layoutY="3.0" mnemonicParsing="false" onAction="#searchClasses" text="Search" />
-            <TextField fx:id="searchBar" layoutY="3.0" onAction="#searchClasses" prefHeight="27.0" prefWidth="428.0" promptText="Search by Class or Teacher name...">
-               <font>
-                  <Font name="Helvetica Neue Light" size="13.0" />
-               </font></TextField>
-         </children>
-      </AnchorPane>
       <CheckBox fx:id="checkBox12" mnemonicParsing="false" prefHeight="18.0" prefWidth="230.0" text="All Year 12 Students" GridPane.rowIndex="2">
          <font>
             <Font name="Helvetica Neue Light" size="13.0" />
@@ -55,18 +46,18 @@
             <TextField fx:id="mm" alignment="CENTER" promptText="MM" />
          </children>
       </HBox>
-      <BorderPane prefHeight="58.0" prefWidth="497.0" GridPane.columnSpan="2">
+      <BorderPane GridPane.columnSpan="2">
          <center>
-            <Label alignment="CENTER" contentDisplay="CENTER" text="Attendance Helper" textFill="#132e52" BorderPane.alignment="CENTER">
+            <Label alignment="CENTER" contentDisplay="CENTER" styleClass="titleLabel" text="Attendance" textAlignment="CENTER" textFill="#132e52" BorderPane.alignment="CENTER">
                <font>
-                  <Font name="Helvetica Neue Light" size="18.0" />
+                  <Font name="Helvetica Neue Light" size="24.0" />
                </font>
             </Label>
          </center>
          <top>
-            <ImageView fitHeight="89.0" fitWidth="136.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+            <ImageView fitHeight="108.0" fitWidth="135.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
                <image>
-                  <Image url="@NIST-International-School-Logo.png" />
+                  <Image url="@School-Logo.png" />
                </image>
             </ImageView>
          </top>
@@ -91,11 +82,21 @@
             </CheckBox>
          </left>
       </BorderPane>
+      <BorderPane GridPane.columnSpan="2" GridPane.rowIndex="4">
+         <left>
+            <TextField fx:id="searchBar" onAction="#searchClasses" prefHeight="27.0" prefWidth="431.0" promptText="Search by Class or Teacher name..." BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Helvetica Neue Light" size="13.0" />
+               </font></TextField>
+         </left>
+         <right>
+            <Button fx:id="searchButton" mnemonicParsing="false" onAction="#searchClasses" text="Search" BorderPane.alignment="CENTER" />
+         </right>
+      </BorderPane>
    </children>
    <columnConstraints>
       <ColumnConstraints />
-      <ColumnConstraints />
-      <ColumnConstraints />
+      <ColumnConstraints maxWidth="258.0" minWidth="250.0" prefWidth="251.0" />
    </columnConstraints>
    <rowConstraints>
       <RowConstraints />
