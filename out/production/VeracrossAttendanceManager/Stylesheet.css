@@ -1,24 +1,24 @@
 @font-face {
-    font-family: 'Helvetica Neue Light';
-    src: url('fonts/HelveticaNeue-Light.ttf');
+    font-family: 'San Francisco Display Light';
+    src: url('fonts/SanFranciscoDisplay-Light.otf');
 }
 
 .label {
-    -fx-font-family: "Helvetica Neue Light";
+    -fx-font-family: "San Francisco Display Light";
 }
 
 .button {
-    -fx-font-family: "Helvetica Neue Light";
+    -fx-font-family: "San Francisco Display Light";
     -fx-background-color: #132e52;
     -fx-text-fill: white;
 }
 
 .text-field {
-    -fx-font-family: "Helvetica Neue Light";
+    -fx-font-family: "San Francisco Display Light";
 }
 
 .check-box {
-    -fx-font-family: "Helvetica Neue Light";
+    -fx-font-family: "San Francisco Display Light";
 }
 
 .titleLabel {
@@ -26,6 +26,6 @@
 }
 
 .list-view {
-    -fx-font-family: "Helvetica Neue Light";
+    -fx-font-family: "San Francisco Display Light";
     -fx-font-size: 13px;
 }
