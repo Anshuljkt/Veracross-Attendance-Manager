@@ -1,8 +1,5 @@
 import java.util.ArrayList;
 
-/**
- * Created by 18anshula on 7/7/17 at 6:48 PM.
- */
 public class Class implements Comparable<Class> {
     private String name;
     private int id;

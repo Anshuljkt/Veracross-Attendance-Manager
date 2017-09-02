@@ -13,8 +13,6 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.*;
 
-//Created by Anshul Agrawal on 7/7/17 at 12:55 PM.
-
 public class Functions {
 
 

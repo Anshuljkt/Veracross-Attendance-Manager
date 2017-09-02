@@ -1,6 +1,3 @@
-/**
- * Created by Anshul Agrawal on 7/7/17 at 12:50 PM.
- */
 public class Student implements Comparable<Student> {
 
 
