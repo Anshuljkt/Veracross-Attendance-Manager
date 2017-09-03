@@ -144,6 +144,7 @@ public class MainPage extends Application {
             mainStage = new Stage();
             mainStage.setScene(new Scene(parent));
             mainStage.setMaximized(true);
+            mainStage.setTitle("Student Sign-In");
             mainStage.show();
             mainStage.setOnCloseRequest(event -> System.exit(0));
         }
