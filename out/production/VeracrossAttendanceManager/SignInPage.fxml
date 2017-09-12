@@ -9,9 +9,9 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<GridPane alignment="CENTER" hgap="5.0" stylesheets="@Stylesheet.css" vgap="5.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SignInPage">
+<GridPane alignment="CENTER" hgap="5.0" styleClass="MainGrid" stylesheets="@Stylesheet.css" vgap="5.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SignInPage">
    <children>
-      <ListView fx:id="studentList" focusTraversable="false" GridPane.columnSpan="2" GridPane.rowIndex="5">
+      <ListView fx:id="studentList" focusTraversable="false" GridPane.columnSpan="2" GridPane.rowIndex="6">
          <GridPane.margin>
             <Insets />
          </GridPane.margin></ListView>
@@ -65,7 +65,7 @@
             <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
          </opaqueInsets>
       </Label>
-      <Label layoutX="20.0" layoutY="194.0" text="Expected Students:" GridPane.columnIndex="1" GridPane.rowIndex="4">
+      <Label layoutX="20.0" layoutY="194.0" text="Expected Students:" GridPane.columnIndex="1" GridPane.rowIndex="5">
          <font>
             <Font name="Helvetica Neue Light" size="15.0" />
          </font>
@@ -73,7 +73,7 @@
             <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
          </opaqueInsets>
       </Label>
-      <BorderPane prefHeight="29.0" prefWidth="580.0" GridPane.columnIndex="1" GridPane.rowIndex="6">
+      <BorderPane prefHeight="29.0" prefWidth="580.0" GridPane.columnIndex="1" GridPane.rowIndex="7">
          <center>
             <Label fx:id="message" alignment="CENTER" contentDisplay="CENTER" prefHeight="32.0" prefWidth="581.0" styleClass="timeLabel" text="Message Text" textAlignment="CENTER" textFill="GREEN" visible="false" BorderPane.alignment="CENTER">
                <font>
@@ -113,6 +113,7 @@
             <Button fx:id="signInButton" mnemonicParsing="false" onAction="#signIn" text="Sign In" BorderPane.alignment="CENTER" />
          </right>
       </BorderPane>
+      <Label fx:id="classNamesDisplay" maxHeight="1.7976931348623157E308" maxWidth="600.0" text="Label" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="4" />
    </children>
    <opaqueInsets>
       <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
@@ -129,6 +130,7 @@
       <RowConstraints />
       <RowConstraints />
       <RowConstraints minHeight="10.0" prefHeight="30.0" />
+      <RowConstraints maxHeight="1.7976931348623157E308" minHeight="10.0" percentHeight="0.0" />
       <RowConstraints />
       <RowConstraints />
       <RowConstraints />

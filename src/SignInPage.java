@@ -20,6 +20,8 @@ public class SignInPage {
     @FXML
     private Label time;
     @FXML
+    private Label classNamesDisplay;
+    @FXML
     private ListView studentList;
     @FXML
     private TextField signInText;
@@ -33,6 +35,7 @@ public class SignInPage {
 
     public void initialize() {
         studentList.getItems().addAll(MainPage.selectedStudents); //Bring everything into this studentList.
+        classNamesDisplay.setText("Class Names: " + MainPage.classNames);
 
         //With help from https://stackoverflow.com/questions/42383857/javafx-live-time-and-date
         //Make a live-updating time view on the top of the screen:

@@ -111,14 +111,6 @@ public class MainPage extends Application {
             ArrayList<Integer> classIDs = new ArrayList<Integer>(); //This is what to use for processing enrollments.
             selectedStudents = new ArrayList<Student>(); //This is where the resulting students will be stored.
 
-            //First download all enrollments from selected classes, and add the students into the selectedStudents ArrayList.
-            for (Class i : selectedClasses) {
-                classIDs.add(i.getId());
-                classNames = classNames + i.getName() + " - " + i.getTeacherName() +" | "; //Also concatenate all class names for the email.
-            }
-
-            selectedStudents.addAll(Functions.processEnrollments(classIDs, false, selectedList.getItems().size()));
-
             //If entire year levels have been selected, then add them to the selectedStudents ArrayList too.
             if (checkBox12.isSelected()) {
                 selectedStudents.addAll(Functions.searchStudents("Year 12"));
@@ -128,6 +120,15 @@ public class MainPage extends Application {
                 selectedStudents.addAll(Functions.searchStudents("Year 13"));
                 classNames = classNames + "All Y13 | ";
             }
+
+            //Then download all enrollments from selected classes, and add the students into the selectedStudents ArrayList.
+            for (Class i : selectedClasses) {
+                classIDs.add(i.getId());
+                classNames = classNames + i.getName() + " - " + i.getTeacherName() +" | "; //Also concatenate all class names for the email.
+            }
+
+            selectedStudents.addAll(Functions.processEnrollments(classIDs, false, selectedList.getItems().size()));
+
             //Remove any duplicates
             Set noDuplicates = new LinkedHashSet(selectedStudents);
             selectedStudents.clear();
@@ -156,7 +157,7 @@ public class MainPage extends Application {
         searchList.getItems().clear();
         searchList.getItems().addAll(Functions.searchClasses(searchBar.getText()));
         searchList.getSelectionModel().setSelectionMode(SelectionMode.MULTIPLE);
-        searchList.getSelectionModel().setSelectionMode(SelectionMode.MULTIPLE);
+        selectedList.getSelectionModel().setSelectionMode(SelectionMode.MULTIPLE);
     }
 
     public void selectClasses() {

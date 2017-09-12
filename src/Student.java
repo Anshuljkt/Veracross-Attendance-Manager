@@ -9,6 +9,7 @@ public class Student implements Comparable<Student> {
     private String grade;
     private int gradeNum;
     private String lateTime;
+    private String currentClass;
 
     public Student() {
     }
@@ -21,6 +22,14 @@ public class Student implements Comparable<Student> {
         this.homeroom = homeroom;
         this.grade = grade;
         this.gradeNum = Integer.parseInt(grade.substring(5));
+    }
+
+    public String getCurrentClass() {
+        return currentClass;
+    }
+
+    public void setCurrentClass(String currentClass) {
+        this.currentClass = currentClass;
     }
 
     public String getLateTime() {

@@ -3,9 +3,7 @@ import com.sun.mail.util.MailConnectException;
 import javax.mail.*;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.Properties;
+import java.util.*;
 
 public class Email {
 
@@ -31,12 +29,32 @@ public class Email {
 
     }
 
-
     public static void sendEmail(String recipient, String subjectLine, ArrayList<Student> listOfStudents) { //Same method that just works with an ArrayList.
+        //Now we have a student ArrayList, with the names of their classes in the currentClass variable
+        ArrayList<String> classNames = new ArrayList<String>();
         String body = "";
+
         for (Student thisStudent : listOfStudents) {
-            body = body + thisStudent.toStringWithID() + "\n";
+            if (thisStudent.getCurrentClass() != null) {
+                classNames.add(thisStudent.getCurrentClass());
+            }
         }
+            Set noDuplicates = new LinkedHashSet(classNames);
+            classNames.clear();
+            classNames.addAll(noDuplicates);
+
+        for (String currentClassName : classNames) {
+            body = body + currentClassName + ": \n";
+            for (Student thisStudent : listOfStudents) {
+                if (thisStudent.getCurrentClass().equalsIgnoreCase(currentClassName)) {
+                    body = body + "\t" + thisStudent.toStringWithID() + "\n";
+                }
+            }
+        }
+//
+//        for (Student thisStudent : listOfStudents) {
+//            body = body + thisStudent.toStringWithID() + "\n";
+//        }
         sendEmail(recipient, subjectLine, body);
     }
 

@@ -91,7 +91,7 @@ public class Functions {
                 if (classesDownloadResponse < 0) {
                     return "downloadError";
                 }
-
+                saveTime();
             } else {
                 System.out.println("ALERT: The local database has not been updated since: " + readTime() + ". This could result in inaccuracies.");
                 processClasses(pagesCount);
@@ -102,7 +102,6 @@ public class Functions {
             e.printStackTrace();
             return "downloadError";
         }
-        saveTime();
         return "success";
     }
 
@@ -282,6 +281,7 @@ public class Functions {
         ArrayList<Student> results = new ArrayList<Student>();
         for (Student i : students) {
             if (i.getGrade().equalsIgnoreCase(yearLevel)) {
+                i.setCurrentClass(yearLevel);
                 results.add(i);
             }
         }
@@ -289,7 +289,7 @@ public class Functions {
         return results;
     }
 
-    private static ArrayList search(ArrayList<Integer> IDs, String searchType) {
+    private static ArrayList search(ArrayList<Integer> IDs, String searchType, String className) {
         ArrayList results = new ArrayList();
         if (searchType.equalsIgnoreCase("students")) {
             results = new ArrayList<Student>();
@@ -297,6 +297,7 @@ public class Functions {
                 int currentID = i.getId();
                 for (int comparing : IDs) {
                     if (currentID == comparing) {
+                        i.setCurrentClass(className);
                         results.add(i);
                     }
                 }
@@ -325,20 +326,28 @@ public class Functions {
         return results;
     }
 
+    public static String searchClassName(int search) {
+        for (Class x : classes) {
+            if (x.getId()==search) {
+                return x.getName() + " - " + x.getTeacherName();
+            }
+        }
+        return "Error";
+    }
+
     //Method that just calls the method below, except repeats it for each ID in the arrayList given.
-    public static ArrayList processEnrollments(ArrayList<Integer> IDList, boolean studentEnrollments, int numberOfClasses) {
+    public static ArrayList processEnrollments(ArrayList<Integer> IDList, boolean reverseEnrollments, int numberOfClasses) {
+
         ArrayList results = new ArrayList();
         for (int i = 1; i <= numberOfClasses; i++) {
-            results.addAll(processEnrollments(IDList.get(i-1), false));
+            String nameOfClass = searchClassName(IDList.get(i-1));
+            results.addAll(processEnrollments(IDList.get(i-1), false, nameOfClass));
             System.out.println("Downloaded Enrollments File " + i + "/" + numberOfClasses + ".");
         }
 
-//        for (Integer i : IDList) {
-//            results.addAll(processEnrollments(i, studentEnrollments));
-//        }
 
         //Only remove duplicates if you have a list of Students, not if you have a list of classes.
-        if (!studentEnrollments) {
+        if (!reverseEnrollments) {
             Set noDuplicates = new LinkedHashSet(results);
             results.clear();
             results.addAll(noDuplicates);
@@ -348,12 +357,12 @@ public class Functions {
     }
 
     //Method to create the list of student IDs to expect for a certain class/student using the class/student ID(s).
-    public static ArrayList processEnrollments(int ID, boolean studentEnrollments) {
+    public static ArrayList processEnrollments(int ID, boolean reverseEnrollments, String nameOfClass) {
         ArrayList<Integer> receivedIDs = new ArrayList<Integer>();
         ArrayList results;
 
         String name = ""; //We want to print the name of the Class/Student first.
-        if (studentEnrollments) { //Search the student list to find out who the student is.
+        if (reverseEnrollments) { //Search the student list to find out who the student is.
             for (Student x : students) {
                 if (x.getId() == ID) {
                     name = x.getfName();
@@ -369,8 +378,8 @@ public class Functions {
         //Download enrollments next.
         String pathToUse, urlToUse, downloadType;
 
-        //Decides which URL/Path to use based on studentEnrollments.
-        if (studentEnrollments) {
+        //Decides which URL/Path to use based on reverseEnrollments.
+        if (reverseEnrollments) {
             pathToUse = programDataDir + studentEnrollmentsPath + ID + "-";
             urlToUse = studentEnrollmentsURL + ID + "&page=";
             downloadType = "Student Enrollments";
@@ -383,7 +392,7 @@ public class Functions {
         //First need to delete all the enrollment files that already exist, in order to avoid cluttering the directory.
         File folder = new File(programDataDir);
         for (File f : folder.listFiles()) {
-            if (f.getName().startsWith("enrollments") || f.getName().startsWith("studentEnrollments")) {
+            if (f.getName().startsWith("enrollments") || f.getName().startsWith("reverseEnrollments")) {
                 f.delete();
             }
         }
@@ -409,7 +418,8 @@ public class Functions {
                     if (current.getNodeName().equalsIgnoreCase("enrollment")) {
                         Element eElement = (Element) current;
                         int newID = -1;
-                        if (studentEnrollments) {
+                        String currentClass;
+                        if (reverseEnrollments) {
                             newID = Integer.parseInt(eElement.getElementsByTagName("class_fk").item(0).getTextContent());
                         } else {
                             newID = Integer.parseInt(eElement.getElementsByTagName("student_fk").item(0).getTextContent());
@@ -426,10 +436,10 @@ public class Functions {
         }
         //Now we have an ArrayList of Integers that has the ID numbers of students/classes that we want to use.
         //We can use the search function that takes an integer array and returns the appropriate students/classes arrayList.
-        if (studentEnrollments) { //If student enrollments, then the received IDs are those of classes. Match them to their IDs.
-            results = search(receivedIDs, "classes");
-        } else { //If not student enrollments, then the received IDs are student IDs, and we need to math those to student IDs.
-            results = search(receivedIDs, "students");
+        if (reverseEnrollments) { //If reverse enrollments, then the received IDs are those of classes. Match them to their IDs.
+            results = search(receivedIDs, "classes", null);
+        } else { //If not reverse enrollments, then the received IDs are student IDs, and we need to match those to student IDs.
+            results = search(receivedIDs, "students", nameOfClass); //Also want to store the current class name of each student.
         }
         Collections.sort(results);
         return results;
