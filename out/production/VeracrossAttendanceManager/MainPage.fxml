@@ -114,13 +114,13 @@
          <center>
             <HBox maxWidth="90.0" prefHeight="25.0" prefWidth="90.0" BorderPane.alignment="CENTER">
                <children>
-                  <TextField fx:id="mm" alignment="CENTER" prefHeight="25.0" prefWidth="40.0" promptText="MM" />
+                  <TextField fx:id="hh" alignment="CENTER" prefHeight="25.0" prefWidth="40.0" promptText="HH" />
                   <Label maxHeight="25.0" prefHeight="25.0" text=":">
                      <padding>
                         <Insets left="2.0" right="2.0" />
                      </padding>
                   </Label>
-                  <TextField fx:id="hh" alignment="CENTER" prefHeight="25.0" prefWidth="40.0" promptText="HH" />
+                  <TextField fx:id="mm" alignment="CENTER" prefHeight="25.0" prefWidth="40.0" promptText="MM" />
                </children>
             </HBox>
          </center>
