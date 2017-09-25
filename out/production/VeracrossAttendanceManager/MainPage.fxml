@@ -35,13 +35,6 @@
             <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
          </opaqueInsets>
       </Label>
-      <!--This is to set the time at which students will be marked late.-->
-      <HBox prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="3">
-         <children>
-            <TextField fx:id="hh" alignment="CENTER" promptText="HH" />
-            <TextField fx:id="mm" alignment="CENTER" promptText="MM" />
-         </children>
-      </HBox>
       <BorderPane GridPane.columnSpan="2147483647">
          <center>
             <Label alignment="CENTER" contentDisplay="CENTER" styleClass="titleLabel" text="Attendance" textAlignment="CENTER" textFill="#132e52" BorderPane.alignment="CENTER">
@@ -58,14 +51,6 @@
             </ImageView>
          </top>
       </BorderPane>
-      <Label text="Enter class start time (24-hour format)" textFill="#7aa2aa" GridPane.columnIndex="2" GridPane.rowIndex="2">
-         <font>
-            <Font name="Helvetica Neue Light" size="13.0" />
-         </font>
-         <opaqueInsets>
-            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
-         </opaqueInsets>
-      </Label>
       <BorderPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="8">
          <right>
             <Button fx:id="findEnrollmentsButton" defaultButton="true" mnemonicParsing="false" onAction="#processEnrollments" prefHeight="27.0" prefWidth="132.0" style="-fx-background-color: #132e52;" text="Find Enrollments" textAlignment="CENTER" textFill="WHITE" wrapText="true" BorderPane.alignment="CENTER" />
@@ -124,6 +109,33 @@
          <right>
             <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="16.0" prefWidth="320.0" text="Selected Classes" textAlignment="CENTER" BorderPane.alignment="CENTER" />
          </right>
+      </BorderPane>
+      <BorderPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="3">
+         <center>
+            <HBox maxWidth="90.0" prefHeight="25.0" prefWidth="90.0" BorderPane.alignment="CENTER">
+               <children>
+                  <TextField fx:id="mm" alignment="CENTER" prefHeight="25.0" prefWidth="40.0" promptText="MM" />
+                  <Label maxHeight="25.0" prefHeight="25.0" text=":">
+                     <padding>
+                        <Insets left="2.0" right="2.0" />
+                     </padding>
+                  </Label>
+                  <TextField fx:id="hh" alignment="CENTER" prefHeight="25.0" prefWidth="40.0" promptText="HH" />
+               </children>
+            </HBox>
+         </center>
+      </BorderPane>
+      <BorderPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+         <center>
+            <Label text="Enter class start time (24-hour format)" textFill="#7aa2aa" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Helvetica Neue Light" size="13.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </opaqueInsets>
+            </Label>
+         </center>
       </BorderPane>
    </children>
    <columnConstraints>
