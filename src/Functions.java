@@ -31,6 +31,7 @@ public class Functions {
     private static String classesPath = "/classes-";
     private static String enrollmentsPath = "/enrollments-";
     private static String studentEnrollmentsPath = "/studentEnrollments-";
+    private static Exception downloadError = new Exception();
 
     public static void saveTime() { //This is to remember how long it has been since the database was fully updated.
         try {
@@ -106,7 +107,6 @@ public class Functions {
     }
 
     private static int download(String URL, String path, String downloadType) throws Exception {
-        Exception downloadError = new Exception();
         //This is where the username and password go for accessing Veracross API.
         Authenticator.setDefault(new Authenticator() {
             @Override
@@ -336,28 +336,31 @@ public class Functions {
     }
 
     //Method that just calls the method below, except repeats it for each ID in the arrayList given.
-    public static ArrayList processEnrollments(ArrayList<Integer> IDList, boolean reverseEnrollments, int numberOfClasses) {
+    public static ArrayList processEnrollments(ArrayList<Integer> IDList, boolean reverseEnrollments, int numberOfClasses) throws Exception {
+        try {
+            ArrayList results = new ArrayList();
+            for (int i = 1; i <= numberOfClasses; i++) {
+                String nameOfClass = searchClassName(IDList.get(i - 1));
+                results.addAll(processEnrollments(IDList.get(i - 1), false, nameOfClass));
+                System.out.println("Downloaded Enrollments File " + i + "/" + numberOfClasses + ".");
+            }
 
-        ArrayList results = new ArrayList();
-        for (int i = 1; i <= numberOfClasses; i++) {
-            String nameOfClass = searchClassName(IDList.get(i-1));
-            results.addAll(processEnrollments(IDList.get(i-1), false, nameOfClass));
-            System.out.println("Downloaded Enrollments File " + i + "/" + numberOfClasses + ".");
+
+            //Only remove duplicates if you have a list of Students, not if you have a list of classes.
+            if (!reverseEnrollments) {
+                Set noDuplicates = new LinkedHashSet(results);
+                results.clear();
+                results.addAll(noDuplicates);
+            }
+            Collections.sort(results);
+            return results;
+        } catch (Exception e) {
+            throw downloadError;
         }
-
-
-        //Only remove duplicates if you have a list of Students, not if you have a list of classes.
-        if (!reverseEnrollments) {
-            Set noDuplicates = new LinkedHashSet(results);
-            results.clear();
-            results.addAll(noDuplicates);
-        }
-        Collections.sort(results);
-        return results;
     }
 
     //Method to create the list of student IDs to expect for a certain class/student using the class/student ID(s).
-    public static ArrayList processEnrollments(int ID, boolean reverseEnrollments, String nameOfClass) {
+    public static ArrayList processEnrollments(int ID, boolean reverseEnrollments, String nameOfClass) throws Exception {
         ArrayList<Integer> receivedIDs = new ArrayList<Integer>();
         ArrayList results;
 
@@ -429,10 +432,9 @@ public class Functions {
                     }
                 }
             }
-        } catch (FileNotFoundException e) {
-
         } catch (Exception e) {
             e.printStackTrace();
+            throw downloadError;
         }
         //Now we have an ArrayList of Integers that has the ID numbers of students/classes that we want to use.
         //We can use the search function that takes an integer array and returns the appropriate students/classes arrayList.

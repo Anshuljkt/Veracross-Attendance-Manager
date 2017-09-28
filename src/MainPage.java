@@ -126,9 +126,16 @@ public class MainPage extends Application {
                 classIDs.add(i.getId());
                 classNames = classNames + i.getName() + " - " + i.getTeacherName() +" | "; //Also concatenate all class names for the email.
             }
-
-            selectedStudents.addAll(Functions.processEnrollments(classIDs, false, selectedList.getItems().size()));
-
+            try {
+                selectedStudents.addAll(Functions.processEnrollments(classIDs, false, selectedList.getItems().size()));
+            } catch (Exception e) {
+                Alert alert = new Alert(Alert.AlertType.WARNING);
+                alert.setTitle("Error");
+                alert.setHeaderText("The program was unable to connect to the Veracross servers.");
+                alert.setContentText("Please check your Internet Connection, and try again.");
+                alert.showAndWait();
+                System.exit(0);
+            }
             //Remove any duplicates
             Set noDuplicates = new LinkedHashSet(selectedStudents);
             selectedStudents.clear();
