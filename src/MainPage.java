@@ -1,5 +1,4 @@
 import javafx.application.Application;
-import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -19,7 +18,7 @@ public class MainPage extends Application {
     //Variables for different FXML elements to be controlled.
     @FXML private TextField searchBar, hh, mm;
     @FXML private CheckBox checkBox12, checkBox13;
-    @FXML private ListView searchList, selectedList;
+    @FXML private ListView<Class> searchList, selectedList;
     @FXML private Button findEnrollmentsButton, selectButton, deSelectButton;
     @FXML private CheckBox emailOption;
 
@@ -106,8 +105,6 @@ public class MainPage extends Application {
                 givenHH = String.format("%02d", (Integer.parseInt(hh.getText())));
             }
 
-            ObservableList<Class> selectedClasses = selectedList.getItems(); //This is the user input.
-
             ArrayList<Integer> classIDs = new ArrayList<Integer>(); //This is what to use for processing enrollments.
             selectedStudents = new ArrayList<Student>(); //This is where the resulting students will be stored.
 
@@ -122,7 +119,7 @@ public class MainPage extends Application {
             }
 
             //Then download all enrollments from selected classes, and add the students into the selectedStudents ArrayList.
-            for (Class i : selectedClasses) {
+            for (Class i : selectedList.getItems()) {
                 classIDs.add(i.getId());
                 classNames = classNames + i.getName() + " - " + i.getTeacherName() +" | "; //Also concatenate all class names for the email.
             }
@@ -199,8 +196,8 @@ public class MainPage extends Application {
             alert.showAndWait();
             result = false;
         }
-        ObservableList<Class> selectedClasses = selectedList.getItems();
-        if (!checkBox12.isSelected() && !checkBox13.isSelected() && selectedClasses.isEmpty()) {
+
+        if (!checkBox12.isSelected() && !checkBox13.isSelected() && selectedList.getItems().isEmpty()) {
             alert.setContentText("Please select at least one class.");
             alert.showAndWait();
             result = false;

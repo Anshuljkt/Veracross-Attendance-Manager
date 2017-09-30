@@ -22,7 +22,7 @@ public class SignInPage {
     @FXML
     private Label classNamesDisplay;
     @FXML
-    private ListView studentList;
+    private ListView<Student> studentList;
     @FXML
     private TextField signInText;
     @FXML

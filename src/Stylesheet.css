@@ -3,6 +3,11 @@
     src: url('fonts/Roboto-Light.ttf');
 }
 
+@font-face {
+    font-family: 'Roboto Light Italic';
+    src: url('fonts/Roboto-LightItalic.ttf');
+}
+
 .label {
     -fx-font-family: "Roboto Light";
     -fx-font-size: 1em;
@@ -47,4 +52,9 @@
 .MainGrid {
     -fx-min-height: 40em;
     -fx-max-height: 80em;
+}
+
+.creditsText {
+    -fx-text-fill: #132e52;
+    -fx-font-family: "Roboto Light Italic";
 }

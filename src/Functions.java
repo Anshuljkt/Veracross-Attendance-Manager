@@ -364,20 +364,6 @@ public class Functions {
         ArrayList<Integer> receivedIDs = new ArrayList<Integer>();
         ArrayList results;
 
-        String name = ""; //We want to print the name of the Class/Student first.
-        if (reverseEnrollments) { //Search the student list to find out who the student is.
-            for (Student x : students) {
-                if (x.getId() == ID) {
-                    name = x.getfName();
-                }
-            }
-        } else { //Search the classes list to find out which class this is.
-            for (Class x : classes) {
-                if (x.getId() == ID) {
-                    name = x.getName();
-                }
-            }
-        }
         //Download enrollments next.
         String pathToUse, urlToUse, downloadType;
 

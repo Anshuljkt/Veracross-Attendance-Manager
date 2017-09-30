@@ -113,7 +113,12 @@
             <Button fx:id="signInButton" mnemonicParsing="false" onAction="#signIn" text="Sign In" BorderPane.alignment="CENTER" />
          </right>
       </BorderPane>
-      <Label fx:id="classNamesDisplay" maxHeight="1.7976931348623157E308" maxWidth="600.0" text="Label" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+      <Label fx:id="classNamesDisplay" maxHeight="1.7976931348623157E308" maxWidth="600.0" text="ClassNamesDisplay" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+      <BorderPane GridPane.columnIndex="1" GridPane.rowIndex="8">
+         <center>
+            <Label styleClass="creditsText" text="Created by Anshul Agrawal, Class of 2018" BorderPane.alignment="CENTER" />
+         </center>
+      </BorderPane>
    </children>
    <opaqueInsets>
       <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
@@ -134,5 +139,6 @@
       <RowConstraints />
       <RowConstraints />
       <RowConstraints />
+      <RowConstraints minHeight="10.0" />
    </rowConstraints>
 </GridPane>
