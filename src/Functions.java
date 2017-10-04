@@ -242,7 +242,7 @@ public class Functions {
                         //Course Type
                         String type = element.getElementsByTagName("course_type").item(0).getTextContent();
 
-                        //Subject - in order to include P1 Check In classes.
+                        //Subject - in order to include P1 Check In classes, CAS, and Homeroom.
                         String subject = element.getElementsByTagName("subject").item(0).getTextContent();
 
                         //Meeting Times
@@ -259,7 +259,7 @@ public class Functions {
 
                         //Conditions for a valid class.
                         boolean validType = ((type.equalsIgnoreCase("Academic")) || (type.equalsIgnoreCase("Homeroom")));
-                        boolean homeroomAdvisory = (subject.equalsIgnoreCase("House Class") || subject.equalsIgnoreCase("Advisory"));
+                        boolean homeroomAdvisory = (subject.equalsIgnoreCase("House Class") || subject.equalsIgnoreCase("Advisory") || subject.equalsIgnoreCase("Community and Service"));
                         boolean y12_13 = (grade.equalsIgnoreCase("Year 12") || grade.equalsIgnoreCase("Year 13"));
                         boolean validTeacher = !(teacherName.equalsIgnoreCase(""));
                         //Finally add new Class object, if it meets above conditions.
@@ -319,7 +319,7 @@ public class Functions {
     public static ArrayList<Class> searchClasses(String searchTerm) {
         ArrayList<Class> results = new ArrayList<Class>();
         for (Class x : classes) {
-            if ((x.getName().toLowerCase().contains(searchTerm.toLowerCase())) || (x.getTeacherName().toLowerCase().contains(searchTerm.toLowerCase()))) {
+            if ((x.getName().toLowerCase().contains(searchTerm.toLowerCase())) || (x.getTeacherName().toLowerCase().contains(searchTerm.toLowerCase())) || (x.getstringID().toLowerCase().contains(searchTerm.toLowerCase()))) {
                 results.add(x);
             }
         }
