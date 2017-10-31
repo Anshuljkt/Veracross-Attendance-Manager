@@ -20,7 +20,7 @@ public class Functions {
     public static ArrayList<Student> students = new ArrayList<Student>();
     public static ArrayList<Class> classes = new ArrayList<Class>();
     public static String programDataDir = "";
-    public static String secOfficeEmail = "secoffice@nist.ac.th";
+    public static String secOfficeEmail = "18anshula@nist.ac.th";
     private static int pagesCount = 200;
     private static String baseURL = "https://api.veracross.com/nist/v2/";
     private static String studentsURL = baseURL + "students.xml?grade_level=12,13&page=";
@@ -193,7 +193,7 @@ public class Functions {
                         String grade = eElement.getElementsByTagName("current_grade").item(0).getTextContent();
                         //Finally creates the new object and feeds it in. Prioritizes preferred name if available over first name.
                         if (!email.equalsIgnoreCase("")) { //If the person has no E-Mail ID, then don't add them.
-                            students.add(new Student(pName, lName, id, email, homeroom, grade));
+                            students.add(new Student("Student", id + "", id, email, homeroom, grade));
                         }
                     }
                 }
@@ -265,7 +265,7 @@ public class Functions {
                         boolean validTeacher = !(teacherName.equalsIgnoreCase(""));
                         //Finally add new Class object, if it meets above conditions.
                         if ((homeroomAdvisory || validType) && y12_13 && validTeacher) {
-                            classes.add(new Class(name, id, stringID, grade, teacherName, type, meetingTimes));
+                            classes.add(new Class(name, id, stringID, grade, teacherName.substring(0,6), type, meetingTimes));
                         }
                     }
                 }

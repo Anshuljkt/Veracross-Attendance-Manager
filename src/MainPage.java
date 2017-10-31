@@ -4,7 +4,6 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
-import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
 import java.io.File;
@@ -34,7 +33,7 @@ public class MainPage extends Application {
     public static void main(String[] args) {
         //Just set the working directory for every file.
         String currentPath = System.getProperty("user.dir"); //Get current directory
-        Path joinedPath = FileSystems.getDefault().getPath(currentPath, "NISTAttendanceData"); //Join it to NISTAttendanceData
+        Path joinedPath = FileSystems.getDefault().getPath(currentPath, "AttendanceData"); //Join it to NISTAttendanceData
         Functions.programDataDir = joinedPath.toString(); //Set it into Functions class's programDataDir.
 
         //Make the directory if it doesn't exist.
@@ -51,8 +50,8 @@ public class MainPage extends Application {
     public void start(Stage primaryStage) throws Exception {
         parent = FXMLLoader.load(getClass().getResource("MainPage.fxml"));
         mainStage = primaryStage;
-        mainStage.getIcons().add(new Image("Icon.png"));
-        mainStage.setTitle("NIST Attendance");
+//        mainStage.getIcons().add(new Image("Icon.png"));
+        mainStage.setTitle("Attendance Program");
         mainStage.setScene(new Scene(parent));
         mainStage.setOnCloseRequest(event -> System.exit(0)); //Make sure user can always exit when they want to.
 

@@ -1,5 +1,5 @@
 # NIST Attendance
-An IB Computer Science IA Project by Anshul Agrawal
+An IB Computer Science IA Project
 
 Requires Java 8.
 

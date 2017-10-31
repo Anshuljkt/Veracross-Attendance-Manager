@@ -90,13 +90,6 @@
                </font>
             </Label>
          </center>
-         <top>
-            <ImageView fitHeight="108.0" fitWidth="135.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
-               <image>
-                  <Image url="@School-Logo.png" />
-               </image>
-            </ImageView>
-         </top>
       </BorderPane>
       <BorderPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
          <left>
@@ -115,9 +108,9 @@
       </BorderPane>
       <Label fx:id="classNamesDisplay" maxHeight="1.7976931348623157E308" maxWidth="600.0" text="ClassNamesDisplay" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="4" />
       <BorderPane GridPane.columnIndex="1" GridPane.rowIndex="8">
-         <center>
-            <Label styleClass="creditsText" text="Created by Anshul Agrawal, Class of 2018" BorderPane.alignment="CENTER" />
-         </center>
+         <!--<center>-->
+            <!--<Label styleClass="creditsText" text="Created by Anshul Agrawal, Class of 2018" BorderPane.alignment="CENTER" />-->
+         <!--</center>-->
       </BorderPane>
    </children>
    <opaqueInsets>

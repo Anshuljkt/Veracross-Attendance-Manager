@@ -95,7 +95,7 @@ public class SignInPage {
                                 lateEmailBatch.clear();
                             }
                         }
-                    }, 0, 600000); //10 min delay between emails.
+                    }, 0, 300000); //10 min delay between emails.
                 }
             }
         }, firstEmailTime);
