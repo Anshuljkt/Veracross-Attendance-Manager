@@ -1,67 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <students type="array">
   <student>
-<household_fk>17159</household_fk>
-<person_pk>39821</person_pk>
-<legacy_id>28900:1</legacy_id>
-<legacy_student_id>0</legacy_student_id>
-<name_prefix>Mr.</name_prefix>
-<first_name>Shane</first_name>
-<first_nick_name>Shane</first_nick_name>
-<preferred_name/>
-<middle_name>Marlen</middle_name>
-<last_name>Saranon</last_name>
-<name_suffix/>
-<birthday>1999-09-22</birthday>
-<gender>Male</gender>
-<ethnicity/>
-<email_1>18ShaneS@nist.ac.th</email_1>
-<display_email_1>false</display_email_1>
-<email_2/>
-<display_email_2>false</display_email_2>
-<home_phone/>
-<display_home_phone>false</display_home_phone>
-<mobile_phone/>
-<display_mobile_phone>false</display_mobile_phone>
-<advisor_fk>44798</advisor_fk>
-<advisor_name>Janelle Grier</advisor_name>
-<homeroom_teacher_fk>30082</homeroom_teacher_fk>
-<homeroom_teacher_name>Harold Moss</homeroom_teacher_name>
-<homeroom>103132</homeroom>
-<roles type="array">
-  <role>
-    <description>Student</description>
-  </role>
-  <role>
-    <description>Former Program Student</description>
-  </role>
-</roles>
-<current_grade>Year 13</current_grade>
-<grade_applying_for>Year 13</grade_applying_for>
-<year_applying_for>2017</year_applying_for>
-<resident_status_applying_for>false</resident_status_applying_for>
-<student_group_applying_for>false</student_group_applying_for>
-<campus_applying_for>false</campus_applying_for>
-<school_level>Secondary</school_level>
-<enrollment_status>RE: Re-Enrolled</enrollment_status>
-<new_student>false</new_student>
-<graduation_year>2018</graduation_year>
-<resident_status/>
-<campus/>
-<dorm>IB MYP: Mathematics 10 Standard</dorm>
-<room_number/>
-<floor_number>0</floor_number>
-<bed_number>0</bed_number>
-<mailbox_number/>
-<student_group>Purple</student_group>
-<parent_1_fk>39823</parent_1_fk>
-<parent_2_fk>39824</parent_2_fk>
-<parent_3_fk>0</parent_3_fk>
-<parent_4_fk>0</parent_4_fk>
-<username>18shanes</username>
-<update_date>2017-08-29T20:36:00+00:00</update_date>
-  </student>
-  <student>
 <household_fk>17239</household_fk>
 <person_pk>39993</person_pk>
 <legacy_id>29104:1</legacy_id>
@@ -181,7 +120,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18anishk</username>
-<update_date>2017-09-14T00:22:00+00:00</update_date>
+<update_date>2017-10-12T20:36:00+00:00</update_date>
   </student>
   <student>
 <household_fk>17327</household_fk>
@@ -242,7 +181,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18priyatab</username>
-<update_date>2017-09-14T00:22:00+00:00</update_date>
+<update_date>2017-10-12T20:36:00+00:00</update_date>
   </student>
   <student>
 <household_fk>17377</household_fk>
@@ -547,7 +486,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18shaunas</username>
-<update_date>2017-09-14T00:22:00+00:00</update_date>
+<update_date>2017-10-12T20:36:00+00:00</update_date>
   </student>
   <student>
 <household_fk>18843</household_fk>
@@ -703,6 +642,9 @@
   <role>
     <description>Student</description>
   </role>
+  <role>
+    <description>Program Student</description>
+  </role>
 </roles>
 <current_grade>Year 12</current_grade>
 <grade_applying_for>Year 12</grade_applying_for>
@@ -727,7 +669,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>19seorink</username>
-<update_date>2017-09-14T00:22:00+00:00</update_date>
+<update_date>2017-10-05T20:28:00+00:00</update_date>
   </student>
   <student>
 <household_fk>19731</household_fk>
@@ -761,6 +703,9 @@
   <role>
     <description>Student</description>
   </role>
+  <role>
+    <description>Program Student</description>
+  </role>
 </roles>
 <current_grade>Year 13</current_grade>
 <grade_applying_for>Year 13</grade_applying_for>
@@ -785,7 +730,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18shebrib</username>
-<update_date>2017-09-14T00:22:00+00:00</update_date>
+<update_date>2017-10-12T20:36:00+00:00</update_date>
   </student>
   <student>
 <household_fk>19750</household_fk>
@@ -846,7 +791,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18maxn</username>
-<update_date>2017-09-07T20:29:00+00:00</update_date>
+<update_date>2017-10-12T20:36:00+00:00</update_date>
   </student>
   <student>
 <household_fk>20023</household_fk>
@@ -1124,6 +1069,9 @@
   <role>
     <description>Student</description>
   </role>
+  <role>
+    <description>Program Student</description>
+  </role>
 </roles>
 <current_grade>Year 12</current_grade>
 <grade_applying_for>Year 12</grade_applying_for>
@@ -1148,7 +1096,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>19khushik</username>
-<update_date>2017-09-14T00:22:00+00:00</update_date>
+<update_date>2017-10-02T20:29:00+00:00</update_date>
   </student>
   <student>
 <household_fk>20433</household_fk>
@@ -1417,8 +1365,8 @@
 <display_home_phone>true</display_home_phone>
 <mobile_phone/>
 <display_mobile_phone>false</display_mobile_phone>
-<advisor_fk>32840</advisor_fk>
-<advisor_name>Jennifer Abreu</advisor_name>
+<advisor_fk>44545</advisor_fk>
+<advisor_name>Justin West</advisor_name>
 <homeroom_teacher_fk>30083</homeroom_teacher_fk>
 <homeroom_teacher_name>Jennifer Lacey</homeroom_teacher_name>
 <homeroom>98016</homeroom>
@@ -1450,7 +1398,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>19LeaP</username>
-<update_date>2017-09-04T01:53:00+00:00</update_date>
+<update_date>2017-10-03T01:49:00+00:00</update_date>
   </student>
   <student>
 <household_fk>20917</household_fk>

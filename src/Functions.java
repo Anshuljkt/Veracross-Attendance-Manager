@@ -41,6 +41,7 @@ public class Functions {
 
             PrintWriter writer = new PrintWriter(programDataDir + "/time.txt", "UTF-8");
             writer.println(currentTime);
+
             writer.close();
 
         } catch (Exception e) {
@@ -426,6 +427,7 @@ public class Functions {
         //We can use the search function that takes an integer array and returns the appropriate students/classes arrayList.
         if (reverseEnrollments) { //If reverse enrollments, then the received IDs are those of classes. Match them to their IDs.
             results = search(receivedIDs, "classes", null);
+            printArrayList(results);
         } else { //If not reverse enrollments, then the received IDs are student IDs, and we need to match those to student IDs.
             results = search(receivedIDs, "students", nameOfClass); //Also want to store the current class name of each student.
         }

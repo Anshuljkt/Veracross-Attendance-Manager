@@ -1,123 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classes type="array">
   <class>
-<class_pk type="integer">103208</class_pk>
-<class_id>13-CAS.F3.05</class_id>
-<group_fk type="integer">0</group_fk>
-<group_id>0-2005-0-0-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>Year 13</primary_grade_level>
-<course>Creativity, Activity and Service 13</course>
-<course_id type="integer">2129</course_id>
-<description>Creativity, Activity and Service 13 Group</description>
-<subject>Community and Service</subject>
-<course_type>Non-Academic</course_type>
-<grading_method>Not Graded</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">29931</teacher_fk>
-<teacher_full_name>Robin Wilensky</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">29931</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Robin Wilensky</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-  <meeting_time>
-    <grading_period/>
-    <day/>
-    <room>4303</room>
-    <block/>
-    <block_abbreviation/>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">103209</class_pk>
-<class_id>13-MAT-FM.01</class_id>
-<group_fk type="integer">537424</group_fk>
-<group_id>147-2017-4-103209-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>Year 13</primary_grade_level>
-<course>IB DP: Further Mathematics 13 HL</course>
-<course_id type="integer">2132</course_id>
-<description>Further Mathematics 13 Block 5</description>
-<subject>Mathematics</subject>
-<course_type>Academic</course_type>
-<grading_method>Numeric</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
-<teacher_fk type="integer">19546</teacher_fk>
-<teacher_full_name>Joseph McMillan</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">19546</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Joseph McMillan</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-  <meeting_time>
-    <grading_period>ALL</grading_period>
-    <day>B</day>
-    <room>4512</room>
-    <block>Period 4 (DP)</block>
-    <block_abbreviation>P4-DP</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
-  <meeting_time>
-    <grading_period>ALL</grading_period>
-    <day>D</day>
-    <room>4512</room>
-    <block>Period 5 (DP)</block>
-    <block_abbreviation>P5-DP</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
-  <meeting_time>
-    <grading_period>ALL</grading_period>
-    <day>E</day>
-    <room>4512</room>
-    <block>Period 3 (L) DP</block>
-    <block_abbreviation>P3-LDP</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
-  <meeting_time>
-    <grading_period>ALL</grading_period>
-    <day>F</day>
-    <room>4512</room>
-    <block>Period 1 (DP)</block>
-    <block_abbreviation>P1-DP</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
-</meeting_times>
-  </class>
-  <class>
 <class_pk type="integer">103210</class_pk>
 <class_id>13-HEB-HL.01</class_id>
 <group_fk type="integer">537401</group_fk>
@@ -139,7 +22,7 @@
 <teacher_fk type="integer">40563</teacher_fk>
 <teacher_full_name>Meirav Botly</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">40563</person_fk>
@@ -211,7 +94,7 @@
 <teacher_fk type="integer">30149</teacher_fk>
 <teacher_full_name>John Gangi</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">30149</person_fk>
@@ -283,7 +166,7 @@
 <teacher_fk type="integer">30149</teacher_fk>
 <teacher_full_name>John Gangi</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">30149</person_fk>
@@ -355,7 +238,7 @@
 <teacher_fk type="integer">21746</teacher_fk>
 <teacher_full_name>Jacqueline Arce</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">21746</person_fk>
@@ -427,7 +310,7 @@
 <teacher_fk type="integer">38954</teacher_fk>
 <teacher_full_name>Heather Pitzel</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">38954</person_fk>
@@ -490,7 +373,7 @@
 <teacher_fk type="integer">11318</teacher_fk>
 <teacher_full_name>Philip Branston</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">11318</person_fk>
@@ -535,7 +418,7 @@
 <teacher_fk type="integer">24086</teacher_fk>
 <teacher_full_name>Nicola Cahill</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">24086</person_fk>
@@ -580,7 +463,7 @@
 <teacher_fk type="integer">45390</teacher_fk>
 <teacher_full_name>Malikah Sheriff</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">45390</person_fk>
@@ -625,7 +508,7 @@
 <teacher_fk type="integer">32836</teacher_fk>
 <teacher_full_name>Lea Eileen Cardona</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">32836</person_fk>
@@ -670,7 +553,7 @@
 <teacher_fk type="integer">9235</teacher_fk>
 <teacher_full_name>Chi-Fen Chen</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">9235</person_fk>
@@ -715,7 +598,7 @@
 <teacher_fk type="integer">10639</teacher_fk>
 <teacher_full_name>Paul Cooper</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">10639</person_fk>
@@ -760,7 +643,7 @@
 <teacher_fk type="integer">11347</teacher_fk>
 <teacher_full_name>Ronald De Vries</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">11347</person_fk>
@@ -805,7 +688,7 @@
 <teacher_fk type="integer">11111</teacher_fk>
 <teacher_full_name>Andrew Dorn</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">11111</person_fk>
@@ -850,7 +733,7 @@
 <teacher_fk type="integer">19727</teacher_fk>
 <teacher_full_name>Stephanie Bickel</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">19727</person_fk>
@@ -895,7 +778,7 @@
 <teacher_fk type="integer">30149</teacher_fk>
 <teacher_full_name>John Gangi</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">30149</person_fk>
@@ -940,7 +823,7 @@
 <teacher_fk type="integer">32839</teacher_fk>
 <teacher_full_name>Vivien Hall</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">32839</person_fk>
@@ -985,7 +868,7 @@
 <teacher_fk type="integer">21747</teacher_fk>
 <teacher_full_name>John Hoare</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">21747</person_fk>
@@ -1030,7 +913,7 @@
 <teacher_fk type="integer">18543</teacher_fk>
 <teacher_full_name>Erik Bohm</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">18543</person_fk>
@@ -1075,7 +958,7 @@
 <teacher_fk type="integer">38775</teacher_fk>
 <teacher_full_name>Michael Kavanagh</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">38775</person_fk>
@@ -1120,7 +1003,7 @@
 <teacher_fk type="integer">11369</teacher_fk>
 <teacher_full_name>Soo Yeun Lee</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">11369</person_fk>
@@ -1165,7 +1048,7 @@
 <teacher_fk type="integer">11270</teacher_fk>
 <teacher_full_name>Matthew Manfredi</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">11270</person_fk>
@@ -1210,7 +1093,7 @@
 <teacher_fk type="integer">19546</teacher_fk>
 <teacher_full_name>Joseph McMillan</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">19546</person_fk>
@@ -1255,7 +1138,7 @@
 <teacher_fk type="integer">30082</teacher_fk>
 <teacher_full_name>Harold Moss</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">30082</person_fk>
@@ -1300,7 +1183,7 @@
 <teacher_fk type="integer">18146</teacher_fk>
 <teacher_full_name>Julian Neller</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">18146</person_fk>
@@ -1345,7 +1228,7 @@
 <teacher_fk type="integer">15040</teacher_fk>
 <teacher_full_name>Naoki Okura</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">15040</person_fk>
@@ -1390,7 +1273,7 @@
 <teacher_fk type="integer">32838</teacher_fk>
 <teacher_full_name>Paul Pickering</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">32838</person_fk>
@@ -1435,7 +1318,7 @@
 <teacher_fk type="integer">38954</teacher_fk>
 <teacher_full_name>Heather Pitzel</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">38954</person_fk>
@@ -1480,7 +1363,7 @@
 <teacher_fk type="integer">23968</teacher_fk>
 <teacher_full_name>Jarrod Rayner</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">23968</person_fk>
@@ -1525,7 +1408,7 @@
 <teacher_fk type="integer">9057</teacher_fk>
 <teacher_full_name>Ruchi Sehgal</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">9057</person_fk>
@@ -1570,7 +1453,7 @@
 <teacher_fk type="integer">11309</teacher_fk>
 <teacher_full_name>Patcharin Sinpaiboon</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">11309</person_fk>
@@ -1615,7 +1498,7 @@
 <teacher_fk type="integer">21727</teacher_fk>
 <teacher_full_name>Craig Stevenson</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">21727</person_fk>
@@ -1660,7 +1543,7 @@
 <teacher_fk type="integer">21466</teacher_fk>
 <teacher_full_name>Sandra Stratton</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">21466</person_fk>
@@ -1705,7 +1588,7 @@
 <teacher_fk type="integer">24886</teacher_fk>
 <teacher_full_name>Eric Towell</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">24886</person_fk>
@@ -1750,7 +1633,7 @@
 <teacher_fk type="integer">38721</teacher_fk>
 <teacher_full_name>Kimberly Tresohlavy</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">38721</person_fk>
@@ -1795,7 +1678,7 @@
 <teacher_fk type="integer">11381</teacher_fk>
 <teacher_full_name>Suzanne Van De Venne</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">11381</person_fk>
@@ -1840,7 +1723,7 @@
 <teacher_fk type="integer">29931</teacher_fk>
 <teacher_full_name>Robin Wilensky</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">29931</person_fk>
@@ -1885,7 +1768,7 @@
 <teacher_fk type="integer">8420</teacher_fk>
 <teacher_full_name>Hiromi Yamada</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">8420</person_fk>
@@ -1930,7 +1813,7 @@
 <teacher_fk type="integer">21746</teacher_fk>
 <teacher_full_name>Jacqueline Arce</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">21746</person_fk>
@@ -1975,7 +1858,7 @@
 <teacher_fk type="integer">32838</teacher_fk>
 <teacher_full_name>Paul Pickering</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">32838</person_fk>
@@ -2047,7 +1930,7 @@
 <teacher_fk type="integer">11174</teacher_fk>
 <teacher_full_name>Emeli Ward</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">11174</person_fk>
@@ -2110,7 +1993,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Complete</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
 </teachers>
 <meeting_times type="array">
@@ -2138,7 +2021,7 @@
 <teacher_fk type="integer">15040</teacher_fk>
 <teacher_full_name>Naoki Okura</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">15040</person_fk>
@@ -2210,7 +2093,7 @@
 <teacher_fk type="integer">15040</teacher_fk>
 <teacher_full_name>Naoki Okura</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">15040</person_fk>
@@ -2273,7 +2156,7 @@
 <teacher_fk type="integer">11111</teacher_fk>
 <teacher_full_name>Andrew Dorn</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">11111</person_fk>
@@ -2345,7 +2228,7 @@
 <teacher_fk type="integer">11111</teacher_fk>
 <teacher_full_name>Andrew Dorn</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">11111</person_fk>
@@ -2417,7 +2300,7 @@
 <teacher_fk type="integer">28467</teacher_fk>
 <teacher_full_name>Fang Wang</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">28467</person_fk>
@@ -2480,7 +2363,7 @@
 <teacher_fk type="integer">19546</teacher_fk>
 <teacher_full_name>Joseph McMillan</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">19546</person_fk>
@@ -2543,7 +2426,7 @@
 <teacher_fk type="integer">44550</teacher_fk>
 <teacher_full_name>Alison Armstrong</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">44550</person_fk>
@@ -2615,7 +2498,7 @@
 <teacher_fk type="integer">30083</teacher_fk>
 <teacher_full_name>Jennifer Lacey</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">30083</person_fk>
@@ -2678,7 +2561,7 @@
 <teacher_fk type="integer">21740</teacher_fk>
 <teacher_full_name>Sergio Ferrer Giraldos</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">21740</person_fk>
@@ -2741,7 +2624,7 @@
 <teacher_fk type="integer">34732</teacher_fk>
 <teacher_full_name>David Williams</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">34732</person_fk>
@@ -2804,7 +2687,7 @@
 <teacher_fk type="integer">19546</teacher_fk>
 <teacher_full_name>Joseph McMillan</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">19546</person_fk>
@@ -2876,7 +2759,7 @@
 <teacher_fk type="integer">8420</teacher_fk>
 <teacher_full_name>Hiromi Yamada</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">8420</person_fk>
@@ -2948,7 +2831,7 @@
 <teacher_fk type="integer">10125</teacher_fk>
 <teacher_full_name>Alan Kennedy</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">10125</person_fk>
@@ -3020,7 +2903,7 @@
 <teacher_fk type="integer">30082</teacher_fk>
 <teacher_full_name>Harold Moss</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">30082</person_fk>
@@ -3092,7 +2975,7 @@
 <teacher_fk type="integer">44798</teacher_fk>
 <teacher_full_name>Janelle Grier</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">10639</person_fk>
@@ -3153,7 +3036,7 @@
 <teacher_fk type="integer">44545</teacher_fk>
 <teacher_full_name>Justin West</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">10639</person_fk>
@@ -3214,7 +3097,7 @@
 <teacher_fk type="integer">44798</teacher_fk>
 <teacher_full_name>Janelle Grier</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">10639</person_fk>
@@ -3275,7 +3158,7 @@
 <teacher_fk type="integer">44798</teacher_fk>
 <teacher_full_name>Janelle Grier</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">10639</person_fk>
@@ -3336,7 +3219,7 @@
 <teacher_fk type="integer">44545</teacher_fk>
 <teacher_full_name>Justin West</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">10639</person_fk>
@@ -3397,7 +3280,7 @@
 <teacher_fk type="integer">44798</teacher_fk>
 <teacher_full_name>Janelle Grier</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">10639</person_fk>
@@ -3458,7 +3341,7 @@
 <teacher_fk type="integer">35999</teacher_fk>
 <teacher_full_name>Max Fouracre</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">35999</person_fk>
@@ -3503,7 +3386,7 @@
 <teacher_fk type="integer">11183</teacher_fk>
 <teacher_full_name>Graham Wardle</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">11183</person_fk>
@@ -3548,7 +3431,7 @@
 <teacher_fk type="integer">11183</teacher_fk>
 <teacher_full_name>Graham Wardle</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">11183</person_fk>
@@ -3593,7 +3476,7 @@
 <teacher_fk type="integer">11183</teacher_fk>
 <teacher_full_name>Graham Wardle</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">11183</person_fk>
@@ -3638,7 +3521,7 @@
 <teacher_fk type="integer">10543</teacher_fk>
 <teacher_full_name>Brian Johnson</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">10543</person_fk>
@@ -3683,7 +3566,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
 </teachers>
 <meeting_times type="array">
@@ -3720,7 +3603,7 @@
 <teacher_fk type="integer">43732</teacher_fk>
 <teacher_full_name>Pichet Leelakhajornkij</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">11118</person_fk>
@@ -3773,7 +3656,7 @@
 <teacher_fk type="integer">43732</teacher_fk>
 <teacher_full_name>Pichet Leelakhajornkij</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">11118</person_fk>
@@ -3807,8 +3690,8 @@
   <class>
 <class_pk type="integer">103979</class_pk>
 <class_id>IM1-DRMC.W19</class_id>
-<group_fk type="integer">535680</group_fk>
-<group_id>201-2017-4-103979-0-0-0-0</group_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
 <school_year type="integer">2017</school_year>
 <school_level>Secondary</school_level>
 <primary_grade_level>Year 7</primary_grade_level>
@@ -3826,7 +3709,7 @@
 <teacher_fk type="integer">36147</teacher_fk>
 <teacher_full_name>Nattawanchai Purisodom</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">11118</person_fk>
@@ -3860,8 +3743,8 @@
   <class>
 <class_pk type="integer">103993</class_pk>
 <class_id>IM1-PNON.T09</class_id>
-<group_fk type="integer">535684</group_fk>
-<group_id>201-2017-4-103993-0-0-0-0</group_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
 <school_year type="integer">2017</school_year>
 <school_level>Secondary</school_level>
 <primary_grade_level>Year 7</primary_grade_level>
@@ -3876,10 +3759,10 @@
 <student_portal_visibility>Show</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">48562</teacher_fk>
-<teacher_full_name>Dendern Showpattana</teacher_full_name>
+<teacher_fk type="integer">11248</teacher_fk>
+<teacher_full_name>Kittima Noppakun</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">11118</person_fk>
@@ -3890,10 +3773,10 @@
     <view_grades type="boolean">false</view_grades>
   </teacher>
   <teacher>
-    <person_fk type="integer">48562</person_fk>
+    <person_fk type="integer">11248</person_fk>
     <role_id type="integer">1</role_id>
     <role>Primary Teacher</role>
-    <teacher_name>Dendern Showpattana</teacher_name>
+    <teacher_name>Kittima Noppakun</teacher_name>
     <update_grade type="boolean">true</update_grade>
     <view_grades type="boolean">true</view_grades>
   </teacher>
@@ -3932,7 +3815,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
 </teachers>
 <meeting_times type="array">
@@ -3969,7 +3852,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
 </teachers>
 <meeting_times type="array">
@@ -4006,7 +3889,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
 </teachers>
 <meeting_times type="array">
@@ -4043,7 +3926,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
 </teachers>
 <meeting_times type="array">
@@ -4080,7 +3963,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
 </teachers>
 <meeting_times type="array">
@@ -4117,7 +4000,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
 </teachers>
 <meeting_times type="array">
@@ -4154,7 +4037,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
 </teachers>
 <meeting_times type="array">
@@ -4191,7 +4074,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
 </teachers>
 <meeting_times type="array">
@@ -4228,7 +4111,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
 </teachers>
 <meeting_times type="array">
@@ -4265,7 +4148,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
 </teachers>
 <meeting_times type="array">
@@ -4302,7 +4185,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
 </teachers>
 <meeting_times type="array">
@@ -4339,7 +4222,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
 </teachers>
 <meeting_times type="array">
@@ -4376,7 +4259,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
 </teachers>
 <meeting_times type="array">
@@ -4413,7 +4296,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
 </teachers>
 <meeting_times type="array">
@@ -4450,7 +4333,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
 </teachers>
 <meeting_times type="array">
@@ -4487,7 +4370,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
 </teachers>
 <meeting_times type="array">
@@ -4524,7 +4407,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
 </teachers>
 <meeting_times type="array">
@@ -4561,7 +4444,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
 </teachers>
 <meeting_times type="array">
@@ -4598,7 +4481,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
 </teachers>
 <meeting_times type="array">
@@ -4635,7 +4518,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
 </teachers>
 <meeting_times type="array">
@@ -4672,7 +4555,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
 </teachers>
 <meeting_times type="array">
@@ -4709,7 +4592,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
 </teachers>
 <meeting_times type="array">
@@ -4746,7 +4629,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
 </teachers>
 <meeting_times type="array">
@@ -4783,7 +4666,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
 </teachers>
 <meeting_times type="array">
@@ -4820,7 +4703,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
 </teachers>
 <meeting_times type="array">
@@ -4857,7 +4740,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
 </teachers>
 <meeting_times type="array">
@@ -4894,7 +4777,81 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-09-29T20:48:00+00:00</update_date>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
+<teachers type="array">
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period/>
+    <day/>
+    <room>Secondary Building</room>
+    <block/>
+    <block_abbreviation/>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">104852</class_pk>
+<class_id>SGP.DMA.419</class_id>
+<group_fk type="integer">535878</group_fk>
+<group_id>201-2017-4-104852-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Service Group Presentations</course>
+<course_id type="integer">1526</course_id>
+<description>Dreaming Aloud (1:50-2:00) 4111 (office)</description>
+<subject>ECA</subject>
+<course_type>Other Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
+<teachers type="array">
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period/>
+    <day/>
+    <room>Secondary Building</room>
+    <block/>
+    <block_abbreviation/>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">104853</class_pk>
+<class_id>SGP.DMA.519</class_id>
+<group_fk type="integer">535879</group_fk>
+<group_id>201-2017-4-104853-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Service Group Presentations</course>
+<course_id type="integer">1526</course_id>
+<description>Dreaming Aloud (2:05-2:15) 4111 (office)</description>
+<subject>ECA</subject>
+<course_type>Other Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
 <teachers type="array">
 </teachers>
 <meeting_times type="array">
