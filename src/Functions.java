@@ -264,7 +264,8 @@ public class Functions {
                         boolean y12_13 = (grade.equalsIgnoreCase("Year 12") || grade.equalsIgnoreCase("Year 13"));
                         boolean validTeacher = !(teacherName.equalsIgnoreCase(""));
                         //Finally add new Class object, if it meets above conditions.
-                        if ((homeroomAdvisory || validType) && y12_13 && validTeacher) {
+//                        if ((homeroomAdvisory || validType) && y12_13 && validTeacher) { //Old Version
+                        if (y12_13 && validTeacher) { //New version to accept more class types.
                             classes.add(new Class(name, id, stringID, grade, teacherName, type, meetingTimes));
                         }
                     }
