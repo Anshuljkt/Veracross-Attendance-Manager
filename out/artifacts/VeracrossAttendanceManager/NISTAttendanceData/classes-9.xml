@@ -1,1536 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classes type="array">
   <class>
-<class_pk type="integer">100757</class_pk>
-<class_id>IM1-PNOY.T16</class_id>
-<group_fk type="integer">518857</group_fk>
-<group_id>201-2017-4-100757-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>Piano</course>
-<course_id type="integer">958</course_id>
-<description>Piano - Teacher: Jantararat, Rithi</description>
-<subject>Instrumental Music Lessons</subject>
-<course_type>Other Program</course_type>
-<grading_method>Qualitative</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">18210</teacher_fk>
-<teacher_full_name>Yacht (Rithi) Jantararat</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">18210</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Yacht (Rithi) Jantararat</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-  <meeting_time>
-    <grading_period>ALL</grading_period>
-    <day>Tuesday</day>
-    <room>1119 IML Music Room (Equip: Piano)</room>
-    <block>Period 16 (IML)</block>
-    <block_abbreviation>I16</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">100758</class_pk>
-<class_id>IM1-PNOY.T17</class_id>
-<group_fk type="integer">518858</group_fk>
-<group_id>201-2017-4-100758-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>Piano</course>
-<course_id type="integer">958</course_id>
-<description>Piano - Teacher: Jantararat, Rithi</description>
-<subject>Instrumental Music Lessons</subject>
-<course_type>Other Program</course_type>
-<grading_method>Qualitative</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">18210</teacher_fk>
-<teacher_full_name>Yacht (Rithi) Jantararat</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">18210</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Yacht (Rithi) Jantararat</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-  <meeting_time>
-    <grading_period>ALL</grading_period>
-    <day>Tuesday</day>
-    <room>1119 IML Music Room (Equip: Piano)</room>
-    <block>Period 17 (IML)</block>
-    <block_abbreviation>I17</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">100759</class_pk>
-<class_id>IM1-PNOY.T18</class_id>
-<group_fk type="integer">518859</group_fk>
-<group_id>201-2017-4-100759-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>Piano</course>
-<course_id type="integer">958</course_id>
-<description>Piano - Teacher: Jantararat, Rithi</description>
-<subject>Instrumental Music Lessons</subject>
-<course_type>Other Program</course_type>
-<grading_method>Qualitative</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">18210</teacher_fk>
-<teacher_full_name>Yacht (Rithi) Jantararat</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">18210</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Yacht (Rithi) Jantararat</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-  <meeting_time>
-    <grading_period>ALL</grading_period>
-    <day>Tuesday</day>
-    <room>1119 IML Music Room (Equip: Piano)</room>
-    <block>Period 18 (IML)</block>
-    <block_abbreviation>I18</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">100760</class_pk>
-<class_id>IM1-PNOY.W15</class_id>
-<group_fk type="integer">0</group_fk>
-<group_id>0-2005-0-0-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>Piano</course>
-<course_id type="integer">958</course_id>
-<description>Piano - Teacher: Jantararat, Rithi</description>
-<subject>Instrumental Music Lessons</subject>
-<course_type>Other Program</course_type>
-<grading_method>Qualitative</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">18210</teacher_fk>
-<teacher_full_name>Yacht (Rithi) Jantararat</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">18210</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Yacht (Rithi) Jantararat</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-  <meeting_time>
-    <grading_period>ALL</grading_period>
-    <day>Wednesday</day>
-    <room>1119 IML Music Room (Equip: Piano)</room>
-    <block>Period 15 (IML)</block>
-    <block_abbreviation>I15</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">100762</class_pk>
-<class_id>IM1-PNOY.W18</class_id>
-<group_fk type="integer">518862</group_fk>
-<group_id>201-2017-4-100762-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>Piano</course>
-<course_id type="integer">958</course_id>
-<description>Piano - Teacher: Jantararat, Rithi</description>
-<subject>Instrumental Music Lessons</subject>
-<course_type>Other Program</course_type>
-<grading_method>Qualitative</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">18210</teacher_fk>
-<teacher_full_name>Yacht (Rithi) Jantararat</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">18210</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Yacht (Rithi) Jantararat</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-  <meeting_time>
-    <grading_period>ALL</grading_period>
-    <day>Wednesday</day>
-    <room>1119 IML Music Room (Equip: Piano)</room>
-    <block>Period 18 (IML)</block>
-    <block_abbreviation>I18</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">100763</class_pk>
-<class_id>IM1-PNOY.W19</class_id>
-<group_fk type="integer">518863</group_fk>
-<group_id>201-2017-4-100763-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>Piano</course>
-<course_id type="integer">958</course_id>
-<description>Piano - Teacher: Jantararat, Rithi</description>
-<subject>Instrumental Music Lessons</subject>
-<course_type>Other Program</course_type>
-<grading_method>Qualitative</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">18210</teacher_fk>
-<teacher_full_name>Yacht (Rithi) Jantararat</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">18210</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Yacht (Rithi) Jantararat</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-  <meeting_time>
-    <grading_period>ALL</grading_period>
-    <day>Wednesday</day>
-    <room>1119 IML Music Room (Equip: Piano)</room>
-    <block>Period 19 (IML)</block>
-    <block_abbreviation>I19</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">100764</class_pk>
-<class_id>IM1-VOCB.M08</class_id>
-<group_fk type="integer">541294</group_fk>
-<group_id>201-2017-4-100764-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>Vocal</course>
-<course_id type="integer">959</course_id>
-<description>Vocal/Musical Theatre - Teacher: Santichaiananta, BM (Santipat)</description>
-<subject>Instrumental Music Lessons</subject>
-<course_type>Other Program</course_type>
-<grading_method>Qualitative</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">41438</teacher_fk>
-<teacher_full_name>Santipat Santichaiananta</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">41438</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Santipat Santichaiananta</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-  <meeting_time>
-    <grading_period>ALL</grading_period>
-    <day>Monday</day>
-    <room>1126 IML Music Room (Equip: Vocal)</room>
-    <block>Period 8 (IML)</block>
-    <block_abbreviation>I8</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">100765</class_pk>
-<class_id>IM1-VOCB.M11</class_id>
-<group_fk type="integer">518886</group_fk>
-<group_id>201-2017-4-100765-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>Vocal</course>
-<course_id type="integer">959</course_id>
-<description>Vocal/Musical Theatre - Teacher: Santichaiananta, BM (Santipat)</description>
-<subject>Instrumental Music Lessons</subject>
-<course_type>Other Program</course_type>
-<grading_method>Qualitative</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">41438</teacher_fk>
-<teacher_full_name>Santipat Santichaiananta</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">41438</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Santipat Santichaiananta</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-  <meeting_time>
-    <grading_period>ALL</grading_period>
-    <day>Monday</day>
-    <room>1126 IML Music Room (Equip: Vocal)</room>
-    <block>Period 11 (IML)</block>
-    <block_abbreviation>I11</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">100766</class_pk>
-<class_id>IM1-VOCB.W10</class_id>
-<group_fk type="integer">518887</group_fk>
-<group_id>201-2017-4-100766-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>Vocal</course>
-<course_id type="integer">959</course_id>
-<description>Vocal/Musical Theatre - Teacher: Santichaiananta, BM (Santipat)</description>
-<subject>Instrumental Music Lessons</subject>
-<course_type>Other Program</course_type>
-<grading_method>Qualitative</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">41438</teacher_fk>
-<teacher_full_name>Santipat Santichaiananta</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">41438</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Santipat Santichaiananta</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-  <meeting_time>
-    <grading_period>ALL</grading_period>
-    <day>Wednesday</day>
-    <room>1126 IML Music Room (Equip: Vocal)</room>
-    <block>Period 10 (IML)</block>
-    <block_abbreviation>I10</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">100767</class_pk>
-<class_id>IM1-VOCB.W16</class_id>
-<group_fk type="integer">518888</group_fk>
-<group_id>201-2017-4-100767-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>Vocal</course>
-<course_id type="integer">959</course_id>
-<description>Vocal/Musical Theatre - Teacher: Santichaiananta, BM (Santipat)</description>
-<subject>Instrumental Music Lessons</subject>
-<course_type>Other Program</course_type>
-<grading_method>Qualitative</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">41438</teacher_fk>
-<teacher_full_name>Santipat Santichaiananta</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">41438</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Santipat Santichaiananta</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-  <meeting_time>
-    <grading_period>ALL</grading_period>
-    <day>Wednesday</day>
-    <room>1126 IML Music Room (Equip: Vocal)</room>
-    <block>Period 16 (IML)</block>
-    <block_abbreviation>I16</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">100769</class_pk>
-<class_id>IM1-VOCN.F09</class_id>
-<group_fk type="integer">518890</group_fk>
-<group_id>201-2017-4-100769-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>Vocal</course>
-<course_id type="integer">959</course_id>
-<description>Vocal - Teacher: Sirilatporn, Nat (Nattanee)</description>
-<subject>Instrumental Music Lessons</subject>
-<course_type>Other Program</course_type>
-<grading_method>Not Graded</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">31112</teacher_fk>
-<teacher_full_name>Nattanee Sirilatporn</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">31112</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Nattanee Sirilatporn</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-  <meeting_time>
-    <grading_period>ALL</grading_period>
-    <day>Friday</day>
-    <room>1108 IML Music Room (Equip: Vocal)</room>
-    <block>Period 9 (IML)</block>
-    <block_abbreviation>I9</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">100770</class_pk>
-<class_id>IM1-VOCN.F15</class_id>
-<group_fk type="integer">518891</group_fk>
-<group_id>201-2017-4-100770-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>Vocal</course>
-<course_id type="integer">959</course_id>
-<description>Vocal - Teacher: Sirilatporn, Nat (Nattanee)</description>
-<subject>Instrumental Music Lessons</subject>
-<course_type>Other Program</course_type>
-<grading_method>Qualitative</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">31112</teacher_fk>
-<teacher_full_name>Nattanee Sirilatporn</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">31112</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Nattanee Sirilatporn</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-  <meeting_time>
-    <grading_period>ALL</grading_period>
-    <day>Friday</day>
-    <room>1108 IML Music Room (Equip: Vocal)</room>
-    <block>Period 15 (IML)</block>
-    <block_abbreviation>I15</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">100771</class_pk>
-<class_id>IM1-VOCN.F17</class_id>
-<group_fk type="integer">518892</group_fk>
-<group_id>201-2017-4-100771-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>Vocal</course>
-<course_id type="integer">959</course_id>
-<description>Vocal - Teacher: Sirilatporn, Nat (Nattanee)</description>
-<subject>Instrumental Music Lessons</subject>
-<course_type>Other Program</course_type>
-<grading_method>Qualitative</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">31112</teacher_fk>
-<teacher_full_name>Nattanee Sirilatporn</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">31112</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Nattanee Sirilatporn</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-  <meeting_time>
-    <grading_period>ALL</grading_period>
-    <day>Friday</day>
-    <room>1108 IML Music Room (Equip: Vocal)</room>
-    <block>Period 17 (IML)</block>
-    <block_abbreviation>I17</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">100772</class_pk>
-<class_id>IM1-VOCN.F18</class_id>
-<group_fk type="integer">0</group_fk>
-<group_id>0-2005-0-0-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>Vocal</course>
-<course_id type="integer">959</course_id>
-<description>Vocal - Teacher: Sirilatporn, Nat (Nattanee)</description>
-<subject>Instrumental Music Lessons</subject>
-<course_type>Other Program</course_type>
-<grading_method>Qualitative</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">31112</teacher_fk>
-<teacher_full_name>Nattanee Sirilatporn</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">31112</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Nattanee Sirilatporn</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-  <meeting_time>
-    <grading_period>ALL</grading_period>
-    <day>Friday</day>
-    <room>1108 IML Music Room (Equip: Vocal)</room>
-    <block>Period 18 (IML)</block>
-    <block_abbreviation>I18</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">100773</class_pk>
-<class_id>IM1-VOCN.M15</class_id>
-<group_fk type="integer">0</group_fk>
-<group_id>0-2005-0-0-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>Vocal</course>
-<course_id type="integer">959</course_id>
-<description>Vocal - Teacher: Sirilatporn, Nat (Nattanee)</description>
-<subject>Instrumental Music Lessons</subject>
-<course_type>Other Program</course_type>
-<grading_method>Qualitative</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">31112</teacher_fk>
-<teacher_full_name>Nattanee Sirilatporn</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">31112</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Nattanee Sirilatporn</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-  <meeting_time>
-    <grading_period>ALL</grading_period>
-    <day>Monday</day>
-    <room>1108 IML Music Room (Equip: Vocal)</room>
-    <block>Period 15 (IML)</block>
-    <block_abbreviation>I15</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">100774</class_pk>
-<class_id>IM1-VOCN.R17</class_id>
-<group_fk type="integer">518895</group_fk>
-<group_id>201-2017-4-100774-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>Vocal</course>
-<course_id type="integer">959</course_id>
-<description>Vocal - Teacher: Sirilatporn, Nat (Nattanee)</description>
-<subject>Instrumental Music Lessons</subject>
-<course_type>Other Program</course_type>
-<grading_method>Qualitative</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">31112</teacher_fk>
-<teacher_full_name>Nattanee Sirilatporn</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">31112</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Nattanee Sirilatporn</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-  <meeting_time>
-    <grading_period>ALL</grading_period>
-    <day>Thursday</day>
-    <room>1108 IML Music Room (Equip: Vocal)</room>
-    <block>Period 17 (IML)</block>
-    <block_abbreviation>I17</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">100775</class_pk>
-<class_id>IM1-VOCN.T03</class_id>
-<group_fk type="integer">518896</group_fk>
-<group_id>201-2017-4-100775-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>Vocal</course>
-<course_id type="integer">959</course_id>
-<description>Vocal - Teacher: Sirilatporn, Nat (Nattanee)</description>
-<subject>Instrumental Music Lessons</subject>
-<course_type>Other Program</course_type>
-<grading_method>Qualitative</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">31112</teacher_fk>
-<teacher_full_name>Nattanee Sirilatporn</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">31112</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Nattanee Sirilatporn</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-  <meeting_time>
-    <grading_period>ALL</grading_period>
-    <day>Tuesday</day>
-    <room>1108 IML Music Room (Equip: Vocal)</room>
-    <block>Period 3 (IML)</block>
-    <block_abbreviation>I3</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">100776</class_pk>
-<class_id>IM1-VOCN.T10</class_id>
-<group_fk type="integer">518897</group_fk>
-<group_id>201-2017-4-100776-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>Vocal</course>
-<course_id type="integer">959</course_id>
-<description>Vocal - Teacher: Sirilatporn, Nat (Nattanee)</description>
-<subject>Instrumental Music Lessons</subject>
-<course_type>Other Program</course_type>
-<grading_method>Qualitative</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">31112</teacher_fk>
-<teacher_full_name>Nattanee Sirilatporn</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">31112</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Nattanee Sirilatporn</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-  <meeting_time>
-    <grading_period>ALL</grading_period>
-    <day>Tuesday</day>
-    <room>1108 IML Music Room (Equip: Vocal)</room>
-    <block>Period 10 (IML)</block>
-    <block_abbreviation>I10</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">100777</class_pk>
-<class_id>IM1-VOCN.T15</class_id>
-<group_fk type="integer">518898</group_fk>
-<group_id>201-2017-4-100777-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>Vocal</course>
-<course_id type="integer">959</course_id>
-<description>Vocal - Teacher: Sirilatporn, Nat (Nattanee)</description>
-<subject>Instrumental Music Lessons</subject>
-<course_type>Other Program</course_type>
-<grading_method>Qualitative</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">31112</teacher_fk>
-<teacher_full_name>Nattanee Sirilatporn</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">31112</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Nattanee Sirilatporn</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-  <meeting_time>
-    <grading_period>ALL</grading_period>
-    <day>Tuesday</day>
-    <room>1108 IML Music Room (Equip: Vocal)</room>
-    <block>Period 15 (IML)</block>
-    <block_abbreviation>I15</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">100778</class_pk>
-<class_id>IM1-VOCN.T16</class_id>
-<group_fk type="integer">518899</group_fk>
-<group_id>201-2017-4-100778-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>Vocal</course>
-<course_id type="integer">959</course_id>
-<description>Vocal - Teacher: Sirilatporn, Nat (Nattanee)</description>
-<subject>Instrumental Music Lessons</subject>
-<course_type>Other Program</course_type>
-<grading_method>Qualitative</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">31112</teacher_fk>
-<teacher_full_name>Nattanee Sirilatporn</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">31112</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Nattanee Sirilatporn</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-  <meeting_time>
-    <grading_period>ALL</grading_period>
-    <day>Tuesday</day>
-    <room>1108 IML Music Room (Equip: Vocal)</room>
-    <block>Period 16 (IML)</block>
-    <block_abbreviation>I16</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">100779</class_pk>
-<class_id>IM1-VOCN.W09</class_id>
-<group_fk type="integer">518900</group_fk>
-<group_id>201-2017-4-100779-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>Vocal</course>
-<course_id type="integer">959</course_id>
-<description>Vocal - Teacher: Sirilatporn, Nat (Nattanee)</description>
-<subject>Instrumental Music Lessons</subject>
-<course_type>Other Program</course_type>
-<grading_method>Qualitative</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">31112</teacher_fk>
-<teacher_full_name>Nattanee Sirilatporn</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">31112</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Nattanee Sirilatporn</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-  <meeting_time>
-    <grading_period>ALL</grading_period>
-    <day>Wednesday</day>
-    <room>1108 IML Music Room (Equip: Vocal)</room>
-    <block>Period 9 (IML)</block>
-    <block_abbreviation>I9</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">100786</class_pk>
-<class_id>IM1-VOCN.W18</class_id>
-<group_fk type="integer">518902</group_fk>
-<group_id>201-2017-4-100786-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>Vocal</course>
-<course_id type="integer">959</course_id>
-<description>Vocal - Teacher: Sirilatporn, Nat (Nattanee)</description>
-<subject>Instrumental Music Lessons</subject>
-<course_type>Other Program</course_type>
-<grading_method>Qualitative</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">31112</teacher_fk>
-<teacher_full_name>Nattanee Sirilatporn</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">31112</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Nattanee Sirilatporn</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-  <meeting_time>
-    <grading_period>ALL</grading_period>
-    <day>Wednesday</day>
-    <room>1108 IML Music Room (Equip: Vocal)</room>
-    <block>Period 18 (IML)</block>
-    <block_abbreviation>I18</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">100793</class_pk>
-<class_id>IM1-VOCP.F09</class_id>
-<group_fk type="integer">0</group_fk>
-<group_id>0-2005-0-0-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>Vocal</course>
-<course_id type="integer">959</course_id>
-<description>Vocal - Teacher: Pratum-anon, Pearl (Rapeeporn)</description>
-<subject>Instrumental Music Lessons</subject>
-<course_type>Other Program</course_type>
-<grading_method>Qualitative</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">30654</teacher_fk>
-<teacher_full_name>Rapeeporn Pratum-anon</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">30654</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Rapeeporn Pratum-anon</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-  <meeting_time>
-    <grading_period>ALL</grading_period>
-    <day>Friday</day>
-    <room>1111 IML Music Room (Equip: Vocal)</room>
-    <block>Period 9 (IML)</block>
-    <block_abbreviation>I9</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">100798</class_pk>
-<class_id>IM1-VOCP.F15</class_id>
-<group_fk type="integer">518904</group_fk>
-<group_id>201-2017-4-100798-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>Vocal</course>
-<course_id type="integer">959</course_id>
-<description>Vocal - Teacher: Pratum-anon, Pearl (Rapeeporn)</description>
-<subject>Instrumental Music Lessons</subject>
-<course_type>Other Program</course_type>
-<grading_method>Qualitative</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">30654</teacher_fk>
-<teacher_full_name>Rapeeporn Pratum-anon</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">30654</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Rapeeporn Pratum-anon</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-  <meeting_time>
-    <grading_period>ALL</grading_period>
-    <day>Friday</day>
-    <room>1111 IML Music Room (Equip: Vocal)</room>
-    <block>Period 15 (IML)</block>
-    <block_abbreviation>I15</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">100799</class_pk>
-<class_id>IM1-VOCP.F16</class_id>
-<group_fk type="integer">518905</group_fk>
-<group_id>201-2017-4-100799-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>Vocal</course>
-<course_id type="integer">959</course_id>
-<description>Vocal - Teacher: Pratum-anon, Pearl (Rapeeporn)</description>
-<subject>Instrumental Music Lessons</subject>
-<course_type>Other Program</course_type>
-<grading_method>Qualitative</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">30654</teacher_fk>
-<teacher_full_name>Rapeeporn Pratum-anon</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">30654</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Rapeeporn Pratum-anon</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-  <meeting_time>
-    <grading_period>ALL</grading_period>
-    <day>Friday</day>
-    <room>1111 IML Music Room (Equip: Vocal)</room>
-    <block>Period 16 (IML)</block>
-    <block_abbreviation>I16</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">100800</class_pk>
-<class_id>IM1-VOCP.F17</class_id>
-<group_fk type="integer">519476</group_fk>
-<group_id>201-2017-4-100800-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>Vocal</course>
-<course_id type="integer">959</course_id>
-<description>Vocal - Teacher: Pratum-anon, Pearl (Rapeeporn)</description>
-<subject>Instrumental Music Lessons</subject>
-<course_type>Other Program</course_type>
-<grading_method>Qualitative</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">30654</teacher_fk>
-<teacher_full_name>Rapeeporn Pratum-anon</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">30654</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Rapeeporn Pratum-anon</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-  <meeting_time>
-    <grading_period>ALL</grading_period>
-    <day>Friday</day>
-    <room>1111 IML Music Room (Equip: Vocal)</room>
-    <block>Period 17 (IML)</block>
-    <block_abbreviation>I17</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">100812</class_pk>
-<class_id>IM1-VOCP.W16</class_id>
-<group_fk type="integer">518907</group_fk>
-<group_id>201-2017-4-100812-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>Vocal</course>
-<course_id type="integer">959</course_id>
-<description>Vocal - Teacher: Pratum-anon, Pearl (Rapeeporn)</description>
-<subject>Instrumental Music Lessons</subject>
-<course_type>Other Program</course_type>
-<grading_method>Qualitative</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">30654</teacher_fk>
-<teacher_full_name>Rapeeporn Pratum-anon</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">30654</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Rapeeporn Pratum-anon</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-  <meeting_time>
-    <grading_period>ALL</grading_period>
-    <day>Wednesday</day>
-    <room>1111 IML Music Room (Equip: Vocal)</room>
-    <block>Period 16 (IML)</block>
-    <block_abbreviation>I16</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">100813</class_pk>
-<class_id>IM1-VOCP.W17</class_id>
-<group_fk type="integer">518908</group_fk>
-<group_id>201-2017-4-100813-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>Vocal</course>
-<course_id type="integer">959</course_id>
-<description>Vocal - Teacher: Pratum-anon, Pearl (Rapeeporn)</description>
-<subject>Instrumental Music Lessons</subject>
-<course_type>Other Program</course_type>
-<grading_method>Qualitative</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">30654</teacher_fk>
-<teacher_full_name>Rapeeporn Pratum-anon</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">30654</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Rapeeporn Pratum-anon</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-  <meeting_time>
-    <grading_period>ALL</grading_period>
-    <day>Wednesday</day>
-    <room>1111 IML Music Room (Equip: Vocal)</room>
-    <block>Period 17 (IML)</block>
-    <block_abbreviation>I17</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">100814</class_pk>
-<class_id>IM1-VOCW.R09</class_id>
-<group_fk type="integer">518909</group_fk>
-<group_id>201-2017-4-100814-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>Vocal</course>
-<course_id type="integer">959</course_id>
-<description>Vocal - Teacher: Vajaranant, Kao (Wongdao)</description>
-<subject>Instrumental Music Lessons</subject>
-<course_type>Other Program</course_type>
-<grading_method>Qualitative</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">41439</teacher_fk>
-<teacher_full_name>Wongdao Vajaranant</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">41439</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Wongdao Vajaranant</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-  <meeting_time>
-    <grading_period>ALL</grading_period>
-    <day>Thursday</day>
-    <room>1111 IML Music Room (Equip: Vocal)</room>
-    <block>Period 9 (IML)</block>
-    <block_abbreviation>I9</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">100819</class_pk>
-<class_id>IM1-VOCW.R20</class_id>
-<group_fk type="integer">518911</group_fk>
-<group_id>201-2017-4-100819-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>Vocal</course>
-<course_id type="integer">959</course_id>
-<description>Vocal - Teacher: Vajaranant, Kao (Wongdao)</description>
-<subject>Instrumental Music Lessons</subject>
-<course_type>Other Program</course_type>
-<grading_method>Qualitative</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">41439</teacher_fk>
-<teacher_full_name>Wongdao Vajaranant</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">41439</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Wongdao Vajaranant</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-  <meeting_time>
-    <grading_period>ALL</grading_period>
-    <day>Thursday</day>
-    <room>1111 IML Music Room (Equip: Vocal)</room>
-    <block>Period 20 (IML)</block>
-    <block_abbreviation>I20</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">100822</class_pk>
-<class_id>IM1-VOCW.T10</class_id>
-<group_fk type="integer">519492</group_fk>
-<group_id>201-2017-4-100822-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>Vocal</course>
-<course_id type="integer">959</course_id>
-<description>Vocal - Teacher: Vajaranant, Kao (Wongdao)</description>
-<subject>Instrumental Music Lessons</subject>
-<course_type>Other Program</course_type>
-<grading_method>Qualitative</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">41439</teacher_fk>
-<teacher_full_name>Wongdao Vajaranant</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">41439</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Wongdao Vajaranant</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-  <meeting_time>
-    <grading_period>ALL</grading_period>
-    <day>Tuesday</day>
-    <room>1111 IML Music Room (Equip: Vocal)</room>
-    <block>Period 10 (IML)</block>
-    <block_abbreviation>I10</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">100829</class_pk>
-<class_id>IM1-VOCW.T19</class_id>
-<group_fk type="integer">519498</group_fk>
-<group_id>201-2017-4-100829-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>Vocal</course>
-<course_id type="integer">959</course_id>
-<description>Vocal - Teacher: Vajaranant, Kao (Wongdao)</description>
-<subject>Instrumental Music Lessons</subject>
-<course_type>Other Program</course_type>
-<grading_method>Qualitative</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">41439</teacher_fk>
-<teacher_full_name>Wongdao Vajaranant</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">41439</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Wongdao Vajaranant</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-  <meeting_time>
-    <grading_period>ALL</grading_period>
-    <day>Tuesday</day>
-    <room>1111 IML Music Room (Equip: Vocal)</room>
-    <block>Period 19 (IML)</block>
-    <block_abbreviation>I19</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">100830</class_pk>
-<class_id>IM1-GTRT.F04</class_id>
-<group_fk type="integer">518794</group_fk>
-<group_id>201-2017-4-100830-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>Electric Guitar</course>
-<course_id type="integer">960</course_id>
-<description>Electric Guitar - Teacher: Santikunnukan, Than</description>
-<subject>Instrumental Music Lessons</subject>
-<course_type>Other Program</course_type>
-<grading_method>Qualitative</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">18215</teacher_fk>
-<teacher_full_name>Than Santikunnukan</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">18215</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Than Santikunnukan</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-  <meeting_time>
-    <grading_period>ALL</grading_period>
-    <day>Friday</day>
-    <room>1127 IML Music Room (Equip: Elec Guitar)</room>
-    <block>Period 4 (IML)</block>
-    <block_abbreviation>I4</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">100831</class_pk>
-<class_id>IM1-GTRT.F09</class_id>
-<group_fk type="integer">518795</group_fk>
-<group_id>201-2017-4-100831-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>Electric Guitar</course>
-<course_id type="integer">960</course_id>
-<description>Electric Guitar - Teacher: Santikunnukan, Than</description>
-<subject>Instrumental Music Lessons</subject>
-<course_type>Other Program</course_type>
-<grading_method>Qualitative</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">18215</teacher_fk>
-<teacher_full_name>Than Santikunnukan</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">18215</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Than Santikunnukan</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-  <meeting_time>
-    <grading_period>ALL</grading_period>
-    <day>Friday</day>
-    <room>1127 IML Music Room (Equip: Elec Guitar)</room>
-    <block>Period 9 (IML)</block>
-    <block_abbreviation>I9</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
-</meeting_times>
-  </class>
-  <class>
 <class_pk type="integer">100832</class_pk>
 <class_id>IM1-GTRT.F16</class_id>
 <group_fk type="integer">518796</group_fk>
@@ -1552,7 +22,7 @@
 <teacher_fk type="integer">18215</teacher_fk>
 <teacher_full_name>Than Santikunnukan</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">18215</person_fk>
@@ -1570,51 +40,6 @@
     <room>1127 IML Music Room (Equip: Elec Guitar)</room>
     <block>Period 16 (IML)</block>
     <block_abbreviation>I16</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">100833</class_pk>
-<class_id>IM1-GTRT.F17</class_id>
-<group_fk type="integer">0</group_fk>
-<group_id>0-2005-0-0-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>Electric Guitar</course>
-<course_id type="integer">960</course_id>
-<description>Electric Guitar - Teacher: Santikunnukan, Than</description>
-<subject>Instrumental Music Lessons</subject>
-<course_type>Other Program</course_type>
-<grading_method>Qualitative</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">18215</teacher_fk>
-<teacher_full_name>Than Santikunnukan</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">18215</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Than Santikunnukan</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-  <meeting_time>
-    <grading_period>ALL</grading_period>
-    <day>Friday</day>
-    <room>1127 IML Music Room (Equip: Elec Guitar)</room>
-    <block>Period 17 (IML)</block>
-    <block_abbreviation>I17</block_abbreviation>
     <start_time/>
     <end_time/>
   </meeting_time>
@@ -1642,7 +67,7 @@
 <teacher_fk type="integer">18215</teacher_fk>
 <teacher_full_name>Than Santikunnukan</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">18215</person_fk>
@@ -1687,7 +112,7 @@
 <teacher_fk type="integer">18215</teacher_fk>
 <teacher_full_name>Than Santikunnukan</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">18215</person_fk>
@@ -1732,7 +157,7 @@
 <teacher_fk type="integer">18215</teacher_fk>
 <teacher_full_name>Than Santikunnukan</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">18215</person_fk>
@@ -1777,7 +202,7 @@
 <teacher_fk type="integer">18215</teacher_fk>
 <teacher_full_name>Than Santikunnukan</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">18215</person_fk>
@@ -1822,7 +247,7 @@
 <teacher_fk type="integer">18215</teacher_fk>
 <teacher_full_name>Than Santikunnukan</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">18215</person_fk>
@@ -1867,7 +292,7 @@
 <teacher_fk type="integer">18215</teacher_fk>
 <teacher_full_name>Than Santikunnukan</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">18215</person_fk>
@@ -1912,7 +337,7 @@
 <teacher_fk type="integer">18215</teacher_fk>
 <teacher_full_name>Than Santikunnukan</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">18215</person_fk>
@@ -1938,8 +363,8 @@
   <class>
 <class_pk type="integer">100841</class_pk>
 <class_id>IM1-GTRT.T09</class_id>
-<group_fk type="integer">0</group_fk>
-<group_id>0-2005-0-0-0-0-0-0</group_id>
+<group_fk type="integer">518805</group_fk>
+<group_id>201-2017-4-100841-0-0-0-0</group_id>
 <school_year type="integer">2017</school_year>
 <school_level>Secondary</school_level>
 <primary_grade_level>None</primary_grade_level>
@@ -1957,7 +382,7 @@
 <teacher_fk type="integer">18215</teacher_fk>
 <teacher_full_name>Than Santikunnukan</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">18215</person_fk>
@@ -2002,7 +427,7 @@
 <teacher_fk type="integer">18215</teacher_fk>
 <teacher_full_name>Than Santikunnukan</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">18215</person_fk>
@@ -2028,8 +453,8 @@
   <class>
 <class_pk type="integer">100843</class_pk>
 <class_id>IM1-GTRT.T17</class_id>
-<group_fk type="integer">0</group_fk>
-<group_id>0-2005-0-0-0-0-0-0</group_id>
+<group_fk type="integer">518807</group_fk>
+<group_id>201-2017-4-100843-0-0-0-0</group_id>
 <school_year type="integer">2017</school_year>
 <school_level>Secondary</school_level>
 <primary_grade_level>None</primary_grade_level>
@@ -2047,7 +472,7 @@
 <teacher_fk type="integer">18215</teacher_fk>
 <teacher_full_name>Than Santikunnukan</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">18215</person_fk>
@@ -2092,7 +517,7 @@
 <teacher_fk type="integer">18215</teacher_fk>
 <teacher_full_name>Than Santikunnukan</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">18215</person_fk>
@@ -2137,7 +562,7 @@
 <teacher_fk type="integer">18215</teacher_fk>
 <teacher_full_name>Than Santikunnukan</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">18215</person_fk>
@@ -2182,7 +607,7 @@
 <teacher_fk type="integer">18211</teacher_fk>
 <teacher_full_name>Poonchok Kularbwong</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">18211</person_fk>
@@ -2200,51 +625,6 @@
     <room>1119 IML Music Room (Equip: Piano)</room>
     <block>Period 15 (IML)</block>
     <block_abbreviation>I15</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">100847</class_pk>
-<class_id>IM1-STRC.M16</class_id>
-<group_fk type="integer">0</group_fk>
-<group_id>0-2005-0-0-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>Strings</course>
-<course_id type="integer">961</course_id>
-<description>Violin - Teacher: Kularbwong, Poonchok</description>
-<subject>Instrumental Music Lessons</subject>
-<course_type>Other Program</course_type>
-<grading_method>Qualitative</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">18211</teacher_fk>
-<teacher_full_name>Poonchok Kularbwong</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">18211</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Poonchok Kularbwong</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-  <meeting_time>
-    <grading_period>ALL</grading_period>
-    <day>Monday</day>
-    <room>1119 IML Music Room (Equip: Piano)</room>
-    <block>Period 16 (IML)</block>
-    <block_abbreviation>I16</block_abbreviation>
     <start_time/>
     <end_time/>
   </meeting_time>
@@ -2272,7 +652,7 @@
 <teacher_fk type="integer">18211</teacher_fk>
 <teacher_full_name>Poonchok Kularbwong</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">18211</person_fk>
@@ -2317,7 +697,7 @@
 <teacher_fk type="integer">18211</teacher_fk>
 <teacher_full_name>Poonchok Kularbwong</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">18211</person_fk>
@@ -2362,7 +742,7 @@
 <teacher_fk type="integer">18211</teacher_fk>
 <teacher_full_name>Poonchok Kularbwong</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">18211</person_fk>
@@ -2407,7 +787,7 @@
 <teacher_fk type="integer">18211</teacher_fk>
 <teacher_full_name>Poonchok Kularbwong</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">18211</person_fk>
@@ -2452,7 +832,7 @@
 <teacher_fk type="integer">18211</teacher_fk>
 <teacher_full_name>Poonchok Kularbwong</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">18211</person_fk>
@@ -2497,7 +877,7 @@
 <teacher_fk type="integer">18211</teacher_fk>
 <teacher_full_name>Poonchok Kularbwong</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">18211</person_fk>
@@ -2542,7 +922,7 @@
 <teacher_fk type="integer">18211</teacher_fk>
 <teacher_full_name>Poonchok Kularbwong</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">18211</person_fk>
@@ -2560,51 +940,6 @@
     <room>1119 IML Music Room (Equip: Piano)</room>
     <block>Period 16 (IML)</block>
     <block_abbreviation>I16</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">100855</class_pk>
-<class_id>IM1-STRC.W18</class_id>
-<group_fk type="integer">0</group_fk>
-<group_id>0-2005-0-0-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>Strings</course>
-<course_id type="integer">961</course_id>
-<description>Violin - Teacher: Kularbwong, Poonchok</description>
-<subject>Instrumental Music Lessons</subject>
-<course_type>Other Program</course_type>
-<grading_method>Qualitative</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">18211</teacher_fk>
-<teacher_full_name>Poonchok Kularbwong</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">18211</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Poonchok Kularbwong</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-  <meeting_time>
-    <grading_period>ALL</grading_period>
-    <day>Wednesday</day>
-    <room>1119 IML Music Room (Equip: Piano)</room>
-    <block>Period 18 (IML)</block>
-    <block_abbreviation>I18</block_abbreviation>
     <start_time/>
     <end_time/>
   </meeting_time>
@@ -2632,7 +967,7 @@
 <teacher_fk type="integer">18212</teacher_fk>
 <teacher_full_name>Pakorn Vdomsup</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">18212</person_fk>
@@ -2650,96 +985,6 @@
     <room>1107 IML Music Room (Equip: Violin)</room>
     <block>Period 8 (IML)</block>
     <block_abbreviation>I8</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">100857</class_pk>
-<class_id>IM1-STRN.R15</class_id>
-<group_fk type="integer">0</group_fk>
-<group_id>0-2005-0-0-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>Strings</course>
-<course_id type="integer">961</course_id>
-<description>Violin - Teacher: Vdomsup, Non (Pakorn)</description>
-<subject>Instrumental Music Lessons</subject>
-<course_type>Other Program</course_type>
-<grading_method>Qualitative</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">18212</teacher_fk>
-<teacher_full_name>Pakorn Vdomsup</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">18212</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Pakorn Vdomsup</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-  <meeting_time>
-    <grading_period>ALL</grading_period>
-    <day>Thursday</day>
-    <room>1107 IML Music Room (Equip: Violin)</room>
-    <block>Period 15 (IML)</block>
-    <block_abbreviation>I15</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">100859</class_pk>
-<class_id>IM1-STRN.R17</class_id>
-<group_fk type="integer">518881</group_fk>
-<group_id>201-2017-4-100859-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>Strings</course>
-<course_id type="integer">961</course_id>
-<description>Violin - Teacher: Vdomsup, Non (Pakorn)</description>
-<subject>Instrumental Music Lessons</subject>
-<course_type>Other Program</course_type>
-<grading_method>Qualitative</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">18212</teacher_fk>
-<teacher_full_name>Pakorn Vdomsup</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">18212</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Pakorn Vdomsup</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-  <meeting_time>
-    <grading_period>ALL</grading_period>
-    <day>Thursday</day>
-    <room>1107 IML Music Room (Equip: Violin)</room>
-    <block>Period 17 (IML)</block>
-    <block_abbreviation>I17</block_abbreviation>
     <start_time/>
     <end_time/>
   </meeting_time>
@@ -2767,7 +1012,7 @@
 <teacher_fk type="integer">18212</teacher_fk>
 <teacher_full_name>Pakorn Vdomsup</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">18212</person_fk>
@@ -2793,8 +1038,8 @@
   <class>
 <class_pk type="integer">100861</class_pk>
 <class_id>IM1-STRN.W16</class_id>
-<group_fk type="integer">0</group_fk>
-<group_id>0-2005-0-0-0-0-0-0</group_id>
+<group_fk type="integer">518883</group_fk>
+<group_id>201-2017-4-100861-0-0-0-0</group_id>
 <school_year type="integer">2017</school_year>
 <school_level>Secondary</school_level>
 <primary_grade_level>None</primary_grade_level>
@@ -2812,7 +1057,7 @@
 <teacher_fk type="integer">18212</teacher_fk>
 <teacher_full_name>Pakorn Vdomsup</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">18212</person_fk>
@@ -2830,51 +1075,6 @@
     <room>1107 IML Music Room (Equip: Violin)</room>
     <block>Period 16 (IML)</block>
     <block_abbreviation>I16</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">100863</class_pk>
-<class_id>IM1-DRMC.R04</class_id>
-<group_fk type="integer">518769</group_fk>
-<group_id>201-2017-4-100863-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>Drums</course>
-<course_id type="integer">967</course_id>
-<description>Drums - Teacher: Purisodom, Nattawanchai</description>
-<subject>Instrumental Music Lessons</subject>
-<course_type>Other Program</course_type>
-<grading_method>Qualitative</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">36147</teacher_fk>
-<teacher_full_name>Nattawanchai Purisodom</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">36147</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Nattawanchai Purisodom</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-  <meeting_time>
-    <grading_period>ALL</grading_period>
-    <day>Thursday</day>
-    <room>1130 IML Music Room (Equip: Drum)</room>
-    <block>Period 4 (IML)</block>
-    <block_abbreviation>I4</block_abbreviation>
     <start_time/>
     <end_time/>
   </meeting_time>
@@ -2902,7 +1102,7 @@
 <teacher_fk type="integer">36147</teacher_fk>
 <teacher_full_name>Nattawanchai Purisodom</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">36147</person_fk>
@@ -2947,7 +1147,7 @@
 <teacher_fk type="integer">36147</teacher_fk>
 <teacher_full_name>Nattawanchai Purisodom</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">36147</person_fk>
@@ -2992,7 +1192,7 @@
 <teacher_fk type="integer">36147</teacher_fk>
 <teacher_full_name>Nattawanchai Purisodom</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">36147</person_fk>
@@ -3037,7 +1237,7 @@
 <teacher_fk type="integer">36147</teacher_fk>
 <teacher_full_name>Nattawanchai Purisodom</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">36147</person_fk>
@@ -3082,7 +1282,7 @@
 <teacher_fk type="integer">36147</teacher_fk>
 <teacher_full_name>Nattawanchai Purisodom</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">36147</person_fk>
@@ -3127,7 +1327,7 @@
 <teacher_fk type="integer">18467</teacher_fk>
 <teacher_full_name>Thanawat Bhumipak</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">18467</person_fk>
@@ -3172,7 +1372,7 @@
 <teacher_fk type="integer">18467</teacher_fk>
 <teacher_full_name>Thanawat Bhumipak</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">18467</person_fk>
@@ -3217,7 +1417,7 @@
 <teacher_fk type="integer">18467</teacher_fk>
 <teacher_full_name>Thanawat Bhumipak</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">18467</person_fk>
@@ -3262,7 +1462,7 @@
 <teacher_fk type="integer">18214</teacher_fk>
 <teacher_full_name>Sakchai Suwnnakul</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">18214</person_fk>
@@ -3288,8 +1488,8 @@
   <class>
 <class_pk type="integer">100875</class_pk>
 <class_id>IM1-GTRC.M18</class_id>
-<group_fk type="integer">0</group_fk>
-<group_id>0-2005-0-0-0-0-0-0</group_id>
+<group_fk type="integer">518786</group_fk>
+<group_id>201-2017-4-100875-0-0-0-0</group_id>
 <school_year type="integer">2017</school_year>
 <school_level>Secondary</school_level>
 <primary_grade_level>None</primary_grade_level>
@@ -3307,7 +1507,7 @@
 <teacher_fk type="integer">18214</teacher_fk>
 <teacher_full_name>Sakchai Suwnnakul</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">18214</person_fk>
@@ -3352,7 +1552,7 @@
 <teacher_fk type="integer">18214</teacher_fk>
 <teacher_full_name>Sakchai Suwnnakul</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">18214</person_fk>
@@ -3397,7 +1597,7 @@
 <teacher_fk type="integer">18214</teacher_fk>
 <teacher_full_name>Sakchai Suwnnakul</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">18214</person_fk>
@@ -3442,7 +1642,7 @@
 <teacher_fk type="integer">18214</teacher_fk>
 <teacher_full_name>Sakchai Suwnnakul</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">18214</person_fk>
@@ -3487,7 +1687,7 @@
 <teacher_fk type="integer">18214</teacher_fk>
 <teacher_full_name>Sakchai Suwnnakul</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">18214</person_fk>
@@ -3532,7 +1732,7 @@
 <teacher_fk type="integer">18214</teacher_fk>
 <teacher_full_name>Sakchai Suwnnakul</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">18214</person_fk>
@@ -3577,7 +1777,7 @@
 <teacher_fk type="integer">25875</teacher_fk>
 <teacher_full_name>Pichayan Taptim</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">25875</person_fk>
@@ -3622,7 +1822,7 @@
 <teacher_fk type="integer">25875</teacher_fk>
 <teacher_full_name>Pichayan Taptim</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">25875</person_fk>
@@ -3667,7 +1867,7 @@
 <teacher_fk type="integer">25875</teacher_fk>
 <teacher_full_name>Pichayan Taptim</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">25875</person_fk>
@@ -3712,7 +1912,7 @@
 <teacher_fk type="integer">25875</teacher_fk>
 <teacher_full_name>Pichayan Taptim</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">25875</person_fk>
@@ -3738,8 +1938,8 @@
   <class>
 <class_pk type="integer">100887</class_pk>
 <class_id>IM1-FLTN.M10</class_id>
-<group_fk type="integer">0</group_fk>
-<group_id>0-2005-0-0-0-0-0-0</group_id>
+<group_fk type="integer">518780</group_fk>
+<group_id>201-2017-4-100887-0-0-0-0</group_id>
 <school_year type="integer">2017</school_year>
 <school_level>Secondary</school_level>
 <primary_grade_level>None</primary_grade_level>
@@ -3757,7 +1957,7 @@
 <teacher_fk type="integer">29577</teacher_fk>
 <teacher_full_name>Patiparn Poonsawad</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">29577</person_fk>
@@ -3802,7 +2002,7 @@
 <teacher_fk type="integer">29577</teacher_fk>
 <teacher_full_name>Patiparn Poonsawad</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">29577</person_fk>
@@ -3847,7 +2047,7 @@
 <teacher_fk type="integer">29577</teacher_fk>
 <teacher_full_name>Patiparn Poonsawad</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">29577</person_fk>
@@ -3892,7 +2092,7 @@
 <teacher_fk type="integer">29577</teacher_fk>
 <teacher_full_name>Patiparn Poonsawad</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">29577</person_fk>
@@ -3937,7 +2137,7 @@
 <teacher_fk type="integer">43732</teacher_fk>
 <teacher_full_name>Pichet Leelakhajornkij</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">43732</person_fk>
@@ -3982,7 +2182,7 @@
 <teacher_fk type="integer">43732</teacher_fk>
 <teacher_full_name>Pichet Leelakhajornkij</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">43732</person_fk>
@@ -4027,7 +2227,7 @@
 <teacher_fk type="integer">11369</teacher_fk>
 <teacher_full_name>Soo Yeun Lee</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">11369</person_fk>
@@ -4090,7 +2290,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">44545</person_fk>
@@ -4135,7 +2335,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">23567</person_fk>
@@ -4180,7 +2380,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">21466</person_fk>
@@ -4225,7 +2425,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">30157</person_fk>
@@ -4278,7 +2478,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">45147</person_fk>
@@ -4323,7 +2523,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">34871</person_fk>
@@ -4368,7 +2568,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">23779</person_fk>
@@ -4413,7 +2613,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">45482</person_fk>
@@ -4458,7 +2658,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">19546</person_fk>
@@ -4503,7 +2703,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-10-14T20:46:00+00:00</update_date>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">15397</person_fk>
@@ -4523,6 +2723,1806 @@
     <block_abbreviation>LUNMS1</block_abbreviation>
     <start_time>11:00</start_time>
     <end_time>11:20</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">102750</class_pk>
+<class_id>DUT-A-HUB-5F.05</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day A Duty HUB 5th Flr</course>
+<course_id type="integer">2091</course_id>
+<description>S-Duty The Hub 5th Flr Day A 01</description>
+<subject>Duty - Day A</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">29930</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Erik Wilensky</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>A</day>
+    <room>Duty (The Hub 5th Flr)</room>
+    <block>Duty MS Lunch 1</block>
+    <block_abbreviation>LUNMS1</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">102751</class_pk>
+<class_id>DUT-A-BBG-MS.06</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day A Duty Tennis Courts</course>
+<course_id type="integer">1598</course_id>
+<description>S-Duty Tennis Courts Day A</description>
+<subject>Duty - Day A</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">23968</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Jarrod Rayner</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>A</day>
+    <room>Tennis Courts</room>
+    <block>Duty MS Lunch 2</block>
+    <block_abbreviation>LUNMS2</block_abbreviation>
+    <start_time>11:20</start_time>
+    <end_time>11:40</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">102752</class_pk>
+<class_id>DUT-A-CAF1-MS.03</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day A Duty Cafeteria 1st Floor</course>
+<course_id type="integer">1154</course_id>
+<description>S-Duty Cafeteria 1st Floor Day A</description>
+<subject>Duty - Day A</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">47311</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>James Russell</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>A</day>
+    <room>1st Floor Cafeteria</room>
+    <block>Duty MS Lunch 2</block>
+    <block_abbreviation>LUNMS2</block_abbreviation>
+    <start_time>11:20</start_time>
+    <end_time>11:40</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">102753</class_pk>
+<class_id>DUT-A-HUB-MS.06</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day A Duty HUB</course>
+<course_id type="integer">1608</course_id>
+<description>S-Duty The Hub Lounge Day A</description>
+<subject>Duty - Day A</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">45260</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Douglas Blackman</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>A</day>
+    <room>Duty (The Hub Lounge)</room>
+    <block>Duty MS Lunch 2</block>
+    <block_abbreviation>LUNMS2</block_abbreviation>
+    <start_time>11:20</start_time>
+    <end_time>11:40</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">102754</class_pk>
+<class_id>DUT-A-LIB-MS.04</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day A Duty Sec Library</course>
+<course_id type="integer">1689</course_id>
+<description>S-Duty Sec Library Day A </description>
+<subject>Duty - Day A</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">11347</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Ronald De Vries</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>A</day>
+    <room>Duty Sec Library</room>
+    <block>Duty MS Lunch 2</block>
+    <block_abbreviation>LUNMS2</block_abbreviation>
+    <start_time>11:20</start_time>
+    <end_time>11:40</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">102755</class_pk>
+<class_id>DUT-A-MFC-MS.03</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day A Duty Main Field</course>
+<course_id type="integer">1479</course_id>
+<description>S-Duty Main Field Day A</description>
+<subject>Duty - Day A</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">10639</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Paul Cooper</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>A</day>
+    <room>Duty-Main Field (Wet-Ele Bldg, Flr 4, Y5&amp;6)</room>
+    <block>Duty MS Lunch 2</block>
+    <block_abbreviation>LUNMS2</block_abbreviation>
+    <start_time>11:20</start_time>
+    <end_time>11:40</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">102756</class_pk>
+<class_id>DUT-A-MUS-MS.02</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day A Duty Music Room</course>
+<course_id type="integer">1156</course_id>
+<description>S-Duty Music Room Day A</description>
+<subject>Duty - Day A</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">48493</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Suphawadee Kalhong</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>A</day>
+    <room>Music Rooms</room>
+    <block>Duty MS Lunch 2</block>
+    <block_abbreviation>LUNMS2</block_abbreviation>
+    <start_time>11:20</start_time>
+    <end_time>11:40</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">102757</class_pk>
+<class_id>DUT-A-HUB-5F.06</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day A Duty HUB 5th Flr</course>
+<course_id type="integer">2091</course_id>
+<description>S-Duty The Hub 5th Flr Day A 02</description>
+<subject>Duty - Day A</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">41465</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Lucy Livingstone</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>A</day>
+    <room>Duty (The Hub 5th Flr)</room>
+    <block>Duty MS Lunch 2</block>
+    <block_abbreviation>LUNMS2</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">102758</class_pk>
+<class_id>DUT-A-BBG-HS.05</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day A Duty Tennis Courts</course>
+<course_id type="integer">1598</course_id>
+<description>S-Duty Tennis Courts Day A (HS)</description>
+<subject>Duty - Day A</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">11209</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Jay Priebe</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>A</day>
+    <room>Tennis Courts</room>
+    <block>Duty HS Lunch 1</block>
+    <block_abbreviation>LUNHS1</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">102759</class_pk>
+<class_id>DUT-A-CAF1-HS.02</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day A Duty Cafeteria 1st Floor</course>
+<course_id type="integer">1154</course_id>
+<description>S-Duty Cafeteria 1st Floor Day A (HS)</description>
+<subject>Duty - Day A</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">43021</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Matthew Upham</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>A</day>
+    <room>1st Floor Cafeteria</room>
+    <block>Duty HS Lunch 1</block>
+    <block_abbreviation>LUNHS1</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">102760</class_pk>
+<class_id>DUT-A-HUB-HS.05</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day A Duty HUB</course>
+<course_id type="integer">1608</course_id>
+<description>S-Duty The Hub Lounge Day A (HS)</description>
+<subject>Duty - Day A</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">38721</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Kimberly Tresohlavy</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>A</day>
+    <room>Duty (The Hub Lounge)</room>
+    <block>Duty HS Lunch 1</block>
+    <block_abbreviation>LUNHS1</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">102761</class_pk>
+<class_id>DUT-A-MFC-HS.02</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day A Duty Main Field</course>
+<course_id type="integer">1479</course_id>
+<description>S-Duty Main Field Day A (HS)</description>
+<subject>Duty - Day A</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">30083</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Jennifer Lacey</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>A</day>
+    <room>Duty-Main Field (Wet-Ele Bldg, Flr 4, Y5&amp;6)</room>
+    <block>Duty HS Lunch 1</block>
+    <block_abbreviation>LUNHS1</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">102762</class_pk>
+<class_id>DUT-A-BBG-HS.06</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day A Duty Tennis Courts</course>
+<course_id type="integer">1598</course_id>
+<description>S-Duty Tennis Courts Day A (HS)</description>
+<subject>Duty - Day A</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">11209</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Jay Priebe</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>A</day>
+    <room>Tennis Courts</room>
+    <block>Duty HS Lunch 2</block>
+    <block_abbreviation>LUNHS2</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">102763</class_pk>
+<class_id>DUT-A-CAF1-HS.03</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day A Duty Cafeteria 1st Floor</course>
+<course_id type="integer">1154</course_id>
+<description>S-Duty Cafeteria 1st Floor Day A (HS)</description>
+<subject>Duty - Day A</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">11381</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Suzanne Van De Venne</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>A</day>
+    <room>1st Floor Cafeteria</room>
+    <block>Duty HS Lunch 2</block>
+    <block_abbreviation>LUNHS2</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">102768</class_pk>
+<class_id>DUT-A-LIB-HS.04</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day A Duty Sec Library</course>
+<course_id type="integer">1689</course_id>
+<description>S-Duty Sec Library Day A (HS)</description>
+<subject>Duty - Day A</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">8202</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Uthumporn Kennedy</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>A</day>
+    <room>Duty Sec Library</room>
+    <block>Duty HS Lunch 2</block>
+    <block_abbreviation>LUNHS2</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">102769</class_pk>
+<class_id>DUT-A-HUB-HS.06</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day A Duty HUB</course>
+<course_id type="integer">1608</course_id>
+<description>S-Duty The Hub Lounge Day A (HS)</description>
+<subject>Duty - Day A</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">11402</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Uraiwan Chaiviriyakul</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>A</day>
+    <room>Duty (The Hub Lounge)</room>
+    <block>Duty HS Lunch 2</block>
+    <block_abbreviation>LUNHS2</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">102770</class_pk>
+<class_id>DUT-A-MFC-HS.03</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day A Duty Main Field</course>
+<course_id type="integer">1479</course_id>
+<description>S-Duty Main Field Day A (HS)</description>
+<subject>Duty - Day A</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">30083</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Jennifer Lacey</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>A</day>
+    <room>Duty-Main Field (Wet-Ele Bldg, Flr 4, Y5&amp;6)</room>
+    <block>Duty HS Lunch 2</block>
+    <block_abbreviation>LUNHS2</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">102771</class_pk>
+<class_id>DUT-A-MUS.HS.01</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day A Duty Music Room</course>
+<course_id type="integer">1156</course_id>
+<description>S-Duty Music Room Day A</description>
+<subject>Duty - Day A</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">19529</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Alan Daykin</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>A</day>
+    <room>Music Rooms</room>
+    <block>Duty HS Lunch 2</block>
+    <block_abbreviation>LUNHS2</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">102772</class_pk>
+<class_id>DUT-A-SPC.01</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day A Duty Sports Complex</course>
+<course_id type="integer">2085</course_id>
+<description>S-Duty Sports Complex Day A</description>
+<subject>Duty - Day A</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">24886</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Eric Towell</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>A</day>
+    <room>Duty Sports Complex</room>
+    <block>Duty HS Lunch 2</block>
+    <block_abbreviation>LUNHS2</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">102777</class_pk>
+<class_id>DUT-B-MFC.04</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day B Duty Main Field</course>
+<course_id type="integer">1480</course_id>
+<description>S-Duty Main Field Day B</description>
+<subject>Duty - Day B</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">44798</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Janelle Grier</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>B</day>
+    <room>Duty-Main Field (Wet-Ele Bldg, Flr 4, Y5&amp;6)</room>
+    <block>Duty Before School 2</block>
+    <block_abbreviation>BEFOR2</block_abbreviation>
+    <start_time>7:10</start_time>
+    <end_time>7:30</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">102778</class_pk>
+<class_id>DUT-B-BBG.04</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day B Duty Tennis Courts</course>
+<course_id type="integer">1599</course_id>
+<description>S-Duty Tennis Courts Day B</description>
+<subject>Duty - Day B</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">9235</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Chi-Fen Chen</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>B</day>
+    <room>Tennis Courts</room>
+    <block>Duty SEC Break AM</block>
+    <block_abbreviation>DSBRK</block_abbreviation>
+    <start_time>8:30</start_time>
+    <end_time>8:50</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">102779</class_pk>
+<class_id>DUT-B-CAF1.01</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day B Duty Cafeteria 1st Floor</course>
+<course_id type="integer">1368</course_id>
+<description>S-Duty Cafeteria 1st Floor Day B</description>
+<subject>Duty - Day B</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">32840</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Jennifer Abreu</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>B</day>
+    <room>1st Floor Cafeteria</room>
+    <block>Duty SEC Break AM</block>
+    <block_abbreviation>DSBRK</block_abbreviation>
+    <start_time>8:30</start_time>
+    <end_time>8:50</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">102780</class_pk>
+<class_id>DUT-B-HUB.02</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day B Duty HUB</course>
+<course_id type="integer">1609</course_id>
+<description>S-Duty The Hub Lounge Day B</description>
+<subject>Duty - Day B</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">11257</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Lalitha Swaminathan</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>B</day>
+    <room>Duty (The Hub Lounge)</room>
+    <block>Duty SEC Break AM</block>
+    <block_abbreviation>DSBRK</block_abbreviation>
+    <start_time>8:30</start_time>
+    <end_time>8:50</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">102781</class_pk>
+<class_id>DUT-B-LIB.01</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day B Duty Sec Library</course>
+<course_id type="integer">1690</course_id>
+<description>S-Duty Sec Library Day B</description>
+<subject>Duty - Day B</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">45549</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Anne Holzman</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>B</day>
+    <room>Duty Sec Library</room>
+    <block>Duty SEC Break AM</block>
+    <block_abbreviation>DSBRK</block_abbreviation>
+    <start_time>8:30</start_time>
+    <end_time>8:50</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">102782</class_pk>
+<class_id>DUT-B-MFC.01</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day B Duty Main Field</course>
+<course_id type="integer">1480</course_id>
+<description>S-Duty Main Field Day B</description>
+<subject>Duty - Day B</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">21727</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Craig Stevenson</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>B</day>
+    <room>Duty-Main Field (Wet-Ele Bldg, Flr 4, Y5&amp;6)</room>
+    <block>Duty SEC Break AM</block>
+    <block_abbreviation>DSBRK</block_abbreviation>
+    <start_time>8:30</start_time>
+    <end_time>8:50</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">102783</class_pk>
+<class_id>DUT-B-BBG-MS.05</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day B Duty Tennis Courts</course>
+<course_id type="integer">1599</course_id>
+<description>S-Duty Tennis Courts Day B</description>
+<subject>Duty - Day B</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">41355</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Shefali Desai</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>B</day>
+    <room>Tennis Courts</room>
+    <block>Duty MS Lunch 1</block>
+    <block_abbreviation>LUNMS1</block_abbreviation>
+    <start_time>11:00</start_time>
+    <end_time>11:20</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">102784</class_pk>
+<class_id>DUT-B-CAF1-MS.02</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day B Duty Cafeteria 1st Floor</course>
+<course_id type="integer">1368</course_id>
+<description>S-Duty Cafeteria 1st Floor Day B</description>
+<subject>Duty - Day B</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">28467</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Fang Wang</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>B</day>
+    <room>1st Floor Cafeteria</room>
+    <block>Duty MS Lunch 1</block>
+    <block_abbreviation>LUNMS1</block_abbreviation>
+    <start_time>11:00</start_time>
+    <end_time>11:20</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">102785</class_pk>
+<class_id>DUT-B-HUB-MS.05</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day B Duty HUB</course>
+<course_id type="integer">1609</course_id>
+<description>S-DutyThe Hub Lounge Day B</description>
+<subject>Duty - Day B</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">32837</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Alexander Guenther</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>B</day>
+    <room>Duty (The Hub Lounge)</room>
+    <block>Duty MS Lunch 1</block>
+    <block_abbreviation>LUNMS1</block_abbreviation>
+    <start_time>11:00</start_time>
+    <end_time>11:20</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">102786</class_pk>
+<class_id>DUT-B-MFC-MS.02</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day B Duty Main Field</course>
+<course_id type="integer">1480</course_id>
+<description>S-Duty Main Field Day B</description>
+<subject>Duty - Day B</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">21708</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Elizabeth Golatzki</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>B</day>
+    <room>Duty-Main Field (Wet-Ele Bldg, Flr 4, Y5&amp;6)</room>
+    <block>Duty MS Lunch 1</block>
+    <block_abbreviation>LUNMS1</block_abbreviation>
+    <start_time>11:00</start_time>
+    <end_time>11:20</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">102787</class_pk>
+<class_id>DUT-B-HUB-5F.05</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day B Duty HUB 5th Flr</course>
+<course_id type="integer">2092</course_id>
+<description>S-Duty The Hub 5th Flr Day B 01</description>
+<subject>Duty - Day B</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">29930</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Erik Wilensky</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>B</day>
+    <room>Duty (The Hub 5th Flr)</room>
+    <block>Duty MS Lunch 1</block>
+    <block_abbreviation>LUNMS1</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">102788</class_pk>
+<class_id>DUT-B-BBG-MS.06</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day B Duty Tennis Courts</course>
+<course_id type="integer">1599</course_id>
+<description>S-Duty Tennis Courts Day B</description>
+<subject>Duty - Day B</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">38434</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Robert O'Toole</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>B</day>
+    <room>Tennis Courts</room>
+    <block>Duty MS Lunch 2</block>
+    <block_abbreviation>LUNMS2</block_abbreviation>
+    <start_time>11:20</start_time>
+    <end_time>11:40</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">102789</class_pk>
+<class_id>DUT-B-CAF1-MS.03</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day B Duty Cafeteria 1st Floor</course>
+<course_id type="integer">1368</course_id>
+<description>S-Duty Cafeteria 1st Floor Day B</description>
+<subject>Duty - Day B</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">17992</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Zhenduo Yu</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>B</day>
+    <room>1st Floor Cafeteria</room>
+    <block>Duty MS Lunch 2</block>
+    <block_abbreviation>LUNMS2</block_abbreviation>
+    <start_time>11:20</start_time>
+    <end_time>11:40</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">102790</class_pk>
+<class_id>DUT-B-HUB-MS.06</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day B Duty HUB</course>
+<course_id type="integer">1609</course_id>
+<description>S-Duty The Hub Lounge Day B</description>
+<subject>Duty - Day B</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">32837</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Alexander Guenther</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>B</day>
+    <room>Duty (The Hub Lounge)</room>
+    <block>Duty MS Lunch 2</block>
+    <block_abbreviation>LUNMS2</block_abbreviation>
+    <start_time>11:20</start_time>
+    <end_time>11:40</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">102791</class_pk>
+<class_id>DUT-B-LIB-MS.04</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day B Duty Sec Library</course>
+<course_id type="integer">1690</course_id>
+<description>S-Duty Sec Library Day B</description>
+<subject>Duty - Day B</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">45450</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Jenny Friedman</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>B</day>
+    <room>Duty Sec Library</room>
+    <block>Duty MS Lunch 2</block>
+    <block_abbreviation>LUNMS2</block_abbreviation>
+    <start_time>11:20</start_time>
+    <end_time>11:40</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">102792</class_pk>
+<class_id>DUT-B-MFC-MS.03</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day B Duty Main Field</course>
+<course_id type="integer">1480</course_id>
+<description>S-Duty Main Field Day B</description>
+<subject>Duty - Day B</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">45501</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Mitchell Norris</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>B</day>
+    <room>Duty-Main Field (Wet-Ele Bldg, Flr 4, Y5&amp;6)</room>
+    <block>Duty MS Lunch 2</block>
+    <block_abbreviation>LUNMS2</block_abbreviation>
+    <start_time>11:20</start_time>
+    <end_time>11:40</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">102793</class_pk>
+<class_id>DUT-B-MUS-MS.02</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day B Duty Music Room</course>
+<course_id type="integer">1370</course_id>
+<description>S-Duty Music Room Day B</description>
+<subject>Duty - Day B</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">48493</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Suphawadee Kalhong</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>B</day>
+    <room>Music Rooms</room>
+    <block>Duty MS Lunch 2</block>
+    <block_abbreviation>LUNMS2</block_abbreviation>
+    <start_time>11:20</start_time>
+    <end_time>11:40</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">102794</class_pk>
+<class_id>DUT-B-HUB-5F.06</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day B Duty HUB 5th Flr</course>
+<course_id type="integer">2092</course_id>
+<description>S-Duty The Hub 5th Flr Day B 02</description>
+<subject>Duty - Day B</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">41465</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Lucy Livingstone</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>B</day>
+    <room>Duty (The Hub 5th Flr)</room>
+    <block>Duty MS Lunch 2</block>
+    <block_abbreviation>LUNMS2</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">102795</class_pk>
+<class_id>DUT-B-BBG-HS.05</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day B Duty Tennis Courts</course>
+<course_id type="integer">1599</course_id>
+<description>S-Duty Tennis Courts Day B (HS)</description>
+<subject>Duty - Day B</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">18146</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Julian Neller</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>B</day>
+    <room>Tennis Courts</room>
+    <block>Duty HS Lunch 1</block>
+    <block_abbreviation>LUNHS1</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">102796</class_pk>
+<class_id>DUT-B-CAF1-HS.02</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day B Duty Cafeteria 1st Floor</course>
+<course_id type="integer">1368</course_id>
+<description>S-Duty Cafeteria 1st Floor Day B (HS)</description>
+<subject>Duty - Day B</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">11381</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Suzanne Van De Venne</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>B</day>
+    <room>1st Floor Cafeteria</room>
+    <block>Duty HS Lunch 1</block>
+    <block_abbreviation>LUNHS1</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">102797</class_pk>
+<class_id>DUT-B-HUB-HS.05</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day B Duty HUB</course>
+<course_id type="integer">1609</course_id>
+<description>S-Duty The Hub Lounge Day B (HS)</description>
+<subject>Duty - Day B</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">38721</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Kimberly Tresohlavy</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>B</day>
+    <room>Duty (The Hub Lounge)</room>
+    <block>Duty HS Lunch 1</block>
+    <block_abbreviation>LUNHS1</block_abbreviation>
+    <start_time/>
+    <end_time/>
   </meeting_time>
 </meeting_times>
   </class>
