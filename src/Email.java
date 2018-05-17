@@ -60,9 +60,7 @@ public class Email {
 
     private static void sendEmail(String recipient, String subject, String body) {  //This  will send an email using SSL Authentication, via Gmail's SMTP server.
 
-        //Username/password to use
-        final String username = "attendance@nist.ac.th";
-        final String password = "xc$%hmTP";
+
 
         Properties properties = new Properties();
         properties.put("mail.smtp.auth", "true"); //This is to enable SSL Authentication
@@ -74,7 +72,7 @@ public class Email {
         Authenticator auth = new Authenticator() {
             @Override
             protected PasswordAuthentication getPasswordAuthentication() {
-                return new PasswordAuthentication(username, password);
+                return new PasswordAuthentication(Functions.EmailUsername, Functions.EmailPassword);
             }
         };
 

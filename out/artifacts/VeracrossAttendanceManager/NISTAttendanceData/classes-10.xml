@@ -1,6 +1,276 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classes type="array">
   <class>
+<class_pk type="integer">102792</class_pk>
+<class_id>DUT-B-MFC-MS.03</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day B Duty Main Field</course>
+<course_id type="integer">1480</course_id>
+<description>S-Duty Main Field Day B</description>
+<subject>Duty - Day B</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">45501</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Mitchell Norris</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>B</day>
+    <room>Duty-Main Field (Wet-Ele Bldg, Flr 4, Y5&amp;6)</room>
+    <block>Duty MS Lunch 2</block>
+    <block_abbreviation>LUNMS2</block_abbreviation>
+    <start_time>11:20</start_time>
+    <end_time>11:40</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">102793</class_pk>
+<class_id>DUT-B-MUS-MS.02</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day B Duty Music Room</course>
+<course_id type="integer">1370</course_id>
+<description>S-Duty Music Room Day B</description>
+<subject>Duty - Day B</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">48493</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Suphawadee Kalhong</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>B</day>
+    <room>Music Rooms</room>
+    <block>Duty MS Lunch 2</block>
+    <block_abbreviation>LUNMS2</block_abbreviation>
+    <start_time>11:20</start_time>
+    <end_time>11:40</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">102794</class_pk>
+<class_id>DUT-B-HUB-5F.06</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day B Duty HUB 5th Flr</course>
+<course_id type="integer">2092</course_id>
+<description>S-Duty The Hub 5th Flr Day B 02</description>
+<subject>Duty - Day B</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">41465</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Lucy Livingstone</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>B</day>
+    <room>Duty (The Hub 5th Flr)</room>
+    <block>Duty MS Lunch 2</block>
+    <block_abbreviation>LUNMS2</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">102795</class_pk>
+<class_id>DUT-B-BBG-HS.05</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day B Duty Tennis Courts</course>
+<course_id type="integer">1599</course_id>
+<description>S-Duty Tennis Courts Day B (HS)</description>
+<subject>Duty - Day B</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">18146</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Julian Neller</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>B</day>
+    <room>(DUTY) Tennis Courts</room>
+    <block>Duty HS Lunch 1</block>
+    <block_abbreviation>LUNHS1</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">102796</class_pk>
+<class_id>DUT-B-CAF1-HS.02</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day B Duty Cafeteria 1st Floor</course>
+<course_id type="integer">1368</course_id>
+<description>S-Duty Cafeteria 1st Floor Day B (HS)</description>
+<subject>Duty - Day B</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">11381</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Suzanne Van De Venne</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>B</day>
+    <room>1st Floor Cafeteria</room>
+    <block>Duty HS Lunch 1</block>
+    <block_abbreviation>LUNHS1</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">102797</class_pk>
+<class_id>DUT-B-HUB-HS.05</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day B Duty HUB</course>
+<course_id type="integer">1609</course_id>
+<description>S-Duty The Hub Lounge Day B (HS)</description>
+<subject>Duty - Day B</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">38721</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Kimberly Tresohlavy</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>B</day>
+    <room>Duty (The Hub Lounge)</room>
+    <block>Duty HS Lunch 1</block>
+    <block_abbreviation>LUNHS1</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
 <class_pk type="integer">102798</class_pk>
 <class_id>DUT-B-MFC-HS.02</class_id>
 <group_fk type="integer">0</group_fk>
@@ -22,7 +292,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">45260</person_fk>
@@ -67,7 +337,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">11402</person_fk>
@@ -82,7 +352,7 @@
   <meeting_time>
     <grading_period>ALL</grading_period>
     <day>B</day>
-    <room>Tennis Courts</room>
+    <room>(DUTY) Tennis Courts</room>
     <block>Duty HS Lunch 2</block>
     <block_abbreviation>LUNHS2</block_abbreviation>
     <start_time/>
@@ -112,7 +382,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">21739</person_fk>
@@ -157,7 +427,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">18204</person_fk>
@@ -202,13 +472,13 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
-    <person_fk type="integer">38434</person_fk>
+    <person_fk type="integer">30159</person_fk>
     <role_id type="integer">1</role_id>
     <role>Primary Teacher</role>
-    <teacher_name>Robert O'Toole</teacher_name>
+    <teacher_name>Tara Holm</teacher_name>
     <update_grade type="boolean">true</update_grade>
     <view_grades type="boolean">true</view_grades>
   </teacher>
@@ -244,11 +514,19 @@
 <student_portal_visibility>Show</student_portal_visibility>
 <parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
-<teacher_fk type="integer">0</teacher_fk>
-<teacher_full_name/>
+<teacher_fk type="integer">11347</teacher_fk>
+<teacher_full_name>Ronald De Vries</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
+  <teacher>
+    <person_fk type="integer">11347</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Ronald De Vries</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
 </teachers>
 <meeting_times type="array">
   <meeting_time>
@@ -284,7 +562,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">32997</person_fk>
@@ -329,7 +607,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">10988</person_fk>
@@ -374,7 +652,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">34834</person_fk>
@@ -419,7 +697,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">11214</person_fk>
@@ -434,7 +712,7 @@
   <meeting_time>
     <grading_period>ALL</grading_period>
     <day>C</day>
-    <room>Tennis Courts</room>
+    <room>(DUTY) Tennis Courts</room>
     <block>Duty SEC Break AM</block>
     <block_abbreviation>DSBRK</block_abbreviation>
     <start_time>8:30</start_time>
@@ -464,13 +742,13 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
-    <person_fk type="integer">24086</person_fk>
+    <person_fk type="integer">38434</person_fk>
     <role_id type="integer">1</role_id>
     <role>Primary Teacher</role>
-    <teacher_name>Nicola Cahill</teacher_name>
+    <teacher_name>Robert O'Toole</teacher_name>
     <update_grade type="boolean">true</update_grade>
     <view_grades type="boolean">true</view_grades>
   </teacher>
@@ -509,7 +787,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">38897</person_fk>
@@ -554,7 +832,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">45147</person_fk>
@@ -599,7 +877,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">17988</person_fk>
@@ -644,7 +922,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">38732</person_fk>
@@ -659,7 +937,7 @@
   <meeting_time>
     <grading_period>ALL</grading_period>
     <day>C</day>
-    <room>Tennis Courts</room>
+    <room>(DUTY) Tennis Courts</room>
     <block>Duty MS Lunch 1</block>
     <block_abbreviation>LUNMS1</block_abbreviation>
     <start_time>11:00</start_time>
@@ -689,7 +967,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">21748</person_fk>
@@ -734,7 +1012,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">34732</person_fk>
@@ -779,7 +1057,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">28467</person_fk>
@@ -824,7 +1102,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">45581</person_fk>
@@ -869,7 +1147,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">21727</person_fk>
@@ -884,7 +1162,7 @@
   <meeting_time>
     <grading_period>ALL</grading_period>
     <day>C</day>
-    <room>Tennis Courts</room>
+    <room>(DUTY) Tennis Courts</room>
     <block>Duty MS Lunch 2</block>
     <block_abbreviation>LUNMS2</block_abbreviation>
     <start_time>11:20</start_time>
@@ -914,7 +1192,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">38775</person_fk>
@@ -959,7 +1237,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">11181</person_fk>
@@ -1004,7 +1282,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">11174</person_fk>
@@ -1049,7 +1327,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">17988</person_fk>
@@ -1094,7 +1372,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">48493</person_fk>
@@ -1139,7 +1417,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">38414</person_fk>
@@ -1184,7 +1462,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">11214</person_fk>
@@ -1199,7 +1477,7 @@
   <meeting_time>
     <grading_period>ALL</grading_period>
     <day>C</day>
-    <room>Tennis Courts</room>
+    <room>(DUTY) Tennis Courts</room>
     <block>Duty HS Lunch 1</block>
     <block_abbreviation>LUNHS1</block_abbreviation>
     <start_time/>
@@ -1229,7 +1507,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">11318</person_fk>
@@ -1274,7 +1552,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">44545</person_fk>
@@ -1319,7 +1597,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">21746</person_fk>
@@ -1364,7 +1642,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">11273</person_fk>
@@ -1379,7 +1657,7 @@
   <meeting_time>
     <grading_period>ALL</grading_period>
     <day>C</day>
-    <room>Tennis Courts</room>
+    <room>(DUTY) Tennis Courts</room>
     <block>Duty HS Lunch 2</block>
     <block_abbreviation>LUNHS2</block_abbreviation>
     <start_time/>
@@ -1409,7 +1687,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">21740</person_fk>
@@ -1454,7 +1732,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">44798</person_fk>
@@ -1499,7 +1777,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">11194</person_fk>
@@ -1544,7 +1822,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">11184</person_fk>
@@ -1589,7 +1867,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">25133</person_fk>
@@ -1634,7 +1912,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">45501</person_fk>
@@ -1679,7 +1957,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">32839</person_fk>
@@ -1724,7 +2002,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">9235</person_fk>
@@ -1739,7 +2017,7 @@
   <meeting_time>
     <grading_period>ALL</grading_period>
     <day>D</day>
-    <room>Tennis Courts</room>
+    <room>(DUTY) Tennis Courts</room>
     <block>Duty SEC Break AM</block>
     <block_abbreviation>DSBRK</block_abbreviation>
     <start_time>8:30</start_time>
@@ -1769,7 +2047,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">38897</person_fk>
@@ -1814,7 +2092,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">11257</person_fk>
@@ -1859,7 +2137,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">38414</person_fk>
@@ -1904,7 +2182,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">21466</person_fk>
@@ -1949,7 +2227,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">11369</person_fk>
@@ -1964,7 +2242,7 @@
   <meeting_time>
     <grading_period>ALL</grading_period>
     <day>D</day>
-    <room>Tennis Courts</room>
+    <room>(DUTY) Tennis Courts</room>
     <block>Duty MS Lunch 1</block>
     <block_abbreviation>LUNMS1</block_abbreviation>
     <start_time>11:00</start_time>
@@ -1994,7 +2272,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">44739</person_fk>
@@ -2039,7 +2317,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">30149</person_fk>
@@ -2084,7 +2362,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">41355</person_fk>
@@ -2129,7 +2407,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">18543</person_fk>
@@ -2174,7 +2452,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">11369</person_fk>
@@ -2189,7 +2467,7 @@
   <meeting_time>
     <grading_period>ALL</grading_period>
     <day>D</day>
-    <room>Tennis Courts</room>
+    <room>(DUTY) Tennis Courts</room>
     <block>Duty MS Lunch 2</block>
     <block_abbreviation>LUNMS2</block_abbreviation>
     <start_time>11:20</start_time>
@@ -2219,7 +2497,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">45450</person_fk>
@@ -2264,7 +2542,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">26229</person_fk>
@@ -2309,7 +2587,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">47311</person_fk>
@@ -2354,7 +2632,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">21748</person_fk>
@@ -2399,7 +2677,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">48493</person_fk>
@@ -2444,7 +2722,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">24886</person_fk>
@@ -2489,7 +2767,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">25154</person_fk>
@@ -2504,7 +2782,7 @@
   <meeting_time>
     <grading_period>ALL</grading_period>
     <day>D</day>
-    <room>Tennis Courts</room>
+    <room>(DUTY) Tennis Courts</room>
     <block>Duty HS Lunch 1</block>
     <block_abbreviation>LUNHS1</block_abbreviation>
     <start_time/>
@@ -2534,13 +2812,13 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
-    <person_fk type="integer">24086</person_fk>
+    <person_fk type="integer">38434</person_fk>
     <role_id type="integer">1</role_id>
     <role>Primary Teacher</role>
-    <teacher_name>Nicola Cahill</teacher_name>
+    <teacher_name>Robert O'Toole</teacher_name>
     <update_grade type="boolean">true</update_grade>
     <view_grades type="boolean">true</view_grades>
   </teacher>
@@ -2579,7 +2857,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">11111</person_fk>
@@ -2624,7 +2902,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">10125</person_fk>
@@ -2669,13 +2947,13 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
-    <person_fk type="integer">30159</person_fk>
+    <person_fk type="integer">38434</person_fk>
     <role_id type="integer">1</role_id>
     <role>Primary Teacher</role>
-    <teacher_name>Tara Holm</teacher_name>
+    <teacher_name>Robert O'Toole</teacher_name>
     <update_grade type="boolean">true</update_grade>
     <view_grades type="boolean">true</view_grades>
   </teacher>
@@ -2684,7 +2962,7 @@
   <meeting_time>
     <grading_period>ALL</grading_period>
     <day>D</day>
-    <room>Tennis Courts</room>
+    <room>(DUTY) Tennis Courts</room>
     <block>Duty HS Lunch 2</block>
     <block_abbreviation>LUNHS2</block_abbreviation>
     <start_time/>
@@ -2714,7 +2992,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">38954</person_fk>
@@ -2759,7 +3037,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">11111</person_fk>
@@ -2804,7 +3082,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">38721</person_fk>
@@ -2849,7 +3127,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">45472</person_fk>
@@ -2894,7 +3172,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">44550</person_fk>
@@ -2939,13 +3217,21 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">11387</person_fk>
     <role_id type="integer">1</role_id>
     <role>Primary Teacher</role>
     <teacher_name>Teresa Tung</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">46270</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Patricia McNair</teacher_name>
     <update_grade type="boolean">true</update_grade>
     <view_grades type="boolean">true</view_grades>
   </teacher>
@@ -2984,7 +3270,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">11273</person_fk>
@@ -3029,7 +3315,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">23567</person_fk>
@@ -3044,7 +3330,7 @@
   <meeting_time>
     <grading_period>ALL</grading_period>
     <day>E</day>
-    <room>Tennis Courts</room>
+    <room>(DUTY) Tennis Courts</room>
     <block>Duty SEC Break AM</block>
     <block_abbreviation>DSBRK</block_abbreviation>
     <start_time>8:30</start_time>
@@ -3074,7 +3360,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">34572</person_fk>
@@ -3119,7 +3405,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">26229</person_fk>
@@ -3164,7 +3450,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">21746</person_fk>
@@ -3209,7 +3495,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">45472</person_fk>
@@ -3254,7 +3540,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">32850</person_fk>
@@ -3269,7 +3555,7 @@
   <meeting_time>
     <grading_period>ALL</grading_period>
     <day>E</day>
-    <room>Tennis Courts</room>
+    <room>(DUTY) Tennis Courts</room>
     <block>Duty MS Lunch 1</block>
     <block_abbreviation>LUNMS1</block_abbreviation>
     <start_time>11:00</start_time>
@@ -3299,7 +3585,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">34732</person_fk>
@@ -3308,6 +3594,14 @@
     <teacher_name>David Williams</teacher_name>
     <update_grade type="boolean">true</update_grade>
     <view_grades type="boolean">true</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">45860</person_fk>
+    <role_id type="integer">5</role_id>
+    <role/>
+    <teacher_name>Iuliia Preobrazhenskaia</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
   </teacher>
 </teachers>
 <meeting_times type="array">
@@ -3344,7 +3638,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">30149</person_fk>
@@ -3389,7 +3683,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">23968</person_fk>
@@ -3434,7 +3728,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">11199</person_fk>
@@ -3479,7 +3773,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">45586</person_fk>
@@ -3494,7 +3788,7 @@
   <meeting_time>
     <grading_period>ALL</grading_period>
     <day>E</day>
-    <room>Tennis Courts</room>
+    <room>(DUTY) Tennis Courts</room>
     <block>Duty MS Lunch 2</block>
     <block_abbreviation>LUNMS2</block_abbreviation>
     <start_time>11:20</start_time>
@@ -3524,7 +3818,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">21708</person_fk>
@@ -3569,21 +3863,13 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">30157</person_fk>
     <role_id type="integer">1</role_id>
     <role>Primary Teacher</role>
     <teacher_name>Kristyn Art</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-  <teacher>
-    <person_fk type="integer">46270</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Patricia McNair</teacher_name>
     <update_grade type="boolean">true</update_grade>
     <view_grades type="boolean">true</view_grades>
   </teacher>
@@ -3619,16 +3905,16 @@
 <student_portal_visibility>Show</student_portal_visibility>
 <parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
-<teacher_fk type="integer">0</teacher_fk>
-<teacher_full_name/>
+<teacher_fk type="integer">46726</teacher_fk>
+<teacher_full_name>Melanie Nightingale</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
-    <person_fk type="integer">38842</person_fk>
+    <person_fk type="integer">46726</person_fk>
     <role_id type="integer">1</role_id>
     <role>Primary Teacher</role>
-    <teacher_name>Madeleine Lambert</teacher_name>
+    <teacher_name>Melanie Nightingale</teacher_name>
     <update_grade type="boolean">true</update_grade>
     <view_grades type="boolean">true</view_grades>
   </teacher>
@@ -3667,7 +3953,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">38887</person_fk>
@@ -3712,7 +3998,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">48493</person_fk>
@@ -3757,8 +4043,16 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
+  <teacher>
+    <person_fk type="integer">23233</person_fk>
+    <role_id type="integer">5</role_id>
+    <role/>
+    <teacher_name>James Cohn</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
   <teacher>
     <person_fk type="integer">38434</person_fk>
     <role_id type="integer">1</role_id>
@@ -3802,7 +4096,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">23779</person_fk>
@@ -3817,7 +4111,7 @@
   <meeting_time>
     <grading_period>ALL</grading_period>
     <day>E</day>
-    <room>Tennis Courts</room>
+    <room>(DUTY) Tennis Courts</room>
     <block>Duty HS Lunch 1</block>
     <block_abbreviation>LUNHS1</block_abbreviation>
     <start_time/>
@@ -3847,7 +4141,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">38587</person_fk>
@@ -3892,7 +4186,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">21747</person_fk>
@@ -3937,7 +4231,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">18146</person_fk>
@@ -3982,7 +4276,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">38732</person_fk>
@@ -3997,7 +4291,7 @@
   <meeting_time>
     <grading_period>ALL</grading_period>
     <day>E</day>
-    <room>Tennis Courts</room>
+    <room>(DUTY) Tennis Courts</room>
     <block>Duty HS Lunch 2</block>
     <block_abbreviation>LUNHS2</block_abbreviation>
     <start_time/>
@@ -4027,7 +4321,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">8420</person_fk>
@@ -4072,7 +4366,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">32838</person_fk>
@@ -4117,7 +4411,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">45561</person_fk>
@@ -4162,7 +4456,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">38954</person_fk>
@@ -4207,7 +4501,7 @@
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">45260</person_fk>
@@ -4227,276 +4521,6 @@
     <block_abbreviation>LUNHS2</block_abbreviation>
     <start_time/>
     <end_time/>
-  </meeting_time>
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">102892</class_pk>
-<class_id>DUT-E-MUS-HS.01</class_id>
-<group_fk type="integer">0</group_fk>
-<group_id>0-2005-0-0-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>Day E Duty Music Room</course>
-<course_id type="integer">1409</course_id>
-<description>S-Duty Music Room Day E</description>
-<subject>Duty - Day E</subject>
-<course_type>Non-Academic</course_type>
-<grading_method>Not Graded</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
-<teacher_fk type="integer">0</teacher_fk>
-<teacher_full_name/>
-<status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">19529</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Alan Daykin</teacher_name>
-    <update_grade type="boolean">false</update_grade>
-    <view_grades type="boolean">false</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-  <meeting_time>
-    <grading_period>ALL</grading_period>
-    <day>E</day>
-    <room>Music Rooms</room>
-    <block>Duty HS Lunch 2</block>
-    <block_abbreviation>LUNHS2</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">102893</class_pk>
-<class_id>DUT-F-MFC.04</class_id>
-<group_fk type="integer">0</group_fk>
-<group_id>0-2005-0-0-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>Day F Duty Main Field</course>
-<course_id type="integer">1484</course_id>
-<description>S-Duty Main Field Day F</description>
-<subject>Duty - Day F</subject>
-<course_type>Non-Academic</course_type>
-<grading_method>Not Graded</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
-<teacher_fk type="integer">0</teacher_fk>
-<teacher_full_name/>
-<status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">10988</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Randall Wallis</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-  <meeting_time>
-    <grading_period>ALL</grading_period>
-    <day>F</day>
-    <room>Duty-Main Field (Wet-Ele Bldg, Flr 4, Y5&amp;6)</room>
-    <block>Duty Before School 2</block>
-    <block_abbreviation>BEFOR2</block_abbreviation>
-    <start_time>7:10</start_time>
-    <end_time>7:30</end_time>
-  </meeting_time>
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">102894</class_pk>
-<class_id>DUT-F-BBG.04</class_id>
-<group_fk type="integer">0</group_fk>
-<group_id>0-2005-0-0-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>Day F Duty Tennis Courts</course>
-<course_id type="integer">1603</course_id>
-<description>S-Duty Tennis Courts Day F</description>
-<subject>Duty - Day F</subject>
-<course_type>Non-Academic</course_type>
-<grading_method>Not Graded</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
-<teacher_fk type="integer">0</teacher_fk>
-<teacher_full_name/>
-<status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">34834</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Shompooh Surakanjanachat</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-  <meeting_time>
-    <grading_period>ALL</grading_period>
-    <day>F</day>
-    <room>Tennis Courts</room>
-    <block>Duty SEC Break AM</block>
-    <block_abbreviation>DSBRK</block_abbreviation>
-    <start_time>8:30</start_time>
-    <end_time>8:50</end_time>
-  </meeting_time>
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">102895</class_pk>
-<class_id>DUT-F-CAF1.01</class_id>
-<group_fk type="integer">0</group_fk>
-<group_id>0-2005-0-0-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>Day F Duty Cafeteria 1st Floor</course>
-<course_id type="integer">1420</course_id>
-<description>S-Duty Cafeteria 1st Floor Day F</description>
-<subject>Duty - Day F</subject>
-<course_type>Non-Academic</course_type>
-<grading_method>Not Graded</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
-<teacher_fk type="integer">0</teacher_fk>
-<teacher_full_name/>
-<status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">34572</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Patrick Keirnan</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-  <meeting_time>
-    <grading_period>ALL</grading_period>
-    <day>F</day>
-    <room>1st Floor Cafeteria</room>
-    <block>Duty SEC Break AM</block>
-    <block_abbreviation>DSBRK</block_abbreviation>
-    <start_time>8:30</start_time>
-    <end_time>8:50</end_time>
-  </meeting_time>
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">102896</class_pk>
-<class_id>DUT-F-HUB.02</class_id>
-<group_fk type="integer">0</group_fk>
-<group_id>0-2005-0-0-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>Day F Duty HUB</course>
-<course_id type="integer">1613</course_id>
-<description>S-Duty The Hub Lounge Day F</description>
-<subject>Duty - Day F</subject>
-<course_type>Non-Academic</course_type>
-<grading_method>Not Graded</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
-<teacher_fk type="integer">0</teacher_fk>
-<teacher_full_name/>
-<status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">38587</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Zerlina Cheng</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-  <meeting_time>
-    <grading_period>ALL</grading_period>
-    <day>F</day>
-    <room>Duty (The Hub Lounge)</room>
-    <block>Duty SEC Break AM</block>
-    <block_abbreviation>DSBRK</block_abbreviation>
-    <start_time>8:30</start_time>
-    <end_time>8:50</end_time>
-  </meeting_time>
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">102897</class_pk>
-<class_id>DUT-F-LIB.01</class_id>
-<group_fk type="integer">0</group_fk>
-<group_id>0-2005-0-0-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>Day F Duty Sec Library</course>
-<course_id type="integer">1694</course_id>
-<description>S-Duty Sec Library Day F</description>
-<subject>Duty - Day F</subject>
-<course_type>Non-Academic</course_type>
-<grading_method>Not Graded</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
-<teacher_fk type="integer">0</teacher_fk>
-<teacher_full_name/>
-<status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">18204</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Tatikarn Rodsiri</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-  <meeting_time>
-    <grading_period>ALL</grading_period>
-    <day>F</day>
-    <room>Duty Sec Library</room>
-    <block>Duty SEC Break AM</block>
-    <block_abbreviation>DSBRK</block_abbreviation>
-    <start_time>8:30</start_time>
-    <end_time>8:50</end_time>
   </meeting_time>
 </meeting_times>
   </class>

@@ -1,67 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <students type="array">
   <student>
-<household_fk>17239</household_fk>
-<person_pk>39993</person_pk>
-<legacy_id>29104:1</legacy_id>
-<legacy_student_id>0</legacy_student_id>
-<name_prefix/>
-<first_name>Jasumin</first_name>
-<first_nick_name>Jasmine (Jasumin)</first_nick_name>
-<preferred_name>Jasmine (Jasumin)</preferred_name>
-<middle_name/>
-<last_name>Usui</last_name>
-<name_suffix/>
-<birthday>2001-04-26</birthday>
-<gender>Female</gender>
-<ethnicity/>
-<email_1>19JasmineU@nist.ac.th</email_1>
-<display_email_1>false</display_email_1>
-<email_2>jasminejuju0@gmail.com</email_2>
-<display_email_2>false</display_email_2>
-<home_phone>9595400646</home_phone>
-<display_home_phone>false</display_home_phone>
-<mobile_phone/>
-<display_mobile_phone>false</display_mobile_phone>
-<advisor_fk>44798</advisor_fk>
-<advisor_name>Janelle Grier</advisor_name>
-<homeroom_teacher_fk>45549</homeroom_teacher_fk>
-<homeroom_teacher_name>Anne Holzman</homeroom_teacher_name>
-<homeroom>98017</homeroom>
-<roles type="array">
-  <role>
-    <description>Student</description>
-  </role>
-  <role>
-    <description>Program Student</description>
-  </role>
-</roles>
-<current_grade>Year 12</current_grade>
-<grade_applying_for>Year 12</grade_applying_for>
-<year_applying_for>2017</year_applying_for>
-<resident_status_applying_for>false</resident_status_applying_for>
-<student_group_applying_for>false</student_group_applying_for>
-<campus_applying_for>false</campus_applying_for>
-<school_level>Secondary</school_level>
-<enrollment_status>RE: Re-Enrolled</enrollment_status>
-<new_student>false</new_student>
-<graduation_year>2019</graduation_year>
-<resident_status/>
-<campus/>
-<dorm>IB MYP: Mathematics 10 Standard</dorm>
-<room_number/>
-<floor_number>0</floor_number>
-<bed_number>0</bed_number>
-<mailbox_number/>
-<student_group>Red</student_group>
-<parent_1_fk>39995</parent_1_fk>
-<parent_2_fk>39996</parent_2_fk>
-<parent_3_fk>0</parent_3_fk>
-<parent_4_fk>0</parent_4_fk>
-<username>19jasmineu</username>
-<update_date>2017-08-31T00:23:00+00:00</update_date>
-  </student>
-  <student>
 <household_fk>17283</household_fk>
 <person_pk>40136</person_pk>
 <legacy_id>29295:1</legacy_id>
@@ -79,8 +18,8 @@
 <email_1>18AnishK@nist.ac.th</email_1>
 <display_email_1>true</display_email_1>
 <email_2>kumthekaranish@gmail.com</email_2>
-<display_email_2>false</display_email_2>
-<home_phone>006622507261</home_phone>
+<display_email_2>true</display_email_2>
+<home_phone/>
 <display_home_phone>false</display_home_phone>
 <mobile_phone>0066926233563</mobile_phone>
 <display_mobile_phone>false</display_mobile_phone>
@@ -104,7 +43,7 @@
 <student_group_applying_for>false</student_group_applying_for>
 <campus_applying_for>false</campus_applying_for>
 <school_level>Secondary</school_level>
-<enrollment_status>RE: Re-Enrolled</enrollment_status>
+<enrollment_status>N/A</enrollment_status>
 <new_student>false</new_student>
 <graduation_year>2018</graduation_year>
 <resident_status/>
@@ -120,7 +59,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18anishk</username>
-<update_date>2017-10-12T20:36:00+00:00</update_date>
+<update_date>2018-04-18T07:54:00+00:00</update_date>
   </student>
   <student>
 <household_fk>17327</household_fk>
@@ -140,7 +79,7 @@
 <email_1>18PriyataB@nist.ac.th</email_1>
 <display_email_1>true</display_email_1>
 <email_2>priyata.bhatta@gmail.com</email_2>
-<display_email_2>false</display_email_2>
+<display_email_2>true</display_email_2>
 <home_phone>977-1-4880746 (Nepal)</home_phone>
 <display_home_phone>true</display_home_phone>
 <mobile_phone>+66(0)92-518-6196</mobile_phone>
@@ -165,7 +104,7 @@
 <student_group_applying_for>false</student_group_applying_for>
 <campus_applying_for>false</campus_applying_for>
 <school_level>Secondary</school_level>
-<enrollment_status>RE: Re-Enrolled</enrollment_status>
+<enrollment_status>N/A</enrollment_status>
 <new_student>false</new_student>
 <graduation_year>2018</graduation_year>
 <resident_status/>
@@ -181,7 +120,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18priyatab</username>
-<update_date>2017-11-12T20:24:00+00:00</update_date>
+<update_date>2018-04-18T07:50:00+00:00</update_date>
   </student>
   <student>
 <household_fk>17377</household_fk>
@@ -201,7 +140,7 @@
 <email_1>19SharangS@nist.ac.th</email_1>
 <display_email_1>true</display_email_1>
 <email_2>sharangsharma212@gmail.com</email_2>
-<display_email_2>false</display_email_2>
+<display_email_2>true</display_email_2>
 <home_phone>+66984494790</home_phone>
 <display_home_phone>false</display_home_phone>
 <mobile_phone/>
@@ -220,8 +159,8 @@
   </role>
 </roles>
 <current_grade>Year 12</current_grade>
-<grade_applying_for>Year 12</grade_applying_for>
-<year_applying_for>2017</year_applying_for>
+<grade_applying_for>Year 13</grade_applying_for>
+<year_applying_for>2018</year_applying_for>
 <resident_status_applying_for>false</resident_status_applying_for>
 <student_group_applying_for>false</student_group_applying_for>
 <campus_applying_for>false</campus_applying_for>
@@ -242,7 +181,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>19sharangs</username>
-<update_date>2017-09-14T00:22:00+00:00</update_date>
+<update_date>2018-04-18T20:27:00+00:00</update_date>
   </student>
   <student>
 <household_fk>17488</household_fk>
@@ -262,7 +201,7 @@
 <email_1>19EilidhR@nist.ac.th</email_1>
 <display_email_1>true</display_email_1>
 <email_2>eilidh.rayfield34@gmail.com</email_2>
-<display_email_2>false</display_email_2>
+<display_email_2>true</display_email_2>
 <home_phone/>
 <display_home_phone>true</display_home_phone>
 <mobile_phone>+66624180410</mobile_phone>
@@ -281,8 +220,8 @@
   </role>
 </roles>
 <current_grade>Year 12</current_grade>
-<grade_applying_for>Year 12</grade_applying_for>
-<year_applying_for>2017</year_applying_for>
+<grade_applying_for>Year 13</grade_applying_for>
+<year_applying_for>2018</year_applying_for>
 <resident_status_applying_for>false</resident_status_applying_for>
 <student_group_applying_for>false</student_group_applying_for>
 <campus_applying_for>false</campus_applying_for>
@@ -303,7 +242,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>19eilidhr</username>
-<update_date>2017-08-31T00:23:00+00:00</update_date>
+<update_date>2018-04-19T20:31:00+00:00</update_date>
   </student>
   <student>
 <household_fk>17678</household_fk>
@@ -323,7 +262,7 @@
 <email_1>19JihoJ@nist.ac.th</email_1>
 <display_email_1>true</display_email_1>
 <email_2>jiho_jun@naver.com</email_2>
-<display_email_2>false</display_email_2>
+<display_email_2>true</display_email_2>
 <home_phone>02-640-8141</home_phone>
 <display_home_phone>true</display_home_phone>
 <mobile_phone>0925305494</mobile_phone>
@@ -342,8 +281,8 @@
   </role>
 </roles>
 <current_grade>Year 12</current_grade>
-<grade_applying_for>Year 12</grade_applying_for>
-<year_applying_for>2017</year_applying_for>
+<grade_applying_for>Year 13</grade_applying_for>
+<year_applying_for>2018</year_applying_for>
 <resident_status_applying_for>false</resident_status_applying_for>
 <student_group_applying_for>false</student_group_applying_for>
 <campus_applying_for>false</campus_applying_for>
@@ -364,7 +303,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>19jihoj</username>
-<update_date>2017-09-14T00:22:00+00:00</update_date>
+<update_date>2018-04-26T01:15:00+00:00</update_date>
   </student>
   <student>
 <household_fk>18790</household_fk>
@@ -384,7 +323,7 @@
 <email_1>19AlanisB@nist.ac.th</email_1>
 <display_email_1>true</display_email_1>
 <email_2/>
-<display_email_2>false</display_email_2>
+<display_email_2>true</display_email_2>
 <home_phone>0820859586</home_phone>
 <display_home_phone>true</display_home_phone>
 <mobile_phone>0918853773</mobile_phone>
@@ -403,8 +342,8 @@
   </role>
 </roles>
 <current_grade>Year 12</current_grade>
-<grade_applying_for>Year 12</grade_applying_for>
-<year_applying_for>2017</year_applying_for>
+<grade_applying_for>Year 13</grade_applying_for>
+<year_applying_for>2018</year_applying_for>
 <resident_status_applying_for>false</resident_status_applying_for>
 <student_group_applying_for>false</student_group_applying_for>
 <campus_applying_for>false</campus_applying_for>
@@ -425,7 +364,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>19alanisb</username>
-<update_date>2017-08-29T20:36:00+00:00</update_date>
+<update_date>2018-04-04T02:44:00+00:00</update_date>
   </student>
   <student>
 <household_fk>18792</household_fk>
@@ -443,9 +382,9 @@
 <gender>Female</gender>
 <ethnicity/>
 <email_1>18ShaunaS@nist.ac.th</email_1>
-<display_email_1>false</display_email_1>
+<display_email_1>true</display_email_1>
 <email_2>shaunakuromi@gmail.com</email_2>
-<display_email_2>false</display_email_2>
+<display_email_2>true</display_email_2>
 <home_phone>02-322-0506</home_phone>
 <display_home_phone>false</display_home_phone>
 <mobile_phone>083-074-1173</mobile_phone>
@@ -470,7 +409,7 @@
 <student_group_applying_for>false</student_group_applying_for>
 <campus_applying_for>false</campus_applying_for>
 <school_level>Secondary</school_level>
-<enrollment_status>RE: Re-Enrolled</enrollment_status>
+<enrollment_status>N/A</enrollment_status>
 <new_student>false</new_student>
 <graduation_year>2018</graduation_year>
 <resident_status/>
@@ -486,7 +425,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18shaunas</username>
-<update_date>2017-10-12T20:36:00+00:00</update_date>
+<update_date>2018-04-04T02:44:00+00:00</update_date>
   </student>
   <student>
 <household_fk>18843</household_fk>
@@ -506,7 +445,7 @@
 <email_1>19TanylleA@nist.ac.th</email_1>
 <display_email_1>true</display_email_1>
 <email_2/>
-<display_email_2>false</display_email_2>
+<display_email_2>true</display_email_2>
 <home_phone>0860238532</home_phone>
 <display_home_phone>true</display_home_phone>
 <mobile_phone>0936812508</mobile_phone>
@@ -525,14 +464,14 @@
   </role>
 </roles>
 <current_grade>Year 12</current_grade>
-<grade_applying_for>Year 12</grade_applying_for>
-<year_applying_for>2017</year_applying_for>
+<grade_applying_for>Year 13</grade_applying_for>
+<year_applying_for>2018</year_applying_for>
 <resident_status_applying_for>false</resident_status_applying_for>
 <student_group_applying_for>false</student_group_applying_for>
 <campus_applying_for>false</campus_applying_for>
 <school_level>Secondary</school_level>
-<enrollment_status>EN: Newly Enrolled</enrollment_status>
-<new_student>true</new_student>
+<enrollment_status>RE: Re-Enrolled</enrollment_status>
+<new_student>false</new_student>
 <graduation_year>2019</graduation_year>
 <resident_status/>
 <campus/>
@@ -547,7 +486,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>19tanyllea</username>
-<update_date>2017-09-01T06:30:00+00:00</update_date>
+<update_date>2018-04-18T20:27:00+00:00</update_date>
   </student>
   <student>
 <household_fk>18862</household_fk>
@@ -567,7 +506,7 @@
 <email_1>19MinaH@nist.ac.th</email_1>
 <display_email_1>true</display_email_1>
 <email_2/>
-<display_email_2>false</display_email_2>
+<display_email_2>true</display_email_2>
 <home_phone>02-2073762</home_phone>
 <display_home_phone>true</display_home_phone>
 <mobile_phone>0632046488</mobile_phone>
@@ -586,8 +525,8 @@
   </role>
 </roles>
 <current_grade>Year 12</current_grade>
-<grade_applying_for>Year 12</grade_applying_for>
-<year_applying_for>2017</year_applying_for>
+<grade_applying_for>Year 13</grade_applying_for>
+<year_applying_for>2018</year_applying_for>
 <resident_status_applying_for>false</resident_status_applying_for>
 <student_group_applying_for>false</student_group_applying_for>
 <campus_applying_for>false</campus_applying_for>
@@ -608,7 +547,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>19minah</username>
-<update_date>2017-11-07T20:32:00+00:00</update_date>
+<update_date>2018-04-04T02:44:00+00:00</update_date>
   </student>
   <student>
 <household_fk>19361</household_fk>
@@ -626,9 +565,9 @@
 <gender>Female</gender>
 <ethnicity/>
 <email_1>19RinaK@nist.ac.th</email_1>
-<display_email_1>false</display_email_1>
+<display_email_1>true</display_email_1>
 <email_2>seorinkang@gmail.com</email_2>
-<display_email_2>false</display_email_2>
+<display_email_2>true</display_email_2>
 <home_phone>02 258 8822</home_phone>
 <display_home_phone>false</display_home_phone>
 <mobile_phone>0929258152</mobile_phone>
@@ -647,8 +586,8 @@
   </role>
 </roles>
 <current_grade>Year 12</current_grade>
-<grade_applying_for>Year 12</grade_applying_for>
-<year_applying_for>2017</year_applying_for>
+<grade_applying_for>Year 13</grade_applying_for>
+<year_applying_for>2018</year_applying_for>
 <resident_status_applying_for>false</resident_status_applying_for>
 <student_group_applying_for>false</student_group_applying_for>
 <campus_applying_for>false</campus_applying_for>
@@ -669,7 +608,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>19seorink</username>
-<update_date>2017-10-05T20:28:00+00:00</update_date>
+<update_date>2018-04-04T20:30:00+00:00</update_date>
   </student>
   <student>
 <household_fk>19731</household_fk>
@@ -689,10 +628,10 @@
 <email_1>18ShebriB@nist.ac.th</email_1>
 <display_email_1>true</display_email_1>
 <email_2>s.bidari@yahoo.co.uk</email_2>
-<display_email_2>false</display_email_2>
+<display_email_2>true</display_email_2>
 <home_phone>026725016</home_phone>
 <display_home_phone>true</display_home_phone>
-<mobile_phone/>
+<mobile_phone>0970679288</mobile_phone>
 <display_mobile_phone>false</display_mobile_phone>
 <advisor_fk>44798</advisor_fk>
 <advisor_name>Janelle Grier</advisor_name>
@@ -714,7 +653,7 @@
 <student_group_applying_for>false</student_group_applying_for>
 <campus_applying_for>false</campus_applying_for>
 <school_level>Secondary</school_level>
-<enrollment_status>RE: Re-Enrolled</enrollment_status>
+<enrollment_status>N/A</enrollment_status>
 <new_student>false</new_student>
 <graduation_year>2018</graduation_year>
 <resident_status/>
@@ -730,7 +669,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18shebrib</username>
-<update_date>2017-11-07T20:32:00+00:00</update_date>
+<update_date>2018-04-18T08:34:00+00:00</update_date>
   </student>
   <student>
 <household_fk>19750</household_fk>
@@ -748,12 +687,12 @@
 <gender>Male</gender>
 <ethnicity/>
 <email_1>18MaxN@nist.ac.th</email_1>
-<display_email_1>false</display_email_1>
+<display_email_1>true</display_email_1>
 <email_2/>
-<display_email_2>false</display_email_2>
+<display_email_2>true</display_email_2>
 <home_phone>02-205-4220</home_phone>
 <display_home_phone>false</display_home_phone>
-<mobile_phone/>
+<mobile_phone>0970842256</mobile_phone>
 <display_mobile_phone>false</display_mobile_phone>
 <advisor_fk>44798</advisor_fk>
 <advisor_name>Janelle Grier</advisor_name>
@@ -791,7 +730,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>18maxn</username>
-<update_date>2017-10-12T20:36:00+00:00</update_date>
+<update_date>2018-04-20T04:56:00+00:00</update_date>
   </student>
   <student>
 <household_fk>20023</household_fk>
@@ -809,9 +748,9 @@
 <gender>Female</gender>
 <ethnicity/>
 <email_1>19IsabellaL@nist.ac.th</email_1>
-<display_email_1>false</display_email_1>
+<display_email_1>true</display_email_1>
 <email_2/>
-<display_email_2>false</display_email_2>
+<display_email_2>true</display_email_2>
 <home_phone/>
 <display_home_phone>false</display_home_phone>
 <mobile_phone/>
@@ -830,14 +769,14 @@
   </role>
 </roles>
 <current_grade>Year 12</current_grade>
-<grade_applying_for>Year 12</grade_applying_for>
-<year_applying_for>2017</year_applying_for>
+<grade_applying_for>Year 13</grade_applying_for>
+<year_applying_for>2018</year_applying_for>
 <resident_status_applying_for>false</resident_status_applying_for>
 <student_group_applying_for>false</student_group_applying_for>
 <campus_applying_for>false</campus_applying_for>
 <school_level>Secondary</school_level>
-<enrollment_status>EN: Newly Enrolled</enrollment_status>
-<new_student>true</new_student>
+<enrollment_status>RE: Re-Enrolled</enrollment_status>
+<new_student>false</new_student>
 <graduation_year>2019</graduation_year>
 <resident_status/>
 <campus/>
@@ -852,7 +791,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>19isabellal</username>
-<update_date>2017-09-14T00:22:00+00:00</update_date>
+<update_date>2018-04-04T02:44:00+00:00</update_date>
   </student>
   <student>
 <household_fk>20085</household_fk>
@@ -870,12 +809,12 @@
 <gender>Male</gender>
 <ethnicity/>
 <email_1>19AliZ@nist.ac.th</email_1>
-<display_email_1>false</display_email_1>
+<display_email_1>true</display_email_1>
 <email_2/>
-<display_email_2>false</display_email_2>
+<display_email_2>true</display_email_2>
 <home_phone>026554870</home_phone>
-<display_home_phone>false</display_home_phone>
-<mobile_phone/>
+<display_home_phone>true</display_home_phone>
+<mobile_phone>0917467717</mobile_phone>
 <display_mobile_phone>false</display_mobile_phone>
 <advisor_fk>44545</advisor_fk>
 <advisor_name>Justin West</advisor_name>
@@ -891,14 +830,14 @@
   </role>
 </roles>
 <current_grade>Year 12</current_grade>
-<grade_applying_for>Year 12</grade_applying_for>
-<year_applying_for>2017</year_applying_for>
+<grade_applying_for>Year 13</grade_applying_for>
+<year_applying_for>2018</year_applying_for>
 <resident_status_applying_for>false</resident_status_applying_for>
 <student_group_applying_for>false</student_group_applying_for>
 <campus_applying_for>false</campus_applying_for>
 <school_level>Secondary</school_level>
-<enrollment_status>EN: Newly Enrolled</enrollment_status>
-<new_student>true</new_student>
+<enrollment_status>RE: Re-Enrolled</enrollment_status>
+<new_student>false</new_student>
 <graduation_year>2019</graduation_year>
 <resident_status/>
 <campus/>
@@ -913,7 +852,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>19aliz</username>
-<update_date>2017-11-01T11:31:00+00:00</update_date>
+<update_date>2018-04-04T02:44:00+00:00</update_date>
   </student>
   <student>
 <household_fk>20095</household_fk>
@@ -931,9 +870,9 @@
 <gender>Male</gender>
 <ethnicity/>
 <email_1>19PavanG@nist.ac.th</email_1>
-<display_email_1>false</display_email_1>
+<display_email_1>true</display_email_1>
 <email_2>pavanpreet2001@gmail.com</email_2>
-<display_email_2>false</display_email_2>
+<display_email_2>true</display_email_2>
 <home_phone>+6565245914</home_phone>
 <display_home_phone>false</display_home_phone>
 <mobile_phone/>
@@ -952,14 +891,14 @@
   </role>
 </roles>
 <current_grade>Year 12</current_grade>
-<grade_applying_for>Year 12</grade_applying_for>
-<year_applying_for>2017</year_applying_for>
+<grade_applying_for>Year 13</grade_applying_for>
+<year_applying_for>2018</year_applying_for>
 <resident_status_applying_for>false</resident_status_applying_for>
 <student_group_applying_for>false</student_group_applying_for>
 <campus_applying_for>false</campus_applying_for>
 <school_level>Secondary</school_level>
-<enrollment_status>EN: Newly Enrolled</enrollment_status>
-<new_student>true</new_student>
+<enrollment_status>RE: Re-Enrolled</enrollment_status>
+<new_student>false</new_student>
 <graduation_year>2019</graduation_year>
 <resident_status/>
 <campus/>
@@ -974,7 +913,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>19pavang</username>
-<update_date>2017-11-16T00:27:00+00:00</update_date>
+<update_date>2018-04-04T02:44:00+00:00</update_date>
   </student>
   <student>
 <household_fk>20147</household_fk>
@@ -994,8 +933,8 @@
 <email_1>19TamiS@nist.ac.th</email_1>
 <display_email_1>true</display_email_1>
 <email_2/>
-<display_email_2>false</display_email_2>
-<home_phone>301-310-3485</home_phone>
+<display_email_2>true</display_email_2>
+<home_phone>022585296</home_phone>
 <display_home_phone>true</display_home_phone>
 <mobile_phone/>
 <display_mobile_phone>false</display_mobile_phone>
@@ -1013,14 +952,14 @@
   </role>
 </roles>
 <current_grade>Year 12</current_grade>
-<grade_applying_for>Year 12</grade_applying_for>
-<year_applying_for>2017</year_applying_for>
+<grade_applying_for>Year 13</grade_applying_for>
+<year_applying_for>2018</year_applying_for>
 <resident_status_applying_for>false</resident_status_applying_for>
 <student_group_applying_for>false</student_group_applying_for>
 <campus_applying_for>false</campus_applying_for>
 <school_level>Secondary</school_level>
-<enrollment_status>EN: Newly Enrolled</enrollment_status>
-<new_student>true</new_student>
+<enrollment_status>RE: Re-Enrolled</enrollment_status>
+<new_student>false</new_student>
 <graduation_year>2019</graduation_year>
 <resident_status/>
 <campus/>
@@ -1035,7 +974,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>19tamis</username>
-<update_date>2017-09-01T06:30:00+00:00</update_date>
+<update_date>2018-04-04T02:44:00+00:00</update_date>
   </student>
   <student>
 <household_fk>20359</household_fk>
@@ -1053,10 +992,10 @@
 <gender>Female</gender>
 <ethnicity/>
 <email_1>19KhushiK@nist.ac.th</email_1>
-<display_email_1>false</display_email_1>
+<display_email_1>true</display_email_1>
 <email_2>khushi.kapoor2105@gmail.com</email_2>
-<display_email_2>false</display_email_2>
-<home_phone>+84 4 37589325</home_phone>
+<display_email_2>true</display_email_2>
+<home_phone>065-521-3877</home_phone>
 <display_home_phone>false</display_home_phone>
 <mobile_phone/>
 <display_mobile_phone>false</display_mobile_phone>
@@ -1070,18 +1009,18 @@
     <description>Student</description>
   </role>
   <role>
-    <description>Former Program Student</description>
+    <description>Program Student</description>
   </role>
 </roles>
 <current_grade>Year 12</current_grade>
-<grade_applying_for>Year 12</grade_applying_for>
-<year_applying_for>2017</year_applying_for>
+<grade_applying_for>Year 13</grade_applying_for>
+<year_applying_for>2018</year_applying_for>
 <resident_status_applying_for>false</resident_status_applying_for>
 <student_group_applying_for>false</student_group_applying_for>
 <campus_applying_for>false</campus_applying_for>
 <school_level>Secondary</school_level>
-<enrollment_status>EN: Newly Enrolled</enrollment_status>
-<new_student>true</new_student>
+<enrollment_status>RE: Re-Enrolled</enrollment_status>
+<new_student>false</new_student>
 <graduation_year>2019</graduation_year>
 <resident_status/>
 <campus/>
@@ -1096,7 +1035,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>19khushik</username>
-<update_date>2017-11-07T20:32:00+00:00</update_date>
+<update_date>2018-04-26T01:15:00+00:00</update_date>
   </student>
   <student>
 <household_fk>20433</household_fk>
@@ -1114,10 +1053,10 @@
 <gender>Male</gender>
 <ethnicity/>
 <email_1>19JasonJ@nist.ac.th</email_1>
-<display_email_1>false</display_email_1>
+<display_email_1>true</display_email_1>
 <email_2>jolink.jason@gmail.com</email_2>
-<display_email_2>false</display_email_2>
-<home_phone>+31610191982</home_phone>
+<display_email_2>true</display_email_2>
+<home_phone>+66623501380</home_phone>
 <display_home_phone>false</display_home_phone>
 <mobile_phone>+66623505380</mobile_phone>
 <display_mobile_phone>false</display_mobile_phone>
@@ -1135,14 +1074,14 @@
   </role>
 </roles>
 <current_grade>Year 12</current_grade>
-<grade_applying_for>Year 12</grade_applying_for>
-<year_applying_for>2017</year_applying_for>
+<grade_applying_for>Year 13</grade_applying_for>
+<year_applying_for>2018</year_applying_for>
 <resident_status_applying_for>false</resident_status_applying_for>
 <student_group_applying_for>false</student_group_applying_for>
 <campus_applying_for>false</campus_applying_for>
 <school_level>Secondary</school_level>
-<enrollment_status>EN: Newly Enrolled</enrollment_status>
-<new_student>true</new_student>
+<enrollment_status>RE: Re-Enrolled</enrollment_status>
+<new_student>false</new_student>
 <graduation_year>2019</graduation_year>
 <resident_status/>
 <campus/>
@@ -1157,7 +1096,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>19jasonj</username>
-<update_date>2017-09-07T20:29:00+00:00</update_date>
+<update_date>2018-04-26T20:29:00+00:00</update_date>
   </student>
   <student>
 <household_fk>20486</household_fk>
@@ -1177,7 +1116,7 @@
 <email_1>19ShivankS@nist.ac.th</email_1>
 <display_email_1>true</display_email_1>
 <email_2/>
-<display_email_2>false</display_email_2>
+<display_email_2>true</display_email_2>
 <home_phone>026511932</home_phone>
 <display_home_phone>true</display_home_phone>
 <mobile_phone>0971036134</mobile_phone>
@@ -1192,18 +1131,18 @@
     <description>Student</description>
   </role>
   <role>
-    <description>Former Program Student</description>
+    <description>Program Student</description>
   </role>
 </roles>
 <current_grade>Year 12</current_grade>
-<grade_applying_for>Year 12</grade_applying_for>
-<year_applying_for>2017</year_applying_for>
+<grade_applying_for>Year 13</grade_applying_for>
+<year_applying_for>2018</year_applying_for>
 <resident_status_applying_for>false</resident_status_applying_for>
 <student_group_applying_for>false</student_group_applying_for>
 <campus_applying_for>false</campus_applying_for>
 <school_level>Secondary</school_level>
-<enrollment_status>EN: Newly Enrolled</enrollment_status>
-<new_student>true</new_student>
+<enrollment_status>RE: Re-Enrolled</enrollment_status>
+<new_student>false</new_student>
 <graduation_year>2019</graduation_year>
 <resident_status/>
 <campus/>
@@ -1218,7 +1157,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>19shivanks</username>
-<update_date>2017-11-07T20:32:00+00:00</update_date>
+<update_date>2018-05-14T20:32:00+00:00</update_date>
   </student>
   <student>
 <household_fk>20542</household_fk>
@@ -1238,7 +1177,7 @@
 <email_1>19TomK@nist.ac.th</email_1>
 <display_email_1>true</display_email_1>
 <email_2>tom.j2001@hotmail.com</email_2>
-<display_email_2>false</display_email_2>
+<display_email_2>true</display_email_2>
 <home_phone>02 260 1964</home_phone>
 <display_home_phone>true</display_home_phone>
 <mobile_phone>+66 9 4821 0889</mobile_phone>
@@ -1257,14 +1196,14 @@
   </role>
 </roles>
 <current_grade>Year 12</current_grade>
-<grade_applying_for>Year 12</grade_applying_for>
-<year_applying_for>2017</year_applying_for>
+<grade_applying_for>Year 13</grade_applying_for>
+<year_applying_for>2018</year_applying_for>
 <resident_status_applying_for>false</resident_status_applying_for>
 <student_group_applying_for>false</student_group_applying_for>
 <campus_applying_for>false</campus_applying_for>
 <school_level>Secondary</school_level>
-<enrollment_status>EN: Newly Enrolled</enrollment_status>
-<new_student>true</new_student>
+<enrollment_status>RE: Re-Enrolled</enrollment_status>
+<new_student>false</new_student>
 <graduation_year>2019</graduation_year>
 <resident_status/>
 <campus/>
@@ -1279,7 +1218,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>19tomk</username>
-<update_date>2017-11-14T07:20:00+00:00</update_date>
+<update_date>2018-05-04T02:18:00+00:00</update_date>
   </student>
   <student>
 <household_fk>20453</household_fk>
@@ -1297,9 +1236,9 @@
 <gender>Female</gender>
 <ethnicity/>
 <email_1>19MadiM@nist.ac.th</email_1>
-<display_email_1>false</display_email_1>
+<display_email_1>true</display_email_1>
 <email_2/>
-<display_email_2>false</display_email_2>
+<display_email_2>true</display_email_2>
 <home_phone/>
 <display_home_phone>false</display_home_phone>
 <mobile_phone/>
@@ -1318,13 +1257,13 @@
   </role>
 </roles>
 <current_grade>Year 12</current_grade>
-<grade_applying_for>Year 12</grade_applying_for>
-<year_applying_for>2017</year_applying_for>
+<grade_applying_for>Year 13</grade_applying_for>
+<year_applying_for>2018</year_applying_for>
 <resident_status_applying_for>false</resident_status_applying_for>
 <student_group_applying_for>false</student_group_applying_for>
 <campus_applying_for>false</campus_applying_for>
 <school_level>Secondary</school_level>
-<enrollment_status>Withdrawing</enrollment_status>
+<enrollment_status>RE: Re-Enrolled</enrollment_status>
 <new_student>false</new_student>
 <graduation_year>2019</graduation_year>
 <resident_status/>
@@ -1340,7 +1279,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>19madim</username>
-<update_date>2017-11-08T09:05:00+00:00</update_date>
+<update_date>2018-04-04T02:44:00+00:00</update_date>
   </student>
   <student>
 <household_fk>20877</household_fk>
@@ -1360,7 +1299,7 @@
 <email_1>19LeaP@nist.ac.th</email_1>
 <display_email_1>true</display_email_1>
 <email_2/>
-<display_email_2>false</display_email_2>
+<display_email_2>true</display_email_2>
 <home_phone/>
 <display_home_phone>true</display_home_phone>
 <mobile_phone/>
@@ -1374,16 +1313,19 @@
   <role>
     <description>Student</description>
   </role>
+  <role>
+    <description>Program Student</description>
+  </role>
 </roles>
 <current_grade>Year 12</current_grade>
-<grade_applying_for>Year 12</grade_applying_for>
-<year_applying_for>2017</year_applying_for>
+<grade_applying_for>Year 13</grade_applying_for>
+<year_applying_for>2018</year_applying_for>
 <resident_status_applying_for>false</resident_status_applying_for>
 <student_group_applying_for>false</student_group_applying_for>
 <campus_applying_for>false</campus_applying_for>
 <school_level>Secondary</school_level>
-<enrollment_status>EN: Newly Enrolled</enrollment_status>
-<new_student>true</new_student>
+<enrollment_status>RE: Re-Enrolled</enrollment_status>
+<new_student>false</new_student>
 <graduation_year>2019</graduation_year>
 <resident_status/>
 <campus/>
@@ -1398,7 +1340,7 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username>19LeaP</username>
-<update_date>2017-10-03T01:49:00+00:00</update_date>
+<update_date>2018-04-30T03:21:00+00:00</update_date>
   </student>
   <student>
 <household_fk>20917</household_fk>
@@ -1456,64 +1398,6 @@
 <parent_3_fk>0</parent_3_fk>
 <parent_4_fk>0</parent_4_fk>
 <username/>
-<update_date>2017-08-24T00:24:00+00:00</update_date>
-  </student>
-  <student>
-<household_fk>22431</household_fk>
-<person_pk>51035</person_pk>
-<legacy_id>44589:1</legacy_id>
-<legacy_student_id>0</legacy_student_id>
-<name_prefix>Mr.</name_prefix>
-<first_name>thanachot phanpoowong</first_name>
-<first_nick_name>thanachot phanpoowong</first_nick_name>
-<preferred_name/>
-<middle_name>auto</middle_name>
-<last_name>thanachot phanpoowong</last_name>
-<name_suffix/>
-<birthday>2004-11-23</birthday>
-<gender>Male</gender>
-<ethnicity/>
-<email_1/>
-<display_email_1>false</display_email_1>
-<email_2/>
-<display_email_2>false</display_email_2>
-<home_phone>0906910068</home_phone>
-<display_home_phone>false</display_home_phone>
-<mobile_phone/>
-<display_mobile_phone>false</display_mobile_phone>
-<advisor_fk>0</advisor_fk>
-<advisor_name/>
-<homeroom_teacher_fk>0</homeroom_teacher_fk>
-<homeroom_teacher_name/>
-<homeroom>0</homeroom>
-<roles type="array">
-  <role>
-    <description>Future Program Student</description>
-  </role>
-</roles>
-<current_grade>Year 12</current_grade>
-<grade_applying_for>Year 13</grade_applying_for>
-<year_applying_for>2017</year_applying_for>
-<resident_status_applying_for>false</resident_status_applying_for>
-<student_group_applying_for>false</student_group_applying_for>
-<campus_applying_for>false</campus_applying_for>
-<school_level>All School</school_level>
-<enrollment_status>N/A</enrollment_status>
-<new_student>false</new_student>
-<graduation_year>0</graduation_year>
-<resident_status/>
-<campus/>
-<dorm>IB MYP: Mathematics 10 Standard</dorm>
-<room_number/>
-<floor_number>0</floor_number>
-<bed_number>0</bed_number>
-<mailbox_number/>
-<student_group/>
-<parent_1_fk>51036</parent_1_fk>
-<parent_2_fk>0</parent_2_fk>
-<parent_3_fk>0</parent_3_fk>
-<parent_4_fk>0</parent_4_fk>
-<username/>
-<update_date>2017-11-14T02:29:00+00:00</update_date>
+<update_date>2018-01-02T20:31:00+00:00</update_date>
   </student>
 </students>

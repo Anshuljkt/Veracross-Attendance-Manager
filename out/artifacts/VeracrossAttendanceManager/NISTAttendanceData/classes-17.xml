@@ -1,6 +1,393 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classes type="array">
   <class>
+<class_pk type="integer">106784</class_pk>
+<class_id>SMT-LS.04</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Secondary Meeting</course>
+<course_id type="integer">1219</course_id>
+<description>Meeting - Learning Support Beth/Nick</description>
+<subject>SEC Meeting</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">21708</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Elizabeth Golatzki</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">26229</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Nicholas Keam</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>B</day>
+    <room/>
+    <block>Period 4 (SEC)</block>
+    <block_abbreviation>P4-SEC</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">106785</class_pk>
+<class_id>SMT-PLA.01</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Secondary Meeting</course>
+<course_id type="integer">1219</course_id>
+<description>Meeting - High School Course Planning</description>
+<subject>SEC Meeting</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">10988</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Randall Wallis</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">11174</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Emeli Ward</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">26229</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Nicholas Keam</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">44550</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Alison Armstrong</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>E</day>
+    <room/>
+    <block>Period 3 (SEC)</block>
+    <block_abbreviation>P3-SEC</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">106786</class_pk>
+<class_id>SMT-PLA.02</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Secondary Meeting</course>
+<course_id type="integer">1219</course_id>
+<description>Meeting - High School Course Planning</description>
+<subject>SEC Meeting</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">11270</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Matthew Manfredi</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">26229</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Nicholas Keam</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">32838</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Paul Pickering</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>F</day>
+    <room/>
+    <block>Period 1 (SEC)</block>
+    <block_abbreviation>P1-SEC</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">106787</class_pk>
+<class_id>SMT-PLA.03</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Secondary Meeting</course>
+<course_id type="integer">1219</course_id>
+<description>Meeting - High School Course Planning</description>
+<subject>SEC Meeting</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">19546</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Joseph McMillan</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">26229</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Nicholas Keam</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">30083</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Jennifer Lacey</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">38954</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Heather Pitzel</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>F</day>
+    <room/>
+    <block>Period 3 (SEC)</block>
+    <block_abbreviation>P3-SEC</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">106788</class_pk>
+<class_id>SUP-SDE.03</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Learning Support Schedule for Secondary Teachers</course>
+<course_id type="integer">1221</course_id>
+<description>Support - Integrated Studies 7 BGO</description>
+<subject>Learning Support</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">41355</teacher_fk>
+<teacher_full_name>Shefali Desai</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">41355</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Shefali Desai</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>A</day>
+    <room/>
+    <block>Period 2 (SEC)</block>
+    <block_abbreviation>P2-SEC</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>C</day>
+    <room/>
+    <block>Period 4 (SEC)</block>
+    <block_abbreviation>P4-SEC</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>E</day>
+    <room/>
+    <block>Period 4 (SEC)</block>
+    <block_abbreviation>P4-SEC</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>F</day>
+    <room/>
+    <block>Period 2 (SEC)</block>
+    <block_abbreviation>P2-SEC</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">106789</class_pk>
+<class_id>SUP-SSU.03</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2017</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Learning Support Schedule for Secondary Teachers</course>
+<course_id type="integer">1221</course_id>
+<description>Support - Integrated Studies 7 BGO</description>
+<subject>Learning Support</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">34834</teacher_fk>
+<teacher_full_name>Shompooh Surakanjanachat</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">34834</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Shompooh Surakanjanachat</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>A</day>
+    <room/>
+    <block>Period 2 (SEC)</block>
+    <block_abbreviation>P2-SEC</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>E</day>
+    <room/>
+    <block>Period 4 (SEC)</block>
+    <block_abbreviation>P4-SEC</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>F</day>
+    <room/>
+    <block>Period 2 (SEC)</block>
+    <block_abbreviation>P2-SEC</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
 <class_pk type="integer">106790</class_pk>
 <class_id>SUP-LMA.01</class_id>
 <group_fk type="integer">0</group_fk>
@@ -15,14 +402,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">38842</teacher_fk>
 <teacher_full_name>Madeleine Lambert</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">38842</person_fk>
@@ -78,14 +465,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">38842</teacher_fk>
 <teacher_full_name>Madeleine Lambert</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">38842</person_fk>
@@ -141,14 +528,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">38842</teacher_fk>
 <teacher_full_name>Madeleine Lambert</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">38842</person_fk>
@@ -213,14 +600,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">38842</teacher_fk>
 <teacher_full_name>Madeleine Lambert</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">38842</person_fk>
@@ -285,14 +672,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">38842</teacher_fk>
 <teacher_full_name>Madeleine Lambert</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">38842</person_fk>
@@ -357,14 +744,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">38842</teacher_fk>
 <teacher_full_name>Madeleine Lambert</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">38842</person_fk>
@@ -402,14 +789,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Numeric</grading_method>
 <assignment_grading_method>IB MYP Criteria</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
 <teacher_fk type="integer">11402</teacher_fk>
 <teacher_full_name>Uraiwan Chaiviriyakul</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">11402</person_fk>
@@ -453,8 +840,8 @@
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">18216</teacher_fk>
 <teacher_full_name>Kittipong Pingkong</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<status>Complete</status>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">18216</person_fk>
@@ -466,15 +853,6 @@
   </teacher>
 </teachers>
 <meeting_times type="array">
-  <meeting_time>
-    <grading_period>ALL</grading_period>
-    <day>Friday</day>
-    <room>1113 IML Music Room (Equip: Piano)</room>
-    <block>Period 8 (IML)</block>
-    <block_abbreviation>I8</block_abbreviation>
-    <start_time>11:00</start_time>
-    <end_time>11:30</end_time>
-  </meeting_time>
 </meeting_times>
   </class>
   <class>
@@ -490,16 +868,16 @@
 <description>Homeroom Advisory 12</description>
 <subject>Houseroom SEC</subject>
 <course_type>Non-Academic</course_type>
-<grading_method>Comments Only</grading_method>
+<grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
 <parent_portal_visibility>Show</parent_portal_visibility>
 <student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<parent_portal_assignment_display>Assignments + Status + Scores</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status + Scores</student_portal_assignment_display>
 <teacher_fk type="integer">30083</teacher_fk>
 <teacher_full_name>Jennifer Lacey</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">30083</person_fk>
@@ -514,7 +892,7 @@
   <meeting_time>
     <grading_period>ALL</grading_period>
     <day>F</day>
-    <room/>
+    <room>4606</room>
     <block>Period 3 (L) DP</block>
     <block_abbreviation>P3-LDP</block_abbreviation>
     <start_time>11:20</start_time>
@@ -539,12 +917,12 @@
 <assignment_grading_method>Default</assignment_grading_method>
 <parent_portal_visibility>Show</parent_portal_visibility>
 <student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<parent_portal_assignment_display>Assignments + Status + Scores</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status + Scores</student_portal_assignment_display>
 <teacher_fk type="integer">26229</teacher_fk>
 <teacher_full_name>Nicholas Keam</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">26229</person_fk>
@@ -588,8 +966,8 @@
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">41438</teacher_fk>
 <teacher_full_name>Santipat Santichaiananta</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<status>Complete</status>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">41438</person_fk>
@@ -601,15 +979,6 @@
   </teacher>
 </teachers>
 <meeting_times type="array">
-  <meeting_time>
-    <grading_period>ALL</grading_period>
-    <day>Wednesday</day>
-    <room>1126 IML Music Room (Equip: Vocal)</room>
-    <block>Period 12 (IML)</block>
-    <block_abbreviation>I12</block_abbreviation>
-    <start_time>13:00</start_time>
-    <end_time>13:30</end_time>
-  </meeting_time>
 </meeting_times>
   </class>
   <class>
@@ -627,14 +996,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">8152</teacher_fk>
 <teacher_full_name>Cristina Landazabal Verde</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">8152</person_fk>
@@ -681,14 +1050,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">8152</teacher_fk>
 <teacher_full_name>Cristina Landazabal Verde</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">8152</person_fk>
@@ -726,14 +1095,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">8152</teacher_fk>
 <teacher_full_name>Cristina Landazabal Verde</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">8152</person_fk>
@@ -771,14 +1140,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">8152</teacher_fk>
 <teacher_full_name>Cristina Landazabal Verde</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">8152</person_fk>
@@ -825,14 +1194,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">8152</teacher_fk>
 <teacher_full_name>Cristina Landazabal Verde</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">8152</person_fk>
@@ -879,14 +1248,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">8152</teacher_fk>
 <teacher_full_name>Cristina Landazabal Verde</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">8152</person_fk>
@@ -924,14 +1293,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">8152</teacher_fk>
 <teacher_full_name>Cristina Landazabal Verde</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">8152</person_fk>
@@ -978,14 +1347,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">8152</teacher_fk>
 <teacher_full_name>Cristina Landazabal Verde</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">8152</person_fk>
@@ -1023,14 +1392,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">8152</teacher_fk>
 <teacher_full_name>Cristina Landazabal Verde</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">8152</person_fk>
@@ -1077,14 +1446,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">8152</teacher_fk>
 <teacher_full_name>Cristina Landazabal Verde</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">8152</person_fk>
@@ -1131,14 +1500,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">8152</teacher_fk>
 <teacher_full_name>Cristina Landazabal Verde</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">8152</person_fk>
@@ -1185,14 +1554,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">8152</teacher_fk>
 <teacher_full_name>Cristina Landazabal Verde</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">8152</person_fk>
@@ -1230,14 +1599,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">8152</teacher_fk>
 <teacher_full_name>Cristina Landazabal Verde</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">8152</person_fk>
@@ -1275,14 +1644,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">8152</teacher_fk>
 <teacher_full_name>Cristina Landazabal Verde</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">8152</person_fk>
@@ -1320,14 +1689,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">8152</teacher_fk>
 <teacher_full_name>Cristina Landazabal Verde</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">8152</person_fk>
@@ -1374,14 +1743,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">8152</teacher_fk>
 <teacher_full_name>Cristina Landazabal Verde</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">8152</person_fk>
@@ -1419,14 +1788,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">8152</teacher_fk>
 <teacher_full_name>Cristina Landazabal Verde</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">8152</person_fk>
@@ -1464,14 +1833,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">22267</teacher_fk>
 <teacher_full_name>Dianne Gamage</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">22267</person_fk>
@@ -1527,14 +1896,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">22267</teacher_fk>
 <teacher_full_name>Dianne Gamage</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">22267</person_fk>
@@ -1590,14 +1959,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">22267</teacher_fk>
 <teacher_full_name>Dianne Gamage</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">22267</person_fk>
@@ -1644,14 +2013,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">22267</teacher_fk>
 <teacher_full_name>Dianne Gamage</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">22267</person_fk>
@@ -1716,14 +2085,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">22267</teacher_fk>
 <teacher_full_name>Dianne Gamage</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">22267</person_fk>
@@ -1779,14 +2148,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">22267</teacher_fk>
 <teacher_full_name>Dianne Gamage</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">22267</person_fk>
@@ -1851,14 +2220,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">22267</teacher_fk>
 <teacher_full_name>Dianne Gamage</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">22267</person_fk>
@@ -1914,14 +2283,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">22267</teacher_fk>
 <teacher_full_name>Dianne Gamage</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">22267</person_fk>
@@ -1959,14 +2328,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">22267</teacher_fk>
 <teacher_full_name>Dianne Gamage</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">22267</person_fk>
@@ -2004,14 +2373,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">22267</teacher_fk>
 <teacher_full_name>Dianne Gamage</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">22267</person_fk>
@@ -2049,14 +2418,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">22267</teacher_fk>
 <teacher_full_name>Dianne Gamage</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">22267</person_fk>
@@ -2094,14 +2463,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">22267</teacher_fk>
 <teacher_full_name>Dianne Gamage</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">22267</person_fk>
@@ -2139,14 +2508,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">22267</teacher_fk>
 <teacher_full_name>Dianne Gamage</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">22267</person_fk>
@@ -2184,14 +2553,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">19364</teacher_fk>
 <teacher_full_name>Deborah Renn</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">19364</person_fk>
@@ -2283,14 +2652,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">19364</teacher_fk>
 <teacher_full_name>Deborah Renn</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">19364</person_fk>
@@ -2382,14 +2751,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">19364</teacher_fk>
 <teacher_full_name>Deborah Renn</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">19364</person_fk>
@@ -2490,14 +2859,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">19364</teacher_fk>
 <teacher_full_name>Deborah Renn</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">19364</person_fk>
@@ -2535,14 +2904,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">19364</teacher_fk>
 <teacher_full_name>Deborah Renn</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">19364</person_fk>
@@ -2580,14 +2949,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">19364</teacher_fk>
 <teacher_full_name>Deborah Renn</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">19364</person_fk>
@@ -2631,8 +3000,8 @@
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">32840</teacher_fk>
 <teacher_full_name>Jennifer Abreu</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<status>Complete</status>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">28735</person_fk>
@@ -2660,15 +3029,6 @@
   </teacher>
 </teachers>
 <meeting_times type="array">
-  <meeting_time>
-    <grading_period>ECA Session 1</grading_period>
-    <day>A</day>
-    <room>4408</room>
-    <block>Lunch (Y10-11)</block>
-    <block_abbreviation>L10-13</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
 </meeting_times>
   </class>
   <class>
@@ -2686,14 +3046,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">26246</teacher_fk>
 <teacher_full_name>Kristin Simmers</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">26246</person_fk>
@@ -2740,14 +3100,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">26246</teacher_fk>
 <teacher_full_name>Kristin Simmers</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">26246</person_fk>
@@ -2803,14 +3163,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">26246</teacher_fk>
 <teacher_full_name>Kristin Simmers</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">26246</person_fk>
@@ -2857,14 +3217,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">26246</teacher_fk>
 <teacher_full_name>Kristin Simmers</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">26246</person_fk>
@@ -2938,14 +3298,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">26246</teacher_fk>
 <teacher_full_name>Kristin Simmers</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">26246</person_fk>
@@ -2992,14 +3352,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">26246</teacher_fk>
 <teacher_full_name>Kristin Simmers</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">26246</person_fk>
@@ -3037,14 +3397,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">26246</teacher_fk>
 <teacher_full_name>Kristin Simmers</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">26246</person_fk>
@@ -3082,14 +3442,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">26246</teacher_fk>
 <teacher_full_name>Kristin Simmers</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">26246</person_fk>
@@ -3127,14 +3487,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">26246</teacher_fk>
 <teacher_full_name>Kristin Simmers</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">26246</person_fk>
@@ -3172,14 +3532,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">26246</teacher_fk>
 <teacher_full_name>Kristin Simmers</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">26246</person_fk>
@@ -3217,14 +3577,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">26246</teacher_fk>
 <teacher_full_name>Kristin Simmers</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">26246</person_fk>
@@ -3262,14 +3622,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">26246</teacher_fk>
 <teacher_full_name>Kristin Simmers</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">26246</person_fk>
@@ -3307,14 +3667,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">26246</teacher_fk>
 <teacher_full_name>Kristin Simmers</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">26246</person_fk>
@@ -3352,14 +3712,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">26246</teacher_fk>
 <teacher_full_name>Kristin Simmers</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">26246</person_fk>
@@ -3397,14 +3757,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">26246</teacher_fk>
 <teacher_full_name>Kristin Simmers</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">26246</person_fk>
@@ -3442,14 +3802,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">26246</teacher_fk>
 <teacher_full_name>Kristin Simmers</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">26246</person_fk>
@@ -3487,14 +3847,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">26246</teacher_fk>
 <teacher_full_name>Kristin Simmers</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">26246</person_fk>
@@ -3532,14 +3892,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">26246</teacher_fk>
 <teacher_full_name>Kristin Simmers</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">26246</person_fk>
@@ -3577,14 +3937,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">26246</teacher_fk>
 <teacher_full_name>Kristin Simmers</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">26246</person_fk>
@@ -3622,14 +3982,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">26246</teacher_fk>
 <teacher_full_name>Kristin Simmers</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">26246</person_fk>
@@ -3669,12 +4029,12 @@
 <assignment_grading_method>Default</assignment_grading_method>
 <parent_portal_visibility>Show</parent_portal_visibility>
 <student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<parent_portal_assignment_display>Assignments + Status + Scores</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status + Scores</student_portal_assignment_display>
 <teacher_fk type="integer">26229</teacher_fk>
 <teacher_full_name>Nicholas Keam</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">26229</person_fk>
@@ -3712,14 +4072,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">26974</teacher_fk>
 <teacher_full_name>Ann Gee Teo</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">26974</person_fk>
@@ -3791,16 +4151,16 @@
 <description>Homeroom Advisory 13</description>
 <subject>Houseroom SEC</subject>
 <course_type>Non-Academic</course_type>
-<grading_method>Comments Only</grading_method>
+<grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
 <parent_portal_visibility>Show</parent_portal_visibility>
 <student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<parent_portal_assignment_display>Assignments + Status + Scores</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status + Scores</student_portal_assignment_display>
 <teacher_fk type="integer">11270</teacher_fk>
 <teacher_full_name>Matthew Manfredi</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">11270</person_fk>
@@ -3815,7 +4175,7 @@
   <meeting_time>
     <grading_period>ALL</grading_period>
     <day>B</day>
-    <room/>
+    <room>4304</room>
     <block>Period 5 (DP)</block>
     <block_abbreviation>P5-DP</block_abbreviation>
     <start_time/>
@@ -3845,7 +4205,7 @@
 <teacher_fk type="integer">45450</teacher_fk>
 <teacher_full_name>Jenny Friedman</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">45450</person_fk>
@@ -3883,14 +4243,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
-<status>Future</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<status>Active</status>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
 </teachers>
 <meeting_times type="array">
@@ -3920,14 +4280,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
-<status>Future</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<status>Active</status>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
 </teachers>
 <meeting_times type="array">
@@ -3957,14 +4317,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
-<status>Future</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<status>Active</status>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
 </teachers>
 <meeting_times type="array">
@@ -3994,14 +4354,14 @@
 <course_type>Non-Academic</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
-<status>Future</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<status>Active</status>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
 </teachers>
 <meeting_times type="array">
@@ -4037,9 +4397,17 @@
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">32997</teacher_fk>
 <teacher_full_name>Danielle Fieller</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<status>Complete</status>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
+  <teacher>
+    <person_fk type="integer">28735</person_fk>
+    <role_id type="integer">100</role_id>
+    <role>Other</role>
+    <teacher_name>Nattakit Ussawachokanan</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
   <teacher>
     <person_fk type="integer">32997</person_fk>
     <role_id type="integer">1</role_id>
@@ -4050,60 +4418,6 @@
   </teacher>
 </teachers>
 <meeting_times type="array">
-  <meeting_time>
-    <grading_period>ECA Session 2</grading_period>
-    <day>Monday</day>
-    <room>Sibellus Tech Suite</room>
-    <block>ECA Period 1</block>
-    <block_abbreviation>ECA1</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">106905</class_pk>
-<class_id>ECA-MUS-WED.03</class_id>
-<group_fk type="integer">615413</group_fk>
-<group_id>201-2017-4-106905-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>Wednesday ECA Music</course>
-<course_id type="integer">1159</course_id>
-<description>Marimba Ensemble Y7-13 ECA2/17-18</description>
-<subject>ECA</subject>
-<course_type>Other Program</course_type>
-<grading_method>Not Graded</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">44550</teacher_fk>
-<teacher_full_name>Alison Armstrong</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">44550</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Alison Armstrong</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-  <meeting_time>
-    <grading_period>ECA Session 2</grading_period>
-    <day>Wednesday</day>
-    <room>Mozart</room>
-    <block>ECA Period 1</block>
-    <block_abbreviation>ECA1</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
 </meeting_times>
   </class>
   <class>
@@ -4127,8 +4441,8 @@
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">25133</teacher_fk>
 <teacher_full_name>Anna Olsen</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<status>Complete</status>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">25133</person_fk>
@@ -4140,60 +4454,6 @@
   </teacher>
 </teachers>
 <meeting_times type="array">
-  <meeting_time>
-    <grading_period>ECA Session 2</grading_period>
-    <day>Thursday</day>
-    <room>Performance Studio</room>
-    <block>ECA Period 1</block>
-    <block_abbreviation>ECA1</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">106908</class_pk>
-<class_id>ECA-MUS-WED.04</class_id>
-<group_fk type="integer">615414</group_fk>
-<group_id>201-2017-4-106908-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>Wednesday ECA Music</course>
-<course_id type="integer">1159</course_id>
-<description>Musical Pit Band Y7-13 ECA2/17-18</description>
-<subject>ECA</subject>
-<course_type>Other Program</course_type>
-<grading_method>Not Graded</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">45471</teacher_fk>
-<teacher_full_name>Joshua Green</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">45471</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Joshua Green</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-  <meeting_time>
-    <grading_period>ECA Session 2</grading_period>
-    <day>Wednesday</day>
-    <room>Louis Armstrong</room>
-    <block>ECA Period 1</block>
-    <block_abbreviation>ECA1</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
 </meeting_times>
   </class>
   <class>
@@ -4217,9 +4477,17 @@
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">45471</teacher_fk>
 <teacher_full_name>Joshua Green</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<status>Complete</status>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
+  <teacher>
+    <person_fk type="integer">28735</person_fk>
+    <role_id type="integer">100</role_id>
+    <role>Other</role>
+    <teacher_name>Nattakit Ussawachokanan</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
   <teacher>
     <person_fk type="integer">45471</person_fk>
     <role_id type="integer">1</role_id>
@@ -4230,15 +4498,6 @@
   </teacher>
 </teachers>
 <meeting_times type="array">
-  <meeting_time>
-    <grading_period>ECA Session 2</grading_period>
-    <day>Thursday</day>
-    <room>Louis Armstrong</room>
-    <block/>
-    <block_abbreviation/>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
 </meeting_times>
   </class>
   <class>
@@ -4262,8 +4521,8 @@
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">46267</teacher_fk>
 <teacher_full_name>Tanya Varangoon</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<status>Complete</status>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">46267</person_fk>
@@ -4275,15 +4534,6 @@
   </teacher>
 </teachers>
 <meeting_times type="array">
-  <meeting_time>
-    <grading_period>ECA Session 2</grading_period>
-    <day>Monday</day>
-    <room>Gym 3</room>
-    <block>ECA Period 1</block>
-    <block_abbreviation>ECA1</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
 </meeting_times>
   </class>
   <class>
@@ -4307,9 +4557,17 @@
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">47311</teacher_fk>
 <teacher_full_name>James Russell</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<status>Complete</status>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
+  <teacher>
+    <person_fk type="integer">28735</person_fk>
+    <role_id type="integer">100</role_id>
+    <role>Other</role>
+    <teacher_name>Nattakit Ussawachokanan</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
   <teacher>
     <person_fk type="integer">47311</person_fk>
     <role_id type="integer">1</role_id>
@@ -4320,15 +4578,6 @@
   </teacher>
 </teachers>
 <meeting_times type="array">
-  <meeting_time>
-    <grading_period>ECA Session 2</grading_period>
-    <day>Monday</day>
-    <room>5401 (The Hub Exam 1)</room>
-    <block>ECA Period 1</block>
-    <block_abbreviation>ECA1</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
 </meeting_times>
   </class>
   <class>
@@ -4352,9 +4601,17 @@
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">38738</teacher_fk>
 <teacher_full_name>Leesa Chisholm</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<status>Complete</status>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
+  <teacher>
+    <person_fk type="integer">28735</person_fk>
+    <role_id type="integer">100</role_id>
+    <role>Other</role>
+    <teacher_name>Nattakit Ussawachokanan</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
   <teacher>
     <person_fk type="integer">38738</person_fk>
     <role_id type="integer">1</role_id>
@@ -4365,24 +4622,6 @@
   </teacher>
 </teachers>
 <meeting_times type="array">
-  <meeting_time>
-    <grading_period>ECA Session 2</grading_period>
-    <day>Monday</day>
-    <room>Multipurpose room</room>
-    <block>ECA Period 1</block>
-    <block_abbreviation>ECA1</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
-  <meeting_time>
-    <grading_period>ECA Session 2</grading_period>
-    <day>Thursday</day>
-    <room>Multipurpose room</room>
-    <block>ECA Period 1</block>
-    <block_abbreviation>ECA1</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
 </meeting_times>
   </class>
   <class>
@@ -4406,9 +4645,17 @@
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">44846</teacher_fk>
 <teacher_full_name>Megan Lockett</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<status>Complete</status>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
+  <teacher>
+    <person_fk type="integer">28735</person_fk>
+    <role_id type="integer">100</role_id>
+    <role>Other</role>
+    <teacher_name>Nattakit Ussawachokanan</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
   <teacher>
     <person_fk type="integer">44846</person_fk>
     <role_id type="integer">1</role_id>
@@ -4419,15 +4666,6 @@
   </teacher>
 </teachers>
 <meeting_times type="array">
-  <meeting_time>
-    <grading_period>ECA Session 2</grading_period>
-    <day>Wednesday</day>
-    <room>Gym 3</room>
-    <block>ECA Period 1</block>
-    <block_abbreviation>ECA1</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
 </meeting_times>
   </class>
   <class>
@@ -4451,9 +4689,17 @@
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">18187</teacher_fk>
 <teacher_full_name>Naurapus Kaewmark</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<status>Complete</status>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
+  <teacher>
+    <person_fk type="integer">18182</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Sansili Watcharachotewisit</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
   <teacher>
     <person_fk type="integer">18187</person_fk>
     <role_id type="integer">1</role_id>
@@ -4462,17 +4708,24 @@
     <update_grade type="boolean">true</update_grade>
     <view_grades type="boolean">true</view_grades>
   </teacher>
+  <teacher>
+    <person_fk type="integer">18194</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Tinkon Somrit</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">41311</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Puntarika Tunyavanich</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
 </teachers>
 <meeting_times type="array">
-  <meeting_time>
-    <grading_period>ECA Session 2</grading_period>
-    <day>Monday</day>
-    <room>Climbing Wall</room>
-    <block>ECA Period 1</block>
-    <block_abbreviation>ECA1</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
 </meeting_times>
   </class>
   <class>
@@ -4496,8 +4749,8 @@
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">46267</teacher_fk>
 <teacher_full_name>Tanya Varangoon</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<status>Complete</status>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">46267</person_fk>
@@ -4509,15 +4762,6 @@
   </teacher>
 </teachers>
 <meeting_times type="array">
-  <meeting_time>
-    <grading_period>ECA Session 2</grading_period>
-    <day>Monday</day>
-    <room>5501 (The Hub Gym 1xVBal or 1xBBall or 4xBadm)</room>
-    <block>Sport Period 5</block>
-    <block_abbreviation>SP5</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
 </meeting_times>
   </class>
   <class>
@@ -4541,8 +4785,8 @@
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">46267</teacher_fk>
 <teacher_full_name>Tanya Varangoon</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<status>Complete</status>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">46267</person_fk>
@@ -4554,15 +4798,6 @@
   </teacher>
 </teachers>
 <meeting_times type="array">
-  <meeting_time>
-    <grading_period>ECA Session 2</grading_period>
-    <day>Monday</day>
-    <room>Gym 3</room>
-    <block>Sport Period 5</block>
-    <block_abbreviation>SP5</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
 </meeting_times>
   </class>
   <class>
@@ -4586,8 +4821,8 @@
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">31548</teacher_fk>
 <teacher_full_name>Varinthip Krutkaew</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<status>Complete</status>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">31548</person_fk>
@@ -4599,15 +4834,6 @@
   </teacher>
 </teachers>
 <meeting_times type="array">
-  <meeting_time>
-    <grading_period>ECA Session 2</grading_period>
-    <day>Monday</day>
-    <room>Swimming Pool</room>
-    <block>ECA Period 2</block>
-    <block_abbreviation>ECA2</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
 </meeting_times>
   </class>
   <class>
@@ -4631,8 +4857,8 @@
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">11318</teacher_fk>
 <teacher_full_name>Philip Branston</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<status>Complete</status>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">11318</person_fk>
@@ -4644,15 +4870,6 @@
   </teacher>
 </teachers>
 <meeting_times type="array">
-  <meeting_time>
-    <grading_period>ECA Session 2</grading_period>
-    <day>Monday</day>
-    <room>Weight Room</room>
-    <block>ECA Period 2</block>
-    <block_abbreviation>ECA2</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
 </meeting_times>
   </class>
   <class>
@@ -4676,8 +4893,8 @@
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">46267</teacher_fk>
 <teacher_full_name>Tanya Varangoon</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<status>Complete</status>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">46267</person_fk>
@@ -4689,15 +4906,6 @@
   </teacher>
 </teachers>
 <meeting_times type="array">
-  <meeting_time>
-    <grading_period>ECA Session 2</grading_period>
-    <day>Tuesday</day>
-    <room>5501 (The Hub Gym 1xVBal or 1xBBall or 4xBadm)</room>
-    <block>ECA Period 2</block>
-    <block_abbreviation>ECA2</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
 </meeting_times>
   </class>
   <class>
@@ -4721,9 +4929,17 @@
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">31548</teacher_fk>
 <teacher_full_name>Varinthip Krutkaew</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<status>Complete</status>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
+  <teacher>
+    <person_fk type="integer">28735</person_fk>
+    <role_id type="integer">100</role_id>
+    <role>Other</role>
+    <teacher_name>Nattakit Ussawachokanan</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
   <teacher>
     <person_fk type="integer">31548</person_fk>
     <role_id type="integer">1</role_id>
@@ -4734,15 +4950,6 @@
   </teacher>
 </teachers>
 <meeting_times type="array">
-  <meeting_time>
-    <grading_period>ECA Session 2</grading_period>
-    <day>Tuesday</day>
-    <room>Swimming Pool</room>
-    <block>ECA Period 2</block>
-    <block_abbreviation>ECA2</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
 </meeting_times>
   </class>
   <class>
@@ -4766,9 +4973,25 @@
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">18187</teacher_fk>
 <teacher_full_name>Naurapus Kaewmark</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<status>Complete</status>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
+  <teacher>
+    <person_fk type="integer">11284</person_fk>
+    <role_id type="integer">100</role_id>
+    <role>Other</role>
+    <teacher_name>Lapasrada Keomora</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">18182</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Sansili Watcharachotewisit</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
   <teacher>
     <person_fk type="integer">18187</person_fk>
     <role_id type="integer">1</role_id>
@@ -4777,17 +5000,24 @@
     <update_grade type="boolean">true</update_grade>
     <view_grades type="boolean">true</view_grades>
   </teacher>
+  <teacher>
+    <person_fk type="integer">18194</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Tinkon Somrit</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">41311</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Puntarika Tunyavanich</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
 </teachers>
 <meeting_times type="array">
-  <meeting_time>
-    <grading_period>ECA Session 2</grading_period>
-    <day>Wednesday</day>
-    <room>Climbing Wall</room>
-    <block/>
-    <block_abbreviation/>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
 </meeting_times>
   </class>
   <class>
@@ -4811,9 +5041,17 @@
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">31548</teacher_fk>
 <teacher_full_name>Varinthip Krutkaew</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<status>Complete</status>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
+  <teacher>
+    <person_fk type="integer">28735</person_fk>
+    <role_id type="integer">100</role_id>
+    <role>Other</role>
+    <teacher_name>Nattakit Ussawachokanan</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
   <teacher>
     <person_fk type="integer">31548</person_fk>
     <role_id type="integer">1</role_id>
@@ -4824,15 +5062,6 @@
   </teacher>
 </teachers>
 <meeting_times type="array">
-  <meeting_time>
-    <grading_period>ECA Session 2</grading_period>
-    <day>Wednesday</day>
-    <room>Swimming Pool</room>
-    <block>ECA Period 2</block>
-    <block_abbreviation>ECA2</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
 </meeting_times>
   </class>
   <class>
@@ -4857,7 +5086,7 @@
 <teacher_fk type="integer">43021</teacher_fk>
 <teacher_full_name>Matthew Upham</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">43021</person_fk>
@@ -4897,12 +5126,12 @@
 <assignment_grading_method>Default</assignment_grading_method>
 <parent_portal_visibility>Show</parent_portal_visibility>
 <student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<parent_portal_assignment_display>Assignments + Status + Scores</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status + Scores</student_portal_assignment_display>
 <teacher_fk type="integer">44550</teacher_fk>
 <teacher_full_name>Alison Armstrong</teacher_full_name>
 <status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
+<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
 <teachers type="array">
   <teacher>
     <person_fk type="integer">44550</person_fk>
@@ -4947,231 +5176,6 @@
     <room>Mozart</room>
     <block>Period 4 (DP)</block>
     <block_abbreviation>P4-DP</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">106995</class_pk>
-<class_id>12-SPA-IBN.01</class_id>
-<group_fk type="integer">605711</group_fk>
-<group_id>167-2017-4-106995-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>Year 12</primary_grade_level>
-<course>IB Spanish 12 (a combined IB &amp; NIST course)</course>
-<course_id type="integer">2172</course_id>
-<description>IB Spanish 12 Block 2</description>
-<subject>World Languages B - SEC</subject>
-<course_type>Academic</course_type>
-<grading_method>Numeric</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
-<teacher_fk type="integer">11174</teacher_fk>
-<teacher_full_name>Emeli Ward</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">11174</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Emeli Ward</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-  <meeting_time>
-    <grading_period>ALL</grading_period>
-    <day>A</day>
-    <room>2302</room>
-    <block>Period 5 (DP)</block>
-    <block_abbreviation>P5-DP</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
-  <meeting_time>
-    <grading_period>ALL</grading_period>
-    <day>C</day>
-    <room>2302</room>
-    <block>Period 1 (DP)</block>
-    <block_abbreviation>P1-DP</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
-  <meeting_time>
-    <grading_period>ALL</grading_period>
-    <day>E</day>
-    <room>2302</room>
-    <block>Period 2 (DP)</block>
-    <block_abbreviation>P2-DP</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">106996</class_pk>
-<class_id>12-THR-IBN</class_id>
-<group_fk type="integer">605712</group_fk>
-<group_id>161-2017-4-106996-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>Year 12</primary_grade_level>
-<course>IB Theatre 12 (a combined IB &amp; NIST course)</course>
-<course_id type="integer">2173</course_id>
-<description>Theatre Arts 12 Block 6</description>
-<subject>Theatre Arts</subject>
-<course_type>Academic</course_type>
-<grading_method>Numeric</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
-<teacher_fk type="integer">30082</teacher_fk>
-<teacher_full_name>Harold Moss</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">30082</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Harold Moss</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-  <meeting_time>
-    <grading_period>ALL</grading_period>
-    <day>A</day>
-    <room>Comedy Studio</room>
-    <block>Period 3 (L) DP</block>
-    <block_abbreviation>P3-LDP</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
-  <meeting_time>
-    <grading_period>ALL</grading_period>
-    <day>B</day>
-    <room>Comedy Studio</room>
-    <block>Period 1 (DP)</block>
-    <block_abbreviation>P1-DP</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
-  <meeting_time>
-    <grading_period>ALL</grading_period>
-    <day>D</day>
-    <room>Comedy Studio</room>
-    <block>Period 2 (DP)</block>
-    <block_abbreviation>P2-DP</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
-  <meeting_time>
-    <grading_period>ALL</grading_period>
-    <day>F</day>
-    <room>Comedy Studio</room>
-    <block>Period 4 (DP)</block>
-    <block_abbreviation>P4-DP</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">107043</class_pk>
-<class_id>ECA-SPO-THU.17</class_id>
-<group_fk type="integer">615441</group_fk>
-<group_id>201-2017-4-107043-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>Thursday ECA Sports</course>
-<course_id type="integer">2071</course_id>
-<description>Y7-9 Yoga (Thu) ECA2/17-18</description>
-<subject>ECA</subject>
-<course_type>Other Program</course_type>
-<grading_method>Not Graded</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">32832</teacher_fk>
-<teacher_full_name>Hannah McMacken</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">32832</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Hannah McMacken</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-  <meeting_time>
-    <grading_period>ECA Session 2</grading_period>
-    <day>Thursday</day>
-    <room>5401 (The Hub Exam 1)</room>
-    <block>ECA Period 1</block>
-    <block_abbreviation>ECA1</block_abbreviation>
-    <start_time/>
-    <end_time/>
-  </meeting_time>
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">107044</class_pk>
-<class_id>ECA-SPO-THU.18</class_id>
-<group_fk type="integer">615442</group_fk>
-<group_id>201-2017-4-107044-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>Thursday ECA Sports</course>
-<course_id type="integer">2071</course_id>
-<description>Y7-8 Boys &amp; Girls Basketball (Thu) ECA2/17-18</description>
-<subject>ECA</subject>
-<course_type>Other Program</course_type>
-<grading_method>Not Graded</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">46267</teacher_fk>
-<teacher_full_name>Tanya Varangoon</teacher_full_name>
-<status>Active</status>
-<update_date type="datetime">2017-11-17T20:55:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">46267</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Tanya Varangoon</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-  <meeting_time>
-    <grading_period>ECA Session 2</grading_period>
-    <day>Thursday</day>
-    <room>5501 (The Hub Gym 1xVBal or 1xBBall or 4xBadm)</room>
-    <block>ECA Period 2</block>
-    <block_abbreviation>ECA2</block_abbreviation>
     <start_time/>
     <end_time/>
   </meeting_time>

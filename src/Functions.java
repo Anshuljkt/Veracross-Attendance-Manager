@@ -20,7 +20,7 @@ public class Functions {
     public static ArrayList<Student> students = new ArrayList<Student>();
     public static ArrayList<Class> classes = new ArrayList<Class>();
     public static String programDataDir = "";
-    public static String secOfficeEmail = "secoffice@nist.ac.th";
+    public static String secOfficeEmail = "secoffice@nist.ac.th"; //Recipient Email
     private static int pagesCount = 200;
     private static String baseURL = "https://api.veracross.com/nist/v2/";
     private static String studentsURL = baseURL + "students.xml?grade_level=12,13&page=";
@@ -32,6 +32,14 @@ public class Functions {
     private static String enrollmentsPath = "/enrollments-";
     private static String studentEnrollmentsPath = "/studentEnrollments-";
     private static Exception downloadError = new Exception();
+
+    //Username/Password to use for Veracross API
+    public static final String APIUsername = "api.nist";
+    public static final String APIPassword = "X4bZsxMVBr";
+
+    //Username/Password to use for email
+    public static final String EmailUsername = "attendance@nist.ac.th";
+    public static final String EmailPassword = "xc$%hmTP";
 
     public static void saveTime() { //This is to remember how long it has been since the database was fully updated.
         try {
@@ -108,11 +116,11 @@ public class Functions {
     }
 
     private static int download(String URL, String path, String downloadType) throws Exception {
-        //This is where the username and password go for accessing Veracross API.
+        //This is where the EmailUsername and EmailPassword go for accessing Veracross API.
         Authenticator.setDefault(new Authenticator() {
             @Override
             protected PasswordAuthentication getPasswordAuthentication() {
-                return new PasswordAuthentication("api.nist", "X4bZsxMVBr".toCharArray());
+                return new PasswordAuthentication(APIUsername, APIPassword.toCharArray());
             }
         });
 
