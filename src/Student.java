@@ -104,14 +104,12 @@ public class Student implements Comparable<Student> {
     }
 
     public String toStringWithID() {
+        String response = "";
+        String name = fName + " " + lName;
         if (lateTime==null) {
-            return fName + " " + lName +
-                    " | " + grade +
-                    " | ID: " + id;
+            return response.format("%-50s | %-10s | ID: %-10d", name, grade, id);
         } else {
-            return fName + " " + lName +
-                    " | " + grade +
-                    " | ID: " + id + " | Arrival Time: " + lateTime;
+            return response.format("%-50s | %-10s | ID: %-10d | Arrival Time: %-20s", name, grade, id, lateTime);
         }
     }
 

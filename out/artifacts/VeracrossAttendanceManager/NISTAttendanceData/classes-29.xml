@@ -1,1061 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classes type="array">
   <class>
-<class_pk type="integer">112652</class_pk>
-<class_id>PTC-Y9-A.207</class_id>
-<group_fk type="integer">704268</group_fk>
-<group_id>201-2017-4-112652-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
+<class_pk type="integer">134514</class_pk>
+<class_id>SD-P-B2.18</class_id>
+<group_fk type="integer">791415</group_fk>
+<group_id>201-2018-4-134514-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
 <school_level>Secondary</school_level>
 <primary_grade_level>None</primary_grade_level>
-<course>PTC Group A</course>
-<course_id type="integer">2221</course_id>
-<description>Spanish Language Acquisition - Mrs.Emeli (2302) 12:55 - 13:15</description>
-<subject>PTC Exclude</subject>
-<course_type>Other Program</course_type>
-<grading_method>Not Graded</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">11174</teacher_fk>
-<teacher_full_name>Emeli Ward</teacher_full_name>
-<status>Complete</status>
-<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">11174</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Emeli Ward</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">112653</class_pk>
-<class_id>PTC-Y9-A.208</class_id>
-<group_fk type="integer">704269</group_fk>
-<group_id>201-2017-4-112653-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>PTC Group A</course>
-<course_id type="integer">2221</course_id>
-<description>Spanish Language Acquisition - Mrs.Emeli (2302) 13:20 - 13:40</description>
-<subject>PTC Exclude</subject>
-<course_type>Other Program</course_type>
-<grading_method>Not Graded</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">11174</teacher_fk>
-<teacher_full_name>Emeli Ward</teacher_full_name>
-<status>Complete</status>
-<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">11174</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Emeli Ward</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">112654</class_pk>
-<class_id>PTC-Y9-A.209</class_id>
-<group_fk type="integer">704270</group_fk>
-<group_id>201-2017-4-112654-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>PTC Group A</course>
-<course_id type="integer">2221</course_id>
-<description>Spanish Language Acquisition - Mrs.Emeli (2302) 13:45 - 14:05</description>
-<subject>PTC Exclude</subject>
-<course_type>Other Program</course_type>
-<grading_method>Not Graded</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">11174</teacher_fk>
-<teacher_full_name>Emeli Ward</teacher_full_name>
-<status>Complete</status>
-<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">11174</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Emeli Ward</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">112655</class_pk>
-<class_id>PTC-Y9-A.210</class_id>
-<group_fk type="integer">704271</group_fk>
-<group_id>201-2017-4-112655-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>PTC Group A</course>
-<course_id type="integer">2221</course_id>
-<description>Spanish Language Acquisition - Mrs.Emeli (2302) 14:10 - 14:30</description>
-<subject>PTC Exclude</subject>
-<course_type>Other Program</course_type>
-<grading_method>Not Graded</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">11174</teacher_fk>
-<teacher_full_name>Emeli Ward</teacher_full_name>
-<status>Complete</status>
-<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">11174</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Emeli Ward</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">112656</class_pk>
-<class_id>PTC-Y9-A.211</class_id>
-<group_fk type="integer">704272</group_fk>
-<group_id>201-2017-4-112656-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>PTC Group A</course>
-<course_id type="integer">2221</course_id>
-<description>Spanish Language Acquisition - Ms.Laura (1329) 12:30 - 12:50</description>
-<subject>PTC Exclude</subject>
-<course_type>Other Program</course_type>
-<grading_method>Not Graded</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">34820</teacher_fk>
-<teacher_full_name>Laura Castro Sanchez</teacher_full_name>
-<status>Complete</status>
-<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">34820</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Laura Castro Sanchez</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">112657</class_pk>
-<class_id>PTC-Y9-A.212</class_id>
-<group_fk type="integer">704273</group_fk>
-<group_id>201-2017-4-112657-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>PTC Group A</course>
-<course_id type="integer">2221</course_id>
-<description>Spanish Language Acquisition - Ms.Laura (1329) 12:55 - 13:15</description>
-<subject>PTC Exclude</subject>
-<course_type>Other Program</course_type>
-<grading_method>Not Graded</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">34820</teacher_fk>
-<teacher_full_name>Laura Castro Sanchez</teacher_full_name>
-<status>Complete</status>
-<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">34820</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Laura Castro Sanchez</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">112658</class_pk>
-<class_id>PTC-Y9-A.213</class_id>
-<group_fk type="integer">704274</group_fk>
-<group_id>201-2017-4-112658-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>PTC Group A</course>
-<course_id type="integer">2221</course_id>
-<description>Spanish Language Acquisition - Ms.Laura (1329) 13:20 - 13:40</description>
-<subject>PTC Exclude</subject>
-<course_type>Other Program</course_type>
-<grading_method>Not Graded</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">34820</teacher_fk>
-<teacher_full_name>Laura Castro Sanchez</teacher_full_name>
-<status>Complete</status>
-<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">34820</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Laura Castro Sanchez</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">112659</class_pk>
-<class_id>PTC-Y9-A.214</class_id>
-<group_fk type="integer">704275</group_fk>
-<group_id>201-2017-4-112659-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>PTC Group A</course>
-<course_id type="integer">2221</course_id>
-<description>Spanish Language Acquisition - Ms.Laura (1329) 13:45 - 14:05</description>
-<subject>PTC Exclude</subject>
-<course_type>Other Program</course_type>
-<grading_method>Not Graded</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">34820</teacher_fk>
-<teacher_full_name>Laura Castro Sanchez</teacher_full_name>
-<status>Complete</status>
-<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">34820</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Laura Castro Sanchez</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">112660</class_pk>
-<class_id>PTC-Y9-A.215</class_id>
-<group_fk type="integer">704276</group_fk>
-<group_id>201-2017-4-112660-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>PTC Group A</course>
-<course_id type="integer">2221</course_id>
-<description>Spanish Language Acquisition - Ms.Laura (1329) 14:10 - 14:30</description>
-<subject>PTC Exclude</subject>
-<course_type>Other Program</course_type>
-<grading_method>Not Graded</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">34820</teacher_fk>
-<teacher_full_name>Laura Castro Sanchez</teacher_full_name>
-<status>Complete</status>
-<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">34820</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Laura Castro Sanchez</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">112661</class_pk>
-<class_id>PTC-Y9-A.216</class_id>
-<group_fk type="integer">704277</group_fk>
-<group_id>201-2017-4-112661-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>PTC Group A</course>
-<course_id type="integer">2221</course_id>
-<description>Spanish Language Acquisition - Mr.Sergio (2304) 12:30 - 12:50</description>
-<subject>PTC Exclude</subject>
-<course_type>Other Program</course_type>
-<grading_method>Not Graded</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">21740</teacher_fk>
-<teacher_full_name>Sergio Ferrer Giraldos</teacher_full_name>
-<status>Complete</status>
-<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">21740</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Sergio Ferrer Giraldos</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">112662</class_pk>
-<class_id>PTC-Y9-A.217</class_id>
-<group_fk type="integer">704278</group_fk>
-<group_id>201-2017-4-112662-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>PTC Group A</course>
-<course_id type="integer">2221</course_id>
-<description>Spanish Language Acquisition - Mr.Sergio (2304) 12:55 - 13:15</description>
-<subject>PTC Exclude</subject>
-<course_type>Other Program</course_type>
-<grading_method>Not Graded</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">21740</teacher_fk>
-<teacher_full_name>Sergio Ferrer Giraldos</teacher_full_name>
-<status>Complete</status>
-<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">21740</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Sergio Ferrer Giraldos</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">112663</class_pk>
-<class_id>PTC-Y9-A.218</class_id>
-<group_fk type="integer">704279</group_fk>
-<group_id>201-2017-4-112663-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>PTC Group A</course>
-<course_id type="integer">2221</course_id>
-<description>Spanish Language Acquisition - Mr.Sergio (2304) 13:20 - 13:40</description>
-<subject>PTC Exclude</subject>
-<course_type>Other Program</course_type>
-<grading_method>Not Graded</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">21740</teacher_fk>
-<teacher_full_name>Sergio Ferrer Giraldos</teacher_full_name>
-<status>Complete</status>
-<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">21740</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Sergio Ferrer Giraldos</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">112664</class_pk>
-<class_id>PTC-Y9-A.219</class_id>
-<group_fk type="integer">704280</group_fk>
-<group_id>201-2017-4-112664-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>PTC Group A</course>
-<course_id type="integer">2221</course_id>
-<description>Spanish Language Acquisition - Mr.Sergio (2304) 13:45 - 14:05</description>
-<subject>PTC Exclude</subject>
-<course_type>Other Program</course_type>
-<grading_method>Not Graded</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">21740</teacher_fk>
-<teacher_full_name>Sergio Ferrer Giraldos</teacher_full_name>
-<status>Complete</status>
-<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">21740</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Sergio Ferrer Giraldos</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">112665</class_pk>
-<class_id>PTC-Y9-A.220</class_id>
-<group_fk type="integer">704281</group_fk>
-<group_id>201-2017-4-112665-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>PTC Group A</course>
-<course_id type="integer">2221</course_id>
-<description>Spanish Language Acquisition - Mr.Sergio (2304) 14:10 - 14:30</description>
-<subject>PTC Exclude</subject>
-<course_type>Other Program</course_type>
-<grading_method>Not Graded</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">21740</teacher_fk>
-<teacher_full_name>Sergio Ferrer Giraldos</teacher_full_name>
-<status>Complete</status>
-<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">21740</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Sergio Ferrer Giraldos</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">112666</class_pk>
-<class_id>PTC-Y9-A.221</class_id>
-<group_fk type="integer">704282</group_fk>
-<group_id>201-2017-4-112666-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>PTC Group A</course>
-<course_id type="integer">2221</course_id>
-<description>Swedish Language and Literature - Mr.Daniel (1229) 12:30 - 12:50</description>
-<subject>PTC Exclude</subject>
-<course_type>Other Program</course_type>
-<grading_method>Not Graded</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">40564</teacher_fk>
-<teacher_full_name>Daniel Kvarnemo</teacher_full_name>
-<status>Complete</status>
-<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">40564</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Daniel Kvarnemo</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">112667</class_pk>
-<class_id>PTC-Y9-A.222</class_id>
-<group_fk type="integer">704283</group_fk>
-<group_id>201-2017-4-112667-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>PTC Group A</course>
-<course_id type="integer">2221</course_id>
-<description>Swedish Language and Literature - Mr.Daniel (1229) 12:55 - 13:15</description>
-<subject>PTC Exclude</subject>
-<course_type>Other Program</course_type>
-<grading_method>Not Graded</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">40564</teacher_fk>
-<teacher_full_name>Daniel Kvarnemo</teacher_full_name>
-<status>Complete</status>
-<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">40564</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Daniel Kvarnemo</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">112668</class_pk>
-<class_id>PTC-Y9-A.223</class_id>
-<group_fk type="integer">704284</group_fk>
-<group_id>201-2017-4-112668-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>PTC Group A</course>
-<course_id type="integer">2221</course_id>
-<description>Swedish Language and Literature - Mr.Daniel (1229) 13:20 - 13:40</description>
-<subject>PTC Exclude</subject>
-<course_type>Other Program</course_type>
-<grading_method>Not Graded</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">40564</teacher_fk>
-<teacher_full_name>Daniel Kvarnemo</teacher_full_name>
-<status>Complete</status>
-<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">40564</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Daniel Kvarnemo</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">112669</class_pk>
-<class_id>PTC-Y9-A.224</class_id>
-<group_fk type="integer">704285</group_fk>
-<group_id>201-2017-4-112669-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>PTC Group A</course>
-<course_id type="integer">2221</course_id>
-<description>Swedish Language and Literature - Mr.Daniel (1229) 13:45 - 14:05</description>
-<subject>PTC Exclude</subject>
-<course_type>Other Program</course_type>
-<grading_method>Not Graded</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">40564</teacher_fk>
-<teacher_full_name>Daniel Kvarnemo</teacher_full_name>
-<status>Complete</status>
-<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">40564</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Daniel Kvarnemo</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">112670</class_pk>
-<class_id>PTC-Y9-A.225</class_id>
-<group_fk type="integer">704286</group_fk>
-<group_id>201-2017-4-112670-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>PTC Group A</course>
-<course_id type="integer">2221</course_id>
-<description>Swedish Language and Literature - Mr.Daniel (1229) 14:10 - 14:30</description>
-<subject>PTC Exclude</subject>
-<course_type>Other Program</course_type>
-<grading_method>Not Graded</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">40564</teacher_fk>
-<teacher_full_name>Daniel Kvarnemo</teacher_full_name>
-<status>Complete</status>
-<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">40564</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Daniel Kvarnemo</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">112671</class_pk>
-<class_id>PTC-Y9-A.226</class_id>
-<group_fk type="integer">704287</group_fk>
-<group_id>201-2017-4-112671-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>PTC Group A</course>
-<course_id type="integer">2221</course_id>
-<description>Thai Language Acquisition - Ms.Jig (Supaporn) (1239) 12:30 - 12:50</description>
-<subject>PTC Exclude</subject>
-<course_type>Other Program</course_type>
-<grading_method>Not Graded</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">18298</teacher_fk>
-<teacher_full_name>Supaporn Mahapad Cohn</teacher_full_name>
-<status>Complete</status>
-<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">18298</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Supaporn Mahapad Cohn</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">112672</class_pk>
-<class_id>PTC-Y9-A.227</class_id>
-<group_fk type="integer">704288</group_fk>
-<group_id>201-2017-4-112672-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>PTC Group A</course>
-<course_id type="integer">2221</course_id>
-<description>Thai Language Acquisition - Ms.Jig (Supaporn) (1239) 12:55 - 13:15</description>
-<subject>PTC Exclude</subject>
-<course_type>Other Program</course_type>
-<grading_method>Not Graded</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">18298</teacher_fk>
-<teacher_full_name>Supaporn Mahapad Cohn</teacher_full_name>
-<status>Complete</status>
-<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">18298</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Supaporn Mahapad Cohn</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">112673</class_pk>
-<class_id>PTC-Y9-A.228</class_id>
-<group_fk type="integer">704289</group_fk>
-<group_id>201-2017-4-112673-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>PTC Group A</course>
-<course_id type="integer">2221</course_id>
-<description>Thai Language Acquisition - Ms.Jig (Supaporn) (1239) 13:20 - 13:40</description>
-<subject>PTC Exclude</subject>
-<course_type>Other Program</course_type>
-<grading_method>Not Graded</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">18298</teacher_fk>
-<teacher_full_name>Supaporn Mahapad Cohn</teacher_full_name>
-<status>Complete</status>
-<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">18298</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Supaporn Mahapad Cohn</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">112674</class_pk>
-<class_id>PTC-Y9-A.229</class_id>
-<group_fk type="integer">704290</group_fk>
-<group_id>201-2017-4-112674-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>PTC Group A</course>
-<course_id type="integer">2221</course_id>
-<description>Thai Language Acquisition - Ms.Jig (Supaporn) (1239) 13:45 - 14:05</description>
-<subject>PTC Exclude</subject>
-<course_type>Other Program</course_type>
-<grading_method>Not Graded</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">18298</teacher_fk>
-<teacher_full_name>Supaporn Mahapad Cohn</teacher_full_name>
-<status>Complete</status>
-<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">18298</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Supaporn Mahapad Cohn</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">112675</class_pk>
-<class_id>PTC-Y9-A.230</class_id>
-<group_fk type="integer">704291</group_fk>
-<group_id>201-2017-4-112675-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>PTC Group A</course>
-<course_id type="integer">2221</course_id>
-<description>Thai Language Acquisition - Ms.Jig (Supaporn) (1239) 14:10 - 14:30</description>
-<subject>PTC Exclude</subject>
-<course_type>Other Program</course_type>
-<grading_method>Not Graded</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">18298</teacher_fk>
-<teacher_full_name>Supaporn Mahapad Cohn</teacher_full_name>
-<status>Complete</status>
-<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">18298</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Supaporn Mahapad Cohn</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">112676</class_pk>
-<class_id>PTC-Y9-A.231</class_id>
-<group_fk type="integer">704292</group_fk>
-<group_id>201-2017-4-112676-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>PTC Group A</course>
-<course_id type="integer">2221</course_id>
-<description>Thai Language Acquisition - Ms.Tan (Pichanan) (1238) 12:30 - 12:50</description>
-<subject>PTC Exclude</subject>
-<course_type>Other Program</course_type>
-<grading_method>Not Graded</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">11321</teacher_fk>
-<teacher_full_name>Pichanan Penglee</teacher_full_name>
-<status>Complete</status>
-<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">11321</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Pichanan Penglee</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">112677</class_pk>
-<class_id>PTC-Y9-A.232</class_id>
-<group_fk type="integer">704293</group_fk>
-<group_id>201-2017-4-112677-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>PTC Group A</course>
-<course_id type="integer">2221</course_id>
-<description>Thai Language Acquisition - Ms.Tan (Pichanan) (1238) 12:55 - 13:15</description>
-<subject>PTC Exclude</subject>
-<course_type>Other Program</course_type>
-<grading_method>Not Graded</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">11321</teacher_fk>
-<teacher_full_name>Pichanan Penglee</teacher_full_name>
-<status>Complete</status>
-<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">11321</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Pichanan Penglee</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">112678</class_pk>
-<class_id>PTC-Y9-A.233</class_id>
-<group_fk type="integer">704294</group_fk>
-<group_id>201-2017-4-112678-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>PTC Group A</course>
-<course_id type="integer">2221</course_id>
-<description>Thai Language Acquisition - Ms.Tan (Pichanan) (1238) 13:20 - 13:40</description>
-<subject>PTC Exclude</subject>
-<course_type>Other Program</course_type>
-<grading_method>Not Graded</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">11321</teacher_fk>
-<teacher_full_name>Pichanan Penglee</teacher_full_name>
-<status>Complete</status>
-<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">11321</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Pichanan Penglee</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">112679</class_pk>
-<class_id>PTC-Y9-A.234</class_id>
-<group_fk type="integer">704295</group_fk>
-<group_id>201-2017-4-112679-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>PTC Group A</course>
-<course_id type="integer">2221</course_id>
-<description>Thai Language Acquisition - Ms.Tan (Pichanan) (1238) 13:45 - 14:05</description>
-<subject>PTC Exclude</subject>
-<course_type>Other Program</course_type>
-<grading_method>Not Graded</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">11321</teacher_fk>
-<teacher_full_name>Pichanan Penglee</teacher_full_name>
-<status>Complete</status>
-<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">11321</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Pichanan Penglee</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">112680</class_pk>
-<class_id>PTC-Y9-A.235</class_id>
-<group_fk type="integer">704296</group_fk>
-<group_id>201-2017-4-112680-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>PTC Group A</course>
-<course_id type="integer">2221</course_id>
-<description>Thai Language Acquisition - Ms.Tan (Pichanan) (1238) 14:10 - 14:30</description>
-<subject>PTC Exclude</subject>
-<course_type>Other Program</course_type>
-<grading_method>Not Graded</grading_method>
-<assignment_grading_method>Default</assignment_grading_method>
-<parent_portal_visibility>Show</parent_portal_visibility>
-<student_portal_visibility>Show</student_portal_visibility>
-<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
-<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">11321</teacher_fk>
-<teacher_full_name>Pichanan Penglee</teacher_full_name>
-<status>Complete</status>
-<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
-<teachers type="array">
-  <teacher>
-    <person_fk type="integer">11321</person_fk>
-    <role_id type="integer">1</role_id>
-    <role>Primary Teacher</role>
-    <teacher_name>Pichanan Penglee</teacher_name>
-    <update_grade type="boolean">true</update_grade>
-    <view_grades type="boolean">true</view_grades>
-  </teacher>
-</teachers>
-<meeting_times type="array">
-</meeting_times>
-  </class>
-  <class>
-<class_pk type="integer">113171</class_pk>
-<class_id>PTC-H-B.01</class_id>
-<group_fk type="integer">705393</group_fk>
-<group_id>201-2017-4-113171-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
-<school_level>Secondary</school_level>
-<primary_grade_level>None</primary_grade_level>
-<course>PTC Group B Home</course>
-<course_id type="integer">2224</course_id>
-<description>Arts (Home Learning Share)</description>
-<subject>PTC Exclude</subject>
+<course>Spirit Day Purple House Block 2</course>
+<course_id type="integer">2215</course_id>
+<description>Y10-Y13 Kahoot - 1:55-2:45 (HUB 3rd Floor)</description>
+<subject>Spirit Day</subject>
 <course_type>Other Program</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
@@ -1065,25 +21,34 @@
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
-<status>Complete</status>
-<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
+<status>Active</status>
+<update_date type="datetime">2018-11-07T21:15:00+00:00</update_date>
 <teachers type="array">
 </teachers>
 <meeting_times type="array">
+  <meeting_time>
+    <grading_period>Semester 1 (SEC)</grading_period>
+    <day>Tuesday</day>
+    <room/>
+    <block>Spirit Day Block 1</block>
+    <block_abbreviation>SD-1</block_abbreviation>
+    <start_time>13:55</start_time>
+    <end_time>14:45</end_time>
+  </meeting_time>
 </meeting_times>
   </class>
   <class>
-<class_pk type="integer">113172</class_pk>
-<class_id>PTC-H-B.02</class_id>
-<group_fk type="integer">705394</group_fk>
-<group_id>201-2017-4-113172-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
+<class_pk type="integer">134515</class_pk>
+<class_id>SD-R-B2.01</class_id>
+<group_fk type="integer">791438</group_fk>
+<group_id>201-2018-4-134515-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
 <school_level>Secondary</school_level>
 <primary_grade_level>None</primary_grade_level>
-<course>PTC Group B Home</course>
-<course_id type="integer">2224</course_id>
-<description>Design (Home Learning Share)</description>
-<subject>PTC Exclude</subject>
+<course>Spirit Day Red House Block 2</course>
+<course_id type="integer">2217</course_id>
+<description>Y7-Y9 Basketball Knockout - 1:55-2:45 (Front Gate)</description>
+<subject>Spirit Day</subject>
 <course_type>Other Program</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
@@ -1093,25 +58,34 @@
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
-<status>Complete</status>
-<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
+<status>Active</status>
+<update_date type="datetime">2018-11-07T21:15:00+00:00</update_date>
 <teachers type="array">
 </teachers>
 <meeting_times type="array">
+  <meeting_time>
+    <grading_period>Semester 1 (SEC)</grading_period>
+    <day>Tuesday</day>
+    <room/>
+    <block>Spirit Day Block 1</block>
+    <block_abbreviation>SD-1</block_abbreviation>
+    <start_time>13:55</start_time>
+    <end_time>14:45</end_time>
+  </meeting_time>
 </meeting_times>
   </class>
   <class>
-<class_pk type="integer">113173</class_pk>
-<class_id>PTC-H-A.03</class_id>
-<group_fk type="integer">705372</group_fk>
-<group_id>201-2017-4-113173-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
+<class_pk type="integer">134516</class_pk>
+<class_id>SD-R-B2.02</class_id>
+<group_fk type="integer">791439</group_fk>
+<group_id>201-2018-4-134516-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
 <school_level>Secondary</school_level>
 <primary_grade_level>None</primary_grade_level>
-<course>PTC Group A Home</course>
-<course_id type="integer">2223</course_id>
-<description>English Language and Literature (Home Learning Share)</description>
-<subject>PTC Exclude</subject>
+<course>Spirit Day Red House Block 2</course>
+<course_id type="integer">2217</course_id>
+<description>Y7-Y9 Amazing Race - 1:55-2:45 (Big Steps)</description>
+<subject>Spirit Day</subject>
 <course_type>Other Program</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
@@ -1121,25 +95,34 @@
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
-<status>Complete</status>
-<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
+<status>Active</status>
+<update_date type="datetime">2018-11-07T21:15:00+00:00</update_date>
 <teachers type="array">
 </teachers>
 <meeting_times type="array">
+  <meeting_time>
+    <grading_period>Semester 1 (SEC)</grading_period>
+    <day>Tuesday</day>
+    <room/>
+    <block>Spirit Day Block 1</block>
+    <block_abbreviation>SD-1</block_abbreviation>
+    <start_time>13:55</start_time>
+    <end_time>14:45</end_time>
+  </meeting_time>
 </meeting_times>
   </class>
   <class>
-<class_pk type="integer">113174</class_pk>
-<class_id>PTC-H-A.04</class_id>
-<group_fk type="integer">705373</group_fk>
-<group_id>201-2017-4-113174-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
+<class_pk type="integer">134517</class_pk>
+<class_id>SD-R-B2.03</class_id>
+<group_fk type="integer">791440</group_fk>
+<group_id>201-2018-4-134517-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
 <school_level>Secondary</school_level>
 <primary_grade_level>None</primary_grade_level>
-<course>PTC Group A Home</course>
-<course_id type="integer">2223</course_id>
-<description>English Language Acquisition (Home Learning Share)</description>
-<subject>PTC Exclude</subject>
+<course>Spirit Day Red House Block 2</course>
+<course_id type="integer">2217</course_id>
+<description>Y7-Y9 Capture the Flag - 1:55-2:45 (Gym 1 and 2)</description>
+<subject>Spirit Day</subject>
 <course_type>Other Program</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
@@ -1149,25 +132,34 @@
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
-<status>Complete</status>
-<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
+<status>Active</status>
+<update_date type="datetime">2018-11-07T21:15:00+00:00</update_date>
 <teachers type="array">
 </teachers>
 <meeting_times type="array">
+  <meeting_time>
+    <grading_period>Semester 1 (SEC)</grading_period>
+    <day>Tuesday</day>
+    <room/>
+    <block>Spirit Day Block 1</block>
+    <block_abbreviation>SD-1</block_abbreviation>
+    <start_time>13:55</start_time>
+    <end_time>14:45</end_time>
+  </meeting_time>
 </meeting_times>
   </class>
   <class>
-<class_pk type="integer">113175</class_pk>
-<class_id>PTC-H-A.05</class_id>
-<group_fk type="integer">705374</group_fk>
-<group_id>201-2017-4-113175-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
+<class_pk type="integer">134518</class_pk>
+<class_id>SD-R-B2.04</class_id>
+<group_fk type="integer">791441</group_fk>
+<group_id>201-2018-4-134518-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
 <school_level>Secondary</school_level>
 <primary_grade_level>None</primary_grade_level>
-<course>PTC Group A Home</course>
-<course_id type="integer">2223</course_id>
-<description>Individuals and Societies (Home Learning Share)</description>
-<subject>PTC Exclude</subject>
+<course>Spirit Day Red House Block 2</course>
+<course_id type="integer">2217</course_id>
+<description>Y7-Y9 Field Activities - 1:55-2:45 (Big Steps)</description>
+<subject>Spirit Day</subject>
 <course_type>Other Program</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
@@ -1177,25 +169,34 @@
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
-<status>Complete</status>
-<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
+<status>Active</status>
+<update_date type="datetime">2018-11-07T21:15:00+00:00</update_date>
 <teachers type="array">
 </teachers>
 <meeting_times type="array">
+  <meeting_time>
+    <grading_period>Semester 1 (SEC)</grading_period>
+    <day>Tuesday</day>
+    <room/>
+    <block>Spirit Day Block 1</block>
+    <block_abbreviation>SD-1</block_abbreviation>
+    <start_time>13:55</start_time>
+    <end_time>14:45</end_time>
+  </meeting_time>
 </meeting_times>
   </class>
   <class>
-<class_pk type="integer">113176</class_pk>
-<class_id>PTC-H-A.06</class_id>
-<group_fk type="integer">705375</group_fk>
-<group_id>201-2017-4-113176-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
+<class_pk type="integer">134519</class_pk>
+<class_id>SD-R-B2.05</class_id>
+<group_fk type="integer">791442</group_fk>
+<group_id>201-2018-4-134519-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
 <school_level>Secondary</school_level>
 <primary_grade_level>None</primary_grade_level>
-<course>PTC Group A Home</course>
-<course_id type="integer">2223</course_id>
-<description>Mathematics (Home Learning Share)</description>
-<subject>PTC Exclude</subject>
+<course>Spirit Day Red House Block 2</course>
+<course_id type="integer">2217</course_id>
+<description>Y7-Y9 Zorb Football - 1:55-2:45 (Hub (5th Floor) Gym)</description>
+<subject>Spirit Day</subject>
 <course_type>Other Program</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
@@ -1205,25 +206,34 @@
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
-<status>Complete</status>
-<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
+<status>Active</status>
+<update_date type="datetime">2018-11-07T21:15:00+00:00</update_date>
 <teachers type="array">
 </teachers>
 <meeting_times type="array">
+  <meeting_time>
+    <grading_period>Semester 1 (SEC)</grading_period>
+    <day>Tuesday</day>
+    <room/>
+    <block>Spirit Day Block 1</block>
+    <block_abbreviation>SD-1</block_abbreviation>
+    <start_time>13:55</start_time>
+    <end_time>14:45</end_time>
+  </meeting_time>
 </meeting_times>
   </class>
   <class>
-<class_pk type="integer">113177</class_pk>
-<class_id>PTC-H-A.07</class_id>
-<group_fk type="integer">705376</group_fk>
-<group_id>201-2017-4-113177-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
+<class_pk type="integer">134520</class_pk>
+<class_id>SD-R-B2.06</class_id>
+<group_fk type="integer">791443</group_fk>
+<group_id>201-2018-4-134520-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
 <school_level>Secondary</school_level>
 <primary_grade_level>None</primary_grade_level>
-<course>PTC Group A Home</course>
-<course_id type="integer">2223</course_id>
-<description>Mathematics Extended (Home Learning Share)</description>
-<subject>PTC Exclude</subject>
+<course>Spirit Day Red House Block 2</course>
+<course_id type="integer">2217</course_id>
+<description>Y7-Y9 Arcade Centre - 1:55-2:45 (Hub 3rd &amp; 4th floor)</description>
+<subject>Spirit Day</subject>
 <course_type>Other Program</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
@@ -1233,25 +243,34 @@
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
-<status>Complete</status>
-<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
+<status>Active</status>
+<update_date type="datetime">2018-11-07T21:15:00+00:00</update_date>
 <teachers type="array">
 </teachers>
 <meeting_times type="array">
+  <meeting_time>
+    <grading_period>Semester 1 (SEC)</grading_period>
+    <day>Tuesday</day>
+    <room/>
+    <block>Spirit Day Block 1</block>
+    <block_abbreviation>SD-1</block_abbreviation>
+    <start_time>13:55</start_time>
+    <end_time>14:45</end_time>
+  </meeting_time>
 </meeting_times>
   </class>
   <class>
-<class_pk type="integer">113178</class_pk>
-<class_id>PTC-H-A.08</class_id>
-<group_fk type="integer">705377</group_fk>
-<group_id>201-2017-4-113178-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
+<class_pk type="integer">134521</class_pk>
+<class_id>SD-R-B2.07</class_id>
+<group_fk type="integer">791444</group_fk>
+<group_id>201-2018-4-134521-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
 <school_level>Secondary</school_level>
 <primary_grade_level>None</primary_grade_level>
-<course>PTC Group A Home</course>
-<course_id type="integer">2223</course_id>
-<description>Mathematics Standard (Home Learning Share)</description>
-<subject>PTC Exclude</subject>
+<course>Spirit Day Red House Block 2</course>
+<course_id type="integer">2217</course_id>
+<description>Y7-Y9 Theatre Games - 1:55-2:45 (Tragedy Studio (CAB 4th floor))</description>
+<subject>Spirit Day</subject>
 <course_type>Other Program</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
@@ -1261,25 +280,34 @@
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
-<status>Complete</status>
-<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
+<status>Active</status>
+<update_date type="datetime">2018-11-07T21:15:00+00:00</update_date>
 <teachers type="array">
 </teachers>
 <meeting_times type="array">
+  <meeting_time>
+    <grading_period>Semester 1 (SEC)</grading_period>
+    <day>Tuesday</day>
+    <room/>
+    <block>Spirit Day Block 1</block>
+    <block_abbreviation>SD-1</block_abbreviation>
+    <start_time>13:55</start_time>
+    <end_time>14:45</end_time>
+  </meeting_time>
 </meeting_times>
   </class>
   <class>
-<class_pk type="integer">113179</class_pk>
-<class_id>PTC-H-B.09</class_id>
-<group_fk type="integer">705395</group_fk>
-<group_id>201-2017-4-113179-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
+<class_pk type="integer">134522</class_pk>
+<class_id>SD-R-B2.08</class_id>
+<group_fk type="integer">791445</group_fk>
+<group_id>201-2018-4-134522-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
 <school_level>Secondary</school_level>
 <primary_grade_level>None</primary_grade_level>
-<course>PTC Group B Home</course>
-<course_id type="integer">2224</course_id>
-<description>Physical and Health Education (Home Learning Share)</description>
-<subject>PTC Exclude</subject>
+<course>Spirit Day Red House Block 2</course>
+<course_id type="integer">2217</course_id>
+<description>Y7-Y9 Jamming and Karaoke - 1:55-2:45 (Louis Armstrong Rooms (CAB 3rd Floor))</description>
+<subject>Spirit Day</subject>
 <course_type>Other Program</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
@@ -1289,25 +317,34 @@
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
-<status>Complete</status>
-<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
+<status>Active</status>
+<update_date type="datetime">2018-11-07T21:15:00+00:00</update_date>
 <teachers type="array">
 </teachers>
 <meeting_times type="array">
+  <meeting_time>
+    <grading_period>Semester 1 (SEC)</grading_period>
+    <day>Tuesday</day>
+    <room/>
+    <block>Spirit Day Block 1</block>
+    <block_abbreviation>SD-1</block_abbreviation>
+    <start_time>13:55</start_time>
+    <end_time>14:45</end_time>
+  </meeting_time>
 </meeting_times>
   </class>
   <class>
-<class_pk type="integer">113180</class_pk>
-<class_id>PTC-H-A.10</class_id>
-<group_fk type="integer">705378</group_fk>
-<group_id>201-2017-4-113180-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
+<class_pk type="integer">134523</class_pk>
+<class_id>SD-R-B2.09</class_id>
+<group_fk type="integer">791446</group_fk>
+<group_id>201-2018-4-134523-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
 <school_level>Secondary</school_level>
 <primary_grade_level>None</primary_grade_level>
-<course>PTC Group A Home</course>
-<course_id type="integer">2223</course_id>
-<description>Sciences (Home Learning Share)</description>
-<subject>PTC Exclude</subject>
+<course>Spirit Day Red House Block 2</course>
+<course_id type="integer">2217</course_id>
+<description>Y7-Y9 Kahoot - 1:55-2:45 (HUB 3rd Floor)</description>
+<subject>Spirit Day</subject>
 <course_type>Other Program</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
@@ -1317,25 +354,34 @@
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
-<status>Complete</status>
-<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
+<status>Active</status>
+<update_date type="datetime">2018-11-07T21:15:00+00:00</update_date>
 <teachers type="array">
 </teachers>
 <meeting_times type="array">
+  <meeting_time>
+    <grading_period>Semester 1 (SEC)</grading_period>
+    <day>Tuesday</day>
+    <room/>
+    <block>Spirit Day Block 1</block>
+    <block_abbreviation>SD-1</block_abbreviation>
+    <start_time>13:55</start_time>
+    <end_time>14:45</end_time>
+  </meeting_time>
 </meeting_times>
   </class>
   <class>
-<class_pk type="integer">113181</class_pk>
-<class_id>PTC-H-B.11</class_id>
-<group_fk type="integer">705396</group_fk>
-<group_id>201-2017-4-113181-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
+<class_pk type="integer">134524</class_pk>
+<class_id>SD-R-B2.10</class_id>
+<group_fk type="integer">791447</group_fk>
+<group_id>201-2018-4-134524-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
 <school_level>Secondary</school_level>
 <primary_grade_level>None</primary_grade_level>
-<course>PTC Group B Home</course>
-<course_id type="integer">2224</course_id>
-<description>Thai Studies (Home Learning Share)</description>
-<subject>PTC Exclude</subject>
+<course>Spirit Day Red House Block 2</course>
+<course_id type="integer">2217</course_id>
+<description>Y10-Y13 Basketball Knockout - 1:55-2:45 (Front Gate)</description>
+<subject>Spirit Day</subject>
 <course_type>Other Program</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
@@ -1345,25 +391,34 @@
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
-<status>Complete</status>
-<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
+<status>Active</status>
+<update_date type="datetime">2018-11-07T21:15:00+00:00</update_date>
 <teachers type="array">
 </teachers>
 <meeting_times type="array">
+  <meeting_time>
+    <grading_period>Semester 1 (SEC)</grading_period>
+    <day>Tuesday</day>
+    <room/>
+    <block>Spirit Day Block 1</block>
+    <block_abbreviation>SD-1</block_abbreviation>
+    <start_time>13:55</start_time>
+    <end_time>14:45</end_time>
+  </meeting_time>
 </meeting_times>
   </class>
   <class>
-<class_pk type="integer">113182</class_pk>
-<class_id>PTC-H-A.12</class_id>
-<group_fk type="integer">705379</group_fk>
-<group_id>201-2017-4-113182-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
+<class_pk type="integer">134525</class_pk>
+<class_id>SD-R-B2.11</class_id>
+<group_fk type="integer">791448</group_fk>
+<group_id>201-2018-4-134525-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
 <school_level>Secondary</school_level>
 <primary_grade_level>None</primary_grade_level>
-<course>PTC Group A Home</course>
-<course_id type="integer">2223</course_id>
-<description>Dutch Language and Literature (Home Learning Share)</description>
-<subject>PTC Exclude</subject>
+<course>Spirit Day Red House Block 2</course>
+<course_id type="integer">2217</course_id>
+<description>Y10-Y13 Amazing Race - 1:55-2:45 (Big Steps)</description>
+<subject>Spirit Day</subject>
 <course_type>Other Program</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
@@ -1373,25 +428,34 @@
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
-<status>Complete</status>
-<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
+<status>Active</status>
+<update_date type="datetime">2018-11-07T21:15:00+00:00</update_date>
 <teachers type="array">
 </teachers>
 <meeting_times type="array">
+  <meeting_time>
+    <grading_period>Semester 1 (SEC)</grading_period>
+    <day>Tuesday</day>
+    <room/>
+    <block>Spirit Day Block 1</block>
+    <block_abbreviation>SD-1</block_abbreviation>
+    <start_time>13:55</start_time>
+    <end_time>14:45</end_time>
+  </meeting_time>
 </meeting_times>
   </class>
   <class>
-<class_pk type="integer">113183</class_pk>
-<class_id>PTC-H-A.13</class_id>
-<group_fk type="integer">705380</group_fk>
-<group_id>201-2017-4-113183-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
+<class_pk type="integer">134526</class_pk>
+<class_id>SD-R-B2.12</class_id>
+<group_fk type="integer">791449</group_fk>
+<group_id>201-2018-4-134526-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
 <school_level>Secondary</school_level>
 <primary_grade_level>None</primary_grade_level>
-<course>PTC Group A Home</course>
-<course_id type="integer">2223</course_id>
-<description>French Language and Literature (Home Learning Share)</description>
-<subject>PTC Exclude</subject>
+<course>Spirit Day Red House Block 2</course>
+<course_id type="integer">2217</course_id>
+<description>Y10-Y13 Capture the Flag - 1:55-2:45 (Gym 1 and 2)</description>
+<subject>Spirit Day</subject>
 <course_type>Other Program</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
@@ -1401,25 +465,34 @@
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
-<status>Complete</status>
-<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
+<status>Active</status>
+<update_date type="datetime">2018-11-07T21:15:00+00:00</update_date>
 <teachers type="array">
 </teachers>
 <meeting_times type="array">
+  <meeting_time>
+    <grading_period>Semester 1 (SEC)</grading_period>
+    <day>Tuesday</day>
+    <room/>
+    <block>Spirit Day Block 1</block>
+    <block_abbreviation>SD-1</block_abbreviation>
+    <start_time>13:55</start_time>
+    <end_time>14:45</end_time>
+  </meeting_time>
 </meeting_times>
   </class>
   <class>
-<class_pk type="integer">113184</class_pk>
-<class_id>PTC-H-A.14</class_id>
-<group_fk type="integer">705381</group_fk>
-<group_id>201-2017-4-113184-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
+<class_pk type="integer">134527</class_pk>
+<class_id>SD-R-B2.13</class_id>
+<group_fk type="integer">791450</group_fk>
+<group_id>201-2018-4-134527-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
 <school_level>Secondary</school_level>
 <primary_grade_level>None</primary_grade_level>
-<course>PTC Group A Home</course>
-<course_id type="integer">2223</course_id>
-<description>German Language and Literature (Home Learning Share)</description>
-<subject>PTC Exclude</subject>
+<course>Spirit Day Red House Block 2</course>
+<course_id type="integer">2217</course_id>
+<description>Y10-Y13 Field Activities - 1:55-2:45 (Big Steps)</description>
+<subject>Spirit Day</subject>
 <course_type>Other Program</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
@@ -1429,25 +502,34 @@
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
-<status>Complete</status>
-<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
+<status>Active</status>
+<update_date type="datetime">2018-11-07T21:15:00+00:00</update_date>
 <teachers type="array">
 </teachers>
 <meeting_times type="array">
+  <meeting_time>
+    <grading_period>Semester 1 (SEC)</grading_period>
+    <day>Tuesday</day>
+    <room/>
+    <block>Spirit Day Block 1</block>
+    <block_abbreviation>SD-1</block_abbreviation>
+    <start_time>13:55</start_time>
+    <end_time>14:45</end_time>
+  </meeting_time>
 </meeting_times>
   </class>
   <class>
-<class_pk type="integer">113185</class_pk>
-<class_id>PTC-H-A.15</class_id>
-<group_fk type="integer">705382</group_fk>
-<group_id>201-2017-4-113185-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
+<class_pk type="integer">134528</class_pk>
+<class_id>SD-R-B2.14</class_id>
+<group_fk type="integer">791451</group_fk>
+<group_id>201-2018-4-134528-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
 <school_level>Secondary</school_level>
 <primary_grade_level>None</primary_grade_level>
-<course>PTC Group A Home</course>
-<course_id type="integer">2223</course_id>
-<description>Hebrew Language and Literature (Home Learning Share)</description>
-<subject>PTC Exclude</subject>
+<course>Spirit Day Red House Block 2</course>
+<course_id type="integer">2217</course_id>
+<description>Y10-Y13 Zorb Football - 1:55-2:45 (Hub (5th Floor) Gym)</description>
+<subject>Spirit Day</subject>
 <course_type>Other Program</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
@@ -1457,25 +539,34 @@
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
-<status>Complete</status>
-<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
+<status>Active</status>
+<update_date type="datetime">2018-11-07T21:15:00+00:00</update_date>
 <teachers type="array">
 </teachers>
 <meeting_times type="array">
+  <meeting_time>
+    <grading_period>Semester 1 (SEC)</grading_period>
+    <day>Tuesday</day>
+    <room/>
+    <block>Spirit Day Block 1</block>
+    <block_abbreviation>SD-1</block_abbreviation>
+    <start_time>13:55</start_time>
+    <end_time>14:45</end_time>
+  </meeting_time>
 </meeting_times>
   </class>
   <class>
-<class_pk type="integer">113186</class_pk>
-<class_id>PTC-H-A.16</class_id>
-<group_fk type="integer">705383</group_fk>
-<group_id>201-2017-4-113186-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
+<class_pk type="integer">134529</class_pk>
+<class_id>SD-R-B2.15</class_id>
+<group_fk type="integer">791452</group_fk>
+<group_id>201-2018-4-134529-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
 <school_level>Secondary</school_level>
 <primary_grade_level>None</primary_grade_level>
-<course>PTC Group A Home</course>
-<course_id type="integer">2223</course_id>
-<description>Hindi Language and Literature (Home Learning Share)</description>
-<subject>PTC Exclude</subject>
+<course>Spirit Day Red House Block 2</course>
+<course_id type="integer">2217</course_id>
+<description>Y10-Y13 Arcade Centre - 1:55-2:45 (Hub 3rd &amp; 4th floor)</description>
+<subject>Spirit Day</subject>
 <course_type>Other Program</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
@@ -1485,25 +576,34 @@
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
-<status>Complete</status>
-<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
+<status>Active</status>
+<update_date type="datetime">2018-11-07T21:15:00+00:00</update_date>
 <teachers type="array">
 </teachers>
 <meeting_times type="array">
+  <meeting_time>
+    <grading_period>Semester 1 (SEC)</grading_period>
+    <day>Tuesday</day>
+    <room/>
+    <block>Spirit Day Block 1</block>
+    <block_abbreviation>SD-1</block_abbreviation>
+    <start_time>13:55</start_time>
+    <end_time>14:45</end_time>
+  </meeting_time>
 </meeting_times>
   </class>
   <class>
-<class_pk type="integer">113187</class_pk>
-<class_id>PTC-H-A.17</class_id>
-<group_fk type="integer">705384</group_fk>
-<group_id>201-2017-4-113187-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
+<class_pk type="integer">134530</class_pk>
+<class_id>SD-R-B2.16</class_id>
+<group_fk type="integer">791453</group_fk>
+<group_id>201-2018-4-134530-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
 <school_level>Secondary</school_level>
 <primary_grade_level>None</primary_grade_level>
-<course>PTC Group A Home</course>
-<course_id type="integer">2223</course_id>
-<description>Japanese Language and Literature (Home Learning Share)</description>
-<subject>PTC Exclude</subject>
+<course>Spirit Day Red House Block 2</course>
+<course_id type="integer">2217</course_id>
+<description>Y10-Y13 Theatre Games - 1:55-2:45 (Tragedy Studio (CAB 4th floor))</description>
+<subject>Spirit Day</subject>
 <course_type>Other Program</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
@@ -1513,25 +613,34 @@
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
-<status>Complete</status>
-<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
+<status>Active</status>
+<update_date type="datetime">2018-11-07T21:15:00+00:00</update_date>
 <teachers type="array">
 </teachers>
 <meeting_times type="array">
+  <meeting_time>
+    <grading_period>Semester 1 (SEC)</grading_period>
+    <day>Tuesday</day>
+    <room/>
+    <block>Spirit Day Block 1</block>
+    <block_abbreviation>SD-1</block_abbreviation>
+    <start_time>13:55</start_time>
+    <end_time>14:45</end_time>
+  </meeting_time>
 </meeting_times>
   </class>
   <class>
-<class_pk type="integer">113188</class_pk>
-<class_id>PTC-H-A.18</class_id>
-<group_fk type="integer">705385</group_fk>
-<group_id>201-2017-4-113188-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
+<class_pk type="integer">134531</class_pk>
+<class_id>SD-R-B2.17</class_id>
+<group_fk type="integer">791454</group_fk>
+<group_id>201-2018-4-134531-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
 <school_level>Secondary</school_level>
 <primary_grade_level>None</primary_grade_level>
-<course>PTC Group A Home</course>
-<course_id type="integer">2223</course_id>
-<description>Korean Language and Literature (Home Learning Share)</description>
-<subject>PTC Exclude</subject>
+<course>Spirit Day Red House Block 2</course>
+<course_id type="integer">2217</course_id>
+<description>Y10-Y13 Jamming and Karaoke - 1:55-2:45 (Louis Armstrong Rooms (CAB 3rd Floor))</description>
+<subject>Spirit Day</subject>
 <course_type>Other Program</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
@@ -1541,25 +650,34 @@
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
-<status>Complete</status>
-<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
+<status>Active</status>
+<update_date type="datetime">2018-11-07T21:15:00+00:00</update_date>
 <teachers type="array">
 </teachers>
 <meeting_times type="array">
+  <meeting_time>
+    <grading_period>Semester 1 (SEC)</grading_period>
+    <day>Tuesday</day>
+    <room/>
+    <block>Spirit Day Block 1</block>
+    <block_abbreviation>SD-1</block_abbreviation>
+    <start_time>13:55</start_time>
+    <end_time>14:45</end_time>
+  </meeting_time>
 </meeting_times>
   </class>
   <class>
-<class_pk type="integer">113189</class_pk>
-<class_id>PTC-H-A.19</class_id>
-<group_fk type="integer">705386</group_fk>
-<group_id>201-2017-4-113189-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
+<class_pk type="integer">134532</class_pk>
+<class_id>SD-R-B2.18</class_id>
+<group_fk type="integer">791455</group_fk>
+<group_id>201-2018-4-134532-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
 <school_level>Secondary</school_level>
 <primary_grade_level>None</primary_grade_level>
-<course>PTC Group A Home</course>
-<course_id type="integer">2223</course_id>
-<description>Mandarin Language and Literature (Home Learning Share)</description>
-<subject>PTC Exclude</subject>
+<course>Spirit Day Red House Block 2</course>
+<course_id type="integer">2217</course_id>
+<description>Y10-Y13 Kahoot - 1:55-2:45 (HUB 3rd Floor)</description>
+<subject>Spirit Day</subject>
 <course_type>Other Program</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
@@ -1569,25 +687,34 @@
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
-<status>Complete</status>
-<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
+<status>Active</status>
+<update_date type="datetime">2018-11-07T21:15:00+00:00</update_date>
 <teachers type="array">
 </teachers>
 <meeting_times type="array">
+  <meeting_time>
+    <grading_period>Semester 1 (SEC)</grading_period>
+    <day>Tuesday</day>
+    <room/>
+    <block>Spirit Day Block 1</block>
+    <block_abbreviation>SD-1</block_abbreviation>
+    <start_time>13:55</start_time>
+    <end_time>14:45</end_time>
+  </meeting_time>
 </meeting_times>
   </class>
   <class>
-<class_pk type="integer">113190</class_pk>
-<class_id>PTC-H-A.20</class_id>
-<group_fk type="integer">705387</group_fk>
-<group_id>201-2017-4-113190-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
+<class_pk type="integer">134533</class_pk>
+<class_id>SD-Y-B1.19</class_id>
+<group_fk type="integer">791476</group_fk>
+<group_id>201-2018-4-134533-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
 <school_level>Secondary</school_level>
 <primary_grade_level>None</primary_grade_level>
-<course>PTC Group A Home</course>
-<course_id type="integer">2223</course_id>
-<description>Swedish Language and Literature (Home Learning Share)</description>
-<subject>PTC Exclude</subject>
+<course>Spirit Day Yellow House Block 1</course>
+<course_id type="integer">2218</course_id>
+<description>Y7-Y9 Arts and Crafts - 1:00-1:50 (4215-4216)</description>
+<subject>Spirit Day</subject>
 <course_type>Other Program</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
@@ -1597,25 +724,34 @@
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
-<status>Complete</status>
-<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
+<status>Active</status>
+<update_date type="datetime">2018-11-07T21:15:00+00:00</update_date>
 <teachers type="array">
 </teachers>
 <meeting_times type="array">
+  <meeting_time>
+    <grading_period>Semester 1 (SEC)</grading_period>
+    <day>Tuesday</day>
+    <room/>
+    <block>Spirit Day Block 1</block>
+    <block_abbreviation>SD-1</block_abbreviation>
+    <start_time>13:00</start_time>
+    <end_time>13:50</end_time>
+  </meeting_time>
 </meeting_times>
   </class>
   <class>
-<class_pk type="integer">113191</class_pk>
-<class_id>PTC-H-A.21</class_id>
-<group_fk type="integer">705388</group_fk>
-<group_id>201-2017-4-113191-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
+<class_pk type="integer">134534</class_pk>
+<class_id>SD-Y-B1.20</class_id>
+<group_fk type="integer">791477</group_fk>
+<group_id>201-2018-4-134534-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
 <school_level>Secondary</school_level>
 <primary_grade_level>None</primary_grade_level>
-<course>PTC Group A Home</course>
-<course_id type="integer">2223</course_id>
-<description>Thai Language and Literature (Home Learning Share)</description>
-<subject>PTC Exclude</subject>
+<course>Spirit Day Yellow House Block 1</course>
+<course_id type="integer">2218</course_id>
+<description>Y10-Y13 Arts and Crafts - 1:00-1:50 (4215-4216)</description>
+<subject>Spirit Day</subject>
 <course_type>Other Program</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
@@ -1625,25 +761,34 @@
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
-<status>Complete</status>
-<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
+<status>Active</status>
+<update_date type="datetime">2018-11-07T21:15:00+00:00</update_date>
 <teachers type="array">
 </teachers>
 <meeting_times type="array">
+  <meeting_time>
+    <grading_period>Semester 1 (SEC)</grading_period>
+    <day>Tuesday</day>
+    <room/>
+    <block>Spirit Day Block 1</block>
+    <block_abbreviation>SD-1</block_abbreviation>
+    <start_time>13:00</start_time>
+    <end_time>13:50</end_time>
+  </meeting_time>
 </meeting_times>
   </class>
   <class>
-<class_pk type="integer">113192</class_pk>
-<class_id>PTC-H-A.22</class_id>
-<group_fk type="integer">705389</group_fk>
-<group_id>201-2017-4-113192-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
+<class_pk type="integer">134535</class_pk>
+<class_id>SD-B-B1.19</class_id>
+<group_fk type="integer">790974</group_fk>
+<group_id>201-2018-4-134535-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
 <school_level>Secondary</school_level>
 <primary_grade_level>None</primary_grade_level>
-<course>PTC Group A Home</course>
-<course_id type="integer">2223</course_id>
-<description>French Language Acquisition (Home Learning Share)</description>
-<subject>PTC Exclude</subject>
+<course>Spirit Day Blue House Block 1</course>
+<course_id type="integer">2208</course_id>
+<description>Y7-Y9 Arts and Crafts - 1:00-1:50 (4215-4216)</description>
+<subject>Spirit Day</subject>
 <course_type>Other Program</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
@@ -1653,25 +798,34 @@
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
-<status>Complete</status>
-<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
+<status>Active</status>
+<update_date type="datetime">2018-11-07T21:15:00+00:00</update_date>
 <teachers type="array">
 </teachers>
 <meeting_times type="array">
+  <meeting_time>
+    <grading_period>Semester 1 (SEC)</grading_period>
+    <day>Tuesday</day>
+    <room/>
+    <block>Spirit Day Block 1</block>
+    <block_abbreviation>SD-1</block_abbreviation>
+    <start_time>13:00</start_time>
+    <end_time>13:50</end_time>
+  </meeting_time>
 </meeting_times>
   </class>
   <class>
-<class_pk type="integer">113193</class_pk>
-<class_id>PTC-H-A.23</class_id>
-<group_fk type="integer">705390</group_fk>
-<group_id>201-2017-4-113193-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
+<class_pk type="integer">134536</class_pk>
+<class_id>SD-B-B1.20</class_id>
+<group_fk type="integer">790975</group_fk>
+<group_id>201-2018-4-134536-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
 <school_level>Secondary</school_level>
 <primary_grade_level>None</primary_grade_level>
-<course>PTC Group A Home</course>
-<course_id type="integer">2223</course_id>
-<description>Mandarin Language Acquisition (Home Learning Share)</description>
-<subject>PTC Exclude</subject>
+<course>Spirit Day Blue House Block 1</course>
+<course_id type="integer">2208</course_id>
+<description>Y10-Y13 Arts and Crafts - 1:00-1:50 (4215-4216)</description>
+<subject>Spirit Day</subject>
 <course_type>Other Program</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
@@ -1681,25 +835,34 @@
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
-<status>Complete</status>
-<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
+<status>Active</status>
+<update_date type="datetime">2018-11-07T21:15:00+00:00</update_date>
 <teachers type="array">
 </teachers>
 <meeting_times type="array">
+  <meeting_time>
+    <grading_period>Semester 1 (SEC)</grading_period>
+    <day>Tuesday</day>
+    <room/>
+    <block>Spirit Day Block 1</block>
+    <block_abbreviation>SD-1</block_abbreviation>
+    <start_time>13:00</start_time>
+    <end_time>13:50</end_time>
+  </meeting_time>
 </meeting_times>
   </class>
   <class>
-<class_pk type="integer">113194</class_pk>
-<class_id>PTC-H-A.24</class_id>
-<group_fk type="integer">705391</group_fk>
-<group_id>201-2017-4-113194-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
+<class_pk type="integer">134537</class_pk>
+<class_id>SD-G-B1.19</class_id>
+<group_fk type="integer">791316</group_fk>
+<group_id>201-2018-4-134537-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
 <school_level>Secondary</school_level>
 <primary_grade_level>None</primary_grade_level>
-<course>PTC Group A Home</course>
-<course_id type="integer">2223</course_id>
-<description>Spanish Language Acquisition (Home Learning Share)</description>
-<subject>PTC Exclude</subject>
+<course>Spirit Day Green House Block 1</course>
+<course_id type="integer">2210</course_id>
+<description>Y7-Y9 Arts and Crafts - 1:00-1:50 (4215-4216)</description>
+<subject>Spirit Day</subject>
 <course_type>Other Program</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
@@ -1709,25 +872,34 @@
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
-<status>Complete</status>
-<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
+<status>Active</status>
+<update_date type="datetime">2018-11-07T21:15:00+00:00</update_date>
 <teachers type="array">
 </teachers>
 <meeting_times type="array">
+  <meeting_time>
+    <grading_period>Semester 1 (SEC)</grading_period>
+    <day>Tuesday</day>
+    <room/>
+    <block>Spirit Day Block 1</block>
+    <block_abbreviation>SD-1</block_abbreviation>
+    <start_time>13:00</start_time>
+    <end_time>13:50</end_time>
+  </meeting_time>
 </meeting_times>
   </class>
   <class>
-<class_pk type="integer">113195</class_pk>
-<class_id>PTC-H-A.25</class_id>
-<group_fk type="integer">705392</group_fk>
-<group_id>201-2017-4-113195-0-0-0-0</group_id>
-<school_year type="integer">2017</school_year>
+<class_pk type="integer">134538</class_pk>
+<class_id>SD-G-B1.20</class_id>
+<group_fk type="integer">791317</group_fk>
+<group_id>201-2018-4-134538-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
 <school_level>Secondary</school_level>
 <primary_grade_level>None</primary_grade_level>
-<course>PTC Group A Home</course>
-<course_id type="integer">2223</course_id>
-<description>Thai Language Acquisition (Home Learning Share)</description>
-<subject>PTC Exclude</subject>
+<course>Spirit Day Green House Block 1</course>
+<course_id type="integer">2210</course_id>
+<description>Y10-Y13 Arts and Crafts - 1:00-1:50 (4215-4216)</description>
+<subject>Spirit Day</subject>
 <course_type>Other Program</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
@@ -1737,67 +909,776 @@
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
 <teacher_fk type="integer">0</teacher_fk>
 <teacher_full_name/>
-<status>Complete</status>
-<update_date type="datetime">2018-05-17T03:02:00+00:00</update_date>
+<status>Active</status>
+<update_date type="datetime">2018-11-07T21:15:00+00:00</update_date>
 <teachers type="array">
 </teachers>
 <meeting_times type="array">
+  <meeting_time>
+    <grading_period>Semester 1 (SEC)</grading_period>
+    <day>Tuesday</day>
+    <room/>
+    <block>Spirit Day Block 1</block>
+    <block_abbreviation>SD-1</block_abbreviation>
+    <start_time>13:00</start_time>
+    <end_time>13:50</end_time>
+  </meeting_time>
 </meeting_times>
   </class>
   <class>
-<class_pk type="integer">131992</class_pk>
-<class_id>IMS-VOCP.M04</class_id>
-<group_fk type="integer">0</group_fk>
-<group_id>0-2005-0-0-0-0-0-0</group_id>
-<school_year type="integer">-2018</school_year>
+<class_pk type="integer">134539</class_pk>
+<class_id>SD-O-B1.19</class_id>
+<group_fk type="integer">791356</group_fk>
+<group_id>201-2018-4-134539-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
 <school_level>Secondary</school_level>
-<primary_grade_level>Year 7</primary_grade_level>
-<course>Vocal/Musical Theater Summer</course>
-<course_id type="integer">2041</course_id>
-<description>Vocal/Musical Theater - Teacher: Pratum-anon, Pearl (Rapeeporn)</description>
-<subject>Instrumental Music Lessons</subject>
-<course_type>Summer</course_type>
+<primary_grade_level>None</primary_grade_level>
+<course>Spirit Day Orange House Block 1</course>
+<course_id type="integer">2212</course_id>
+<description>Y7-Y9 Arts and Crafts - 1:00-1:50 (4215-4216)</description>
+<subject>Spirit Day</subject>
+<course_type>Other Program</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
 <parent_portal_visibility>Show</parent_portal_visibility>
 <student_portal_visibility>Show</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">30654</teacher_fk>
-<teacher_full_name>Rapeeporn Pratum-anon</teacher_full_name>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-11-07T21:15:00+00:00</update_date>
+<teachers type="array">
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>Semester 1 (SEC)</grading_period>
+    <day>Tuesday</day>
+    <room/>
+    <block>Spirit Day Block 1</block>
+    <block_abbreviation>SD-1</block_abbreviation>
+    <start_time>13:00</start_time>
+    <end_time>13:50</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134540</class_pk>
+<class_id>SD-O-B1.20</class_id>
+<group_fk type="integer">791357</group_fk>
+<group_id>201-2018-4-134540-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Spirit Day Orange House Block 1</course>
+<course_id type="integer">2212</course_id>
+<description>Y10-Y13 Arts and Crafts - 1:00-1:50 (4215-4216)</description>
+<subject>Spirit Day</subject>
+<course_type>Other Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-11-07T21:15:00+00:00</update_date>
+<teachers type="array">
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>Semester 1 (SEC)</grading_period>
+    <day>Tuesday</day>
+    <room/>
+    <block>Spirit Day Block 1</block>
+    <block_abbreviation>SD-1</block_abbreviation>
+    <start_time>13:00</start_time>
+    <end_time>13:50</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134541</class_pk>
+<class_id>SD-P-B1.19</class_id>
+<group_fk type="integer">791396</group_fk>
+<group_id>201-2018-4-134541-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Spirit Day Purple House Block 1</course>
+<course_id type="integer">2214</course_id>
+<description>Y7-Y9 Arts and Crafts - 1:00-1:50 (4215-4216)</description>
+<subject>Spirit Day</subject>
+<course_type>Other Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-11-07T21:15:00+00:00</update_date>
+<teachers type="array">
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>Semester 1 (SEC)</grading_period>
+    <day>Tuesday</day>
+    <room/>
+    <block>Spirit Day Block 1</block>
+    <block_abbreviation>SD-1</block_abbreviation>
+    <start_time>13:00</start_time>
+    <end_time>13:50</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134542</class_pk>
+<class_id>SD-P-B1.20</class_id>
+<group_fk type="integer">791397</group_fk>
+<group_id>201-2018-4-134542-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Spirit Day Purple House Block 1</course>
+<course_id type="integer">2214</course_id>
+<description>Y10-Y13 Arts and Crafts - 1:00-1:50 (4215-4216)</description>
+<subject>Spirit Day</subject>
+<course_type>Other Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-11-07T21:15:00+00:00</update_date>
+<teachers type="array">
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>Semester 1 (SEC)</grading_period>
+    <day>Tuesday</day>
+    <room/>
+    <block>Spirit Day Block 1</block>
+    <block_abbreviation>SD-1</block_abbreviation>
+    <start_time>13:00</start_time>
+    <end_time>13:50</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134543</class_pk>
+<class_id>SD-R-B1.19</class_id>
+<group_fk type="integer">791436</group_fk>
+<group_id>201-2018-4-134543-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Spirit Day Red House Block 1</course>
+<course_id type="integer">2216</course_id>
+<description>Y7-Y9 Arts and Crafts - 1:00-1:50 (4215-4216)</description>
+<subject>Spirit Day</subject>
+<course_type>Other Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-11-07T21:15:00+00:00</update_date>
+<teachers type="array">
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>Semester 1 (SEC)</grading_period>
+    <day>Tuesday</day>
+    <room/>
+    <block>Spirit Day Block 1</block>
+    <block_abbreviation>SD-1</block_abbreviation>
+    <start_time>13:00</start_time>
+    <end_time>13:50</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134544</class_pk>
+<class_id>SD-R-B1.20</class_id>
+<group_fk type="integer">791437</group_fk>
+<group_id>201-2018-4-134544-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Spirit Day Red House Block 1</course>
+<course_id type="integer">2216</course_id>
+<description>Y10-Y13 Arts and Crafts - 1:00-1:50 (4215-4216)</description>
+<subject>Spirit Day</subject>
+<course_type>Other Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-11-07T21:15:00+00:00</update_date>
+<teachers type="array">
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>Semester 1 (SEC)</grading_period>
+    <day>Tuesday</day>
+    <room/>
+    <block>Spirit Day Block 1</block>
+    <block_abbreviation>SD-1</block_abbreviation>
+    <start_time>13:00</start_time>
+    <end_time>13:50</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134545</class_pk>
+<class_id>SD-Y-B2.19</class_id>
+<group_fk type="integer">791496</group_fk>
+<group_id>201-2018-4-134545-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Spirit Day Yellow House Block 2</course>
+<course_id type="integer">2219</course_id>
+<description>Y7-Y9 Arts and Crafts - 1:55-2:45 (4215-4216)</description>
+<subject>Spirit Day</subject>
+<course_type>Other Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-11-07T21:15:00+00:00</update_date>
+<teachers type="array">
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>Semester 1 (SEC)</grading_period>
+    <day>Tuesday</day>
+    <room/>
+    <block>Spirit Day Block 1</block>
+    <block_abbreviation>SD-1</block_abbreviation>
+    <start_time>13:55</start_time>
+    <end_time>14:45</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134546</class_pk>
+<class_id>SD-Y-B2.20</class_id>
+<group_fk type="integer">791497</group_fk>
+<group_id>201-2018-4-134546-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Spirit Day Yellow House Block 2</course>
+<course_id type="integer">2219</course_id>
+<description>Y10-Y13 Arts and Crafts - 1:55-2:45 (4215-4216)</description>
+<subject>Spirit Day</subject>
+<course_type>Other Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-11-07T21:15:00+00:00</update_date>
+<teachers type="array">
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>Semester 1 (SEC)</grading_period>
+    <day>Tuesday</day>
+    <room/>
+    <block>Spirit Day Block 1</block>
+    <block_abbreviation>SD-1</block_abbreviation>
+    <start_time>13:55</start_time>
+    <end_time>14:45</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134547</class_pk>
+<class_id>SD-B-B2.19</class_id>
+<group_fk type="integer">790994</group_fk>
+<group_id>201-2018-4-134547-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Spirit Day Blue House Block 2</course>
+<course_id type="integer">2209</course_id>
+<description>Y7-Y9 Arts and Crafts - 1:55-2:45 (4215-4216)</description>
+<subject>Spirit Day</subject>
+<course_type>Other Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-11-07T21:15:00+00:00</update_date>
+<teachers type="array">
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>Semester 1 (SEC)</grading_period>
+    <day>Tuesday</day>
+    <room/>
+    <block>Spirit Day Block 1</block>
+    <block_abbreviation>SD-1</block_abbreviation>
+    <start_time>13:55</start_time>
+    <end_time>14:45</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134548</class_pk>
+<class_id>SD-B-B2.20</class_id>
+<group_fk type="integer">790995</group_fk>
+<group_id>201-2018-4-134548-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Spirit Day Blue House Block 2</course>
+<course_id type="integer">2209</course_id>
+<description>Y10-Y13 Arts and Crafts - 1:55-2:45 (4215-4216)</description>
+<subject>Spirit Day</subject>
+<course_type>Other Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-11-07T21:15:00+00:00</update_date>
+<teachers type="array">
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>Semester 1 (SEC)</grading_period>
+    <day>Tuesday</day>
+    <room/>
+    <block>Spirit Day Block 1</block>
+    <block_abbreviation>SD-1</block_abbreviation>
+    <start_time>13:55</start_time>
+    <end_time>14:45</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134549</class_pk>
+<class_id>SD-G-B2.19</class_id>
+<group_fk type="integer">791336</group_fk>
+<group_id>201-2018-4-134549-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Spirit Day Green House Block 2</course>
+<course_id type="integer">2211</course_id>
+<description>Y7-Y9 Arts and Crafts - 1:55-2:45 (4215-4216)</description>
+<subject>Spirit Day</subject>
+<course_type>Other Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-11-07T21:15:00+00:00</update_date>
+<teachers type="array">
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>Semester 1 (SEC)</grading_period>
+    <day>Tuesday</day>
+    <room/>
+    <block>Spirit Day Block 1</block>
+    <block_abbreviation>SD-1</block_abbreviation>
+    <start_time>13:55</start_time>
+    <end_time>14:45</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134550</class_pk>
+<class_id>SD-G-B2.20</class_id>
+<group_fk type="integer">791337</group_fk>
+<group_id>201-2018-4-134550-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Spirit Day Green House Block 2</course>
+<course_id type="integer">2211</course_id>
+<description>Y10-Y13 Arts and Crafts - 1:55-2:45 (4215-4216)</description>
+<subject>Spirit Day</subject>
+<course_type>Other Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-11-07T21:15:00+00:00</update_date>
+<teachers type="array">
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>Semester 1 (SEC)</grading_period>
+    <day>Tuesday</day>
+    <room/>
+    <block>Spirit Day Block 1</block>
+    <block_abbreviation>SD-1</block_abbreviation>
+    <start_time>13:55</start_time>
+    <end_time>14:45</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134551</class_pk>
+<class_id>SD-O-B2.19</class_id>
+<group_fk type="integer">791376</group_fk>
+<group_id>201-2018-4-134551-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Spirit Day Orange House Block 2</course>
+<course_id type="integer">2213</course_id>
+<description>Y7-Y9 Arts and Crafts - 1:55-2:45 (4215-4216)</description>
+<subject>Spirit Day</subject>
+<course_type>Other Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-11-07T21:15:00+00:00</update_date>
+<teachers type="array">
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>Semester 1 (SEC)</grading_period>
+    <day>Tuesday</day>
+    <room/>
+    <block>Spirit Day Block 1</block>
+    <block_abbreviation>SD-1</block_abbreviation>
+    <start_time>13:55</start_time>
+    <end_time>14:45</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134552</class_pk>
+<class_id>SD-O-B2.20</class_id>
+<group_fk type="integer">791377</group_fk>
+<group_id>201-2018-4-134552-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Spirit Day Orange House Block 2</course>
+<course_id type="integer">2213</course_id>
+<description>Y10-Y13 Arts and Crafts - 1:55-2:45 (4215-4216)</description>
+<subject>Spirit Day</subject>
+<course_type>Other Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-11-07T21:15:00+00:00</update_date>
+<teachers type="array">
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>Semester 1 (SEC)</grading_period>
+    <day>Tuesday</day>
+    <room/>
+    <block>Spirit Day Block 1</block>
+    <block_abbreviation>SD-1</block_abbreviation>
+    <start_time>13:55</start_time>
+    <end_time>14:45</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134553</class_pk>
+<class_id>SD-P-B2.19</class_id>
+<group_fk type="integer">791416</group_fk>
+<group_id>201-2018-4-134553-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Spirit Day Purple House Block 2</course>
+<course_id type="integer">2215</course_id>
+<description>Y7-Y9 Arts and Crafts - 1:55-2:45 (4215-4216)</description>
+<subject>Spirit Day</subject>
+<course_type>Other Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-11-07T21:15:00+00:00</update_date>
+<teachers type="array">
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>Semester 1 (SEC)</grading_period>
+    <day>Tuesday</day>
+    <room/>
+    <block>Spirit Day Block 1</block>
+    <block_abbreviation>SD-1</block_abbreviation>
+    <start_time>13:55</start_time>
+    <end_time>14:45</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134554</class_pk>
+<class_id>SD-P-B2.20</class_id>
+<group_fk type="integer">791417</group_fk>
+<group_id>201-2018-4-134554-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Spirit Day Purple House Block 2</course>
+<course_id type="integer">2215</course_id>
+<description>Y10-Y13 Arts and Crafts - 1:55-2:45 (4215-4216)</description>
+<subject>Spirit Day</subject>
+<course_type>Other Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-11-07T21:15:00+00:00</update_date>
+<teachers type="array">
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>Semester 2 (SEC)</grading_period>
+    <day>Tuesday</day>
+    <room/>
+    <block>Spirit Day Block 1</block>
+    <block_abbreviation>SD-1</block_abbreviation>
+    <start_time>13:55</start_time>
+    <end_time>14:45</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134555</class_pk>
+<class_id>SD-R-B2.19</class_id>
+<group_fk type="integer">791456</group_fk>
+<group_id>201-2018-4-134555-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Spirit Day Red House Block 2</course>
+<course_id type="integer">2217</course_id>
+<description>Y7-Y9 Arts and Crafts - 1:55-2:45 (4215-4216)</description>
+<subject>Spirit Day</subject>
+<course_type>Other Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-11-07T21:15:00+00:00</update_date>
+<teachers type="array">
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>Semester 1 (SEC)</grading_period>
+    <day>Tuesday</day>
+    <room/>
+    <block>Spirit Day Block 1</block>
+    <block_abbreviation>SD-1</block_abbreviation>
+    <start_time>13:55</start_time>
+    <end_time>14:45</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134556</class_pk>
+<class_id>SD-R-B2.20</class_id>
+<group_fk type="integer">791457</group_fk>
+<group_id>201-2018-4-134556-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Spirit Day Red House Block 2</course>
+<course_id type="integer">2217</course_id>
+<description>Y10-Y13 Arts and Crafts - 1:55-2:45 (4215-4216)</description>
+<subject>Spirit Day</subject>
+<course_type>Other Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-11-07T21:15:00+00:00</update_date>
+<teachers type="array">
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>Semester 1 (SEC)</grading_period>
+    <day>Tuesday</day>
+    <room/>
+    <block>Spirit Day Block 1</block>
+    <block_abbreviation>SD-1</block_abbreviation>
+    <start_time>13:55</start_time>
+    <end_time>14:45</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134608</class_pk>
+<class_id>ECA-SPO-TUE.70</class_id>
+<group_fk type="integer">792942</group_fk>
+<group_id>201-2018-4-134608-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Tuesday ECA Sports</course>
+<course_id type="integer">2069</course_id>
+<description>Tennis Flying Falcons Y7-13 (Tue): ECA2/18-19</description>
+<subject>ECA</subject>
+<course_type>Other Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">18367</teacher_fk>
+<teacher_full_name>Thanrawee Prasitsurakul</teacher_full_name>
 <status>Future</status>
-<update_date type="datetime">2018-05-17T03:03:00+00:00</update_date>
+<update_date type="datetime">2018-11-07T21:15:00+00:00</update_date>
 <teachers type="array">
+  <teacher>
+    <person_fk type="integer">18367</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Thanrawee Prasitsurakul</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
 </teachers>
 <meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 2</grading_period>
+    <day>Tuesday</day>
+    <room>Tennis Court (Outdoor / Multipurpose Courts)</room>
+    <block>ECA Y7-Y13 (Opt 2)</block>
+    <block_abbreviation>ECASC2</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
 </meeting_times>
   </class>
   <class>
-<class_pk type="integer">132003</class_pk>
-<class_id>IMS-VOCP.R04</class_id>
-<group_fk type="integer">0</group_fk>
-<group_id>0-2005-0-0-0-0-0-0</group_id>
-<school_year type="integer">-2018</school_year>
+<class_pk type="integer">134609</class_pk>
+<class_id>ECA-SPO-THU.65</class_id>
+<group_fk type="integer">792943</group_fk>
+<group_id>201-2018-4-134609-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
 <school_level>Secondary</school_level>
-<primary_grade_level>Year 7</primary_grade_level>
-<course>Vocal/Musical Theater Summer</course>
-<course_id type="integer">2041</course_id>
-<description>Vocal/Musical Theater - Teacher: Pratum-anon, Pearl (Rapeeporn)</description>
-<subject>Instrumental Music Lessons</subject>
-<course_type>Summer</course_type>
+<primary_grade_level>None</primary_grade_level>
+<course>Thursday ECA Sports</course>
+<course_id type="integer">2071</course_id>
+<description>Tennis Flying Falcons Y7-13 (Thu): ECA2/18-19</description>
+<subject>ECA</subject>
+<course_type>Other Program</course_type>
 <grading_method>Not Graded</grading_method>
 <assignment_grading_method>Default</assignment_grading_method>
 <parent_portal_visibility>Show</parent_portal_visibility>
 <student_portal_visibility>Show</student_portal_visibility>
 <parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
 <student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
-<teacher_fk type="integer">30654</teacher_fk>
-<teacher_full_name>Rapeeporn Pratum-anon</teacher_full_name>
+<teacher_fk type="integer">18367</teacher_fk>
+<teacher_full_name>Thanrawee Prasitsurakul</teacher_full_name>
 <status>Future</status>
-<update_date type="datetime">2018-05-17T03:05:00+00:00</update_date>
+<update_date type="datetime">2018-11-07T21:15:00+00:00</update_date>
 <teachers type="array">
+  <teacher>
+    <person_fk type="integer">18367</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Thanrawee Prasitsurakul</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
 </teachers>
 <meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 2</grading_period>
+    <day>Thursday</day>
+    <room>Tennis Court (Outdoor / Multipurpose Courts)</room>
+    <block>ECA Y7-Y13 (Opt 2)</block>
+    <block_abbreviation>ECASC2</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
 </meeting_times>
   </class>
 </classes>

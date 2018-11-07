@@ -1,0 +1,4876 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classes type="array">
+  <class>
+<class_pk type="integer">131645</class_pk>
+<class_id>DUT-E-HUB.03</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day E Duty HUB</course>
+<course_id type="integer">1612</course_id>
+<description>S-Duty The Hub Lounge Day E</description>
+<subject>Duty - Day E</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">19546</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Joseph McMillan</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>E</day>
+    <room>Duty (The Hub Lounge)</room>
+    <block>Duty SEC Lunch 2</block>
+    <block_abbreviation>LUNSC2</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">131646</class_pk>
+<class_id>DUT-E-MOR.01</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day E Duty Morning Rover</course>
+<course_id type="integer">1693</course_id>
+<description>S-Duty Morning Rover Day E</description>
+<subject>Duty - Day E</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">45390</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Malikah Sheriff</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>E</day>
+    <room>Duty Sec Library</room>
+    <block>Duty SEC Before School 1</block>
+    <block_abbreviation>DSCBE1</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">131650</class_pk>
+<class_id>DUT-E-MFC.01</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day E Duty Main Field</course>
+<course_id type="integer">1483</course_id>
+<description>S-Duty Main Field Day E</description>
+<subject>Duty - Day E</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">34834</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Shompooh Surakanjanachat</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">45929</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Andrew Nightingale</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>E</day>
+    <room>Duty-Main Field (Wet-Ele Bldg, Flr 4, Y5&amp;6)</room>
+    <block>Duty SEC Break AM</block>
+    <block_abbreviation>DSCBR1</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">131652</class_pk>
+<class_id>DUT-E-MFC.02</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day E Duty Main Field</course>
+<course_id type="integer">1483</course_id>
+<description>S-Duty Main Field Day E</description>
+<subject>Duty - Day E</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">45472</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Rebeka Adamitis</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>E</day>
+    <room>Duty-Main Field (Wet-Ele Bldg, Flr 4, Y5&amp;6)</room>
+    <block>Duty SEC Break PM</block>
+    <block_abbreviation>DSCBR2</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">131653</class_pk>
+<class_id>DUT-E-MFC.07</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day E Duty Main Field</course>
+<course_id type="integer">1483</course_id>
+<description>S-Duty Main Field Day E</description>
+<subject>Duty - Day E</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">54122</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Debra von Bargen</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>E</day>
+    <room>Duty-Main Field</room>
+    <block>Duty SEC Before School 2</block>
+    <block_abbreviation>DSCBEF</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">131654</class_pk>
+<class_id>DUT-E-MFC.03</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day E Duty Main Field</course>
+<course_id type="integer">1483</course_id>
+<description>S-Duty Main Field Day E</description>
+<subject>Duty - Day E</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">45549</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Anne Holzman</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>E</day>
+    <room>Duty-Main Field (Wet-Ele Bldg, Flr 4, Y5&amp;6)</room>
+    <block>Duty SEC Lunch 1</block>
+    <block_abbreviation>LUNSC1</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">131655</class_pk>
+<class_id>DUT-E-MFC.06S</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day E Duty Main Field</course>
+<course_id type="integer">1483</course_id>
+<description>S-Duty Main Field Day E</description>
+<subject>Duty - Day E</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">45549</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Anne Holzman</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>E</day>
+    <room>Duty-Main Field (Wet-Ele Bldg, Flr 4, Y5&amp;6)</room>
+    <block>Duty SEC Lunch 2</block>
+    <block_abbreviation>LUNSC2</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">131656</class_pk>
+<class_id>DUT-E-MUS-HS.01</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day E Duty Music Room</course>
+<course_id type="integer">1409</course_id>
+<description>S-Duty Music Room Day E</description>
+<subject>Duty - Day E</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">25133</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Anna Olsen</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>E</day>
+    <room>Music Rooms</room>
+    <block>Duty SEC Lunch 1</block>
+    <block_abbreviation>LUNSC1</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">131657</class_pk>
+<class_id>DUT-E-MUS-MS.02</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day E Duty Music Room</course>
+<course_id type="integer">1409</course_id>
+<description>S-Duty Music Room Day E</description>
+<subject>Duty - Day E</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">32837</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Alexander Guenther</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>E</day>
+    <room>Music Rooms</room>
+    <block>Duty SEC Lunch 2</block>
+    <block_abbreviation>LUNSC2</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">131658</class_pk>
+<class_id>DUT-E-SPC.01</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day E Duty Sports Complex</course>
+<course_id type="integer">2089</course_id>
+<description>S-Duty Sports Complex Day E</description>
+<subject>Duty - Day E</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>E</day>
+    <room>Duty Sports Complex</room>
+    <block>Duty SEC Break AM</block>
+    <block_abbreviation>DSCBR1</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">131660</class_pk>
+<class_id>DUT-F-SPC.03</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day F Duty Sports Complex</course>
+<course_id type="integer">2090</course_id>
+<description>S-Duty Sports Complex Day F</description>
+<subject>Duty - Day F</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">43021</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Matthew Upham</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>F</day>
+    <room>Duty Sports Complex</room>
+    <block>Duty SEC Lunch 2</block>
+    <block_abbreviation>LUNSC2</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">131662</class_pk>
+<class_id>DUT-F-SPC.04</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day F Duty Sports Complex</course>
+<course_id type="integer">2090</course_id>
+<description>S-Duty Sports Complex Day F</description>
+<subject>Duty - Day F</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">34732</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>David Williams</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>F</day>
+    <room>Duty Sports Complex</room>
+    <block>Duty SEC Lunch 1</block>
+    <block_abbreviation>LUNSC1</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">131664</class_pk>
+<class_id>DUT-F-CAF1.01</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day F Duty Cafeteria 1st Floor</course>
+<course_id type="integer">1420</course_id>
+<description>S-Duty Cafeteria 1st Floor Day F</description>
+<subject>Duty - Day F</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">51844</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Merilyn Winslade</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>F</day>
+    <room>1st Floor Cafeteria</room>
+    <block>Duty SEC Break AM</block>
+    <block_abbreviation>DSCBR1</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">131665</class_pk>
+<class_id>DUT-F-CAF1-HS.02</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day F Duty Cafeteria 1st Floor</course>
+<course_id type="integer">1420</course_id>
+<description>S-Duty Cafeteria 1st Floor Day F</description>
+<subject>Duty - Day F</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">25948</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Jane Altemen</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>F</day>
+    <room>1st Floor Cafeteria</room>
+    <block>Duty SEC Break PM</block>
+    <block_abbreviation>DSCBR2</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">131667</class_pk>
+<class_id>DUT-F-CAF1-MS.02</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day F Duty Cafeteria 1st Floor</course>
+<course_id type="integer">1420</course_id>
+<description>S-Duty Cafeteria 1st Floor Day F</description>
+<subject>Duty - Day F</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">46270</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Patricia McNair</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">52497</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Andrew Ross</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>F</day>
+    <room>1st Floor Cafeteria</room>
+    <block>Duty SEC Lunch 1</block>
+    <block_abbreviation>LUNSC1</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">131668</class_pk>
+<class_id>DUT-F-CAF1-MS.03</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day F Duty Cafeteria 1st Floor</course>
+<course_id type="integer">1420</course_id>
+<description>S-Duty Cafeteria 1st Floor Day F</description>
+<subject>Duty - Day F</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">18204</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Tatikarn Rodsiri</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>F</day>
+    <room>1st Floor Cafeteria</room>
+    <block>Duty SEC Lunch 2</block>
+    <block_abbreviation>LUNSC2</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">131669</class_pk>
+<class_id>DUT-F-HUB.01</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day F Duty HUB</course>
+<course_id type="integer">1613</course_id>
+<description>S-Duty The Hub Lounge Day F</description>
+<subject>Duty - Day F</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">38414</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Victoria Hall</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>F</day>
+    <room>Duty (The Hub Lounge)</room>
+    <block>Duty SEC Break AM</block>
+    <block_abbreviation>DSCBR1</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">131670</class_pk>
+<class_id>DUT-F-HUB-5F.05</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day F Duty HUB 5th Flr</course>
+<course_id type="integer">2096</course_id>
+<description>S-Duty The Hub 5th Flr Day F</description>
+<subject>Duty - Day F</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">11199</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Ivan Beeckmans</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>F</day>
+    <room>Duty (The Hub 5th Flr)</room>
+    <block>Duty SEC Lunch 1</block>
+    <block_abbreviation>LUNSC1</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">131671</class_pk>
+<class_id>DUT-F-HUB-5F.06</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day F Duty HUB 5th Flr</course>
+<course_id type="integer">2096</course_id>
+<description>S-Duty The Hub 5th Flr Day F</description>
+<subject>Duty - Day F</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">26229</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Nicholas Keam</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>F</day>
+    <room>Duty (The Hub 5th Flr)</room>
+    <block>Duty SEC Lunch 2</block>
+    <block_abbreviation>LUNSC2</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">131672</class_pk>
+<class_id>DUT-F-HUB.04</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day F Duty HUB</course>
+<course_id type="integer">1613</course_id>
+<description>S-Duty The Hub Lounge Day F</description>
+<subject>Duty - Day F</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">30149</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>John Gangi</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>F</day>
+    <room>Duty (The Hub Lounge)</room>
+    <block>Duty SEC Break PM</block>
+    <block_abbreviation>DSCBR2</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">131674</class_pk>
+<class_id>DUT-F-HUB.02</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day F Duty HUB</course>
+<course_id type="integer">1613</course_id>
+<description>S-Duty The Hub Lounge Day F</description>
+<subject>Duty - Day F</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">32837</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Alexander Guenther</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>F</day>
+    <room>Duty (The Hub Lounge)</room>
+    <block>Duty SEC Lunch 1</block>
+    <block_abbreviation>LUNSC1</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">131675</class_pk>
+<class_id>DUT-F-HUB.03</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day F Duty HUB</course>
+<course_id type="integer">1613</course_id>
+<description>S-Duty The Hub Lounge Day F</description>
+<subject>Duty - Day F</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">32837</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Alexander Guenther</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>F</day>
+    <room>Duty (The Hub Lounge)</room>
+    <block>Duty SEC Lunch 2</block>
+    <block_abbreviation>LUNSC2</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">131676</class_pk>
+<class_id>DUT-F-MOR.01</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day F Duty Morning Rover</course>
+<course_id type="integer">1694</course_id>
+<description>S-Duty Morning Rover Day F</description>
+<subject>Duty - Day F</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">51844</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Merilyn Winslade</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>F</day>
+    <room>Duty Sec Library</room>
+    <block>Duty SEC Before School 1</block>
+    <block_abbreviation>DSCBE1</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">131680</class_pk>
+<class_id>DUT-F-MFC.01</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day F Duty Main Field</course>
+<course_id type="integer">1484</course_id>
+<description>S-Duty Main Field Day F</description>
+<subject>Duty - Day F</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">50821</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Cristóbal González Salgado</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">53253</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Suzanne Hegarty</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>F</day>
+    <room>Duty-Main Field (Wet-Ele Bldg, Flr 4, Y5&amp;6)</room>
+    <block>Duty SEC Break AM</block>
+    <block_abbreviation>DSCBR1</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">131682</class_pk>
+<class_id>DUT-F-MFC.02</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day F Duty Main Field</course>
+<course_id type="integer">1484</course_id>
+<description>S-Duty Main Field Day F</description>
+<subject>Duty - Day F</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">11174</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Emeli Ward</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>F</day>
+    <room>Duty-Main Field (Wet-Ele Bldg, Flr 4, Y5&amp;6)</room>
+    <block>Duty SEC Break PM</block>
+    <block_abbreviation>DSCBR2</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">131683</class_pk>
+<class_id>DUT-F-MFC.07</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day F Duty Main Field</course>
+<course_id type="integer">1484</course_id>
+<description>S-Duty Main Field Day F</description>
+<subject>Duty - Day F</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">45929</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Andrew Nightingale</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>F</day>
+    <room>Duty-Main Field</room>
+    <block>Duty SEC Before School 2</block>
+    <block_abbreviation>DSCBEF</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">131684</class_pk>
+<class_id>DUT-F-MFC.03</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day F Duty Main Field</course>
+<course_id type="integer">1484</course_id>
+<description>S-Duty Main Field Day F</description>
+<subject>Duty - Day F</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">30083</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Jennifer Lacey</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>F</day>
+    <room>Duty-Main Field (Wet-Ele Bldg, Flr 4, Y5&amp;6)</room>
+    <block>Duty SEC Lunch 1</block>
+    <block_abbreviation>LUNSC1</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">131685</class_pk>
+<class_id>DUT-F-MFC.06S</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day F Duty Main Field</course>
+<course_id type="integer">1484</course_id>
+<description>S-Duty Main Field Day F</description>
+<subject>Duty - Day F</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">30083</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Jennifer Lacey</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>F</day>
+    <room>Duty-Main Field (Wet-Ele Bldg, Flr 4, Y5&amp;6)</room>
+    <block>Duty SEC Lunch 2</block>
+    <block_abbreviation>LUNSC2</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">131686</class_pk>
+<class_id>DUT-F-MUS-HS.01</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day F Duty Music Room</course>
+<course_id type="integer">1422</course_id>
+<description>S-Duty Music Room Day F</description>
+<subject>Duty - Day F</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">48493</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Suphawadee Kalhong</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>F</day>
+    <room>Music Rooms</room>
+    <block>Duty SEC Lunch 1</block>
+    <block_abbreviation>LUNSC1</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">131687</class_pk>
+<class_id>DUT-F-MUS-MS.02</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day F Duty Music Room</course>
+<course_id type="integer">1422</course_id>
+<description>S-Duty Music Room Day F</description>
+<subject>Duty - Day F</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">52228</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Jessica Murphy</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>F</day>
+    <room>Music Rooms</room>
+    <block>Duty SEC Lunch 2</block>
+    <block_abbreviation>LUNSC2</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">131688</class_pk>
+<class_id>DUT-F-SPC.01</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day F Duty Sports Complex</course>
+<course_id type="integer">2090</course_id>
+<description>S-Duty Sports Complex Day F</description>
+<subject>Duty - Day F</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>F</day>
+    <room>Duty Sports Complex</room>
+    <block>Duty SEC Break AM</block>
+    <block_abbreviation>DSCBR1</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">131697</class_pk>
+<class_id>U15-B-BASK</class_id>
+<group_fk type="integer">722066</group_fk>
+<group_id>200-2018-4-131697-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Basketball - Boys</course>
+<course_id type="integer">919</course_id>
+<description>U15 Boys Basketball 18-19</description>
+<subject>Sport Program</subject>
+<course_type>Athletic Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">45269</teacher_fk>
+<teacher_full_name>Nathan Armstrong</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">28735</person_fk>
+    <role_id type="integer">100</role_id>
+    <role>Other</role>
+    <teacher_name>Nattakit Ussawachokanan</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">45269</person_fk>
+    <role_id type="integer">10</role_id>
+    <role>Coach</role>
+    <teacher_name>Nathan Armstrong</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">46267</person_fk>
+    <role_id type="integer">100</role_id>
+    <role>Other</role>
+    <teacher_name>Tanya Varangoon</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>Monday</day>
+    <room>Court 2</room>
+    <block>Sport Period 9</block>
+    <block_abbreviation>SP9</block_abbreviation>
+    <start_time>16:00</start_time>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>Thursday</day>
+    <room>Court 1</room>
+    <block>Sport Period 9</block>
+    <block_abbreviation>SP9</block_abbreviation>
+    <start_time>16:00</start_time>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">131705</class_pk>
+<class_id>U15-G-BASK</class_id>
+<group_fk type="integer">722068</group_fk>
+<group_id>200-2018-4-131705-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Basketball - Girls</course>
+<course_id type="integer">920</course_id>
+<description>U15 Girls Basketball 18-19</description>
+<subject>Sport Program</subject>
+<course_type>Athletic Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">11124</teacher_fk>
+<teacher_full_name>Artit Pannan</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">11124</person_fk>
+    <role_id type="integer">10</role_id>
+    <role>Coach</role>
+    <teacher_name>Artit Pannan</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">28735</person_fk>
+    <role_id type="integer">100</role_id>
+    <role>Other</role>
+    <teacher_name>Nattakit Ussawachokanan</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">46267</person_fk>
+    <role_id type="integer">100</role_id>
+    <role>Other</role>
+    <teacher_name>Tanya Varangoon</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Tuesday</day>
+    <room>Court 3</room>
+    <block>Sport Period 9</block>
+    <block_abbreviation>SP9</block_abbreviation>
+    <start_time>16:00</start_time>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Thursday</day>
+    <room>Court 2</room>
+    <block>Sport Period 9</block>
+    <block_abbreviation>SP9</block_abbreviation>
+    <start_time>16:00</start_time>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">131708</class_pk>
+<class_id>BIS-Senior SWIM-C</class_id>
+<group_fk type="integer">722053</group_fk>
+<group_id>200-2018-4-131708-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Swimming</course>
+<course_id type="integer">1008</course_id>
+<description>BISAC Senior Swimming Championships 2018</description>
+<subject>Sport Program</subject>
+<course_type>Athletic Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period/>
+    <day/>
+    <room/>
+    <block/>
+    <block_abbreviation/>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">131720</class_pk>
+<class_id>U19-BAD-B</class_id>
+<group_fk type="integer">722077</group_fk>
+<group_id>200-2018-4-131720-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Badminton - Boys</course>
+<course_id type="integer">1053</course_id>
+<description>U19 Badminton Boys</description>
+<subject>Sport Program</subject>
+<course_type>Athletic Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period/>
+    <day/>
+    <room/>
+    <block/>
+    <block_abbreviation/>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">131721</class_pk>
+<class_id>U17-BAD-B</class_id>
+<group_fk type="integer">722070</group_fk>
+<group_id>200-2018-4-131721-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Badminton - Boys</course>
+<course_id type="integer">1053</course_id>
+<description>U17 Badminton Boys</description>
+<subject>Sport Program</subject>
+<course_type>Athletic Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period/>
+    <day/>
+    <room/>
+    <block/>
+    <block_abbreviation/>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">131725</class_pk>
+<class_id>U19-BAD-G</class_id>
+<group_fk type="integer">722078</group_fk>
+<group_id>200-2018-4-131725-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Badminton - Girls</course>
+<course_id type="integer">1054</course_id>
+<description>U19 Badminton Girls</description>
+<subject>Sport Program</subject>
+<course_type>Athletic Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period/>
+    <day/>
+    <room/>
+    <block/>
+    <block_abbreviation/>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">131726</class_pk>
+<class_id>U17-BAD-G</class_id>
+<group_fk type="integer">722071</group_fk>
+<group_id>200-2018-4-131726-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Badminton - Girls</course>
+<course_id type="integer">1054</course_id>
+<description>U17 Badminton Girls</description>
+<subject>Sport Program</subject>
+<course_type>Athletic Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period/>
+    <day/>
+    <room/>
+    <block/>
+    <block_abbreviation/>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">131736</class_pk>
+<class_id>U17-G-VOLL</class_id>
+<group_fk type="integer">722074</group_fk>
+<group_id>200-2018-4-131736-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Volleyball - Girls</course>
+<course_id type="integer">922</course_id>
+<description>U17 Girls Volleyball 18-19</description>
+<subject>Sport Program</subject>
+<course_type>Athletic Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">44846</teacher_fk>
+<teacher_full_name>Megan Lockett</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">44846</person_fk>
+    <role_id type="integer">10</role_id>
+    <role>Coach</role>
+    <teacher_name>Megan Lockett</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">51976</person_fk>
+    <role_id type="integer">10</role_id>
+    <role>Coach</role>
+    <teacher_name>Nicola Farmer</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Wednesday</day>
+    <room>5501 Pongpanit Centre</room>
+    <block>Sport Period 9</block>
+    <block_abbreviation>SP9</block_abbreviation>
+    <start_time>16:00</start_time>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Friday</day>
+    <room>Court 3</room>
+    <block>Sport Period 9</block>
+    <block_abbreviation>SP9</block_abbreviation>
+    <start_time>16:00</start_time>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">131738</class_pk>
+<class_id>U19-BASK-B</class_id>
+<group_fk type="integer">722079</group_fk>
+<group_id>200-2018-4-131738-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Basketball - Boys</course>
+<course_id type="integer">919</course_id>
+<description>U19 Basketball Boys</description>
+<subject>Sport Program</subject>
+<course_type>Athletic Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Future</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 2</grading_period>
+    <day>Monday</day>
+    <room/>
+    <block>Sport Period 7</block>
+    <block_abbreviation>SP7</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ECA Session 2</grading_period>
+    <day>Wednesday</day>
+    <room/>
+    <block>Sport Period 7</block>
+    <block_abbreviation>SP7</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ECA Session 2</grading_period>
+    <day>Friday</day>
+    <room/>
+    <block>Sport Period 7</block>
+    <block_abbreviation>SP7</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">131742</class_pk>
+<class_id>U19-B-VOLL</class_id>
+<group_fk type="integer">722081</group_fk>
+<group_id>200-2018-4-131742-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Volleyball - Boys</course>
+<course_id type="integer">921</course_id>
+<description>U19 Boys Volleyball 18-19</description>
+<subject>Sport Program</subject>
+<course_type>Athletic Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">11392</teacher_fk>
+<teacher_full_name>Thawatchai Sirithet</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">11392</person_fk>
+    <role_id type="integer">10</role_id>
+    <role>Coach</role>
+    <teacher_name>Thawatchai Sirithet</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">28735</person_fk>
+    <role_id type="integer">100</role_id>
+    <role>Other</role>
+    <teacher_name>Nattakit Ussawachokanan</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">46267</person_fk>
+    <role_id type="integer">100</role_id>
+    <role>Other</role>
+    <teacher_name>Tanya Varangoon</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">48414</person_fk>
+    <role_id type="integer">10</role_id>
+    <role>Coach</role>
+    <teacher_name>Wachiraphan Chantarohit</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Monday</day>
+    <room>Court 2</room>
+    <block>Sport Period 8</block>
+    <block_abbreviation>SP8</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Wednesday</day>
+    <room>Court 2</room>
+    <block>Sport Period 8</block>
+    <block_abbreviation>SP8</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Friday</day>
+    <room>Court 2</room>
+    <block>Sport Period 8</block>
+    <block_abbreviation>SP8</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">131743</class_pk>
+<class_id>U13-B-BASK</class_id>
+<group_fk type="integer">722064</group_fk>
+<group_id>200-2018-4-131743-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Basketball - Boys</course>
+<course_id type="integer">919</course_id>
+<description>U13 Boys Basketball (A) 18-19</description>
+<subject>Sport Program</subject>
+<course_type>Athletic Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">10988</teacher_fk>
+<teacher_full_name>Randall Wallis</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">10988</person_fk>
+    <role_id type="integer">10</role_id>
+    <role>Coach</role>
+    <teacher_name>Randall Wallis</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">28735</person_fk>
+    <role_id type="integer">100</role_id>
+    <role>Other</role>
+    <teacher_name>Nattakit Ussawachokanan</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">46267</person_fk>
+    <role_id type="integer">100</role_id>
+    <role>Other</role>
+    <teacher_name>Tanya Varangoon</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Monday</day>
+    <room>Court 3</room>
+    <block>Sport Period 9</block>
+    <block_abbreviation>SP9</block_abbreviation>
+    <start_time>16:00</start_time>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Thursday</day>
+    <room>5501 Pongpanit Centre</room>
+    <block>Sport Period 9</block>
+    <block_abbreviation>SP9</block_abbreviation>
+    <start_time>16:00</start_time>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">131745</class_pk>
+<class_id>U19-G-VOLL</class_id>
+<group_fk type="integer">722083</group_fk>
+<group_id>200-2018-4-131745-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Volleyball - Girls</course>
+<course_id type="integer">922</course_id>
+<description>U19 Girls Volleyball 18-19</description>
+<subject>Sport Program</subject>
+<course_type>Athletic Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">20520</teacher_fk>
+<teacher_full_name>Orawee Rakkaew</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">20520</person_fk>
+    <role_id type="integer">10</role_id>
+    <role>Coach</role>
+    <teacher_name>Orawee Rakkaew</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">28735</person_fk>
+    <role_id type="integer">100</role_id>
+    <role>Other</role>
+    <teacher_name>Nattakit Ussawachokanan</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">38471</person_fk>
+    <role_id type="integer">10</role_id>
+    <role>Coach</role>
+    <teacher_name>Julia Sheridan</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Tuesday</day>
+    <room>Court 1</room>
+    <block>Sport Period 9</block>
+    <block_abbreviation>SP9</block_abbreviation>
+    <start_time>16:00</start_time>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Wednesday</day>
+    <room>Court 1</room>
+    <block>Sport Period 9</block>
+    <block_abbreviation>SP9</block_abbreviation>
+    <start_time>16:00</start_time>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Friday</day>
+    <room>Court 1</room>
+    <block>Sport Period 9</block>
+    <block_abbreviation>SP9</block_abbreviation>
+    <start_time>16:00</start_time>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">131747</class_pk>
+<class_id>U17-VOLL-B</class_id>
+<group_fk type="integer">722076</group_fk>
+<group_id>200-2018-4-131747-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Volleyball - Boys</course>
+<course_id type="integer">921</course_id>
+<description>U17 Boys Volleyball 18-19</description>
+<subject>Sport Program</subject>
+<course_type>Athletic Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">53898</teacher_fk>
+<teacher_full_name>Angelo Coskinas</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">46267</person_fk>
+    <role_id type="integer">100</role_id>
+    <role>Other</role>
+    <teacher_name>Tanya Varangoon</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">52497</person_fk>
+    <role_id type="integer">10</role_id>
+    <role>Coach</role>
+    <teacher_name>Andrew Ross</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">53898</person_fk>
+    <role_id type="integer">10</role_id>
+    <role>Coach</role>
+    <teacher_name>Angelo Coskinas</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Wednesday</day>
+    <room>Court 3</room>
+    <block>Sport Period 9</block>
+    <block_abbreviation>SP9</block_abbreviation>
+    <start_time>16:00</start_time>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Friday</day>
+    <room>5501 Pongpanit Centre</room>
+    <block>Sport Period 9</block>
+    <block_abbreviation>SP9</block_abbreviation>
+    <start_time>16:00</start_time>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">131748</class_pk>
+<class_id>U13-G-BASK</class_id>
+<group_fk type="integer">722065</group_fk>
+<group_id>200-2018-4-131748-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Basketball - Girls</course>
+<course_id type="integer">920</course_id>
+<description>U13 Girls Basketball 18-19</description>
+<subject>Sport Program</subject>
+<course_type>Athletic Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">26776</teacher_fk>
+<teacher_full_name>Jesse Worley</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">26776</person_fk>
+    <role_id type="integer">10</role_id>
+    <role>Coach</role>
+    <teacher_name>Jesse Worley</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">28735</person_fk>
+    <role_id type="integer">10</role_id>
+    <role>Coach</role>
+    <teacher_name>Nattakit Ussawachokanan</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Monday</day>
+    <room>5501 Pongpanit Centre</room>
+    <block>Sport Period 8</block>
+    <block_abbreviation>SP8</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Thursday</day>
+    <room>Court 3</room>
+    <block>Sport Period 8</block>
+    <block_abbreviation>SP8</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">131752</class_pk>
+<class_id>U19-G-FOOT</class_id>
+<group_fk type="integer">722082</group_fk>
+<group_id>200-2018-4-131752-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Football - Girls</course>
+<course_id type="integer">926</course_id>
+<description>U19 Girls Football 18-19</description>
+<subject>Sport Program</subject>
+<course_type>Athletic Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">32833</teacher_fk>
+<teacher_full_name>Chantel Marson</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">28735</person_fk>
+    <role_id type="integer">100</role_id>
+    <role>Other</role>
+    <teacher_name>Nattakit Ussawachokanan</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">32833</person_fk>
+    <role_id type="integer">10</role_id>
+    <role>Coach</role>
+    <teacher_name>Chantel Marson</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">45985</person_fk>
+    <role_id type="integer">10</role_id>
+    <role>Coach</role>
+    <teacher_name>Melissa Vogel</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">46267</person_fk>
+    <role_id type="integer">100</role_id>
+    <role>Other</role>
+    <teacher_name>Tanya Varangoon</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>Tuesday</day>
+    <room>Field 1</room>
+    <block>Sport Period 9</block>
+    <block_abbreviation>SP9</block_abbreviation>
+    <start_time>16:00</start_time>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>Friday</day>
+    <room>Field 1</room>
+    <block>Sport Period 9</block>
+    <block_abbreviation>SP9</block_abbreviation>
+    <start_time>16:00</start_time>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">131753</class_pk>
+<class_id>U19-B-FOOT</class_id>
+<group_fk type="integer">722080</group_fk>
+<group_id>200-2018-4-131753-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Football - Boys</course>
+<course_id type="integer">925</course_id>
+<description>U19 Boys Football 18-19</description>
+<subject>Sport Program</subject>
+<course_type>Athletic Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">34572</teacher_fk>
+<teacher_full_name>Patrick Keirnan</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">28735</person_fk>
+    <role_id type="integer">100</role_id>
+    <role>Other</role>
+    <teacher_name>Nattakit Ussawachokanan</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">34572</person_fk>
+    <role_id type="integer">10</role_id>
+    <role>Coach</role>
+    <teacher_name>Patrick Keirnan</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">46267</person_fk>
+    <role_id type="integer">100</role_id>
+    <role>Other</role>
+    <teacher_name>Tanya Varangoon</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">51900</person_fk>
+    <role_id type="integer">10</role_id>
+    <role>Coach</role>
+    <teacher_name>William Richards</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Tuesday</day>
+    <room>Field 1</room>
+    <block>Sport Period 8</block>
+    <block_abbreviation>SP8</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Friday</day>
+    <room>Field 2</room>
+    <block>Sport Period 8</block>
+    <block_abbreviation>SP8</block_abbreviation>
+    <start_time>15:45</start_time>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">131754</class_pk>
+<class_id>U17-TOR-G</class_id>
+<group_fk type="integer">722075</group_fk>
+<group_id>200-2018-4-131754-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Touch Rugby - Girls</course>
+<course_id type="integer">1018</course_id>
+<description>U17 Touch Rugby Girls</description>
+<subject>Sport Program</subject>
+<course_type>Athletic Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Future</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 2</grading_period>
+    <day>Monday</day>
+    <room>Field 2</room>
+    <block>Sport Period 1</block>
+    <block_abbreviation>SP1</block_abbreviation>
+    <start_time/>
+    <end_time>15:45</end_time>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ECA Session 2</grading_period>
+    <day>Friday</day>
+    <room>Field 2</room>
+    <block>Sport Period 1</block>
+    <block_abbreviation>SP1</block_abbreviation>
+    <start_time/>
+    <end_time>15:45</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">131755</class_pk>
+<class_id>U15-B-RUGB</class_id>
+<group_fk type="integer">722067</group_fk>
+<group_id>200-2018-4-131755-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Rugby-Boys</course>
+<course_id type="integer">1122</course_id>
+<description>U15 Boys Rugby 18-19</description>
+<subject>Sport Program</subject>
+<course_type>Athletic Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">45501</teacher_fk>
+<teacher_full_name>Mitchell Norris</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">28735</person_fk>
+    <role_id type="integer">100</role_id>
+    <role>Other</role>
+    <teacher_name>Nattakit Ussawachokanan</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">45501</person_fk>
+    <role_id type="integer">10</role_id>
+    <role>Coach</role>
+    <teacher_name>Mitchell Norris</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">46267</person_fk>
+    <role_id type="integer">100</role_id>
+    <role>Other</role>
+    <teacher_name>Tanya Varangoon</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Monday</day>
+    <room>Field 1</room>
+    <block>Sport Period 8</block>
+    <block_abbreviation>SP8</block_abbreviation>
+    <start_time/>
+    <end_time>18:00</end_time>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Thursday</day>
+    <room>Field 2</room>
+    <block>Sport Period 8</block>
+    <block_abbreviation>SP8</block_abbreviation>
+    <start_time/>
+    <end_time>18:00</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">131759</class_pk>
+<class_id>U19-SOFT-B</class_id>
+<group_fk type="integer">722084</group_fk>
+<group_id>200-2018-4-131759-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Softball - Boys</course>
+<course_id type="integer">1051</course_id>
+<description>U19 Boys Softball</description>
+<subject>Sport Program</subject>
+<course_type>Athletic Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Future</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 3</grading_period>
+    <day>Monday</day>
+    <room/>
+    <block>Sport Period 7</block>
+    <block_abbreviation>SP7</block_abbreviation>
+    <start_time>15:45</start_time>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ECA Session 3</grading_period>
+    <day>Wednesday</day>
+    <room/>
+    <block>Sport Period 7</block>
+    <block_abbreviation>SP7</block_abbreviation>
+    <start_time>15:45</start_time>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">131762</class_pk>
+<class_id>U19-SOFT-G</class_id>
+<group_fk type="integer">722085</group_fk>
+<group_id>200-2018-4-131762-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Softball -Girls</course>
+<course_id type="integer">1052</course_id>
+<description>U19 Girls Softball</description>
+<subject>Sport Program</subject>
+<course_type>Athletic Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period/>
+    <day/>
+    <room/>
+    <block/>
+    <block_abbreviation/>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">131765</class_pk>
+<class_id>U15-TOR-G</class_id>
+<group_fk type="integer">722069</group_fk>
+<group_id>200-2018-4-131765-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Touch Rugby - Girls</course>
+<course_id type="integer">1018</course_id>
+<description>U15 Girls Touch Rugby 18-19</description>
+<subject>Sport Program</subject>
+<course_type>Athletic Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">11155</teacher_fk>
+<teacher_full_name>Dana Piggott</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">11155</person_fk>
+    <role_id type="integer">10</role_id>
+    <role>Coach</role>
+    <teacher_name>Dana Piggott</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">28735</person_fk>
+    <role_id type="integer">100</role_id>
+    <role>Other</role>
+    <teacher_name>Nattakit Ussawachokanan</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">38737</person_fk>
+    <role_id type="integer">10</role_id>
+    <role>Coach</role>
+    <teacher_name>Benjamin Charpentier</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Monday</day>
+    <room/>
+    <block>Sport Period 9</block>
+    <block_abbreviation>SP9</block_abbreviation>
+    <start_time>16:00</start_time>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Thursday</day>
+    <room/>
+    <block>Sport Period 9</block>
+    <block_abbreviation>SP9</block_abbreviation>
+    <start_time>16:00</start_time>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">131766</class_pk>
+<class_id>U19-TOR-G</class_id>
+<group_fk type="integer">722086</group_fk>
+<group_id>200-2018-4-131766-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Touch Rugby - Girls</course>
+<course_id type="integer">1018</course_id>
+<description>U19 Touch Rugby Girls</description>
+<subject>Sport Program</subject>
+<course_type>Athletic Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Future</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 2</grading_period>
+    <day>Wednesday</day>
+    <room/>
+    <block>Sport Period 7</block>
+    <block_abbreviation>SP7</block_abbreviation>
+    <start_time>15:45</start_time>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ECA Session 2</grading_period>
+    <day>Friday</day>
+    <room/>
+    <block>Sport Period 7</block>
+    <block_abbreviation>SP7</block_abbreviation>
+    <start_time>15:45</start_time>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">131768</class_pk>
+<class_id>U17-B-FOOT</class_id>
+<group_fk type="integer">722072</group_fk>
+<group_id>200-2018-4-131768-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Football - Boys</course>
+<course_id type="integer">925</course_id>
+<description>U17 Boys Football 18-19</description>
+<subject>Sport Program</subject>
+<course_type>Athletic Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">45561</teacher_fk>
+<teacher_full_name>David Song</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">28735</person_fk>
+    <role_id type="integer">100</role_id>
+    <role>Other</role>
+    <teacher_name>Nattakit Ussawachokanan</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">45561</person_fk>
+    <role_id type="integer">10</role_id>
+    <role>Coach</role>
+    <teacher_name>David Song</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">46267</person_fk>
+    <role_id type="integer">100</role_id>
+    <role>Other</role>
+    <teacher_name>Tanya Varangoon</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Monday</day>
+    <room>Field 2</room>
+    <block>Sport Period 8</block>
+    <block_abbreviation>SP8</block_abbreviation>
+    <start_time/>
+    <end_time>18:00</end_time>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Wednesday</day>
+    <room>Field 2</room>
+    <block>Sport Period 8</block>
+    <block_abbreviation>SP8</block_abbreviation>
+    <start_time/>
+    <end_time>18:00</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">131770</class_pk>
+<class_id>U17-G-FOOT</class_id>
+<group_fk type="integer">722073</group_fk>
+<group_id>200-2018-4-131770-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Football - Girls</course>
+<course_id type="integer">926</course_id>
+<description>U17 Girls Football 18-19</description>
+<subject>Sport Program</subject>
+<course_type>Athletic Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">45549</teacher_fk>
+<teacher_full_name>Anne Holzman</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">28735</person_fk>
+    <role_id type="integer">100</role_id>
+    <role>Other</role>
+    <teacher_name>Nattakit Ussawachokanan</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">45549</person_fk>
+    <role_id type="integer">10</role_id>
+    <role>Coach</role>
+    <teacher_name>Anne Holzman</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">46267</person_fk>
+    <role_id type="integer">100</role_id>
+    <role>Other</role>
+    <teacher_name>Tanya Varangoon</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>Monday</day>
+    <room>Field 2</room>
+    <block>Sport Period 9</block>
+    <block_abbreviation>SP9</block_abbreviation>
+    <start_time>16:00</start_time>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>Wednesday</day>
+    <room>Field 1</room>
+    <block>Sport Period 9</block>
+    <block_abbreviation>SP9</block_abbreviation>
+    <start_time>16:00</start_time>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">131802</class_pk>
+<class_id>FAL-SWIM-AS1.1</class_id>
+<group_fk type="integer">722054</group_fk>
+<group_id>200-2018-4-131802-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Swimming</course>
+<course_id type="integer">1008</course_id>
+<description>15&amp;O Blue Falcons Swim-Mon</description>
+<subject>Sport Program</subject>
+<course_type>Athletic Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">31548</teacher_fk>
+<teacher_full_name>Varinthip Krutkaew</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">31548</person_fk>
+    <role_id type="integer">10</role_id>
+    <role>Coach</role>
+    <teacher_name>Varinthip Krutkaew</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>Monday</day>
+    <room>Khunying Patama Swimming Pool</room>
+    <block/>
+    <block_abbreviation/>
+    <start_time>16:00</start_time>
+    <end_time>18:00</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">131831</class_pk>
+<class_id>FAL-SWIM-AS1.2</class_id>
+<group_fk type="integer">722055</group_fk>
+<group_id>200-2018-4-131831-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Swimming</course>
+<course_id type="integer">1008</course_id>
+<description>15&amp;O Blue Falcons Swim-Tue</description>
+<subject>Sport Program</subject>
+<course_type>Athletic Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">31548</teacher_fk>
+<teacher_full_name>Varinthip Krutkaew</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">31548</person_fk>
+    <role_id type="integer">10</role_id>
+    <role>Coach</role>
+    <teacher_name>Varinthip Krutkaew</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>Tuesday</day>
+    <room>Khunying Patama Swimming Pool</room>
+    <block/>
+    <block_abbreviation/>
+    <start_time>16:00</start_time>
+    <end_time>18:00</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">131832</class_pk>
+<class_id>FAL-SWIM-AS1.3</class_id>
+<group_fk type="integer">722056</group_fk>
+<group_id>200-2018-4-131832-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Swimming</course>
+<course_id type="integer">1008</course_id>
+<description>15&amp;O Blue Falcons Swim-Wed</description>
+<subject>Sport Program</subject>
+<course_type>Athletic Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">31548</teacher_fk>
+<teacher_full_name>Varinthip Krutkaew</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">31548</person_fk>
+    <role_id type="integer">10</role_id>
+    <role>Coach</role>
+    <teacher_name>Varinthip Krutkaew</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>Wednesday</day>
+    <room>Khunying Patama Swimming Pool</room>
+    <block/>
+    <block_abbreviation/>
+    <start_time>16:00</start_time>
+    <end_time>18:00</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">131833</class_pk>
+<class_id>FAL-SWIM-AS1.4</class_id>
+<group_fk type="integer">722057</group_fk>
+<group_id>200-2018-4-131833-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Swimming</course>
+<course_id type="integer">1008</course_id>
+<description>15&amp;O Blue Falcons Swim-Thu</description>
+<subject>Sport Program</subject>
+<course_type>Athletic Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">31548</teacher_fk>
+<teacher_full_name>Varinthip Krutkaew</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">31548</person_fk>
+    <role_id type="integer">10</role_id>
+    <role>Coach</role>
+    <teacher_name>Varinthip Krutkaew</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>Thursday</day>
+    <room>Khunying Patama Swimming Pool</room>
+    <block/>
+    <block_abbreviation/>
+    <start_time>16:00</start_time>
+    <end_time>18:00</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">131834</class_pk>
+<class_id>FAL-SWIM-AS1.5</class_id>
+<group_fk type="integer">722058</group_fk>
+<group_id>200-2018-4-131834-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Swimming</course>
+<course_id type="integer">1008</course_id>
+<description>15&amp;O Blue Falcons Swim-Fri</description>
+<subject>Sport Program</subject>
+<course_type>Athletic Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">31548</teacher_fk>
+<teacher_full_name>Varinthip Krutkaew</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">31548</person_fk>
+    <role_id type="integer">10</role_id>
+    <role>Coach</role>
+    <teacher_name>Varinthip Krutkaew</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>Friday</day>
+    <room>Khunying Patama Swimming Pool</room>
+    <block>Sport Period 7</block>
+    <block_abbreviation>SP7</block_abbreviation>
+    <start_time>16:00</start_time>
+    <end_time>18:00</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">132391</class_pk>
+<class_id>DUT-G-SPC.03</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day G Duty Sports Complex</course>
+<course_id type="integer">2295</course_id>
+<description>S-Duty Sports Complex Day G</description>
+<subject>Duty - Day G</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">52227</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Alexandra Trotter</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>G</day>
+    <room>Duty Sports Complex</room>
+    <block>Duty SEC Lunch 2</block>
+    <block_abbreviation>LUNSC2</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">132393</class_pk>
+<class_id>DUT-G-SPC.04</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day G Duty Sports Complex</course>
+<course_id type="integer">2295</course_id>
+<description>S-Duty Sports Complex Day G</description>
+<subject>Duty - Day G</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">52227</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Alexandra Trotter</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>G</day>
+    <room>Duty Sports Complex</room>
+    <block>Duty SEC Lunch 1</block>
+    <block_abbreviation>LUNSC1</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">132395</class_pk>
+<class_id>DUT-G-CAF1.01</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day G Duty Cafeteria 1st Floor</course>
+<course_id type="integer">2282</course_id>
+<description>S-Duty Cafeteria 1st Floor Day G</description>
+<subject>Duty - Day G</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">8202</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Uthumporn Kennedy</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>G</day>
+    <room>1st Floor Cafeteria</room>
+    <block>Duty SEC Break AM</block>
+    <block_abbreviation>DSCBR1</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">132396</class_pk>
+<class_id>DUT-G-CAF1-HS.02</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day G Duty Cafeteria 1st Floor</course>
+<course_id type="integer">2282</course_id>
+<description>S-Duty Cafeteria 1st Floor Day G</description>
+<subject>Duty - Day G</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">26229</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Nicholas Keam</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>G</day>
+    <room>1st Floor Cafeteria</room>
+    <block>Duty SEC Break PM</block>
+    <block_abbreviation>DSCBR2</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">132398</class_pk>
+<class_id>DUT-G-CAF1-MS.02</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day G Duty Cafeteria 1st Floor</course>
+<course_id type="integer">2282</course_id>
+<description>S-Duty Cafeteria 1st Floor Day G</description>
+<subject>Duty - Day G</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">21740</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Sergio Ferrer Giraldos</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">46726</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Melanie Kathleen</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>G</day>
+    <room>1st Floor Cafeteria</room>
+    <block>Duty SEC Lunch 1</block>
+    <block_abbreviation>LUNSC1</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">132399</class_pk>
+<class_id>DUT-G-CAF1-MS.03</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day G Duty Cafeteria 1st Floor</course>
+<course_id type="integer">2282</course_id>
+<description>S-Duty Cafeteria 1st Floor Day G</description>
+<subject>Duty - Day G</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">8420</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Hiromi Yamada</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>G</day>
+    <room>1st Floor Cafeteria</room>
+    <block>Duty SEC Lunch 2</block>
+    <block_abbreviation>LUNSC2</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">132400</class_pk>
+<class_id>DUT-G-HUB.01</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day G Duty HUB</course>
+<course_id type="integer">2290</course_id>
+<description>S-Duty The Hub Lounge Day G</description>
+<subject>Duty - Day G</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">38587</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Zerlina Cheng</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>G</day>
+    <room>Duty (The Hub Lounge)</room>
+    <block>Duty SEC Break AM</block>
+    <block_abbreviation>DSCBR1</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">132401</class_pk>
+<class_id>DUT-G-HUB-5F.05</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day G Duty HUB 5th Flr</course>
+<course_id type="integer">2286</course_id>
+<description>S-Duty The Hub 5th Flr Day G</description>
+<subject>Duty - Day G</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">38414</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Victoria Hall</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>G</day>
+    <room>Duty (The Hub 5th Flr)</room>
+    <block>Duty SEC Lunch 1</block>
+    <block_abbreviation>LUNSC1</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">132402</class_pk>
+<class_id>DUT-G-HUB-5F.06</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day G Duty HUB 5th Flr</course>
+<course_id type="integer">2286</course_id>
+<description>S-Duty The Hub 5th Flr Day G</description>
+<subject>Duty - Day G</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">11181</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Gillian White</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>G</day>
+    <room>Duty (The Hub 5th Flr)</room>
+    <block>Duty SEC Lunch 2</block>
+    <block_abbreviation>LUNSC2</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">132403</class_pk>
+<class_id>DUT-G-HUB.04</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day G Duty HUB</course>
+<course_id type="integer">2290</course_id>
+<description>S-Duty The Hub Lounge Day G</description>
+<subject>Duty - Day G</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">30149</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>John Gangi</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>G</day>
+    <room>Duty (The Hub Lounge)</room>
+    <block>Duty SEC Break PM</block>
+    <block_abbreviation>DSCBR2</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">132405</class_pk>
+<class_id>DUT-G-HUB.02</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day G Duty HUB</course>
+<course_id type="integer">2290</course_id>
+<description>S-Duty The Hub Lounge Day G</description>
+<subject>Duty - Day G</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">21747</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>John Hoare</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>G</day>
+    <room>Duty (The Hub Lounge)</room>
+    <block>Duty SEC Lunch 1</block>
+    <block_abbreviation>LUNSC1</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">132406</class_pk>
+<class_id>DUT-G-HUB.03</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day G Duty HUB</course>
+<course_id type="integer">2290</course_id>
+<description>S-Duty The Hub Lounge Day G</description>
+<subject>Duty - Day G</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">38587</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Zerlina Cheng</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>G</day>
+    <room>Duty (The Hub Lounge)</room>
+    <block>Duty SEC Lunch 2</block>
+    <block_abbreviation>LUNSC2</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">132407</class_pk>
+<class_id>DUT-G-MOR.01</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day G Duty Morning Rover</course>
+<course_id type="integer">2294</course_id>
+<description>S-Duty Morning Rover Day G</description>
+<subject>Duty - Day G</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">45450</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Jenny Friedman</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>G</day>
+    <room>Duty Sec Library</room>
+    <block>Duty SEC Before School 1</block>
+    <block_abbreviation>DSCBE1</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">132411</class_pk>
+<class_id>DUT-G-MFC.01</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day G Duty Main Field</course>
+<course_id type="integer">2271</course_id>
+<description>S-Duty Main Field Day G</description>
+<subject>Duty - Day G</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">11257</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Lalitha Swaminathan</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">45929</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Andrew Nightingale</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>G</day>
+    <room>Duty-Main Field (Wet-Ele Bldg, Flr 4, Y5&amp;6)</room>
+    <block>Duty SEC Break AM</block>
+    <block_abbreviation>DSCBR1</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">132413</class_pk>
+<class_id>DUT-G-MFC.02</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day G Duty Main Field</course>
+<course_id type="integer">2271</course_id>
+<description>S-Duty Main Field Day G</description>
+<subject>Duty - Day G</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">22267</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Dianne Gamage</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>G</day>
+    <room>Duty-Main Field (Wet-Ele Bldg, Flr 4, Y5&amp;6)</room>
+    <block>Duty SEC Break PM</block>
+    <block_abbreviation>DSCBR2</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">132414</class_pk>
+<class_id>DUT-G-MFC.07</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day G Duty Main Field</course>
+<course_id type="integer">2271</course_id>
+<description>S-Duty Main Field Day G</description>
+<subject>Duty - Day G</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">21748</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Susan Lee</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>G</day>
+    <room>Duty-Main Field</room>
+    <block>Duty SEC Before School 2</block>
+    <block_abbreviation>DSCBEF</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">132415</class_pk>
+<class_id>DUT-G-MFC.03</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day G Duty Main Field</course>
+<course_id type="integer">2271</course_id>
+<description>S-Duty Main Field Day G</description>
+<subject>Duty - Day G</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">38775</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Michael Kavanagh</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>G</day>
+    <room>Duty-Main Field (Wet-Ele Bldg, Flr 4, Y5&amp;6)</room>
+    <block>Duty SEC Lunch 1</block>
+    <block_abbreviation>LUNSC1</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">132416</class_pk>
+<class_id>DUT-G-MFC.06</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day G Duty Main Field</course>
+<course_id type="integer">2271</course_id>
+<description>S-Duty Main Field Day G</description>
+<subject>Duty - Day G</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">21727</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Craig Stevenson</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>G</day>
+    <room>Duty-Main Field (Wet-Ele Bldg, Flr 4, Y5&amp;6)</room>
+    <block>Duty SEC Lunch 2</block>
+    <block_abbreviation>LUNSC2</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">132417</class_pk>
+<class_id>DUT-G-MUS.HS.01</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day G Duty Music Room</course>
+<course_id type="integer">2278</course_id>
+<description>S-Duty Music Room Day G</description>
+<subject>Duty - Day G</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">19529</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Alan Daykin</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>G</day>
+    <room>Music Rooms</room>
+    <block>Duty SEC Lunch 1</block>
+    <block_abbreviation>LUNSC1</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">132418</class_pk>
+<class_id>DUT-G-MUS-MS.02</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day G Duty Music Room</course>
+<course_id type="integer">2278</course_id>
+<description>S-Duty Music Room Day G</description>
+<subject>Duty - Day G</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">48493</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Suphawadee Kalhong</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>G</day>
+    <room>Music Rooms</room>
+    <block>Duty SEC Lunch 2</block>
+    <block_abbreviation>LUNSC2</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">132419</class_pk>
+<class_id>DUT-G-SPC.01</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day G Duty Sports Complex</course>
+<course_id type="integer">2295</course_id>
+<description>S-Duty Sports Complex Day G</description>
+<subject>Duty - Day G</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>G</day>
+    <room>Duty Sports Complex</room>
+    <block>Duty SEC Break AM</block>
+    <block_abbreviation>DSCBR1</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">132461</class_pk>
+<class_id>DUT-H-SPC.03</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day H Duty Sports Complex</course>
+<course_id type="integer">2296</course_id>
+<description>S-Duty Sports Complex Day H</description>
+<subject>Duty - Day H</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">21708</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Elizabeth Golatzki</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>H</day>
+    <room>Duty Sports Complex</room>
+    <block>Duty SEC Lunch 2</block>
+    <block_abbreviation>LUNSC2</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">132463</class_pk>
+<class_id>DUT-H-SPC.04</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day H Duty Sports Complex</course>
+<course_id type="integer">2296</course_id>
+<description>S-Duty Sports Complex Day H</description>
+<subject>Duty - Day H</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">34732</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>David Williams</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>H</day>
+    <room>Duty Sports Complex</room>
+    <block>Duty SEC Lunch 1</block>
+    <block_abbreviation>LUNSC1</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">132465</class_pk>
+<class_id>DUT-H-CAF1.01</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day H Duty Cafeteria 1st Floor</course>
+<course_id type="integer">2281</course_id>
+<description>S-Duty Cafeteria 1st Floor Day H</description>
+<subject>Duty - Day H</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">44739</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>MacGregor Grier</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>H</day>
+    <room>1st Floor Cafeteria</room>
+    <block>Duty SEC Break AM</block>
+    <block_abbreviation>DSCBR1</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">132466</class_pk>
+<class_id>DUT-H-CAF1-HS.02</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day H Duty Cafeteria 1st Floor</course>
+<course_id type="integer">2281</course_id>
+<description>S-Duty Cafeteria 1st Floor Day H</description>
+<subject>Duty - Day H</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">38775</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Michael Kavanagh</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>H</day>
+    <room>1st Floor Cafeteria</room>
+    <block>Duty SEC Break PM</block>
+    <block_abbreviation>DSCBR2</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">132468</class_pk>
+<class_id>DUT-H-CAF1-MS.02</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day H Duty Cafeteria 1st Floor</course>
+<course_id type="integer">2281</course_id>
+<description>S-Duty Cafeteria 1st Floor Day H</description>
+<subject>Duty - Day H</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">19546</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Joseph McMillan</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">34871</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Evelyn Salva</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>H</day>
+    <room>1st Floor Cafeteria</room>
+    <block>Duty SEC Lunch 1</block>
+    <block_abbreviation>LUNSC1</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">132469</class_pk>
+<class_id>DUT-H-CAF1-MS.03</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day H Duty Cafeteria 1st Floor</course>
+<course_id type="integer">2281</course_id>
+<description>S-Duty Cafeteria 1st Floor Day H</description>
+<subject>Duty - Day H</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">38721</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Kimberly Tresohlavy</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>H</day>
+    <room>1st Floor Cafeteria</room>
+    <block>Duty SEC Lunch 2</block>
+    <block_abbreviation>LUNSC2</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">132470</class_pk>
+<class_id>DUT-H-HUB.01</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day H Duty HUB</course>
+<course_id type="integer">2289</course_id>
+<description>S-Duty The Hub Lounge Day H</description>
+<subject>Duty - Day H</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">53898</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Angelo Coskinas</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>H</day>
+    <room>Duty (The Hub Lounge)</room>
+    <block>Duty SEC Break AM</block>
+    <block_abbreviation>DSCBR1</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">132471</class_pk>
+<class_id>DUT-H-HUB-5F.05</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day H Duty HUB 5th Flr</course>
+<course_id type="integer">2285</course_id>
+<description>S-Duty The Hub 5th Flr Day H</description>
+<subject>Duty - Day H</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">44799</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Perpetua Mudzudzu</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>H</day>
+    <room>Duty (The Hub 5th Flr)</room>
+    <block>Duty SEC Lunch 1</block>
+    <block_abbreviation>LUNSC1</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">132472</class_pk>
+<class_id>DUT-H-HUB-5F.06</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day H Duty HUB 5th Flr</course>
+<course_id type="integer">2285</course_id>
+<description>S-Duty The Hub 5th Flr Day H</description>
+<subject>Duty - Day H</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">45581</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Hsin-Yi Chen</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>H</day>
+    <room>Duty (The Hub 5th Flr)</room>
+    <block>Duty SEC Lunch 2</block>
+    <block_abbreviation>LUNSC2</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">132473</class_pk>
+<class_id>DUT-H-HUB.04</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day H Duty HUB</course>
+<course_id type="integer">2289</course_id>
+<description>S-Duty The Hub Lounge Day H</description>
+<subject>Duty - Day H</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">30157</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Kristyn Art</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>H</day>
+    <room>Duty (The Hub Lounge)</room>
+    <block>Duty SEC Break PM</block>
+    <block_abbreviation>DSCBR2</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">132475</class_pk>
+<class_id>DUT-H-HUB.02</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day H Duty HUB</course>
+<course_id type="integer">2289</course_id>
+<description>S-Duty The Hub Lounge Day H</description>
+<subject>Duty - Day H</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">11257</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Lalitha Swaminathan</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>H</day>
+    <room>Duty (The Hub Lounge)</room>
+    <block>Duty SEC Lunch 1</block>
+    <block_abbreviation>LUNSC1</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">132476</class_pk>
+<class_id>DUT-H-HUB.03</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day H Duty HUB</course>
+<course_id type="integer">2289</course_id>
+<description>S-Duty The Hub Lounge Day H</description>
+<subject>Duty - Day H</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">18204</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Tatikarn Rodsiri</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>H</day>
+    <room>Duty (The Hub Lounge)</room>
+    <block>Duty SEC Lunch 2</block>
+    <block_abbreviation>LUNSC2</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">132477</class_pk>
+<class_id>DUT-H-MOR.01</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day H Duty Morning Rover</course>
+<course_id type="integer">2293</course_id>
+<description>S-Duty Morning Rover Day H</description>
+<subject>Duty - Day H</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">44739</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>MacGregor Grier</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>H</day>
+    <room>Duty Sec Library</room>
+    <block>Duty SEC Before School 1</block>
+    <block_abbreviation>DSCBE1</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">132481</class_pk>
+<class_id>DUT-H-MFC.01</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day H Duty Main Field</course>
+<course_id type="integer">2272</course_id>
+<description>S-Duty Main Field Day H</description>
+<subject>Duty - Day H</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">28467</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Fang Wang</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">45472</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Rebeka Adamitis</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>H</day>
+    <room>Duty-Main Field (Wet-Ele Bldg, Flr 4, Y5&amp;6)</room>
+    <block>Duty SEC Break AM</block>
+    <block_abbreviation>DSCBR1</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">132483</class_pk>
+<class_id>DUT-H-MFC.02</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day H Duty Main Field</course>
+<course_id type="integer">2272</course_id>
+<description>S-Duty Main Field Day H</description>
+<subject>Duty - Day H</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">10125</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Alan Kennedy</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>H</day>
+    <room>Duty-Main Field (Wet-Ele Bldg, Flr 4, Y5&amp;6)</room>
+    <block>Duty SEC Break PM</block>
+    <block_abbreviation>DSCBR2</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">132484</class_pk>
+<class_id>DUT-H-MFC.07</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day H Duty Main Field</course>
+<course_id type="integer">2272</course_id>
+<description>S-Duty Main Field Day H</description>
+<subject>Duty - Day H</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">15040</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Naoki Okura</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>H</day>
+    <room>Duty-Main Field</room>
+    <block>Duty SEC Before School 2</block>
+    <block_abbreviation>DSCBEF</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">132485</class_pk>
+<class_id>DUT-H-MFC.03</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day H Duty Main Field</course>
+<course_id type="integer">2272</course_id>
+<description>S-Duty Main Field Day H</description>
+<subject>Duty - Day H</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">24086</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Nicola Cahill</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>H</day>
+    <room>Duty-Main Field (Wet-Ele Bldg, Flr 4, Y5&amp;6)</room>
+    <block>Duty SEC Lunch 1</block>
+    <block_abbreviation>LUNSC1</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">132486</class_pk>
+<class_id>DUT-H-MFC.06</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day H Duty Main Field</course>
+<course_id type="integer">2272</course_id>
+<description>S-Duty Main Field Day H</description>
+<subject>Duty - Day H</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">22267</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Dianne Gamage</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>H</day>
+    <room>Duty-Main Field (Wet-Ele Bldg, Flr 4, Y5&amp;6)</room>
+    <block>Duty SEC Lunch 2</block>
+    <block_abbreviation>LUNSC2</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">132487</class_pk>
+<class_id>DUT-H-MUS.HS.01</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Day H Duty Music Room</course>
+<course_id type="integer">2277</course_id>
+<description>S-Duty Music Room Day H</description>
+<subject>Duty - Day H</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">44550</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Alison Armstrong</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>H</day>
+    <room>Music Rooms</room>
+    <block>Duty SEC Lunch 1</block>
+    <block_abbreviation>LUNSC1</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+</classes>

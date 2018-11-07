@@ -121,7 +121,7 @@ public class MainPage extends Application {
             //Then download all enrollments from selected classes, and add the students into the selectedStudents ArrayList.
             for (Class i : selectedList.getItems()) {
                 classIDs.add(i.getId());
-                classNames = classNames + i.getName() + " - " + i.getTeacherName() +" | "; //Also concatenate all class names for the email.
+                classNames = classNames + i.getName() + " - " + i.getTeacherName() + " |    "; //Also concatenate all class names for the email.
             }
             try {
                 selectedStudents.addAll(Functions.processEnrollments(classIDs, false, selectedList.getItems().size()));

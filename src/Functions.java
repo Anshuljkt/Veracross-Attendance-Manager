@@ -34,8 +34,8 @@ public class Functions {
     private static Exception downloadError = new Exception();
 
     //Username/Password to use for Veracross API
-    public static final String APIUsername = "api.nist";
-    public static final String APIPassword = "X4bZsxMVBr";
+    public static final String APIUsername = "attendance.nist";
+    public static final String APIPassword = "sKmcc5ntbGJzpd427TgJvxPgC2mnvQ";
 
     //Username/Password to use for email
     public static final String EmailUsername = "attendance@nist.ac.th";

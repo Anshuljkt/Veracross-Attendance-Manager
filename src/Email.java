@@ -51,17 +51,10 @@ public class Email {
                 }
             }
         }
-//
-//        for (Student thisStudent : listOfStudents) {
-//            body = body + thisStudent.toStringWithID() + "\n";
-//        }
         sendEmail(recipient, subjectLine, body);
     }
 
     private static void sendEmail(String recipient, String subject, String body) {  //This  will send an email using SSL Authentication, via Gmail's SMTP server.
-
-
-
         Properties properties = new Properties();
         properties.put("mail.smtp.auth", "true"); //This is to enable SSL Authentication
         properties.put("mail.smtp.host", "smtp.gmail.com"); //This is Gmail's SMTP Host

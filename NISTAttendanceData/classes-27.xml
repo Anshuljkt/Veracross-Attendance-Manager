@@ -1,0 +1,3399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classes type="array">
+  <class>
+<class_pk type="integer">134123</class_pk>
+<class_id>SUP-MKO.04</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>EAL Schedule for Teachers</course>
+<course_id type="integer">1564</course_id>
+<description>IAS 8E SHE (5202)</description>
+<subject>English as an Additional Language - ELE</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">54794</teacher_fk>
+<teacher_full_name>Margo Kopec</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">54794</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Margo Kopec</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>A</day>
+    <room/>
+    <block>Period 4 (MS)</block>
+    <block_abbreviation>P4-MS</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>B</day>
+    <room/>
+    <block>Period 2 (MS)</block>
+    <block_abbreviation>P2-MS</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>E</day>
+    <room/>
+    <block>Period 3 (MS)</block>
+    <block_abbreviation>P3-MS</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>J</day>
+    <room/>
+    <block>Period 4 (MS)</block>
+    <block_abbreviation>P4-MS</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134124</class_pk>
+<class_id>SUP-MKO.05</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>EAL Schedule for Teachers</course>
+<course_id type="integer">1564</course_id>
+<description>Science 9E MWA (4501)</description>
+<subject>English as an Additional Language - ELE</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">54794</teacher_fk>
+<teacher_full_name>Margo Kopec</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">54794</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Margo Kopec</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>C</day>
+    <room/>
+    <block>Period 2 (MS)</block>
+    <block_abbreviation>P2-MS</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134125</class_pk>
+<class_id>SUP-MKO.06</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>EAL Schedule for Teachers</course>
+<course_id type="integer">1564</course_id>
+<description>IAS 9E MSH (4304)</description>
+<subject>English as an Additional Language - ELE</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">54794</teacher_fk>
+<teacher_full_name>Margo Kopec</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">54794</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Margo Kopec</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>E</day>
+    <room/>
+    <block>Period 2 (MS)</block>
+    <block_abbreviation>P2-MS</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>J</day>
+    <room/>
+    <block>Period 2 (MS)</block>
+    <block_abbreviation>P2-MS</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134126</class_pk>
+<class_id>SUP-MKO.07</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>EAL Schedule for Teachers</course>
+<course_id type="integer">1564</course_id>
+<description>IAS 9D AGU (4410)</description>
+<subject>English as an Additional Language - ELE</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">54794</teacher_fk>
+<teacher_full_name>Margo Kopec</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">54794</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Margo Kopec</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>E</day>
+    <room/>
+    <block>Period 3 (MS)</block>
+    <block_abbreviation>P3-MS</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134127</class_pk>
+<class_id>SUP-MKO.08</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>EAL Schedule for Teachers</course>
+<course_id type="integer">1564</course_id>
+<description>Science 8D MWA (4501)</description>
+<subject>English as an Additional Language - ELE</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">54794</teacher_fk>
+<teacher_full_name>Margo Kopec</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">54794</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Margo Kopec</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>E</day>
+    <room/>
+    <block>Period 3 (MS)</block>
+    <block_abbreviation>P3-MS</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134128</class_pk>
+<class_id>SUP-AKE.01</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>EAL Schedule for Teachers</course>
+<course_id type="integer">1564</course_id>
+<description>IAS 10D ATR (4305)</description>
+<subject>English as an Additional Language - ELE</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">10125</teacher_fk>
+<teacher_full_name>Alan Kennedy</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">10125</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Alan Kennedy</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>C</day>
+    <room/>
+    <block>Period 1 (HS)</block>
+    <block_abbreviation>P1-HS</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>D</day>
+    <room/>
+    <block>Period 3 (HS)</block>
+    <block_abbreviation>P3-HS</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>J</day>
+    <room/>
+    <block>Period 4 (HS)</block>
+    <block_abbreviation>P4-HS</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134130</class_pk>
+<class_id>SUP-AKE.03</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>EAL Schedule for Teachers</course>
+<course_id type="integer">1564</course_id>
+<description>IAS 11E RWI (4301)</description>
+<subject>English as an Additional Language - ELE</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">10125</teacher_fk>
+<teacher_full_name>Alan Kennedy</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">10125</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Alan Kennedy</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>F</day>
+    <room/>
+    <block>Period 1 (HS)</block>
+    <block_abbreviation>P1-HS</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>H</day>
+    <room/>
+    <block>Period 1 (HS)</block>
+    <block_abbreviation>P1-HS</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134132</class_pk>
+<class_id>SUP-AKE.05</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>EAL Schedule for Teachers</course>
+<course_id type="integer">1564</course_id>
+<description>IAS 10E JGA (4306)</description>
+<subject>English as an Additional Language - ELE</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">10125</teacher_fk>
+<teacher_full_name>Alan Kennedy</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">10125</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Alan Kennedy</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>F</day>
+    <room/>
+    <block>Period 2 (HS)</block>
+    <block_abbreviation>P2-HS</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134133</class_pk>
+<class_id>SUP-AKE.06</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>EAL Schedule for Teachers</course>
+<course_id type="integer">1564</course_id>
+<description>Science 8D MWA (4501)</description>
+<subject>English as an Additional Language - ELE</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">10125</teacher_fk>
+<teacher_full_name>Alan Kennedy</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">10125</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Alan Kennedy</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>A</day>
+    <room/>
+    <block>Period 4 (MS)</block>
+    <block_abbreviation>P4-MS</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>G</day>
+    <room/>
+    <block>Period 2 (MS)</block>
+    <block_abbreviation>P2-MS</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134135</class_pk>
+<class_id>SUP-AKE.08</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>EAL Schedule for Teachers</course>
+<course_id type="integer">1564</course_id>
+<description>IAS 9D MSH (4304)</description>
+<subject>English as an Additional Language - ELE</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">10125</teacher_fk>
+<teacher_full_name>Alan Kennedy</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">10125</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Alan Kennedy</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>E</day>
+    <room/>
+    <block>Period 3 (MS)</block>
+    <block_abbreviation>P3-MS</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134136</class_pk>
+<class_id>SUP-GWH.01</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>EAL Schedule for Teachers</course>
+<course_id type="integer">1564</course_id>
+<description>IAS 8D AGU (4410)</description>
+<subject>English as an Additional Language - ELE</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">11181</teacher_fk>
+<teacher_full_name>Gillian White</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">11181</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Gillian White</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>A</day>
+    <room/>
+    <block>Period 1 (MS)</block>
+    <block_abbreviation>P1-MS</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>F</day>
+    <room/>
+    <block>Period 1 (MS)</block>
+    <block_abbreviation>P1-MS</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>J</day>
+    <room/>
+    <block>Period 3 (MS)</block>
+    <block_abbreviation>P3-MS</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134137</class_pk>
+<class_id>SUP-GWH.02</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>EAL Schedule for Teachers</course>
+<course_id type="integer">1564</course_id>
+<description>IAS 9D MSH (4304)</description>
+<subject>English as an Additional Language - ELE</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">11181</teacher_fk>
+<teacher_full_name>Gillian White</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">11181</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Gillian White</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>C</day>
+    <room/>
+    <block>Period 1 (MS)</block>
+    <block_abbreviation>P1-MS</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>H</day>
+    <room/>
+    <block>Period 2 (MS)</block>
+    <block_abbreviation>P2-MS</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134138</class_pk>
+<class_id>SUP-GWH.03</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>EAL Schedule for Teachers</course>
+<course_id type="integer">1564</course_id>
+<description>Science 9D MWA (4501)</description>
+<subject>English as an Additional Language - ELE</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">11181</teacher_fk>
+<teacher_full_name>Gillian White</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">11181</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Gillian White</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>G</day>
+    <room/>
+    <block>Period 3 (MS)</block>
+    <block_abbreviation>P3-MS</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>H</day>
+    <room/>
+    <block>Period 1 (MS)</block>
+    <block_abbreviation>P1-MS</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>J</day>
+    <room/>
+    <block>Period 2 (MS)</block>
+    <block_abbreviation>P2-MS</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134139</class_pk>
+<class_id>SUP-GWH.04</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>EAL Schedule for Teachers</course>
+<course_id type="integer">1564</course_id>
+<description>Science 9E MWA (4501)</description>
+<subject>English as an Additional Language - ELE</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">11181</teacher_fk>
+<teacher_full_name>Gillian White</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">11181</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Gillian White</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>A</day>
+    <room/>
+    <block>Period 2 (MS)</block>
+    <block_abbreviation>P2-MS</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>E</day>
+    <room/>
+    <block>Period 3 (MS)</block>
+    <block_abbreviation>P3-MS</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134140</class_pk>
+<class_id>SUP-GWH.05</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>EAL Schedule for Teachers</course>
+<course_id type="integer">1564</course_id>
+<description>IAS 9E MSH (4304)</description>
+<subject>English as an Additional Language - ELE</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">11181</teacher_fk>
+<teacher_full_name>Gillian White</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">11181</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Gillian White</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>G</day>
+    <room/>
+    <block>Period 2 (MS)</block>
+    <block_abbreviation>P2-MS</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134141</class_pk>
+<class_id>SUP-GWH.06</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>EAL Schedule for Teachers</course>
+<course_id type="integer">1564</course_id>
+<description>Tuesday Team Leader Meeting</description>
+<subject>English as an Additional Language - ELE</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">11181</teacher_fk>
+<teacher_full_name>Gillian White</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">11181</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Gillian White</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>Tuesday</day>
+    <room/>
+    <block/>
+    <block_abbreviation/>
+    <start_time>8:50</start_time>
+    <end_time>10:05</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134142</class_pk>
+<class_id>SUP-GWH.07</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>EAL Schedule for Teachers</course>
+<course_id type="integer">1564</course_id>
+<description>Friday C@T NIST At Lunch</description>
+<subject>English as an Additional Language - ELE</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">11181</teacher_fk>
+<teacher_full_name>Gillian White</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">11181</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Gillian White</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>Friday</day>
+    <room/>
+    <block/>
+    <block_abbreviation/>
+    <start_time>11:40</start_time>
+    <end_time>12:30</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134143</class_pk>
+<class_id>SUP-NCA.01</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>EAL Schedule for Teachers</course>
+<course_id type="integer">1564</course_id>
+<description>IAS 11E RWI (4301)</description>
+<subject>English as an Additional Language - ELE</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">24086</teacher_fk>
+<teacher_full_name>Nicola Cahill</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">24086</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Nicola Cahill</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>G</day>
+    <room/>
+    <block>Period 3 (HS)</block>
+    <block_abbreviation>P3-HS</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>J</day>
+    <room/>
+    <block>Period 4 (HS)</block>
+    <block_abbreviation>P4-HS</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134144</class_pk>
+<class_id>SUP-NCA.02</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>EAL Schedule for Teachers</course>
+<course_id type="integer">1564</course_id>
+<description>Advisory + 13</description>
+<subject>English as an Additional Language - ELE</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">24086</teacher_fk>
+<teacher_full_name>Nicola Cahill</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">24086</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Nicola Cahill</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>F</day>
+    <room/>
+    <block>Period 4 (HS)</block>
+    <block_abbreviation>P4-HS</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134145</class_pk>
+<class_id>SUP-NAT.08</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Learning Support Schedule for Secondary Teachers</course>
+<course_id type="integer">1221</course_id>
+<description>Integrated Students 8/9 (4208)</description>
+<subject>Learning Support</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">45269</teacher_fk>
+<teacher_full_name>Nathan Armstrong</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">45269</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Nathan Armstrong</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>E</day>
+    <room>5202 (The Hub)</room>
+    <block>Period 1 (MS)</block>
+    <block_abbreviation>P1-MS</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134146</class_pk>
+<class_id>SMT-MET.01</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Secondary Meeting</course>
+<course_id type="integer">1219</course_id>
+<description>Meeting - Dianne and Jen C1</description>
+<subject>SEC Meeting</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">17988</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Jennilea Hortop</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">22267</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Dianne Gamage</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>C</day>
+    <room/>
+    <block>Period 1 (MS)</block>
+    <block_abbreviation>P1-MS</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134147</class_pk>
+<class_id>ECA-SER.01</class_id>
+<group_fk type="integer">751681</group_fk>
+<group_id>201-2018-4-134147-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>ECA Service</course>
+<course_id type="integer">1185</course_id>
+<description>FemiNIST Service Group Session 1 18-19</description>
+<subject>ECA</subject>
+<course_type>Other Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">21746</teacher_fk>
+<teacher_full_name>Jacqueline Arce</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">21746</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Jacqueline Arce</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>F</day>
+    <room>4401 (Classroom)</room>
+    <block/>
+    <block_abbreviation/>
+    <start_time>11:50</start_time>
+    <end_time>12:10</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134148</class_pk>
+<class_id>SUP-MKA.10</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Learning Support Schedule for Secondary Teachers</course>
+<course_id type="integer">1221</course_id>
+<description>Individuals and Societies 7A - JHO (5101)</description>
+<subject>Learning Support</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">46726</teacher_fk>
+<teacher_full_name>Melanie Kathleen</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">46726</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Melanie Kathleen</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>C</day>
+    <room/>
+    <block>Period 2 (MS)</block>
+    <block_abbreviation>P2-MS</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>I</day>
+    <room/>
+    <block>Period 3 (MS)</block>
+    <block_abbreviation>P3-MS</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134149</class_pk>
+<class_id>SMT-ALL.01</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>All School Meeting</course>
+<course_id type="integer">2348</course_id>
+<description>Ele/Sec Student Welfare Check-in</description>
+<subject>ALL School Meeting</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Qualitative</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">25922</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Michael Sheridan</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">32834</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Benjamin Hart</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>A</day>
+    <room/>
+    <block/>
+    <block_abbreviation/>
+    <start_time>13:00</start_time>
+    <end_time>14:00</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134150</class_pk>
+<class_id>SUP-KTR.01</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Secondary Meeting</course>
+<course_id type="integer">1219</course_id>
+<description>Y6 Robotics Club</description>
+<subject>SEC Meeting</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">38721</teacher_fk>
+<teacher_full_name>Kimberly Tresohlavy</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">38721</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Kimberly Tresohlavy</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>B</day>
+    <room/>
+    <block>Lunch (ELE)</block>
+    <block_abbreviation>Lun-EL</block_abbreviation>
+    <start_time/>
+    <end_time>12:45</end_time>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>G</day>
+    <room/>
+    <block>Lunch (ELE)</block>
+    <block_abbreviation>Lun-EL</block_abbreviation>
+    <start_time/>
+    <end_time>12:45</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134151</class_pk>
+<class_id>SUP-KTR.02</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Secondary Meeting</course>
+<course_id type="integer">1219</course_id>
+<description>Y5 Robotics Club</description>
+<subject>SEC Meeting</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">38721</teacher_fk>
+<teacher_full_name>Kimberly Tresohlavy</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">11209</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Jay Priebe</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">38721</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Kimberly Tresohlavy</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>B</day>
+    <room/>
+    <block>Lunch (ELE)</block>
+    <block_abbreviation>Lun-EL</block_abbreviation>
+    <start_time>12:50</start_time>
+    <end_time>13:10</end_time>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>G</day>
+    <room/>
+    <block>Lunch (ELE)</block>
+    <block_abbreviation>Lun-EL</block_abbreviation>
+    <start_time>12:50</start_time>
+    <end_time>13:10</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134152</class_pk>
+<class_id>SUP-NKE.09</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Learning Support Schedule for Secondary Teachers</course>
+<course_id type="integer">1221</course_id>
+<description>English 11A (4404) - JAR</description>
+<subject>Learning Support</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">26229</teacher_fk>
+<teacher_full_name>Nicholas Keam</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">26229</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Nicholas Keam</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>D</day>
+    <room>4404 (Classroom)</room>
+    <block>Period 2 (HS)</block>
+    <block_abbreviation>P2-HS</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>G</day>
+    <room>4404 (Classroom)</room>
+    <block>Period 1 (HS)</block>
+    <block_abbreviation>P1-HS</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134154</class_pk>
+<class_id>SMT-MET.02</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Secondary Meeting</course>
+<course_id type="integer">1219</course_id>
+<description>Meeting - EA Fund</description>
+<subject>SEC Meeting</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>C</day>
+    <room/>
+    <block/>
+    <block_abbreviation/>
+    <start_time>8:00</start_time>
+    <end_time>8:30</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134155</class_pk>
+<class_id>SUP-NKE.10</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Learning Support Schedule for Secondary Teachers</course>
+<course_id type="integer">1221</course_id>
+<description>Meeting</description>
+<subject>Learning Support</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">26229</teacher_fk>
+<teacher_full_name>Nicholas Keam</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">26229</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Nicholas Keam</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>J</day>
+    <room/>
+    <block>Period 1 (HS)</block>
+    <block_abbreviation>P1-HS</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134156</class_pk>
+<class_id>13-THA-LL-HL.M1</class_id>
+<group_fk type="integer">757164</group_fk>
+<group_id>163-2018-4-134156-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>Year 13</primary_grade_level>
+<course>IB DP: Thai A 13 Language &amp; Literature HL</course>
+<course_id type="integer">1350</course_id>
+<description>Thai 13 Language &amp; Literature HL Block 2</description>
+<subject>Thai Language &amp; Literature - SEC</subject>
+<course_type>Academic</course_type>
+<grading_method>Numeric</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status + Scores</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status + Scores</student_portal_assignment_display>
+<teacher_fk type="integer">45586</teacher_fk>
+<teacher_full_name>Saowalak Yokkamchu</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">45586</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Saowalak Yokkamchu</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>B</day>
+    <room>1147</room>
+    <block>Period 2 (HS)</block>
+    <block_abbreviation>P2-HS</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>C</day>
+    <room>1147</room>
+    <block>Period 3 (HS)</block>
+    <block_abbreviation>P3-HS</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>D</day>
+    <room>1147</room>
+    <block>Period 1 (HS)</block>
+    <block_abbreviation>P1-HS</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>E</day>
+    <room>1147</room>
+    <block>Period 4 (HS)</block>
+    <block_abbreviation>P4-HS</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>G</day>
+    <room>1147</room>
+    <block>Period 4 (HS)</block>
+    <block_abbreviation>P4-HS</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>I</day>
+    <room>1147</room>
+    <block>Period 3 (HS)</block>
+    <block_abbreviation>P3-HS</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134157</class_pk>
+<class_id>ECA-SER.02</class_id>
+<group_fk type="integer">753716</group_fk>
+<group_id>201-2018-4-134157-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>ECA Service</course>
+<course_id type="integer">1185</course_id>
+<description>C@tNIST Service Group Session 1 18-19</description>
+<subject>ECA</subject>
+<course_type>Other Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">11181</teacher_fk>
+<teacher_full_name>Gillian White</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">11181</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Gillian White</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Friday</day>
+    <room/>
+    <block/>
+    <block_abbreviation/>
+    <start_time>12:00</start_time>
+    <end_time>12:25</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134158</class_pk>
+<class_id>ECA-SER-MON.01</class_id>
+<group_fk type="integer">753717</group_fk>
+<group_id>201-2018-4-134158-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Monday ECA Service</course>
+<course_id type="integer">1168</course_id>
+<description>Children of the Forest Service Group Session 1 18-19</description>
+<subject>ECA</subject>
+<course_type>Other Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">21747</teacher_fk>
+<teacher_full_name>John Hoare</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">21747</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>John Hoare</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Monday</day>
+    <room>4403 (Classroom)</room>
+    <block>ECA Y7-Y13 (Opt 1)</block>
+    <block_abbreviation>ECASC1</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134160</class_pk>
+<class_id>ECA-SER-MON.03</class_id>
+<group_fk type="integer">753718</group_fk>
+<group_id>201-2018-4-134160-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Monday ECA Service</course>
+<course_id type="integer">1168</course_id>
+<description>Art Relief Crew Service Group Session 1 18-19</description>
+<subject>ECA</subject>
+<course_type>Other Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">21748</teacher_fk>
+<teacher_full_name>Susan Lee</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">11337</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Rakhi Jain</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">21748</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Susan Lee</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">38732</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Stratford Blyth</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">44545</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Justin West</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">45450</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Jenny Friedman</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Monday</day>
+    <room>Frida Kahlo's Studio</room>
+    <block>ECA Y7-Y13 (Opt 1)</block>
+    <block_abbreviation>ECASC1</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134161</class_pk>
+<class_id>ECA-SER-TUE.01</class_id>
+<group_fk type="integer">753719</group_fk>
+<group_id>201-2018-4-134161-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Tuesday ECA Service</course>
+<course_id type="integer">1184</course_id>
+<description>Girlhood Service Group Session 1 18-19</description>
+<subject>ECA</subject>
+<course_type>Other Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">22267</teacher_fk>
+<teacher_full_name>Dianne Gamage</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">22267</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Dianne Gamage</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Tuesday</day>
+    <room>5103 (The Hub)</room>
+    <block/>
+    <block_abbreviation/>
+    <start_time>12:00</start_time>
+    <end_time>12:25</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134163</class_pk>
+<class_id>ECA-SER-MON.04</class_id>
+<group_fk type="integer">753720</group_fk>
+<group_id>201-2018-4-134163-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Monday ECA Service</course>
+<course_id type="integer">1168</course_id>
+<description>Helping Hearts Service Group Session 1 18-19</description>
+<subject>ECA</subject>
+<course_type>Other Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">21708</teacher_fk>
+<teacher_full_name>Elizabeth Golatzki</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">21708</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Elizabeth Golatzki</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Monday</day>
+    <room/>
+    <block/>
+    <block_abbreviation/>
+    <start_time>12:00</start_time>
+    <end_time>12:25</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134164</class_pk>
+<class_id>ECA-SER.03</class_id>
+<group_fk type="integer">753721</group_fk>
+<group_id>201-2018-4-134164-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>ECA Service</course>
+<course_id type="integer">1185</course_id>
+<description>Mixed Up Service Group Session 1 18-19</description>
+<subject>ECA</subject>
+<course_type>Other Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">30149</teacher_fk>
+<teacher_full_name>John Gangi</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">30149</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>John Gangi</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>E</day>
+    <room>4306 (Classroom)</room>
+    <block/>
+    <block_abbreviation/>
+    <start_time>12:00</start_time>
+    <end_time>12:25</end_time>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>J</day>
+    <room>4306 (Classroom)</room>
+    <block/>
+    <block_abbreviation/>
+    <start_time>12:00</start_time>
+    <end_time>12:25</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134165</class_pk>
+<class_id>ECA-SER-MON.05</class_id>
+<group_fk type="integer">753722</group_fk>
+<group_id>201-2018-4-134165-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Monday ECA Service</course>
+<course_id type="integer">1168</course_id>
+<description>Mushie Mushie Service Group Session 1 18-19</description>
+<subject>ECA</subject>
+<course_type>Other Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">46270</teacher_fk>
+<teacher_full_name>Patricia McNair</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">46270</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Patricia McNair</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Monday</day>
+    <room>5206 (The Hub)</room>
+    <block/>
+    <block_abbreviation/>
+    <start_time>11:55</start_time>
+    <end_time>12:25</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134166</class_pk>
+<class_id>ECA-SER.05</class_id>
+<group_fk type="integer">753723</group_fk>
+<group_id>201-2018-4-134166-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>ECA Service</course>
+<course_id type="integer">1185</course_id>
+<description>Never Alone Service Group Session 1 18-19</description>
+<subject>ECA</subject>
+<course_type>Other Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">10988</teacher_fk>
+<teacher_full_name>Randall Wallis</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">10988</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Randall Wallis</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>J</day>
+    <room/>
+    <block/>
+    <block_abbreviation/>
+    <start_time>11:45</start_time>
+    <end_time>12:30</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134168</class_pk>
+<class_id>ECA-SER-MON.06</class_id>
+<group_fk type="integer">753724</group_fk>
+<group_id>201-2018-4-134168-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Monday ECA Service</course>
+<course_id type="integer">1168</course_id>
+<description>Rescued Glass Service Group Session 1 18-19</description>
+<subject>ECA</subject>
+<course_type>Other Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">30149</teacher_fk>
+<teacher_full_name>John Gangi</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">30149</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>John Gangi</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Monday</day>
+    <room>4306 (Classroom)</room>
+    <block>ECA Y7-Y13 (Opt 1)</block>
+    <block_abbreviation>ECASC1</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134169</class_pk>
+<class_id>13-CAS.C3.01</class_id>
+<group_fk type="integer">755094</group_fk>
+<group_id>132-2018-4-134169-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>Year 12</primary_grade_level>
+<course>Creativity, Activity and Service 13</course>
+<course_id type="integer">2129</course_id>
+<description>Creativity, Activity and Service 13 Group C3</description>
+<subject>Community and Service</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status + Scores</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status + Scores</student_portal_assignment_display>
+<teacher_fk type="integer">29931</teacher_fk>
+<teacher_full_name>Robin Wilensky</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">29931</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Robin Wilensky</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>C</day>
+    <room>4301 (Classroom)</room>
+    <block>Period 3 (HS)</block>
+    <block_abbreviation>P3-HS</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134170</class_pk>
+<class_id>13-CAS.C4.01</class_id>
+<group_fk type="integer">755095</group_fk>
+<group_id>132-2018-4-134170-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>Year 12</primary_grade_level>
+<course>Creativity, Activity and Service 13</course>
+<course_id type="integer">2129</course_id>
+<description>Creativity, Activity and Service 13 Group C4</description>
+<subject>Community and Service</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status + Scores</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status + Scores</student_portal_assignment_display>
+<teacher_fk type="integer">29931</teacher_fk>
+<teacher_full_name>Robin Wilensky</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">29931</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Robin Wilensky</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>C</day>
+    <room>4301 (Classroom)</room>
+    <block>Period 4 (HS)</block>
+    <block_abbreviation>P4-HS</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134171</class_pk>
+<class_id>10-CHK.01</class_id>
+<group_fk type="integer">754738</group_fk>
+<group_id>146-2018-4-134171-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Check-in</course>
+<course_id type="integer">2349</course_id>
+<description>10 Check-in</description>
+<subject>Houseroom SEC</subject>
+<course_type>Academic</course_type>
+<grading_method>Qualitative</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">43021</teacher_fk>
+<teacher_full_name>Matthew Upham</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">43021</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Matthew Upham</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period/>
+    <day/>
+    <room/>
+    <block/>
+    <block_abbreviation/>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134173</class_pk>
+<class_id>SMT-Counsellor.01</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Secondary Meeting</course>
+<course_id type="integer">1219</course_id>
+<description>HS Counselling Meeting</description>
+<subject>SEC Meeting</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">32840</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Jennifer Abreu</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">44545</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Justin West</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">44798</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Janelle Grier</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">47311</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>James Russell</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">54122</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Debra von Bargen</teacher_name>
+    <update_grade type="boolean">false</update_grade>
+    <view_grades type="boolean">false</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>E</day>
+    <room/>
+    <block>Period 1 (HS)</block>
+    <block_abbreviation>P1-HS</block_abbreviation>
+    <start_time>9:30</start_time>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134174</class_pk>
+<class_id>ECA-SER-MON.08</class_id>
+<group_fk type="integer">756452</group_fk>
+<group_id>201-2018-4-134174-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Monday ECA Service</course>
+<course_id type="integer">1168</course_id>
+<description>Girl Up Service Group Session 1 18-19</description>
+<subject>ECA</subject>
+<course_type>Other Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">44798</teacher_fk>
+<teacher_full_name>Janelle Grier</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">44798</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Janelle Grier</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Monday</day>
+    <room>4206 (Counselling office)</room>
+    <block/>
+    <block_abbreviation/>
+    <start_time>11:55</start_time>
+    <end_time>12:25</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134175</class_pk>
+<class_id>ECA-SER.04</class_id>
+<group_fk type="integer">756453</group_fk>
+<group_id>201-2018-4-134175-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>ECA Service</course>
+<course_id type="integer">1185</course_id>
+<description>NIST Investment Bank Service Group Session 1 18-19</description>
+<subject>ECA</subject>
+<course_type>Other Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">24886</teacher_fk>
+<teacher_full_name>Eric Towell</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">24886</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Eric Towell</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period/>
+    <day/>
+    <room>4308 (Classroom)</room>
+    <block/>
+    <block_abbreviation/>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134178</class_pk>
+<class_id>SUP-ATE.03</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Learning Support Schedule for Elementary Teachers</course>
+<course_id type="integer">1586</course_id>
+<description>Speech Language Therapy: S1/18-19</description>
+<subject>Learning Support</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Hide</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">0</teacher_fk>
+<teacher_full_name/>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period/>
+    <day/>
+    <room>4211 Testing/Exam room</room>
+    <block/>
+    <block_abbreviation/>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134180</class_pk>
+<class_id>ECA-SER-WED.03</class_id>
+<group_fk type="integer">758529</group_fk>
+<group_id>201-2018-4-134180-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Wednesday ECA Service</course>
+<course_id type="integer">992</course_id>
+<description>NIST Kids Catering Service Group Session 1 18-19</description>
+<subject>ECA</subject>
+<course_type>Other Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">8202</teacher_fk>
+<teacher_full_name>Uthumporn Kennedy</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">8202</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Uthumporn Kennedy</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Wednesday</day>
+    <room>Food Lab</room>
+    <block>ECA Y7-Y13 (Opt 1)</block>
+    <block_abbreviation>ECASC1</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134182</class_pk>
+<class_id>ECA-SER-WED.04</class_id>
+<group_fk type="integer">758533</group_fk>
+<group_id>201-2018-4-134182-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Wednesday ECA Service</course>
+<course_id type="integer">992</course_id>
+<description>OMG Service Group Session 1 18-19</description>
+<subject>ECA</subject>
+<course_type>Other Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">11111</teacher_fk>
+<teacher_full_name>Andrew Dorn</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">11111</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Andrew Dorn</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>B</day>
+    <room>4303 (Classroom)</room>
+    <block/>
+    <block_abbreviation/>
+    <start_time>11:55</start_time>
+    <end_time>12:30</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134183</class_pk>
+<class_id>SUP-BMU.06</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Learning Support Schedule for Secondary Teachers</course>
+<course_id type="integer">1221</course_id>
+<description>Assessment</description>
+<subject>Learning Support</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">44799</teacher_fk>
+<teacher_full_name>Perpetua Mudzudzu</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">44799</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Perpetua Mudzudzu</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>C</day>
+    <room/>
+    <block>Period 2 (MS)</block>
+    <block_abbreviation>P2-MS</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>G</day>
+    <room/>
+    <block>Period 2 (MS)</block>
+    <block_abbreviation>P2-MS</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>H</day>
+    <room/>
+    <block>Period 1 (MS)</block>
+    <block_abbreviation>P1-MS</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>I</day>
+    <room/>
+    <block>Period 1 (MS)</block>
+    <block_abbreviation>P1-MS</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134184</class_pk>
+<class_id>ECA-SER.10</class_id>
+<group_fk type="integer">761231</group_fk>
+<group_id>201-2018-4-134184-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>ECA Service</course>
+<course_id type="integer">1185</course_id>
+<description>Second Chance Service Group Session 1 18-19</description>
+<subject>ECA</subject>
+<course_type>Other Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">24086</teacher_fk>
+<teacher_full_name>Nicola Cahill</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">24086</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Nicola Cahill</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>G</day>
+    <room>4405 (Classroom)</room>
+    <block/>
+    <block_abbreviation/>
+    <start_time>11:50</start_time>
+    <end_time>12:20</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134185</class_pk>
+<class_id>ECA-SER.11</class_id>
+<group_fk type="integer">761232</group_fk>
+<group_id>201-2018-4-134185-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>ECA Service</course>
+<course_id type="integer">1185</course_id>
+<description>Slam Dunk Service Group Session 1 18-19</description>
+<subject>ECA</subject>
+<course_type>Other Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">17988</teacher_fk>
+<teacher_full_name>Jennilea Hortop</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">17988</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Jennilea Hortop</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>C</day>
+    <room>5101 (The Hub)</room>
+    <block/>
+    <block_abbreviation/>
+    <start_time>11:45</start_time>
+    <end_time>12:15</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134189</class_pk>
+<class_id>ECA-PFA.01</class_id>
+<group_fk type="integer">761925</group_fk>
+<group_id>201-2018-4-134189-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Monday ECA Performing Arts</course>
+<course_id type="integer">1492</course_id>
+<description>Drama Club ECA 1/18-19 Guys &amp; Dolls</description>
+<subject>ECA</subject>
+<course_type>Other Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">30082</teacher_fk>
+<teacher_full_name>Harold Moss</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">30082</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Harold Moss</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Monday</day>
+    <room>Tantipipatpong Theatre</room>
+    <block>ECA Y7-Y13 (Opt 1)</block>
+    <block_abbreviation>ECASC1</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Tuesday</day>
+    <room>Tantipipatpong Theatre</room>
+    <block>ECA Y7-Y13 (Opt 1)</block>
+    <block_abbreviation>ECASC1</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Wednesday</day>
+    <room>Tantipipatpong Theatre</room>
+    <block>ECA Y7-Y13 (Opt 1)</block>
+    <block_abbreviation>ECASC1</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Thursday</day>
+    <room>Tantipipatpong Theatre</room>
+    <block>ECA Y7-Y13 (Opt 1)</block>
+    <block_abbreviation>ECASC1</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134190</class_pk>
+<class_id>ECA-SER.12</class_id>
+<group_fk type="integer">762608</group_fk>
+<group_id>201-2018-4-134190-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>ECA Service</course>
+<course_id type="integer">1185</course_id>
+<description>PriceLess Service Group Session 1 18-19</description>
+<subject>ECA</subject>
+<course_type>Other Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">11318</teacher_fk>
+<teacher_full_name>Philip Branston</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">11318</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Philip Branston</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>D</day>
+    <room>4307 (Classroom)</room>
+    <block/>
+    <block_abbreviation/>
+    <start_time>11:45</start_time>
+    <end_time>12:30</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134191</class_pk>
+<class_id>ECA-SER-THU.03</class_id>
+<group_fk type="integer">762609</group_fk>
+<group_id>201-2018-4-134191-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Thursday ECA Service</course>
+<course_id type="integer">1171</course_id>
+<description>Operation Smile Service Group Session 1 18-19</description>
+<subject>ECA</subject>
+<course_type>Other Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">44799</teacher_fk>
+<teacher_full_name>Perpetua Mudzudzu</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">44799</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Perpetua Mudzudzu</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Thursday</day>
+    <room>4300 A - Student Work Room</room>
+    <block>ECA Y7-Y13 (Opt 1)</block>
+    <block_abbreviation>ECASC1</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134192</class_pk>
+<class_id>ECA-SER.13</class_id>
+<group_fk type="integer">762610</group_fk>
+<group_id>201-2018-4-134192-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>ECA Service</course>
+<course_id type="integer">1185</course_id>
+<description>NIST Development Bank Service Group Session  1 18-19</description>
+<subject>ECA</subject>
+<course_type>Other Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">45390</teacher_fk>
+<teacher_full_name>Malikah Sheriff</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">45390</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Malikah Sheriff</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>I</day>
+    <room/>
+    <block/>
+    <block_abbreviation/>
+    <start_time>11:45</start_time>
+    <end_time>12:30</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134194</class_pk>
+<class_id>ECA-SER-THU.04</class_id>
+<group_fk type="integer">762612</group_fk>
+<group_id>201-2018-4-134194-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Thursday ECA Service</course>
+<course_id type="integer">1171</course_id>
+<description>GreeNIST Service Group Session 1 18-19</description>
+<subject>ECA</subject>
+<course_type>Other Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">45581</teacher_fk>
+<teacher_full_name>Hsin-Yi Chen</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">45581</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Hsin-Yi Chen</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Thursday</day>
+    <room>4601 (Classroom)</room>
+    <block>ECA Y7-Y13 (Opt 1)</block>
+    <block_abbreviation>ECASC1</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134195</class_pk>
+<class_id>ECA-SER.15</class_id>
+<group_fk type="integer">762613</group_fk>
+<group_id>201-2018-4-134195-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>ECA Service</course>
+<course_id type="integer">1185</course_id>
+<description>Friends 'N'NIST Service Group Session 1 18-19</description>
+<subject>ECA</subject>
+<course_type>Other Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">24086</teacher_fk>
+<teacher_full_name>Nicola Cahill</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">24086</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Nicola Cahill</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>D</day>
+    <room>4405 (Classroom)</room>
+    <block/>
+    <block_abbreviation/>
+    <start_time>11:45</start_time>
+    <end_time>12:30</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134196</class_pk>
+<class_id>ECA-SER.16</class_id>
+<group_fk type="integer">762614</group_fk>
+<group_id>201-2018-4-134196-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>ECA Service</course>
+<course_id type="integer">1185</course_id>
+<description>Free to Be (HS) Service Group Session 1 18-19</description>
+<subject>ECA</subject>
+<course_type>Other Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">32840</teacher_fk>
+<teacher_full_name>Jennifer Abreu</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">32840</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Jennifer Abreu</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">45472</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Rebeka Adamitis</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>A</day>
+    <room>4408 (Classroom)</room>
+    <block/>
+    <block_abbreviation/>
+    <start_time>11:45</start_time>
+    <end_time>12:30</end_time>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>F</day>
+    <room>4408 (Classroom)</room>
+    <block/>
+    <block_abbreviation/>
+    <start_time>11:45</start_time>
+    <end_time>12:30</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134197</class_pk>
+<class_id>ECA-SER-WED.05</class_id>
+<group_fk type="integer">762615</group_fk>
+<group_id>201-2018-4-134197-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>ECA Service</course>
+<course_id type="integer">1185</course_id>
+<description>Dreams We Believe In Service Group Session 1 18-19</description>
+<subject>ECA</subject>
+<course_type>Other Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">38775</teacher_fk>
+<teacher_full_name>Michael Kavanagh</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">38775</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Michael Kavanagh</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">45450</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Jenny Friedman</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Wednesday</day>
+    <room>4406 (Classroom)</room>
+    <block/>
+    <block_abbreviation/>
+    <start_time>11:45</start_time>
+    <end_time>12:30</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134199</class_pk>
+<class_id>ECA-SER-THU.05</class_id>
+<group_fk type="integer">762616</group_fk>
+<group_id>201-2018-4-134199-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Thursday ECA Service</course>
+<course_id type="integer">1171</course_id>
+<description>Empower Service Group Session 1 18-19</description>
+<subject>ECA</subject>
+<course_type>Other Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">45147</teacher_fk>
+<teacher_full_name>Katherine Day</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">45147</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Katherine Day</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">50821</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Cristóbal González Salgado</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Thursday</day>
+    <room/>
+    <block/>
+    <block_abbreviation/>
+    <start_time>11:45</start_time>
+    <end_time>12:30</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134200</class_pk>
+<class_id>ECA-SER-WED.06</class_id>
+<group_fk type="integer">762617</group_fk>
+<group_id>201-2018-4-134200-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Wednesday ECA Service</course>
+<course_id type="integer">992</course_id>
+<description>FairNIST Service Group Session 1 18-19</description>
+<subject>ECA</subject>
+<course_type>Other Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">30149</teacher_fk>
+<teacher_full_name>John Gangi</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">30149</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>John Gangi</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Wednesday</day>
+    <room>4306 (Classroom)</room>
+    <block>ECA Y7-Y13 (Opt 1)</block>
+    <block_abbreviation>ECASC1</block_abbreviation>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134201</class_pk>
+<class_id>ECA-SER.18</class_id>
+<group_fk type="integer">762618</group_fk>
+<group_id>201-2018-4-134201-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>ECA Service</course>
+<course_id type="integer">1185</course_id>
+<description>PhuLiPhay Service Group Session 1 18-19</description>
+<subject>ECA</subject>
+<course_type>Other Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">38954</teacher_fk>
+<teacher_full_name>Heather Pitzel</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T06:49:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">22267</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Dianne Gamage</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">32840</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Jennifer Abreu</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">38954</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Heather Pitzel</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>B</day>
+    <room>4407 (Classroom)</room>
+    <block/>
+    <block_abbreviation/>
+    <start_time>11:45</start_time>
+    <end_time>12:30</end_time>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>H</day>
+    <room>4407 (Classroom)</room>
+    <block/>
+    <block_abbreviation/>
+    <start_time>11:45</start_time>
+    <end_time>12:30</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134203</class_pk>
+<class_id>ECA-SER.19</class_id>
+<group_fk type="integer">762620</group_fk>
+<group_id>201-2018-4-134203-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>ECA Service</course>
+<course_id type="integer">1185</course_id>
+<description>Yellow Service Group Session 1 18-19</description>
+<subject>ECA</subject>
+<course_type>Other Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">24886</teacher_fk>
+<teacher_full_name>Eric Towell</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">24886</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Eric Towell</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+  <teacher>
+    <person_fk type="integer">24934</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Oceane Jullien</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>B</day>
+    <room>4308 (Classroom)</room>
+    <block/>
+    <block_abbreviation/>
+    <start_time>11:45</start_time>
+    <end_time>12:30</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134206</class_pk>
+<class_id>PTC .01</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>Year 7</primary_grade_level>
+<course>IB MYP: Arts 07</course>
+<course_id type="integer">1216</course_id>
+<description>PTC</description>
+<subject>Arts (Mus/Art/Dra)</subject>
+<course_type>Academic</course_type>
+<grading_method>Qualitative</grading_method>
+<assignment_grading_method>Generic Criteria</assignment_grading_method>
+<parent_portal_visibility>Hide</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments+Status+Scores+Grade Detail</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments+Status+Scores+Grade Detail</student_portal_assignment_display>
+<teacher_fk type="integer">11199</teacher_fk>
+<teacher_full_name>Ivan Beeckmans</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">11199</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Ivan Beeckmans</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period/>
+    <day/>
+    <room/>
+    <block/>
+    <block_abbreviation/>
+    <start_time/>
+    <end_time/>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134208</class_pk>
+<class_id>SUP-KTR.03</class_id>
+<group_fk type="integer">0</group_fk>
+<group_id>0-2005-0-0-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Secondary Meeting</course>
+<course_id type="integer">1219</course_id>
+<description>Y6 Individual Pathways</description>
+<subject>SEC Meeting</subject>
+<course_type>Non-Academic</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">38721</teacher_fk>
+<teacher_full_name>Kimberly Tresohlavy</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">38721</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Kimberly Tresohlavy</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ALL</grading_period>
+    <day>B</day>
+    <room/>
+    <block>Period 4 (HS)</block>
+    <block_abbreviation>P4-HS</block_abbreviation>
+    <start_time>14:00</start_time>
+    <end_time>15:00</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+  <class>
+<class_pk type="integer">134215</class_pk>
+<class_id>ECA-PFA-MON.10</class_id>
+<group_fk type="integer">768168</group_fk>
+<group_id>201-2018-4-134215-0-0-0-0</group_id>
+<school_year type="integer">2018</school_year>
+<school_level>Secondary</school_level>
+<primary_grade_level>None</primary_grade_level>
+<course>Monday ECA Performing Arts</course>
+<course_id type="integer">1492</course_id>
+<description>High School Dance Team (Mon &amp; Wed)</description>
+<subject>ECA</subject>
+<course_type>Other Program</course_type>
+<grading_method>Not Graded</grading_method>
+<assignment_grading_method>Default</assignment_grading_method>
+<parent_portal_visibility>Show</parent_portal_visibility>
+<student_portal_visibility>Show</student_portal_visibility>
+<parent_portal_assignment_display>Assignments + Status (No Scores)</parent_portal_assignment_display>
+<student_portal_assignment_display>Assignments + Status (No Scores)</student_portal_assignment_display>
+<teacher_fk type="integer">52188</teacher_fk>
+<teacher_full_name>Denise Granai</teacher_full_name>
+<status>Active</status>
+<update_date type="datetime">2018-10-10T05:02:00+00:00</update_date>
+<teachers type="array">
+  <teacher>
+    <person_fk type="integer">52188</person_fk>
+    <role_id type="integer">1</role_id>
+    <role>Primary Teacher</role>
+    <teacher_name>Denise Granai</teacher_name>
+    <update_grade type="boolean">true</update_grade>
+    <view_grades type="boolean">true</view_grades>
+  </teacher>
+</teachers>
+<meeting_times type="array">
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Monday</day>
+    <room>Tragedy Studio</room>
+    <block/>
+    <block_abbreviation/>
+    <start_time>15:30</start_time>
+    <end_time>17:00</end_time>
+  </meeting_time>
+  <meeting_time>
+    <grading_period>ECA Session 1</grading_period>
+    <day>Wednesday</day>
+    <room>Multipurpose room</room>
+    <block/>
+    <block_abbreviation/>
+    <start_time>15:30</start_time>
+    <end_time>17:00</end_time>
+  </meeting_time>
+</meeting_times>
+  </class>
+</classes>
